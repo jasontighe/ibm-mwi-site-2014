@@ -1,0 +1,210 @@
+  {
+    "id" : 5,
+    "company" : "Story Template",
+    "title": "Happy kids made with data",
+    "color1" : "#666",
+    "color2" : "#ff9900",
+    "short-description" : "Leyou short description missing",
+    "filterTechnology": "data",
+    "filterIndustry": "retail",
+    "filterCapability": "supply-chain-solutions",
+    "share_twitter_url" : "http://ibmmasters-creative.dev.ogilvy-digital.com/stories/#!story/5",
+    "share_twitter_copy" : "twitter test",
+    "share_fb_url" : "http://ibmmasters-creative.dev.ogilvy-digital.com/stories/#!story/5",
+    "share_fb_copy" : "Sample fb copy",
+    "share_li_url" : "http://ibmmasters-creative.dev.ogilvy-digital.com/stories/#!story/5",
+    "share_li_copy" : "Sample LI copy",
+    "story_background_image_url": "",
+    "templates": [
+      {
+        "id": 1,
+        "template_class": "template-5",
+        "template_background_image_url": "./assets/images/s5/s5-t5-bg.jpg",
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "hyperlink": "",
+                "copy" : "Leyou short description missing",
+                "capability" : "TK",
+                "quote": "",
+                "attribution" : ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "template_class": "template-4",
+        "template_background_image_url": "./assets/images/s5/s5-t4-bg.png",
+        "template_background_image_url_tablet": "",
+        "template_background_color" : "#ff9900",
+        "template_type" : "summary-row",
+        "modules": [
+          {
+            "wrapper_class": "t4-mD summary",
+            "module_class": "module-D",
+            "module_type": "image",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "image_url_tablet" : "./assets/images/s5/s5-t4-mD.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t3-mE",
+            "module_class": "module-E",
+            "module_type": "text",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "copy": "<p>As it grew froma traditional chain store to include online and direct marketing, Leyou, a store with products for mom, babies and kids, knew that intuition was not enough to sustain growth. By integrating analytics at the core of the business, IBM identifies the what, when and where behind the millions of transactions by Leyou memebers. With 4 million online customers and store sin 13 ciites, analytics has played a key role in making Leyou one of the largest retailers that actually understands the needs of a growing Chinese middle-class.</p><p>Learn about how Smarter Commerce for Retail →</p> "
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "template_class": "template-3",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t3-mD",
+            "module_class": "module-D",
+            "module_type": "quote",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "quote": "We have millions of members and millions o transactions we need ot put to use, and this is when we turned to IBM.",
+                "attribution" : "Larry Gong, Executive Chairman, Leyou"
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t3-mE",
+            "module_class": "module-E",
+            "module_type": "image",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s5/s5-t32-mD.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "template_class": "template-video",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "s5-tV-mA",
+            "module_class": "module-D",
+            "module_type": "video",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s5/s5-tv-mA.jpg",
+                "hyperlink": "vYP-Y4drYzs",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "template_class": "carousel-full",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "s5-tC-m5",
+            "module_class": "",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s5/s5-cf-stat-1.jpg",
+                "hyperlink": "",
+                "copy": "Retailers reporting that big data and analytics is creating a competitive advantage for their organizations."
+              },
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s5/s5-cf-stat1.png",
+                "hyperlink": "",
+                "copy": "slide 2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "template_class": "template-4",
+        "template_background_image_url": "",
+        "template_background_color" : "#ff9900",
+        "template_title" : "How is this made?",
+        "modules": [
+          {
+            "wrapper_class": "t4-mD",
+            "module_class": "module-D",
+            "module_type": "copy",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "title" : "TK",
+                "copy": "Senior Analyst, Social Insights<br/>IBM Market Development & Insights at IBM",
+                "social_twitter" : "twitter.com",
+                "social_linkedin" : "linkedin.com"
+              }
+            ]
+          },
+          {
+	            "wrapper_class": "t4-mE",
+	            "module_class": "module-E",
+	            "module_type": "copy",
+	            "module_background_image": "",
+	            "assets": [
+	              {
+	                "asset_class": "",
+	                "image_url": "",
+	                "hyperlink": "ibm.com",
+	                "title" : "SoftLayer",
+	                "copy": "IBM<sup>&reg;</sup> Cognos<sup>&reg;</sup> Business Intelligence provides reporting, analysis and dashboards to help key stakeholders understand business performance, collaborate, and make data-driven decisions. "
+	              }
+	            ]
+	        }
+          
+        ]
+      }
+    ]
+
+  }

@@ -1,0 +1,233 @@
+{
+    "id" : 21,
+    
+    "company" : "Ningbo Smarter Logistics",
+    "title": "trade made with IBM Cloud",
+    "color1" : "#b24943",
+    "color2" : "#b24943",
+    "short-description" : "The city of Ningbo is modernizing logistics in one of the world’s busiest ports with IBM Cloud",
+    "filterTechnology": "cloud",
+    "filterIndustry": "manufacturing",
+    "filterCapability": "supply-chain",
+    "filterCapabilityLabel": "Supply Chain Optimization",
+    "share_twitter_url" : "http://bit.ly/1jufeXB",
+    "share_twitter_copy" : "The%20city%20of%20Ningbo%20is%20modernizing%20logistics%20in%20one%20of%20the%20world’s%20busiest%20ports%20with%20IBM%20Cloud.%20See%20how.%20%23madewithIBM",
+    "share_fb_url" : "http%3A%2F%2Fwww.ibm.com%2Fsmarterplanet%2Fus%2Fen%2Fmadewithibm%2Fstories%2F%23!story%2F21%3Fcmp%3Dusbrb%26cm%3Dh%26csr%3Dagus_madewith_140407%26cr%3Dfacebook%26ct%3Dusbrb301%26cn%3Ds21_ningbo",
+    "share_fb_copy" : "The%20city%20of%20Ningbo%20is%20modernizing%20logistics%20in%20one%20of%20the%20world’s%20busiest%20ports%20with%20IBM%20Cloud.%20See%20how.%20%23madewithIBM",
+    "share_li_url" : "http://bit.ly/1eGb28k",
+    "share_li_copy" : "The%20city%20of%20Ningbo%20is%20modernizing%20logistics%20in%20one%20of%20the%20world’s%20busiest%20ports%20with%20IBM%20Cloud.%20See%20how.",
+    "story_background_image_url": "",
+     "thumbnail" : "stories/assets/images/s21/s21-thumb.jpg",
+    "templates": [
+      {
+        "id": 1,
+        "template_class": "template-5",
+        "template_tracking": "t5",
+        "template_background_image_url": "./assets/images/s21/s21-t5-bg.jpg",
+        "template_background_image_url_mobile": "./assets/images/s21/s21-t5-bg_mobile.jpg",
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "hyperlink": "",
+                "color1" : "#b24943",
+                "copy" : "The city of Ningbo is modernizing logistics in one of the world’s busiest ports with IBM Cloud",
+                "capability" : "How to optimize a supply chain",
+                "quote": "",
+                "attribution" : ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "template_class": "template-4",
+        "template_tracking": "t4",
+        "template_background_image_url": "./assets/images/s21/s21-t4-bg.png",
+        "template_background_color" : "#b24943",
+        "template_type" : "summary-row",
+        "modules": [
+          {
+            "wrapper_class": "t4-mD summary",
+            "module_class": "module-D",
+            "module_type": "image",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url_tablet": "./assets/images/s21/s21-t4-mD.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t4-mE summary",
+            "module_class": "module-E",
+            "module_type": "text",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "http://www.ibm.com/smarterplanet/us/en/smarter_cities/solutions/solution/planning_mgt_solutions/B235026Q03312B40.html??cmp=usbrb&cm=s&csr=madewithibm&cr=s21&ct=usbrb301&cn=madewithibm",
+                "cta_copy" : "Learn more about IBM Cloud",
+                "title" :"Summary",
+                "copy": "<p>IBM worked closely with the Chinese port city of Ningbo to transform transportation delivery across China using cloud computing. The port’s logistics network was in need of an upgrade. IBM worked with industry leaders to build a large-scale cloud infrastructure and collaborated with Ningbo on management services.</p><p>Today, Ningbo's Smart Logistics Center allows data sharing between 5,000 logistics companies in the city for coordination of transport and delivery. Every shipping vehicle now has a GPS tracker, the idling of trucks has decreased and the circulation of goods has accelerated, proving the truly transformative potential of the IBM Cloud.</p>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "template_class": "template-3",
+        "template_tracking": "t3",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t3-mD",
+            "module_class": "module-D carousel-medium",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "quote": "We want to build a smarter platform that brings the shipper and receiver closer, and where everything’s visible.",
+                "attribution" : "Larry Qin<br/>CEO of Ningbo Smarter Logistics"
+              },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "quote": "The logistics industry can no longer rely on verbal communication and incomplete information.",
+                "attribution" : "Larry Qin<br/>CEO of Ningbo Smarter Logistics"
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t3-mE",
+            "module_class": "module-E",
+            "module_type": "image",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s21/s21-t32-mD.gif",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "template_class": "template-video",
+        "template_tracking": "tV",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "s21-tV-mA",
+            "module_class": "module-D",
+            "module_type": "video",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s21/s21-tv-mA.jpg",
+                "image_url_mobile": "./assets/images/s21/s21-tv-mA_mobile.jpg",
+                "hyperlink": "gRu54VaDoAo",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "template_class": "carousel-full",
+        "template_tracking": "tC",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "",
+            "module_class": "",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "image_url_mobile": "",
+                "hyperlink": "",
+                "color1":"#b24943",
+                "copy": "80% reduced idle time of one customer’s trucks"
+              },
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "image_url_mobile": "",
+                "hyperlink": "",
+                "color1":"#b24943",
+                "copy": " ¥16m saved annually by the same customer"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "template_class": "template-footer",
+        "template_tracking": "tF",
+        "template_background_image_url": "",
+        "template_background_color" : "#b24943",
+        "template_title" : "How is this made?",
+        "template_desc" : "Get to know the people and the solutions behind the transformation.",
+        "modules": [
+          {
+            "wrapper_class": "tF-mD",
+            "module_class": "module-D carousel-footer",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              {
+						    "asset_class": "",
+						    "image_url": "",
+						    "hyperlink": "http://www.ibm.com/cloud-computing/us/en/marketplace.html?cmp=usbrb&cm=s&csr=madewithibm&cr=s4&ct=usbrb301&cn=madewithibm",
+						    "title" : "IBM Cloud Marketplace",
+						    "copy": "IBM Cloud marketplace is our digital front door where you can discover, try, and for many services, buy, from hundreds of IBM and Business Partner services across business solutions (SaaS), developer (PaaS) and IT operations (IaaS). Whether you're looking for apps to give you supply-chain visibility, for IBM’s new development platform Bluemix, or for a dedicated bare-metal server from SoftLayer, Cloud marketplace has everything you need to bring your business the full benefits of cloud."
+						    
+					    },
+					    {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "http://www.ibm.com/cloud-computing/us/en/consulting.html??cmp=usbrb&cm=s&csr=madewithibm&cr=s21&ct=usbrb301&cn=madewithibm",
+                "title" : "IBM Cloud Consulting",
+                "copy": "Based on in-depth analysis of your business goals and requirements, IBM cloud consulting can help you develop and execute a customized strategy to drive growth, savings and revenue and help you transform your business model."
+              },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "http://www-03.ibm.com/software/products/en/category/SWD00??cmp=usbrb&cm=s&csr=madewithibm&cr=s21&ct=usbrb301&cn=madewithibm",
+                "title" : "IBM Social Business - Social Collaboration",
+                "copy": "IBM has the tools and expertise to help you maximize the value of social collaboration in business environments, delivered on premises or in the cloud. By unlocking and facilitating the sharing of information that was previously siloed, organizations can empower each and every employee with social collaboration."
+              }
+            ]
+          }
+          
+        ]
+      }
+    ]
+
+  }
+  

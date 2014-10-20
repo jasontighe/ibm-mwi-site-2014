@@ -1,0 +1,180 @@
+// LIST VIEW 6-4 (START)
+.ibm-columns.ibm_cci-lv__modifier .ibm_cci--rcb{
+	width:520px;
+	padding:0 19px 0 0;
+	border-right:1px dotted #ccc;
+}
+
+.ibm-columns.ibm_cci-lv__modifier .ibm_cci-fav-ihb {
+	//@extend .ibm_cci--rcb;
+	width:460px;
+	clear:both;
+	padding:0;
+	border:0;
+
+	p.ibm_cci--feed-icon {
+		padding:0 0 5px 0;
+		@include feed-icon;	
+
+	}
+
+	p.ibm_cci--feed-no-icon {
+		@include feed-no-icon;
+	}
+
+	a.ibm_cci--feed-title {
+		font-family:"HelvRegularIBM";
+		text-indent: 0;
+		font-size:1.3rem;
+		line-height: 18px;
+		vertical-align: top;
+		float:left;
+	}
+}
+
+.ibm-columns.ibm_cci-lv__modifier ul.ibm_cci-sie{
+	float:right;
+	li {
+		padding:0 0 5px 0;
+	}
+}
+
+
+
+.ibm-columns.ibm_cci-lv__modifier .ibm_cci--tweet-description {
+		// font: italic 1.4rem/20px "HelvLightIBM";
+		// display:none;
+		.ibm_cci--tweet-content-text {
+			span.ibm_cci--tweet-description-readmore a {
+				color: #000;
+				font: italic 1.4rem/20px "HelvLightIBM";
+				// display:none;
+				// text-decoration: none;
+			}	
+		}
+		span.ibm_cci--tweet-description-readmore a {
+			color: #000;
+			font: italic 1.4rem/20px "HelvLightIBM";
+			// display:none;
+			// text-decoration: none;
+		}
+		img.ibm_cci--tweet-image {
+			display:none;
+			line-height:0;
+			font-size:0;
+			margin:0;
+			padding:0;
+			width:0;
+		}
+	}
+	
+	.ibm-columns.ibm_cci-lv__modifier .ibm_cci-media-container{
+		display:none;
+	}					
+
+// LIST VIEW 6-4 (END)
+
+
+// LIST VIEW 6-2 (START)
+.ibm-columns.ibm_cci-lv__modifier .ibm-col-6-2{
+	margin:0 0 0 20px;
+		ul {
+			clear:right;
+			padding-bottom: 10px;
+		}
+
+		li a img:hover{
+			// outline:1px solid #000;
+			opacity:1;
+		}
+	}
+
+.ibm-columns.ibm_cci-lv__modifier .ibm_cci-rel-tweet-detils-container {
+	min-width:247px !important;
+}
+
+.ibm-columns.ibm_cci-lv__modifier .ibm_cci--lv-rc-th {
+	margin:0 !important;
+
+	.ibm_cci--lv-rc-h, .ibm_cci--lv-r-wch{
+		font-family:"HelvLightIBM";
+		font-weight:normal;
+	}
+}
+
+.ibm-columns.ibm_cci-lv__modifier .ibm_cci--time-stamp{
+	margin:0 !important;
+}
+// LIST VIEW 6-2 (END)
+
+
+
+// LIST VIEW UNRESOLVED (START)
+.ibm-columns.ibm_cci-lv__modifier #{$ibm-listview-unro} {
+	width:940px;
+	margin:0;
+
+	.ibm_cci--rea-block {
+		margin-left:0;
+	}
+}
+.ibm-columns.ibm_cci-lv__modifier #{$ibm-listview-unro} .ibm_cci--unr-cb {
+		width:860px;
+		float:left;
+}
+		//FOR YOUTUBE BLOCK (BEGIN)
+.ibm-columns.ibm_cci-lv__modifier #{$ibm-listview-unro} .ibm_cci-fav-ihb {
+	min-width:100px;
+}
+
+.ibm-columns.ibm_cci-lv__modifier #{$ibm-listview-unro} .ibm_cci--ttb {
+	//
+	p.ibm_cci--tweet-description {
+		font: italic 1.4rem/20px "HelvLightIBM";
+		display:none;
+
+		span.ibm_cci--tweet-description-readmore a {
+			color: #000;
+			// text-decoration: none;
+		}
+
+		img.ibm_cci--tweet-image {
+			display:none;
+			line-height:0;
+			font-size:0;
+			margin:0;
+			padding:0;
+			width:0;
+		}
+	}
+	.ibm_cci-media-container{
+		display:none;
+		line-height: 0;
+		// text-align:center;
+	}						
+}												
+
+//FOR YOUTUBE BLOCK (END)			
+.ibm-columns.ibm_cci-lv__modifier #{$ibm-listview-unro} .ibm_cci--lv-rc-sharing {
+	width:830px;
+}
+
+.ibm-columns.ibm_cci-lv__modifier #{$ibm-listview-unro} .ibm_cci--lv-rc-th{ 
+	max-width:800px;
+	// min-width:120px;
+	margin:0;
+
+	.ibm_cci--lv-r-wch{
+		font-family:"HelvLightIBM";
+		font-weight:normal;
+	}
+}			
+
+.ibm-columns.ibm_cci-lv__modifier #{$ibm-listview-unro} .ibm_cci--lv-tsb{
+	float:right;
+	width:60px;
+	clear:right;
+			
+}
+
+// LIST VIEW UNRESOLVED (END)

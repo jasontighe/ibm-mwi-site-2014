@@ -1,0 +1,59 @@
+/*! 
+ * Name: IBM Voices customizations
+ * Version: 1.0
+ * Owner: Corporate Webmaster (NUS_N_NIWWW)
+ * Copyright (c) 2013 IBM Corporation
+ */
+ 
+// URI: www.ibm.com/common/v17e/voices/css/ww_cci.css
+// Description: Official SASS file for v17e Voices project
+// Date: Sept 24, 2013
+//
+// Notes:
+//   Add "ibm-adapt" class to modules that change under different viewport
+//   Use ".ibm_cci-" class prefix for site specific custom code
+ 
+// The contents are auto-created from individual files
+// listed below. Use a SASS compiler to create the ww_cci.css file.
+
+
+/*  v17e Voices SASS structure map...
+
+css/
+|
+|-- scss/
+|   |-- shared/					# shared modules
+|   |   |-- _vars.scss			# project variables and mixins
+|   |   |-- _colors.scss		# colors and gradient styles
+|   |   ...
+|   ...
+|
+sites/
+|
+|-- voices/
+|   |-- css/
+|   |   |-- _ww_cci.scss		# Voices custom SASS file
+|   |   ...
+|   |-- ww_cci.scss				# Build file that pulls in all components (this file)
+`
+*/
+
+
+
+// The v17e Voices output build (ww_cci.css) can be controlled by adjusting the import references below...
+// imports ============================================
+
+// "scss/_cci_icons",
+// "../../../css/scss/shared/vars",
+// "../../../css/scss/beta/colors",
+// "../../../css/scss/shared/icons",
+//
+//  
+@import "scss/cci_vars",
+		"scss/_cci_leadspace",
+		"scss/_cci_commons",
+		"scss/_cci_lv",
+		"scss/_cci_gv",
+		"scss/_cci_about",
+		"scss/_ww_cci";
+

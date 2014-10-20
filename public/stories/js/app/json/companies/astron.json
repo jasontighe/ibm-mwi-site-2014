@@ -1,0 +1,250 @@
+  {
+    "id" : 18,
+    
+    "company" : "Astron",
+    "title": "discoveries made with data",
+    "color1" : "#de2149",
+    "color2" : "#de2149",
+    "short-description" : "ASTRON is investigating the universe with data",
+    "filterTechnology": "data",
+    "filterIndustry": "research",
+    "filterCapability": "big-data-insights",
+    "filterCapabilityLabel" : "Big Data Insights",
+    "share_twitter_url" : "http://bit.ly/R33jGR",
+    "share_twitter_copy" : "ASTRON%20is%20investigating%20the%20universe%20with%20data.%20See%20how.%20%23madewithIBM",
+    "share_fb_url" : "http%3A%2F%2Fwww.ibm.com%2Fsmarterplanet%2Fus%2Fen%2Fmadewithibm%2Fstories%2F%23!story%2F18%3Fcmp%3Dusbrb%26cm%3Dh%26csr%3Dagus_madewith_140407%26cr%3Dfacebook%26ct%3Dusbrb301%26cn%3Ds18_astron",
+    "share_fb_copy" : "ASTRON%20is%20investigating%20the%20universe%20with%20data.%20See%20how.%20%23madewithIBM",
+    "share_li_url" : "http://bit.ly/1hSXnVN",
+    "share_li_copy" : "ASTRON%20is%20investigating%20the%20universe%20with%20data.%20See%20how.",
+    "story_background_image_url": "",
+	  "thumbnail" : "stories/assets/images/s18/s18-thumb.gif",
+    "templates": [
+      {
+        "id": 1,
+        "template_class": "template-5",
+        "template_tracking": "t5",
+        "template_background_image_url": "./assets/images/s18/s18-t5-bg.jpg",
+        "template_background_image_url_mobile": "./assets/images/s18/s18-t5-bg_mobile.jpg",
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "hyperlink": "",
+                "color1" : "#de2149",
+                "copy" : "ASTRON is investigating the universe with data",
+                "capability" : "How to optimize Big Data insights",
+                "quote": "",
+                "attribution" : ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "template_class": "template-4",
+        "template_tracking": "t4",
+        "template_background_image_url": "./assets/images/s18/s18-t4-bg.png",
+        "template_background_image_url_tablet": "",
+        "template_background_color" : "#de2149",
+        "template_type" : "summary-row",
+        "modules": [
+          {
+            "wrapper_class": "t4-mD summary",
+            "module_class": "module-D",
+            "module_type": "image",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "image_url_tablet" : "./assets/images/s18/s18-t4-mD.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t3-mE",
+            "module_class": "module-E",
+            "module_type": "text",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "title" : "Summary",
+                "hyperlink": "http://www.research.ibm.com/news.shtml?cmp=usbrb&cm=s&csr=madewithibm&cr=s18&ct=usbrb301&cn=madewithibm",
+                "copy": "<p>ASTRON is a leading institute in a global community of astronomers, setting out to build the Square Kilometre Array (SKA), the world’s largest radio telescope. It’s predicted that this project will generate twice the total amount of data created by the entirety of the internet daily. In other words, it will present the biggest big data challenge ever.</p><p>IBM is working to develop a high performance computing solution that can process this massive amount of data. This information could help scientists understand how our universe was formed.</p>",
+                "cta_copy": "Learn more about ASTRON"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "template_class": "template-3",
+        "template_tracking": "t3",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t3-mD",
+            "module_class": "module-D carousel-medium",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "quote": "With Big Data, we will be able to investigate the earliest phases of the universe, to actually detect the first stars and galaxies being formed, and make detailed maps of the universe.",
+                "attribution" : "Dr. Albert Jan Boonstra<br/>Program Manager,Technical Research, ASTRON / Scientific Director DOME Project"
+              },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "quote": "If there’s someone else out there transmitting on nearby planets, then we’ll hear ‘em.",
+                "attribution" : "Dr. Albert Jan Boonstra<br/>Program Manager,Technical Research, ASTRON / Scientific Director DOME Project"
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t3-mE",
+            "module_class": "module-E",
+            "module_type": "image",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s18/s18-t32-mD.gif",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "template_class": "template-video",
+        "template_tracking": "tV",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "s18-tV-mA",
+            "module_class": "module-D",
+            "module_type": "video",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s18/s18-tv2-mA.jpg",
+                "image_url_mobile": "./assets/images/s18/s18-tv2-mA_mobile.jpg",
+                "hyperlink": "HbvU63CXcyU",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "template_class": "template-5",
+        "template_tracking": "t5B",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "tv-mA",
+            "module_class": "module-D",
+            "module_type": "lightbox",
+            "module_background_image_url": "",
+            "assets": [
+            	{
+                "asset_class": "",
+                "image_url": "./assets/images/s18/s18-tv-mA.jpg",
+                "image_url_mobile": "./assets/images/s18/s18-tv-mA_mobile.jpg",
+                "hyperlink": "09gVCRy7nrI"
+               
+              }           
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "template_class": "carousel-full",
+        "template_tracking": "tC",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "s18-tC-m5",
+            "module_class": "",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "image_url_mobile": "",
+                "hyperlink": "",
+                "color1" : "#de2149",
+                "copy": "2x the daily global internet traffic is the amount of raw data captured daily by the SKA"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "template_class": "template-footer",
+        "template_tracking": "tF",
+        "template_background_image_url": "",
+        "template_background_color" : "#de2149",
+        "template_title" : "How is this made?",
+        "template_desc" : "Get to know the people and the solutions behind the transformation.",
+        "modules": [
+          {
+            "wrapper_class": "tF-mD",
+            "module_class": "module-D carousel-footer",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "http://www.ibm.com/big-data/us/en/big-data-and-analytics/it-economics.html?cmp=usbrb&cm=s&csr=madewithibm&cr=s18&ct=usbrb301&cn=madewithibm",
+                "title" : "IBM Big Data &amp; Analytics- IT",
+                "copy": "The IBM Big Data &amp; Analytics infrastructure helps organizations overcome the challenges of dealing with growing amounts of data. This platform which can be implemented on-premises or on the cloud, lets customers store, govern, manage and analyze data while reducing IT complexity."
+              },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "http://www-03.ibm.com/systems/technicalcomputing/platformcomputing/index.html?cmp=usbrb&cm=s&csr=madewithibm&cr=s18&ct=usbrb301&cn=madewithibm",
+                "title" : "IBM Platform Computing",
+                "copy": "IBM Platform Computing provides a complete set of easy-to-deploy, technical and high-performance computing (HPC) capabilities in a single product. It can help users to reduce the complexity of managing their high-performance computing environment and to improve their time to results, while reducing costs."
+              },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "title" : "Dr. Ton Engbersen, Scientific Director ASTRON & IBM Center for Exascale Technology",
+                "copy": "Ton Engbersen is the Scientific Director of the ASTRON & IBM Center for Exascale Technology in conjunction with the DOME project. An IBMer since 1980, his background includes image processing, chip design, communications technology, server technology, and legacy management.",
+                "social_twitter" : "",
+                "social_linkedin" : "https://www.linkedin.com/pub/ton-engbersen/0/829/874"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+
+  }

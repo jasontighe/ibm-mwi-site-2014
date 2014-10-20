@@ -1,0 +1,836 @@
+/* ***************************
+/* Variables 
+******************************/
+$margin-reg: 10px;
+$margin-sml: 5px;
+
+$bx-footer-icon-size: 108px;
+$bx-footer-icon-size-half: 54px;
+
+/* ***************************
+/* Methods 
+******************************/
+@mixin margins-set-bottom( $value ) {
+  margin: 0 0 $value 0;
+}
+
+/*
+@mixin force-dimensions() {
+  @if .t1-mD1 ~ div  {Not sure if 
+    border: 2px solid #FF0032;
+  }
+}
+*/
+
+#ibm-top {
+  margin-top: 38px !important;
+}
+
+.box {
+      outline: 0px solid #99999a;
+      *border: 0px solid #99999a;
+      /*Not sure if 
+      background-color: #ff0032;
+      */
+      display:block;
+      position: relative; 
+}
+
+// YouTube Button Icon Overlay START.
+.video-image-full-bleed {
+  background: #000 ;
+  // border: solid 1px #A00;
+}
+// YouTube Button Icon Overlay END.
+
+/* BX CAROUSEL OVERRIDES : in template-footer.html START. */
+.bx-wrapper, .bx-wrapper .bx-loading {
+    z-index: 300 !important;
+}
+
+.template-footer
+{
+  height: 580px;
+
+
+  /* TODO See if beign used */
+  .carousel-medium
+  {
+    .bx-viewport {
+    // Image/Slide Area
+      height: 360px !important;
+    }
+  }
+}
+
+/* Footer Carousel START. */
+.carousel-footer
+{
+
+  .bx-wrapper, .bx-viewport {
+  // Image/Slide Area
+    width: 792px !important;
+    height: 340px !important;
+    margin-top: 40px;
+    background: none;
+    border: solid 0px #0EA;
+  }
+
+  .bx-controls-direction {
+    width: 85px !important;
+
+    .bx-prev {
+      display: none !important;
+    }
+  }
+
+  .bx-wrapper .bx-prev {
+    left: 810px;
+    top: 0px;
+    background: url(../../img/bx-controls-circles-white.png) no-repeat 0 0;
+  }
+  .bx-wrapper .bx-prev:hover 
+  {
+    background-position: 0 -85px;
+  }
+
+  .bx-wrapper .bx-next {
+    background: url(../../img/bx-controls-circles-white.png) no-repeat -85px 0;
+    top: 0 !important;
+    right: -170px !important;
+  }
+  .bx-wrapper .bx-next:hover 
+  {
+    background-position: -85px -85px;
+  }
+  
+  .bx-wrapper .bx-controls-direction a {
+    position: absolute;
+    outline: 0;
+    width: 85px;
+    height: 85px;
+    text-indent: -9999px;
+    z-index: 300;
+    margin-top: 0 !important;
+  }
+
+  .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 772px; // Same as viewport
+  } 
+  
+  .bx-pager-item {
+    margin: 0 2px 0 2px !important;
+  }
+}
+/* Template-3 Carousel Medium END. */
+
+
+/* Template-3 Carousel Medium START. */
+.carousel-medium
+{
+  .bx-viewport {
+  // Image/Slide Area
+    width: 490px !important;
+    height: 350px !important;
+    background: none;
+    border: solid 0px #EEE;
+  }
+
+  .bx-controls-direction {
+  }
+
+  .bx-wrapper .bx-prev {
+    left: 120px;
+    top: 290px;
+    background: url(../../img/bx-controls-arrows-grey.png) no-repeat 0 0;
+  }
+  .bx-wrapper .bx-next {
+    background: url(../../img/bx-controls-arrows-grey.png) no-repeat -20px 0;
+    top: 290px !important;
+    left: 370px !important
+  }
+
+  .bx-wrapper .bx-prev:hover 
+  {
+    background-position: 0 -32px;
+  }
+
+  .bx-wrapper .bx-next:hover 
+  {
+    background-position: -20px -32px;
+  }
+  
+  .bx-wrapper .bx-controls-direction a {
+    position: absolute;
+    outline: 0;
+    width: 20px;
+    height: 32px;
+    text-indent: -9999px;
+    z-index: 300;
+    margin-top: 40px !important;
+  }
+
+  .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 90%; // Same as viewport
+  } 
+  
+  .bx-pager-item {
+    margin: 0 4px 0 4px !important;
+  }
+}
+/* Template-3 Carousel Medium END. */
+
+
+
+/* Template-5 Carousel START. */
+.carousel-full
+{
+
+  .bx-viewport {
+    background: none;
+    border: solid 0px #EEE;
+    left: 30px;
+  }
+
+  .bx-wrapper .bx-prev {
+    left: 0;
+    top: 74px;
+    background: url(../../img/bx-controls-arrows-grey.png) no-repeat 0 0px;
+  }
+
+  .bx-wrapper .bx-next {
+    background: url(../../img/bx-controls-arrows-grey.png) no-repeat -20px 0;
+    top: 74px;
+    
+    right: -60px !important;
+    
+  }
+  .bx-wrapper .bx-prev:hover 
+  {
+    background-position: 0 -32px;
+  }
+
+  .bx-wrapper .bx-next:hover 
+  {
+    background-position: -20px -32px;
+  }
+  
+  .bx-wrapper .bx-controls-direction a {
+    position: absolute;
+    outline: 0;
+    width: 20px;
+    height: 32px;
+    text-indent: -9999px;
+    z-index: 300;
+    margin-top: 0 !important;
+  }
+  
+  .bx-wrapper .bx-pager {
+    bottom: -25px !important;
+  }
+  
+  .bx-pager-item {
+    margin: 0 4px 0 4px !important;
+  }
+
+}
+/* Template-5 Carousel END. */
+
+
+#ibm-content {
+  .ibm-columns:after {
+      margin-bottom: 0px;
+  }
+    
+
+  /* To turn off columns when areas are only for mobile */
+  .noDesktop{
+    display:none;
+  }
+
+  .postcard {
+    [id*="story-header-"] {
+        width: 100%;
+        /* Story Title Bar, commented out for company color
+        background: #232323;
+        */
+       
+      }
+      
+      .story-header-title {
+        color: #FFF;     
+      }
+
+    .ibm-columns {
+      padding:0;
+      width:980px;
+      
+      
+
+      [class*="ibm-col-"] {
+          /* float: left; */
+          margin: 0 $margin-reg $margin-reg 0;
+          /* margin:0; for no padding */
+          padding:0;
+          min-height: 1px;
+          /* Added to remove line-height 1.6 rem that caused the extra height */
+          line-height: 0;
+          /* border: 1px solid #A00; */
+          
+          img{
+            width:100%;
+          }
+      }
+      :last-child, .ibm-columns:last-child {
+        margin: 0 0 0 0;
+        padding:0;
+      }
+      .ibm-col-5-3 .ibm-col-5-1, .ibm-col-5-3 .ibm-col-5-3 {
+        @include margins-set-bottom($margin-reg);
+        padding:0;
+      }
+      
+      .ibm-col-1-1 {
+        width: 980px;
+        margin: 0 0 0 0;
+      }
+      .ibm-col-5-1 {
+      /*     width: 172px; orig width - 196 no padding*/
+          width: 188px;
+      }
+      .ibm-col-5-2 {
+      /*     width: 364px; orig width - 392 no padding*/
+          width: 386px !important; /* Set to important for footer carousel */
+      }
+  
+      .ibm-col-5-3 {
+      /*     width: 556px; orig width - 588 no padding*/
+          width: 584px;
+      }
+      
+      .summary .ibm-col-5-3 {
+      /*     width: 556px; orig width - 588 no padding*/
+          width: 584px;
+          margin-left: 549px;
+          padding:50px;
+          
+      }
+  
+      .ibm-col-5-4 {
+      /*    width: 748px; orig width - 784 no padding*/
+          width: 782px;
+      }
+
+      /* JPT: TEMPLATE SPECIFICS */
+      /* JPT: Remove wrapping margins and add to nested divs */
+      .template-2 {
+        /* Use to see wrapping div
+        .ibm-col-5-2 {
+          background-color: #ff0032;
+        }
+        */
+        .t2-mJ{
+         @include margins-set-bottom($margin-reg);
+        }
+        [class*="t2-mK"] {
+          @include margins-set-bottom($margin-reg);
+        }
+        .t2-mK1{
+          margin: 0 $margin-sml 0 0;
+        }
+        .t2-mK2{
+          margin: 0 0 0 $margin-sml;
+        }
+      }
+
+      /* JPT: Added for when templates are stacked, theres a 10px margin */
+      .template-5, .template-8 {
+        .box {
+         @include margins-set-bottom($margin-reg);
+          /* border: 1px solid #FF0032; */
+        }
+      }
+
+      /* JPT: Added for when templates are stacked, theres a 10px margin, with mI added left margin */
+      .template-10 {
+        .ibm-col-5-3 {
+          margin:0 $margin-reg 0 0;
+        }
+        .t10-mE {
+         @include margins-set-bottom($margin-reg);
+        }
+        .t10-mI {
+          margin: 0 0 $margin-reg $margin-reg;
+        }
+        .ibm-col-5-2 {
+         @include margins-set-bottom($margin-reg);
+        }
+      }
+
+    }
+    
+
+  }
+}
+
+
+#ibm-content {
+  .A { height: 584px; }
+  .B { height: 980px; }
+  .C { height: 782px; }
+  .D { height: 386px; }
+  .E { height: 386px; }
+  .F { height: 188px; }
+  .G { height: 188px; }
+  .H { height: 386px; }
+  .I { height: 386px; }
+  .J { height: 188px; }
+  .K { height: 188px; }
+
+  .level-0 { 
+    position: absolute; 
+    z-index: 0 !important; 
+  }
+  .level-1 { 
+    position: absolute; 
+    z-index: 100 !important; 
+  }
+  .level-2 { 
+    position: absolute; 
+    z-index: 200 !important; 
+  }
+  .level-3 { 
+    position: absolute; 
+    z-index: 300 !important; 
+  }
+  .level-4 { 
+    position: absolute; 
+    z-index: 400 !important; 
+  }
+  .level-5 { 
+    position: absolute; 
+    z-index: 500 !important; 
+  }
+  .level-6 { 
+    position: absolute; 
+    z-index: 501 !important; 
+  }
+  .module-title {
+    margin: 20px 0 0 20px;
+  }
+}
+
+/*
+@media screen and (max-width:1280px) {
+      .template-footer { padding: 0 10px 0 10px !important; }
+      #ibm-content .postcard .ibm-columns .ibm-col-5-2 { width: 295px !important; }
+      .carousel-footer .bx-wrapper, .carousel-footer .bx-viewport { width: 590px !important; }
+      .carousel-footer .bx-wrapper .bx-next { right: -115px !important; }
+
+      .carousel-footer .bx-viewport {
+        width: 590px !important;
+        height: 360px !important;
+      } 
+      .carousel-footer .bx-wrapper .bx-pager {
+        bottom: -40px;
+        width: 590px; 
+      } 
+    } 
+    */
+
+.carousel-full-copy { width: 380px; }
+
+@media screen and (max-width:1600px) {
+      /* Quotes Medium Carousel START. */
+    /* .carousel-medium .bx-wrapper, .carousel-medium .bx-viewport { width: 460px !important; height: 400px !important;  } 
+    .carousel-medium .bx-wrapper .bx-prev { left: 110px !important; top: 339px !important; }
+    .carousel-medium .bx-wrapper .bx-next { left: 290px !important; top: 339px !important; }
+    .carousel-footer .bx-wrapper .bx-pager, .carousel-footer .bx-wrapper .bx-controls-auto { width: 90% !important; } 
+    */
+      /* Quotes Medium Carousel END. */
+}
+
+@media screen and (max-width:1280px) {
+      .carousel-medium .bx-wrapper .bx-next { right: 140px !important; }
+
+}
+
+@media screen and (max-width:1024px) {
+      .template-footer { padding: 0 10px 0 10px !important; }
+      #ibm-content .postcard .ibm-columns .ibm-col-5-2 { width: 295px !important; }
+
+      .template-footer { height: 720px; }
+      /* Footer Carousel START. */
+      .carousel-footer .bx-wrapper, .carousel-footer .bx-viewport { width: 600px !important; height: 460px !important; margin-left: 5px; }
+      .carousel-footer .bx-wrapper .bx-next { right: -115px !important; }
+      .carousel-footer .bx-wrapper .bx-pager {
+        bottom: -40px;
+        width: 590px; 
+      } 
+      /* Footer Carousel END. */
+
+
+      .carousel-medium .bx-wrapper, .carousel-medium .bx-viewport { height: 260px !important; }
+      .carousel-medium .bx-viewport { margin-left: 20px  }
+      .carousel-medium .bx-wrapper .bx-prev { top: 230px !important; left: 120px !important; }
+      .carousel-medium .bx-wrapper .bx-next { top: 230px !important; left: 385px !important; }
+      .carousel-medium .bx-wrapper .bx-pager { top: 260px; }  
+
+
+      .carousel-full .bx-wrapper, .carousel-full .bx-viewport { width: 910px !important; height: 166px !important; }
+} 
+
+@media screen and (max-width:960px) {
+      .carousel-medium .bx-wrapper .bx-next { right: 140px !important; }
+
+      #ibm-content .postcard .ibm-columns 
+      {
+         .template-footer { height: 800px !important; }
+        /* Footer Carousel START. */
+        .carousel-footer .bx-wrapper, .carousel-footer .bx-viewport { width: 600px !important; height: 500px !important; margin-left: 5px; margin-top: 10px !important; }
+        .carousel-footer .bx-wrapper .bx-next { right: -115px !important; }
+        .carousel-footer .bx-wrapper .bx-pager { bottom: -40px; width: 590px; }
+
+        .carousel-full .bx-wrapper .bx-next { left: 780px !important; }
+
+      }
+      .carousel-full .bx-wrapper, .carousel-full .bx-viewport { width: 730px !important; }
+      .carousel-full-copy { width: 300px !important; }
+}
+
+@media screen and (max-width:800px) {
+    #ibm-content .postcard .ibm-columns {
+      padding:0;
+      width:100%;
+      
+      .ibm-col-1-1 {width: 800px;}
+      .ibm-col-5-1 {width: 150px;}
+      .ibm-col-5-2 {width: 304px;}
+      .ibm-col-5-3 {width: 466px;}
+      .ibm-col-5-4 {width: 630px;}
+
+      #ibm-content .postcard .ibm-columns .ibm-col-5-2 { width: 200px !important; }
+
+      .template-footer { height: 720px; }
+      /* Footer Carousel START. */
+      .carousel-footer .bx-wrapper, .carousel-footer .bx-viewport { width: 600px !important; height: 400px !important; }
+      .carousel-footer .bx-wrapper .bx-next { right: -115px !important; }
+      .carousel-footer .bx-wrapper .bx-pager {
+        bottom: -40px;
+        width: 100% !important; 
+      } 
+
+      /* Footer Carousel END. */
+    }
+
+
+    .carousel-medium .bx-wrapper .bx-next { right: 17px !important; }
+    .carousel-medium .bx-viewport {
+        margin-left: 20px;
+        width: 390px !important;
+    }
+
+    .story-header-title {
+      margin-top: -44px !important;   
+      height: 44px !important;  
+    }
+
+    .ibm-connect-bar {
+      bottom: 0 !important;    
+      margin-top: 3px !important;
+    }
+  }
+  
+@media screen and (max-width:768px) {
+      #ibm-content .postcard .ibm-columns {
+      .ibm-col-1-1 {width: 100%;}
+      .ibm-col-5-1 {width: 143px;}
+      .ibm-col-5-2 {width: 200px;}
+      .ibm-col-5-3 {width: 448px;}
+      .ibm-col-5-4 {width: 602px;}
+
+      /* Footer Carousel START. */
+      .template-footer { height: 650px !important; }
+      #ibm-content .postcard .ibm-columns .ibm-col-5-2 { width: 250px !important; }
+      .carousel-footer .bx-wrapper .bx-next { right: -130px !important;}
+      .carousel-footer .bx-viewport { width: 100% !important;  }
+      /* Footer Carousel END. */
+
+      .carousel-medium .bx-wrapper, .carousel-medium .bx-viewport { height: 260px !important; }
+      .carousel-medium .bx-viewport { margin-left: 20px;  }
+      .carousel-medium .bx-wrapper .bx-prev { top: 170px !important; left: 90px !important; }
+      .carousel-medium .bx-wrapper .bx-next { top: 170px !important; left: 270px !important; }
+      .carousel-medium .bx-wrapper .bx-pager { top: 200px; width: 90%; }
+    }
+
+    #ibm-content .postcard .ibm-columns .ibm-col-5-2 { width: 200px !important; margin-right: 10px !important; }
+
+    .ibm-col-1-1 {height: 120px;}
+    .carousel-full .bx-wrapper, .carousel-full .bx-viewport { width: 680px !important; height: 88px !important; margin-top: 40px !important; }
+    .carousel-full .bx-wrapper .bx-prev { top: 27px !important; }
+    .carousel-full .bx-wrapper .bx-next { top: 27px !important; }
+    
+
+
+    #ibm-content {
+      .postcard {
+        .ibm-columns {
+          [class*="ibm-col-"] {
+              margin: 0;
+          }
+        }
+      }
+    }
+
+
+  .carousel-medium
+  {
+    .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+      width: 100%; // Same as viewport
+    } 
+  }
+
+    .carousel-medium .bx-wrapper .bx-next { right: -22px !important; }
+
+    .story-header-title {
+      margin-top: -44px !important;   
+      height: 44px !important;  
+    }
+
+    .ibm-connect-bar {
+      bottom: 0 !important;    
+      margin-top: 3px !important;
+    }
+  }
+
+@media screen and (max-width:728px) {
+
+    #ibm-content .postcard .ibm-columns {
+      .carousel-medium .bx-wrapper .bx-prev { left: 450px !important; }
+      .carousel-medium .bx-wrapper .bx-next { left: 450px !important; }
+
+      .carousel-medium { height: 420px;}
+      .carousel-medium .bx-viewport { width: 350px !important; } 
+      .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto { bottom: -20px; } 
+    }
+}
+  
+@media screen and (max-width:640px) { 
+      #ibm-content .postcard .ibm-columns 
+      {
+        .ibm-col-5-1 {width: 118px;}
+        .ibm-col-5-2 {width: 200px;}
+        .ibm-col-5-3 {width: 371px;}
+        .ibm-col-5-4 {width: 502px;}
+
+        .ibm-col-1-1 {height: 220px;}
+
+
+        .carousel-medium { height: 240px !important; }
+        .carousel-medium .bx-wrapper, .carousel-medium .bx-viewport { height: 190px !important; }
+        .carousel-medium .bx-viewport { margin-left: 20px  }
+        .carousel-medium .bx-wrapper .bx-prev { top: 130px !important; left: 90px !important; }
+        .carousel-medium .bx-wrapper .bx-next { top: 130px !important; left: 270px !important; }
+        .carousel-medium .bx-wrapper .bx-pager { top: 160px !important; width: 100% !important;  margin-left: 45px; } 
+
+
+        /* Footer Carousel START. */
+        .template-footer { height: 650px !important; }
+        .carousel-footer .bx-wrapper, .carousel-footer .bx-viewport { width: 410px !important; height: 380px !important; }
+        .carousel-footer .bx-wrapper .bx-pager, .carousel-footer .bx-wrapper .bx-controls-auto { top: 410px !important; width: 100% !important; margin-left: 0; } 
+        /* Footer Carousel END. */
+
+        .ibm-col-1-1 {height: 120px;}
+
+      }
+      
+      .story-header-title {
+        margin-top: -44px !important;  
+        height: 44px !important;  
+      }
+
+      .ibm-connect-bar {
+        bottom: 0 !important;  
+        margin-top: 3px !important;    
+      }
+
+
+      .ibm-col-1-1, .carousel-full { height: 140px; }
+
+      .carousel-full .bx-wrapper, .carousel-full .bx-viewport { width: 540px !important; height: 88px !important; margin: 40px 0 0 10px !important; }
+      .carousel-full .bx-wrapper .bx-prev { top: 27px !important; }
+      .carousel-full .bx-wrapper .bx-next { top: 27px !important; }
+
+      .carousel-full-copy { width:280px !important; font-size:12px;}
+      .carousel-full-copy p { height: 88px !important; }
+  }
+  
+@media screen and (max-width:579px) {
+
+    #ibm-content .postcard .ibm-columns 
+    {
+      .carousel-medium .bx-wrapper .bx-prev { left: 100px !important; }
+      .carousel-medium .bx-wrapper .bx-next { left: 320px !important; }
+
+      .carousel-medium { height: 420px;}
+      .carousel-medium .bx-viewport { width: 480px !important; height: 400px !important; } 
+      .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto { bottom: -20px; width: 90% !important; } 
+    }
+
+    .carousel-footer .bx-wrapper .bx-next { display: none;}
+
+    .ibm-content-body {
+      background-image: url('assets/images/s2/s2-mobile-bg.jpg');
+      background-repeat: no-repeat; background-size: 100% auto;
+    } 
+
+    .story-header-title {
+      margin-top: -44px !important;    
+      height: 44px !important;   
+    }
+
+    .ibm-connect-bar {
+      bottom: 0 !important;   
+      margin-top: 3px !important; 
+    }
+
+    /* To turn off columns when areas are only for mobile */
+    .noDesktop{
+      display:block !important;
+      height: 47px !important;  
+    }
+
+    #ibm-content .postcard .ibm-columns:after {
+      margin-bottom: 10px;
+    }
+    .ibm-columns:last-child {
+      margin: 0 0 0 0;
+      padding:0;
+    }
+      /* JPT: I added "ibm-col-1-1" */
+    #ibm-content .postcard .ibm-columns 
+    {
+      .ibm-col-5-1,.ibm-col-5-2,.ibm-col-5-3,.ibm-col-5-4, .ibm-col-1-1 {
+        width: 100%;
+      }
+
+      .noMobile{
+        display:none;
+      }
+
+      /* JPT: TEMPLATE SPECIFICS */
+      /* JPT: Remove wrapping margins and add to nested divs */
+      .template-2 {
+        .ibm-col-5-2 {
+          margin: 0 0 0 0;
+          .t2-mJ, .t2-mK1, .t2-mK2 {
+            @include margins-set-bottom($margin-reg);
+          }
+        }
+      }
+
+      /* JPT: Remove for when templates are stacked, it's being added in .ibm-columns:last-child above */
+      .template-5, .template-8 {
+        .box {
+         margin: 0 0 0 0;
+        }
+      }
+
+      /* JPT: Remove wrapping margins and add to nested divs */
+      .template-10 {
+        .ibm-col-5-3 {
+          @include margins-set-bottom($margin-reg);
+          .t10-mD {
+            @include margins-set-bottom($margin-reg);
+          }
+          .t10-mI {
+            @include margins-set-bottom($margin-reg);
+          }
+          .t10-mF {
+            margin: 0 0 0 0;
+          }
+
+        }
+        .ibm-col-5-2 {
+          margin: 0 0 0 0;
+          
+          .t10-mB {
+            margin: 0 0 0 0;
+          }
+        }
+      }
+
+    }
+
+    /* Overwrite fixed heights */
+    #ibm-content {
+      .A { height: auto !important; }
+      .B { height: auto !important; }
+      .C { height: auto !important; }
+      .D { height: auto !important; }
+      .E { height: auto !important; }
+      .F { height: auto !important; }
+      .G { height: auto !important; }
+      .H { height: auto !important; }
+      .I { height: auto !important; }
+      .J { height: auto !important; }
+      .K { height: auto !important; }
+    }
+  }
+
+
+@media screen and (max-width:480px) 
+{
+      .carousel-medium .bx-wrapper .bx-next { right: 140px !important; }
+
+      #ibm-content .postcard .ibm-columns 
+      {
+        .template-footer { height: 700px !important; }
+            /* Footer Carousel START. */
+        .carousel-footer .bx-wrapper, .carousel-footer .bx-viewport { width: 330px !important; height: 420px !important; }
+
+
+        .carousel-medium { height: 240px !important; }
+        .carousel-medium .bx-wrapper, .carousel-medium .bx-viewport { width: 410px !important; height: 190px !important; }
+        .carousel-medium .bx-viewport { margin-left: 15px !important;  }
+        .carousel-medium .bx-wrapper .bx-prev { top: 130px !important; left: 80px !important; }
+        .carousel-medium .bx-wrapper .bx-next { top: 130px !important; left: 260px !important; }
+        .carousel-medium .bx-wrapper .bx-pager { top: 160px !important; width: 100% !important;  margin-left: -10px; } 
+      }
+
+      #ibm-content .postcard .ibm-columns .ibm-col-5-2 { width: 160px !important; margin-right: 10px !important; }
+
+      .carousel-full .bx-wrapper, .carousel-full .bx-viewport { width: 390px !important; height: 88px !important; margin: 80px 0 0 10px !important; }
+      .carousel-full .bx-wrapper .bx-prev { display:none !important; }
+      .carousel-full .bx-wrapper .bx-next { display:none !important; }
+  }
+
+
+@media screen and (max-width:320px) 
+{
+      #ibm-content .postcard .ibm-columns 
+      {
+        .template-footer { height: 780px; }
+          /* Footer Carousel START. */
+        .carousel-footer .bx-wrapper, .carousel-footer .bx-viewport { width: 290px !important; height: 500px !important; }
+
+
+        .carousel-medium .bx-viewport { margin-left: 0px !important; width: 280px !important; }
+        .carousel-medium .bx-wrapper .bx-prev { left: 30px !important; }
+        .carousel-medium .bx-wrapper .bx-next { left: 215px !important; }
+      }
+
+      #ibm-content .postcard .ibm-columns .ibm-col-5-2 { width: 140px !important; margin-right: 10px !important; }
+      
+      .carousel-footer .bx-wrapper .bx-pager, .carousel-footer .bx-wrapper .bx-controls-auto { top: 440px !important; width: 100% !important; margin-left: 0; } 
+
+      .carousel-full .bx-wrapper .bx-prev { display:none !important; }
+      .carousel-full .bx-wrapper .bx-next { display:none !important; }
+}
+ 

@@ -1,0 +1,191 @@
+<!--sideNav-->
+
+<nav class="sideNav" id="sideNav">
+  <div class="iscroller">
+    <ul class="main iscrollee">
+      <div class="closeBtn"></div>
+      <li><p><a href="../">{{ home }}</a></p></li>
+      <li><p class="nav-link" data-hash='#'>{{ stories }}</p></li>
+      <li><p class="nav-link" data-hash='#!story-index'>{{ story_index }}</p></li>
+      <!--li><p><a href="../voices.html">Voices</a></p></li-->
+      <li class="filter-list-toggle collapsed"><p>{{ filter_case_studies }}</p></li>
+
+      <div class="filter-list">
+
+        <li data-submenu="#capability" class="filter-list-submenu-toggle">
+          <p>{{ capability.title }}</p>
+        </li>
+
+        <div id="capability" class="filter-list-submenu">
+        	{{#if capability.big_data_insights }}
+          		<li><p class="nav-link" data-hash='#!filter/capability/big-data-insights'>{{ capability.big_data_insights }}</p></li>
+          	{{/if}}
+          	
+          	{{#if capability.business_model_innovation }}
+          <li><p class="nav-link" data-hash='#!filter/capability/business-model-innovation'>{{ capability.business_model_innovation }}</p></li>
+          {{/if}}
+          
+          {{#if capability.cognitive_computing }}
+          <li><p class="nav-link" data-hash='#!filter/capability/cognitive-computing'>{{ capability.cognitive_computing }}</p></li>
+          {{/if}}
+          
+          {{#if capability.demand_prediction }}
+          <li><p class="nav-link" data-hash='#!filter/capability/demand-prediction'>{{ capability.demand_prediction }}</p></li>
+          {{/if}}
+          
+          {{#if capability.fraud }}
+          <li><p class="nav-link" data-hash='#!filter/capability/fraud'>{{ capability.fraud }}</p></li>
+          {{/if}}
+          
+          {{#if capability.one_to_one }}
+          <li><p class="nav-link" data-hash='#!filter/capability/one-to-one'>{{ capability.one_to_one }}</p></li>
+          {{/if}}
+          
+          {{#if capability.operations }}
+          <li><p class="nav-link" data-hash='#!filter/capability/operations'>{{ capability.operations }}</p></li>
+          {{/if}}
+          
+          {{#if capability.cities }}
+          <li><p class="nav-link" data-hash='#!filter/capability/cities'>{{ capability.cities }}</p></li>
+          {{/if}}
+          
+          {{#if capability.education }}
+          <li><p class="nav-link" data-hash='#!filter/capability/education'>{{ capability.education }}</p></li>
+          {{/if}}
+          
+          {{#if capability.supply_chain }}
+          <li><p class="nav-link" data-hash='#!filter/capability/supply-chain'>{{ capability.supply_chain }}</p></li>
+          {{/if}}
+          
+          {{#if capability.workforce }}
+          <li><p class="nav-link" data-hash='#!filter/capability/workforce'>{{ capability.workforce }}</p></li>
+          {{/if}}
+        </div>
+
+        <li data-submenu="#tech" class="filter-list-submenu-toggle">
+          <p>{{ technology.title }}</p>
+        </li>
+
+        <div id="tech" class="filter-list-submenu">
+        	{{#if technology.cloud }}
+          <li><p class="nav-link" data-hash='#!filter/technology/cloud'>{{ technology.cloud }}</p></li>
+          {{/if}}
+          
+          {{#if technology.data }}
+          <li><p class="nav-link" data-hash='#!filter/technology/data'>{{ technology.data }}</p></li>
+          {{/if}}
+          
+          {{#if technology.mobile }}
+          <li><p class="nav-link" data-hash='#!filter/technology/mobile'>{{ technology.mobile }}</p></li>
+          {{/if}}
+          
+          {{#if technology.social }}
+          <li><p class="nav-link" data-hash='#!filter/technology/social'>{{ technology.social }}</p></li>
+          {{/if}}
+          
+          {{#if technology.watson }}
+          <li><p class="nav-link" data-hash='#!filter/technology/watson'>{{ technology.watson }}</p></li>
+          {{/if}}
+        </div>
+
+        <li data-submenu="#industry" class="filter-list-submenu-toggle">
+          <p>{{ industry.title }}</p>
+        </li>
+	
+        <div id="industry" class="filter-list-submenu">
+        	{{#if industry.business_services }}
+          <li><p class="nav-link" data-hash='#!filter/industry/business-services'>{{ industry.business_services }}</p></li>
+          {{/if}}
+          
+          {{#if industry.cities }}
+          <li><p class="nav-link" data-hash='#!filter/industry/cities'>{{ industry.cities }}</p></li>
+          {{/if}}
+          
+          {{#if industry.education }}
+          <li><p class="nav-link" data-hash='#!filter/industry/education'>{{ industry.education }}</p></li>
+          {{/if}}
+          
+          {{#if industry.electronics }}
+          <li><p class="nav-link" data-hash='#!filter/industry/electronics'>{{ industry.electronics }}</p></li>
+          {{/if}}
+          
+          {{#if industry.entertainment }}
+          <li><p class="nav-link" data-hash='#!filter/industry/entertainment'>{{ industry.entertainment }}</p></li>
+          {{/if}}
+          
+          {{#if industry.food }}
+          <li><p class="nav-link" data-hash='#!filter/industry/food'>{{ industry.food }}</p></li>
+          {{/if}}
+          
+          {{#if industry.gaming }}
+          <li><p class="nav-link" data-hash='#!filter/industry/gaming'>{{ industry.gaming }}</p></li>
+          {{/if}}
+          
+          {{#if industry.healthcare }}
+          <li><p class="nav-link" data-hash='#!filter/industry/healthcare'>{{ industry.healthcare }}</p></li>
+          {{/if}}
+          
+          {{#if industry.hospitality }}
+          <li><p class="nav-link" data-hash='#!filter/industry/hospitality'>{{ industry.hospitality }}</p></li>
+          {{/if}}
+          
+          {{#if industry.manufacturing }}
+          <li><p class="nav-link" data-hash='#!filter/industry/manufacturing'>{{ industry.manufacturing }}</p></li>
+          {{/if}}
+          
+          {{#if industry.marketing }}
+          <li><p class="nav-link" data-hash='#!filter/industry/marketing'>{{ industry.marketing }}</p></li>
+          {{/if}}
+          
+          {{#if industry.research }}
+          <li><p class="nav-link" data-hash='#!filter/industry/research'>{{ industry.research }}</p></li>
+          {{/if}}
+          
+          {{#if industry.retail }}
+          <li><p class="nav-link" data-hash='#!filter/industry/retail'>{{ industry.retail }}</p></li>
+          {{/if}}
+          
+          {{#if industry.sports }}
+          <li><p class="nav-link" data-hash='#!filter/industry/sports'>{{ industry.sports }}</p></li>
+          {{/if}}
+          
+          {{#if industry.transportation }}
+          <li><p class="nav-link" data-hash='#!filter/industry/transportation'>{{ industry.transportation }}</p></li>
+          {{/if}}
+        </div>
+
+      </div> <!-- END .filter-list -->
+
+      <li class="socialLinks">
+        <div class="social">
+        	{{#if twitter }}
+          <a href="{{{ twitter }}}" class="icon icon-twitter" target="_blank" data-linkname="twitter"></a>
+          {{/if}}
+          
+          {{#if linkedin }}
+          <a href="{{{ linkedin }}}" class="icon icon-linkedin" target="_blank" data-linkname="linkedin"></a>
+          {{/if}}
+          
+          {{#if facebook }}
+          <a href="{{{ facebook }}}" class="icon icon-facebook" target="_blank" data-linkname="facebook"></a>
+          {{/if}}
+        </div>
+      </li>
+
+      <li class="auxLinks">
+        <div class="auxColumn">
+          <a class="ibmlink" href="{{{ibm_dot_com.url}}}" target="_blank">{{ibm_dot_com.text}}</a>
+          <a class="voiceslink" href="{{{ibm_dot_com_voices.url}}}" target="_blank">{{ibm_dot_com_voices.text}}</a>  
+        </div>
+        <div class="auxColumn">
+          <a class="termslinks" href="{{{terms_of_use.url}}}" target="_blank">{{terms_of_use.text}}</a>
+          <a class="privacylink" href="{{{privacy_policy.url}}}" target="_blank">{{privacy_policy.text}}</a>
+        </div>
+      </li>
+      <li><!--spacer-->&nbsp;</li>
+
+    </ul>
+  </div> <!-- END iscroller -->
+</nav>
+
+<!-- close sideNav -->

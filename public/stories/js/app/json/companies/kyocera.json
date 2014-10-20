@@ -1,0 +1,253 @@
+{
+    "id" : 28,
+    "company" : "KYOCERA",
+    "title": "reinvention made with IBM Cloud",
+    "color1" : "#73d94c",
+    "color2" : "#73d94c",
+    "short-description" : "KYOCERA Document Solutions is managing customer relationships with IBM Cloud",
+    "filterTechnology": "cloud",
+    "filterIndustry": "business-services",
+    "filterCapability": "business-model-innovation",
+    "filterCapabilityLabel": "Business Model Innovation",
+    "share_twitter_url" : "http://bit.ly/1ixCC48",
+    "share_twitter_copy" : "KYOCERA%20Document%20Solutions%20is%20managing%20customer%20relationships%20with%20IBM%20Cloud.%20See%20how.%20%23madewithIBM",
+    "share_fb_url" : "http%3A%2F%2Fwww.ibm.com%2Fsmarterplanet%2Fus%2Fen%2Fmadewithibm%2Fstories%2F%23!story%2F28%3Fcmp%3Dusbrb%26cm%3Dh%26csr%3Dagus_madewith_140407%26cr%3Dfacebook%26ct%3Dusbrb301%26cn%3Ds28_KYOCERA",
+    "share_fb_copy" : "KYOCERA%20Document%20Solutions%20is%20managing%20customer%20relationships%20with%20IBM%20Cloud.%20See%20how.%20%23madewithIBM",
+    "share_li_url" : "http://bit.ly/1qFTRVW",
+    "share_li_copy" : "KYOCERA%20Document%20Solutions%20is%20managing%20customer%20relationships%20with%20IBM%20Cloud.%20See%20how%20new%20value%20is%20made%20with%20IBM.",
+    "story_background_image_url": "",
+    "thumbnail" : "stories/assets/images/s28/s28-thumb.jpg",
+    "templates": [
+      {
+        "id": 1,
+        "template_class": "template-5",
+        "template_tracking": "t5",
+        "template_background_image_url": "./assets/images/s28/s28-t5-bg.jpg",
+        "template_background_image_url_mobile": "./assets/images/s28/s28-t5-bg_mobile.jpg",
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "hyperlink": "",
+                "color1" : "#73d94c",
+                "copy" : "KYOCERA Document Solutions is managing customer relationships with IBM Cloud",
+                "capability" : "How to innovate a business model",
+                "quote": "",
+                "attribution" : ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "template_class": "template-4",
+        "template_tracking": "t4",
+        "template_background_image_url": "./assets/images/s28/s28-t4-bg.png",
+        "template_background_color" : "#73d94c",
+        "template_type" : "summary-row",
+        "modules": [
+          {
+            "wrapper_class": "t4-mD summary",
+            "module_class": "module-D",
+            "module_type": "image",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url_tablet": "./assets/images/s28/s28-t4-md.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t4-mE summary",
+            "module_class": "module-E",
+            "module_type": "text",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "title" : "Summary",
+                "hyperlink": "http://www.ibm.com/cloud-computing/us/en/catalog.html?cmp=usbrb&cm=s&csr=madewithibm&cr=s28&ct=usbrb301&cn=madewithibm",
+                "cta_copy" :"Learn more about IBM Cloud",
+                "copy": "<p>The proliferation of mobile and cloud has led to a huge demand for secure information sharing. This is why KYOCERA Document Solutions, a leader in sales and maintenance services for document management equipment, expanded its business into data management and security services.</p><p>With the help of IBM Cloud, KYOCERA Document Solution’s CRM system supports the management of customers, sales, forecasts and marketing information around the world. Today, thanks to the cloud, KYOCERA Document Solutions is as good at managing customer relationships as it is at managing documents.</p>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "template_class": "template-3",
+        "template_tracking": "t3",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t3-mD",
+            "module_class": "module-D",
+            "module_type": "quote",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "quote": "Once the customer data was visualized, we realized that  America, Europe and China — who seemed to be saying different things — were actually saying the same thing.",
+                "attribution" : "Katsumi Komaguchi <br/>President, KYOCERA Document Solutions"
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t3-mE",
+            "module_class": "module-E",
+            "module_type": "image",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s28/s28-t32-mD.gif",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "template_class": "template-video",
+        "template_tracking": "tV",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "video",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s28/s28-tv-mA.jpg",
+                "image_url_mobile": "./assets/images/s28/s28-tv-mA_mobile.jpg",
+                "hyperlink": "09tbq6KvF-A",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      
+      {
+        "id": 5,
+        "template_class": "template-5",
+        "template_tracking": "t5B",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "tv-mA",
+            "module_class": "module-D",
+            "module_type": "lightbox",
+            "module_background_image_url": "",
+            "assets": [
+            	{
+                "asset_class": "",
+                "image_url": "./assets/images/s28/s28-t5-mA.jpg",
+                "image_url_mobile": "",
+                "hyperlink": "DcgnzCbwkRQ"
+               
+              }           
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "template_class": "carousel-full",
+        "template_tracking": "tC",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "",
+            "module_class": "",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "image_url_mobile": "",
+                "hyperlink": "",
+                "color1" : "#73d94c",
+                "copy": "52% of leading organizations reported that they used cloud to innovate products and services rapidly"
+              },
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "image_url_mobile": "",
+                "hyperlink": "",
+                "color1" : "#73d94c",
+                "copy": "55% in the study who used cloud said they saw an increase in efficiency"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "template_class": "template-footer",
+        "template_tracking": "tF",
+        "template_background_image_url": "",
+        "template_background_color" : "#73d94c",
+        "template_title" : "How is this made?",
+        "template_desc" : "Get to know the people and the solutions behind the transformation.",
+        "modules": [
+          {
+            "wrapper_class": "tF-mD",
+            "module_class": "module-D carousel-footer",
+            "module_type": "carousel",
+            "module_background_image": "",
+
+            "assets": [
+              {
+						    "asset_class": "",
+						    "image_url": "",
+						    "hyperlink": "http://www.ibm.com/cloud-computing/us/en/marketplace.html?cmp=usbrb&cm=s&csr=madewithibm&cr=s4&ct=usbrb301&cn=madewithibm",
+						    "title" : "IBM Cloud Marketplace",
+						    "copy": "IBM Cloud marketplace is our digital front door where you can discover, try, and for many services, buy, from hundreds of IBM and Business Partner services across business solutions (SaaS), developer (PaaS) and IT operations (IaaS). Whether you're looking for apps to give you supply-chain visibility, for IBM’s new development platform Bluemix, or for a dedicated bare-metal server from SoftLayer, Cloud marketplace has everything you need to bring your business the full benefits of cloud."
+						    
+				},
+			  {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "http://www.ibm.com/cloud-computing/us/en/products/ibm-cloud-managed-services.html?cmp=usbrb&cm=s&csr=madewithibm&cr=s28&ct=usbrb301&cn=madewithibm",
+                "title" : "IBM Cloud Managed Services",
+                "copy": "IBM Cloud is a collection of enterprise-class technology-as-a-service to help customers develop cloud and mobile applications on a leading-edge platform. By using self-service infrastructure with instant deployment, it offers agility and innovative applications to business users."
+                
+              },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "title" : "Goichi Suzaki<br/>VP, Kansai Region Enterprise, S&D, IBM Japan",
+                "copy": "Goichi Suzaki is Vice President, Kansai Region Enterprise, for IBM Japan. He has held several IBM executive positions including in the industrial sector and strategic alliances and in the former Personal Computing Division. He joined IBM in 1985.",
+                "social_twitter" : "",
+                "social_linkedin" : ""
+               }
+            ]
+          }
+        ]
+
+      }
+  
+    ]
+
+  }

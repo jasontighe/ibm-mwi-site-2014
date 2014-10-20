@@ -1,0 +1,319 @@
+// variables ============================================
+
+// Default variables
+$fontPath 								: "//1.www.s81c.com/common/fonts";
+$imagePath 								: "//1.www.s81c.com/common/v17e";
+$sprite-url 							: "#{$imagePath}/voices/i/ibm-voices-sprite.png";
+$leadspace--logo 						: ".ibm_cci--ls--logo";
+$leadspace--search 						: ".ibm_cci--ls--search";
+$leadspace--toggle 						: ".ibm_cci--ls--toggle";
+$leadspace__modifier 					: ".ibm_cci--h1__modifyer";
+$default-font-family 					: Arial, "serif", sans-serif, Helvetica;
+$search--field--shadow 					: 2px 2px 8px 2px rgba(246, 246, 246, 1.0) inset;
+$ibm-content__modifier 					: ".ibm_cci__ibm-content";
+$ibm-band__modifier						: ".ibm_cci__ibm-band";
+$ibm-pcon__modifier						: ".ibm_cci__ibm-pcon";
+$hover-color 							: #006699;
+$ibm-listview-unro 						: ".ibm_cci--lv-unro-b"; //List view unresolved block
+$ibm-gridview-unresolved 				: ".ibm_cci--gv-unr-b"; //List view unresolved block
+$ibm-widget-js 							: "#ibm_cci-widget-js";
+$ibm-widget-about						: "#ibm_cci-about-widget";
+// $ie7Selector 							: ".dj_ie7";
+// $ie8Selector 							: ".dj_ie8";
+// $ie9Selector 							: ".dj_ie9";
+// $ie9Hack 								: "\0/";
+
+@mixin h1-p-overrides {
+	h1 { 
+		float:left; width:auto; padding:0; 
+	}
+	p { 
+		float:left; width:auto; padding:0; 
+	}
+}
+
+/* LEADSPACE OVERIDES (END) */
+
+/* LEADSPACE DEFAULTS (BEGIN) */
+@mixin leadspace--defaults{
+	float:left; 
+	margin:30px 0 20px 0; 
+	// padding:0 0 0 20px;
+	padding:0;
+}
+
+/* LOAD SPRITE IMAGE DEFAULT (BEGIN) */
+@mixin mysprite {
+	background: url($sprite-url) no-repeat;
+	line-height: 0;
+	overflow: hidden;
+	border: 0;
+	display:block;
+	padding:0;
+		// width: 600px;
+		// height:200px;
+}
+
+@mixin ibm_cci-ul__modifier{
+	float:left;
+	margin: 0;
+	padding: 0;
+	line-height:0;
+}
+
+@mixin ibm_cci-ul--li__modifier{
+	background:none;
+	list-style: none;
+}
+
+/* LIST VIEW (BEGIN) */
+@mixin ibm-listview-commons {
+		float:left;
+		margin:0;
+}
+
+@mixin ibm_cci--rea-rank-common {
+	float:left;
+	width:30px;
+	margin:0;
+	padding:0;
+}
+
+@mixin ibm_cci--rea-b {
+	@include ibm_cci--rea-rank-common;
+	height:8px;
+	// margin-left:2px;
+	// background-color:#ccc;
+
+	.ibm_cci--rea-b-e {
+		@include ibm_cci--rea-rank-common;
+		height:2px;
+		background-color:#dfdfdf;
+		text-indent: -999999px;
+		border-bottom:1px solid #fff;
+
+		.ibm_cci--rea-b {
+			@extend .ibm_cci--rea-b-e;
+			width:20px;
+			background-color:#afafaf;
+			border-bottom:0;
+		}
+	}
+}
+
+@mixin ibm_cci--rea-block {
+	float:left;
+	width:70px;
+	margin:0 10px 0 0; //added 10px top to offset the position for IE in p.ibm_cci--rea-rank 
+
+	ul {
+		@include ibm_cci-ul__modifier;
+
+		li {
+			@include ibm_cci-ul--li__modifier;
+			padding:0 0 0 0; // removed bottom 5px 0 for IE issue
+			float:left;
+			clear:both;
+
+			.ibm_cci--rea-b {
+				@include ibm_cci--rea-b;
+			}	
+			p.ibm_cci--rea-rank {
+				display:block;
+				// font: normal 5.2rem/40px "HelvLightIBM";
+				font-family: "HelvLightIBM";
+				font-size:5.2rem;
+				line-height:52px;
+				font-weight:normal;
+				color:#dfdfdf;
+				padding:0; 
+				vertical-align:top;
+					// Changed padding-bottom:0 !important for IE issue
+					// Added 3 properties below for IE issue
+					position:relative;
+					top:0;
+					left:0;
+			}
+
+			p.ibm_cci--rea-rank.ibm_cci-reducedFont {
+				// font:normal normal 4.2rem/40px "HelvLightIBM";
+				font-family: "HelvLightIBM";
+				font-size:4.2rem;
+				line-height:40px;
+				font-weight:normal;
+			}
+		}
+	}
+}
+@mixin ibm_cci--lv-rc-title{
+		float:left;
+		font: bold 12px/14px "HelvBoldIBM";
+		padding:0;
+		margin: 0;
+		clear:both;
+		position:relative;
+
+		// a {
+		// 	// text-decoration:none;
+		// 	color:#000;
+		// }
+
+		// a:hover {
+		// 	// text-decoration:none !important;
+		// }
+}
+
+@mixin ibm_cci--lv-rc-th{
+	float:left;
+	//width:100%;
+	// position:relative;
+	//margin:10px 0 0 0;
+	> div {
+		display:inline-block;
+		float:left;
+	}
+
+	.ibm_cci--lv-rc-avatar {
+		float:left;
+		width:25px;
+		height:25px;
+		position:absolute;
+	}
+
+	h3.ibm_cci--lv-rc-title a, h3.ibm_cci--lv-r-wct a {
+		@include ibm_cci--lv-rc-title;
+	}
+
+	p.ibm_cci--lv-rc-h a, p.ibm_cci--lv-r-wch a {
+		@include ibm_cci--lv-rc-title;
+		font-family:"HelvRegularIBM";
+		font-weight:normal !important;
+	}
+	h3.ibm_cci--lv-rc-title {
+		margin:0;
+		padding:0;
+	}
+	h3.ibm_cci--lv-r-wct, p.ibm_cci--lv-r-wch{
+		margin:0 0 0 35px;
+		padding-right:7px;
+	}
+
+}
+
+//LIST SHARING (BEGIN)
+@mixin ibm_cci--lv-sharing{
+	@include ibm_cci--lv-rc-th;
+	margin:5px 0 0 0;
+	//width:270px;
+
+	ul {
+		@include ibm_cci-ul__modifier;
+
+		li{
+			@include ibm_cci-ul--li__modifier;
+			width:16px;
+			height:16px;
+		}
+		li:hover {
+			outline:0 !important;
+		}
+		li:not(:nth-child(1)) {
+			padding: 0 0 0 15px;
+		}													
+	}
+
+	// p.ibm_cci-tts {
+	// 	float:right;
+	// 	font: normal 12px/16px "HelvLightIBM";
+	// 	vertical-align: top;
+	// 	padding:0;
+
+	// 	a img {
+	// 		opacity:0.1;
+	// 		padding: 0 5px 0 0;
+	// 	}
+	// 	a img:hover {
+	// 		opacity:1;
+	// 	}						
+	// }
+}
+
+
+@mixin feed-icon {
+
+	float:left;
+	color:#000;
+	padding:0;
+	margin:0;
+	line-height:0;
+	text-indent:-99999;
+
+	img {
+		border:0;
+		outline:0;
+		margin:0 10px 0 0;
+		padding:0;
+		width:16px;
+		height:16px;
+	}	
+
+}
+
+@mixin feed-no-icon {
+	a img{
+		display:none;
+	}
+}
+
+
+@mixin cci-sib {
+	
+}
+@mixin ibm_cci--time-stamp {
+	float:left;
+	margin-top:10px;
+	// padding-left:15px;
+	// width:80px;
+
+	p.ibm_cci-tts {
+		// float:left;
+		display: inline-block;
+		// position:absolute;
+		font: normal 12px/16px "HelvLightIBM";
+		vertical-align: top;
+		padding:0;
+		color:#ccc;
+
+		a:link, a:visited {
+			color:#ccc;
+		}
+
+		a:hover, a:active {
+			color:#000;
+			opacity: 1;
+		}
+
+		img {
+			opacity:0.1;
+			padding: 0 0 0 0;
+			vertical-align: top;
+		}
+		img:hover {
+			opacity:1;
+		}						
+	}
+	// p.ibm_cci-tts:hover a
+	p.ibm_cci-tts:hover img {
+		opacity:1;
+		color:#000;
+	}				
+	p.ibm_cci-tts span:before {
+		content: '\25CF';
+		font-size: 7px;
+		padding-right:7px;
+		color:#000;
+		opacity:0.1;
+		position:relative;
+		top:-3px;
+	}
+}

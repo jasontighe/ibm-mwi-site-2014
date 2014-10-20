@@ -1,0 +1,946 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7 ui-mobile-rendering" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8 ui-mobile-rendering" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9 ui-mobile-rendering" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js ui-mobile-rendering" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <!-- Use the .htaccess and remove these lines to avoid edge case issues. More info: h5bp.com/i/378 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <!--[if lt IE 9]>
+  <script type="text/javascript" src="js/libs/ie8Shim.js"></script>
+  <![endif]-->
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="schema.DC" href="http://purl.org/DC/elements/1.0/" />
+  <link rel="SHORTCUT ICON" href="//www.ibm.com/favicon.ico" />
+  <meta name="IBM.DefaultView" content="ZZ9999" />
+  <meta name="DC.Publisher" content="IBM Corporation" />
+  <meta name="DC.Rights" content="© Copyright IBM Corp. 2014" />
+  <meta name="Keywords" content="Social, mobile, cloud, big data, analytics, IBM Watson, Watson, big data insights, business model innovation, personalization,  predictive decision management, cities of the future, fraud prevention, cognitive computing, operations management, supply chain solutions, online collaboration, education solutions, cloud collaboration, decision management, one-to-one marketing, personal marketing" />
+  <meta name="Security" content="Public" />
+
+  <meta name="IBM.Effective" scheme="W3CDTF" content="2014-04-08" />
+  <meta name="Owner" content="Michael Baryla/Raleigh/IBM" />
+  <meta name="DC.Language" scheme="rfc1766" content="en-US" />
+  <meta name="IBM.Country" content="US" />
+  <meta name="Robots" content="index,follow" />
+  <meta name="DC.Type" scheme="IBM_ContentClassTaxonomy" content="ZZ9999" />
+
+  <!-- Please update Source tag's delivery and author value accordingly -->
+  <title>Made With IBM - United States</title>
+  <meta name="Description" content="See how IBM technology is transforming industries and allowing businesses to create value in new ways. " />
+  <!-- FB -->
+  <meta property="og:title" content="Made With IBM - US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://www.ibm.com/smarterplanet/us/en/madewithibm/index.html" />
+  <meta property="og:description" content="See how technology is changing the world today. #madewithIBM" />
+  <meta property="og:image" content="http://www.ibm.com/smarterplanet/us/en/madewithibm/img/og_image.jpg" />
+  <meta property="og:image:width" content="300" />
+  <meta property="og:image:height" content="300" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <link rel="IBM.Mobile.redirect" href="self" />
+
+  <title>IBM Masters</title>
+  <meta name="description" content="IBM Masters">
+	<link rel="SHORTCUT ICON" href="//www.ibm.com/favicon.ico">
+  <!-- Mobile viewport optimized: h5bp.com/viewport -->
+  <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">
+
+  <link href="http://1.www.s81c.com/common/v17e/css/ww.css" rel="stylesheet" title="www" type="text/css" />
+  <script src="http://1.www.s81c.com/common/v17e/js/ww.js" type="text/javascript"></script>
+
+  <link href="stories/assets/css/grid-overrides.css" rel="stylesheet" title="www" type="text/css" />
+  <link rel="stylesheet" href="./stories/css/commonstyles.css" type="text/css"/>
+  <link rel="stylesheet" href="./css/camera.css" type="text/css"/>
+  <link rel="stylesheet" href="./css/home.css" type="text/css"/>
+  <link rel="stylesheet" href="./stories/css/jquery.fancybox.css" title="www" type="text/css" />
+
+  <script src="js/libs/jquery.js"></script>
+  <script src="http://code.jquery.com/jquery-migrate-1.0.0.js"></script>
+
+</head>
+
+<body id="ibm-com" class="ibm-type">
+  <div id="ibm-top" class="ibm-landing-page">
+    <!--! MASTHEAD_BEGIN -->
+
+  </div>
+  <!-- CONTENT_BEGIN -->
+  <div id="ibm-content">
+
+    <!--! MASTHEAD_BEGIN -->
+    <div id="global-masthead">
+      <div id="global-nav">
+        <ul id="ibm-unav-links">
+          <li id="ibm-home"><a href="http://www.ibm.com/us/en/">IBM®</a></li>
+        </ul>
+        <nav class="menu" id="menu">
+          <div class="bars">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <!-- sideNav_BEGIN -->
+    <nav class="sideNav" id="sideNav">
+      <div class="iscroller">
+        <ul class="main iscrollee">
+          <div class="closeBtn"></div>
+
+          <!-- HANDLEBARS SIDEBAR NAV PRIMARY TEMPLATE -->
+          <script id="sidebar-nav-primary-template" type="text/x-handlebars-template">
+          <li><p><a href="./">{{ home }}</a></p></li>
+          <li><p class="nav-link" data-hash='#?ref=home'>{{ stories }}</p></li>
+          <li><p class="nav-link" data-hash='#!story-index'>{{ story_index }}</p></li>
+          <li class="filter-list-toggle collapsed"><p>{{ filter_case_studies }}</p></li>
+
+          <div class="filter-list">
+
+
+            <li data-submenu="#capability" class="filter-list-submenu-toggle">
+              <p>{{ capability.title }}</p>
+            </li>
+
+            <div id="capability" class="filter-list-submenu">
+            	{{#if capability.big_data_insights }}
+              <li><p class="nav-link" data-hash='#!filter/capability/big-data-insights'>{{ capability.big_data_insights }}</p></li>
+              {{/if}}
+              
+              {{#if capability.business_model_innovation }}
+              <li><p class="nav-link" data-hash='#!filter/capability/business-model-innovation'>{{ capability.business_model_innovation }}</p></li>
+              {{/if}}
+              
+              {{#if capability.cognitive_computing }}
+              <li><p class="nav-link" data-hash='#!filter/capability/cognitive-computing'>{{ capability.cognitive_computing }}</p></li>
+              {{/if}}
+              
+              {{#if capability.demand_prediction }}
+              <li><p class="nav-link" data-hash='#!filter/capability/demand-prediction'>{{ capability.demand_prediction }}</p></li>
+              {{/if}}
+              
+              {{#if capability.fraud }}
+              <li><p class="nav-link" data-hash='#!filter/capability/fraud'>{{ capability.fraud }}</p></li>
+              {{/if}}
+              
+              {{#if capability.one_to_one }}
+              <li><p class="nav-link" data-hash='#!filter/capability/one-to-one'>{{ capability.one_to_one }}</p></li>
+              {{/if}}
+              
+              {{#if capability.operations }}
+              <li><p class="nav-link" data-hash='#!filter/capability/operations'>{{ capability.operations }}</p></li>
+              {{/if}}
+              
+              {{#if capability.cities }}
+              <li><p class="nav-link" data-hash='#!filter/capability/cities'>{{ capability.cities }}</p></li>
+              {{/if}}
+              
+              {{#if capability.education }}
+              <li><p class="nav-link" data-hash='#!filter/capability/education'>{{ capability.education }}</p></li>
+              {{/if}}
+              
+              {{#if capability.supply_chain }}
+              <li><p class="nav-link" data-hash='#!filter/capability/supply-chain'>{{ capability.supply_chain }}</p></li>
+              {{/if}}
+              
+              {{#if capability.workforce }}
+              <li><p class="nav-link" data-hash='#!filter/capability/workforce'>{{ capability.workforce }}</p></li>
+              {{/if}}
+            </div>
+
+            <li data-submenu="#tech" class="filter-list-submenu-toggle">
+              <p>{{ technology.title }}</p>
+            </li>
+
+            <div id="tech" class="filter-list-submenu">
+            	{{#if technology.cloud }}
+              <li><p class="nav-link" data-hash='#!filter/technology/cloud'>{{ technology.cloud }}</p></li>
+              {{/if}}
+              
+              {{#if technology.data }}
+              <li><p class="nav-link" data-hash='#!filter/technology/data'>{{ technology.data }}</p></li>
+              {{/if}}
+              
+              {{#if technology.mobile }}
+              <li><p class="nav-link" data-hash='#!filter/technology/mobile'>{{ technology.mobile }}</p></li>
+              {{/if}}
+              
+              {{#if technology.social }}
+              <li><p class="nav-link" data-hash='#!filter/technology/social'>{{ technology.social }}</p></li>
+              {{/if}}
+              
+              {{#if technology.watson }}
+              <li><p class="nav-link" data-hash='#!filter/technology/watson'>{{ technology.watson }}</p></li>
+              {{/if}}
+            </div>
+
+            <li data-submenu="#industry" class="filter-list-submenu-toggle">
+              <p>{{ industry.title }}</p>
+            </li>
+
+            <div id="industry" class="filter-list-submenu">
+            	{{#if industry.business_services }}
+              <li><p class="nav-link" data-hash='#!filter/industry/business-services'>{{ industry.business_services }}</p></li>
+              {{/if}}
+              
+              {{#if industry.cities }}
+              <li><p class="nav-link" data-hash='#!filter/industry/cities'>{{ industry.cities }}</p></li>
+              {{/if}}
+              
+              {{#if industry.education }}
+              <li><p class="nav-link" data-hash='#!filter/industry/education'>{{ industry.education }}</p></li>
+              {{/if}}
+              
+              {{#if industry.electronics }}
+              <li><p class="nav-link" data-hash='#!filter/industry/electronics'>{{ industry.electronics }}</p></li>
+              {{/if}}
+              
+              {{#if industry.entertainment }}
+              <li><p class="nav-link" data-hash='#!filter/industry/entertainment'>{{ industry.entertainment }}</p></li>
+              {{/if}}
+              
+              {{#if industry.food }}
+              <li><p class="nav-link" data-hash='#!filter/industry/food'>{{ industry.food }}</p></li>
+              {{/if}}
+              
+              {{#if industry.gaming }}
+              <li><p class="nav-link" data-hash='#!filter/industry/gaming'>{{ industry.gaming }}</p></li>
+              {{/if}}
+              
+              {{#if industry.healthcare }}
+              <li><p class="nav-link" data-hash='#!filter/industry/healthcare'>{{ industry.healthcare }}</p></li>
+              {{/if}}
+              
+              {{#if industry.hospitality }}
+              <li><p class="nav-link" data-hash='#!filter/industry/hospitality'>{{ industry.hospitality }}</p></li>
+              {{/if}}
+              
+              {{#if industry.manufacturing }}
+              <li><p class="nav-link" data-hash='#!filter/industry/manufacturing'>{{ industry.manufacturing }}</p></li>
+              {{/if}}
+              
+              {{#if industry.marketing }}
+              <li><p class="nav-link" data-hash='#!filter/industry/marketing'>{{ industry.marketing }}</p></li>
+              {{/if}}
+              
+              {{#if industry.research }}
+              <li><p class="nav-link" data-hash='#!filter/industry/research'>{{ industry.research }}</p></li>
+              {{/if}}
+              
+              {{#if industry.retail }}
+              <li><p class="nav-link" data-hash='#!filter/industry/retail'>{{ industry.retail }}</p></li>
+              {{/if}}
+              
+              {{#if industry.sports }}
+              <li><p class="nav-link" data-hash='#!filter/industry/sports'>{{ industry.sports }}</p></li>
+              {{/if}}
+              
+              {{#if industry.transportation }}
+              <li><p class="nav-link" data-hash='#!filter/industry/transportation'>{{ industry.transportation }}</p></li>
+              {{/if}}
+            </div>
+
+          </div> <!-- END .filter-list -->
+          </script>
+          <!-- END HANDLEBARS SIDEBAR NAV PRIMARY TEMPLATE -->
+
+          <!-- HANDLEBARS SIDEBAR NAV SECONDARY TEMPLATE -->
+          <script id="sidebar-nav-secondary-template" type="text/x-handlebars-template">
+          <li class="socialLinks">
+            <div class="social">
+            	{{#if twitter}}
+              <a href="{{{twitter}}}" class="icon icon-twitter" target="_blank" data-linkname="twitter"></a>
+              {{/if}}
+              
+              {{#if linkedin}}
+              <a href="{{{linkedin}}}" class="icon icon-linkedin" target="_blank" data-linkname="linkedin"></a>
+              {{/if}}
+              
+              {{#if facebook}}
+              <a href="{{{facebook}}}" class="icon icon-facebook" target="_blank" data-linkname="facebook"></a>
+              {{/if}}
+            </div>
+          </li>
+
+          <li class="auxLinks">
+            <div class="auxColumn">
+              <a class="ibmlink" href="{{{ibm_dot_com.url}}}" target="_blank">{{ibm_dot_com.text}}</a>
+              <a class="voiceslink" href="{{{ibm_dot_com_voices.url}}}" target="_blank">{{ibm_dot_com_voices.text}}</a>
+            </div>
+            <div class="auxColumn">
+         	    <a class="termslinks" href="{{{terms_of_use.url}}}" target="_blank">{{terms_of_use.text}}</a>
+         	    <a class="privacylink" href="{{{privacy_policy.url}}}" target="_blank">{{privacy_policy.text}}</a>
+            </div>
+          </li>
+
+          <li><!--spacer-->&nbsp;</li>
+          </script>
+          <!-- END HANDLEBARS SIDEBAR NAV SECONDARY TEMPLATE -->
+
+        </ul>
+      </div> <!-- END iscroller -->
+    </nav>
+    <!-- sideNav_END -->
+
+    <!-- CONTENT_BODY -->
+    <div id="ibm-content-body">
+      <div id="ibm-content-main postcard"  class="home">
+        <div data-role="page">
+          <div id="main" class="container-fluid" data-role="content">
+            
+   
+            <div class="header">  </div>
+             
+              
+             <!-- Header carousel template -->
+        	<script id="home-page-carousel-template" type="text/x-handlebars-template"> 
+            	<div class="fluid_container">
+			        <div class="camera_wrap camera_emboss" id="camera_wrap_1">
+
+                <!-- Slide 1 data-src dynamically set to eliminate IE redraw bug on animated gifs scaled less than 100%-->
+                <div id="slide1-bg" data-src="">
+			            	<div class="ibm-columns">
+				                <div class="ibm-col-1-1 cameraTitleImg makingHeader">
+				                	<span data-picture data-alt="">
+		                          		<span data-src="{{slide1_title_img}}"></span>
+		                            	<span data-src="{{slide1_title_mobile}}" data-media="(min-width:569px) and (max-width:640px)"></span>
+		                            	<span data-src="{{slide1_title_568}}" data-media="(min-width:540px) and (max-width:568px)"></span> 
+		          
+		                            	<span data-src="{{slide1_title_320}}" data-media="(max-width:539px)"></span> 
+		                            	<span data-src="{{slide1_title_retina}}" data-media="(min-device-pixel-ratio: 2.0)"></span>
+			                            <noscript>
+			                              <img src="{{slide1_title_img}}" alt="">
+			                            </noscript>
+		                            </span>
+                          			<!--img src="img/slides/mw_slide1_headline-2.png" /-->
+				                </div>
+                                             
+                        <!-- <div class="ibm-col-1-1 cameraTitleImg">
+                          <img src="img/slides/whatstheworldmakingtoday.png" />
+                        </div> -->
+				                <div class="ibm-col-6-4">
+				                  {{{slide1_copy}}}
+				                </div>
+			                        <div class="ibm-col-1-1 madeWithImage">
+			                        	<span data-picture data-alt="">
+			                          		<span data-src="{{slide1_madewith_img}}"></span>
+			                            	<span data-src="{{slide1_madewith_img_mobile}}" data-media="(min-width:540px) and (max-width:568px)"></span> 
+		          
+			                            	<span data-src="{{slide1_madewith_img_mobile}}" data-media="(min-device-pixel-ratio: 2.0)"></span>
+				                            <noscript>
+				                              <img src="{{slide1_madewith_img}}" alt="">
+				                            </noscript>
+			                            </span>
+			                                <!--img src="img/slides/mw_underbodycopy.png" /-->
+			                        </div>                           
+				              </div>
+			            </div>
+                
+                <div id="anthem" data-src="img/slides/anthem_video.jpg">
+                    <div class="ibm-columns">
+
+                      <div class="ibm-col-1-1 anthem-slide" >
+                          <h1 class="anthem" >{{{slide2_copy}}}</h1>
+                          <div class="anthem-play-button-holder" style="width: 100%; margin: -170px auto 0 auto; text-align: center">
+                          <a href="http://www.youtube.com/embed/EPM6v_J-0sM?autoplay=0&enablejsapi=1" class="fancybox-media fancybox.iframe">
+                          <img class="anthem-play-button" style="" src="stories/img/video-play-button-small.png"/>
+                          </a>
+                        </div>
+                      </div>
+
+                  </div>
+                </div>
+                
+			            <div data-src="img/slides/slide2-bg.jpg">
+			            	<div class="ibm-columns">
+				                <div class="ibm-col-1-1 cameraTitleImg">
+				                	<span data-picture data-alt="">
+			                          		<span data-src="{{slide3_madewith_img}}"></span>
+			                            	<span data-src="{{slide3_madewith_img_mobile}}" data-media="(max-width:640px)"></span> 
+			                            	
+			                            	<span data-src="{{slide3_madewith_img_retina}}" data-media="(min-device-pixel-ratio: 2.0)"></span>
+				                            <noscript>
+				                              <img src="{{slide3_madewith_img}}" alt="">
+				                            </noscript>
+			                            </span>
+                          			<!--img src="img/slides/MadewithMobile.png" /-->
+				                </div>
+				                <div class="ibm-col-5-3 text-block">
+
+
+                          {{{slide3_copy}}}
+                          <p><a href="stories/#!filter/technology/mobile?ref=home">{{{slide3_cta}}}</a> →</p>
+				                
+				                </div>
+				              </div>
+			            </div>
+			            <div data-src="img/slides/slide3-bg.jpg">
+			            	<div class="ibm-columns">
+		                        <div class="ibm-col-1-1 cameraTitleImg">
+		                        	<span data-picture data-alt="">
+			                          		<span data-src="{{slide4_madewith_img}}"></span>
+			                            	<span data-src="{{slide4_madewith_img_mobile}}" data-media="(max-width:640px)"></span> 
+			                            	<span data-src="{{slide3_madewith_img_retina}}" data-media="(min-device-pixel-ratio: 2.0)"></span>
+				                            <noscript>
+				                              <img src="{{slide4_madewith_img}}" alt="">
+				                            </noscript>
+			                            </span>
+		                          <!--img src="img/slides/MadewithCloud.png" /-->
+				                </div>
+				                <div class="ibm-col-5-3 text-block">
+				                  {{{slide4_copy}}}
+				                  <p><a href="stories/#!filter/technology/cloud?ref=home">{{{slide4_cta}}}</a> →</p>
+				                  
+				                </div>
+				              </div>
+			            </div>
+			            <div data-src="img/slides/slide4-bg.jpg">
+			            	<div class="ibm-columns">
+		                        <div class="ibm-col-1-1 cameraTitleImg">
+		                        	<span data-picture data-alt="">
+			                          		<span data-src="{{slide5_madewith_img}}"></span>
+			                            	<span data-src="{{slide5_madewith_img_mobile}}" data-media="(max-width:640px)"></span> 
+			                            	<span data-src="{{slide5_madewith_img_retina}}" data-media="(min-device-pixel-ratio: 2.0)"></span>
+				                            <noscript>
+				                              <img src="{{slide5_madewith_img}}" alt="">
+				                            </noscript>
+			                            </span>
+		                          <!--img src="img/slides/MadeWithData.png" /-->
+						        </div>
+				                <div class="ibm-col-5-3 text-block">
+                          
+                          {{{slide5_copy}}}
+                          <p><a href="stories/#!filter/technology/data?ref=home">{{{slide5_cta}}}</a> →</p>
+				                  
+				                </div>
+				              </div>
+			            </div>
+			            <div data-src="img/slides/slide5-bg.jpg">
+			            	<div class="ibm-columns">
+                        <div class="ibm-col-1-1 cameraTitleImg">
+                        	<span data-picture data-alt="">
+			                          		<span data-src="{{slide6_madewith_img}}"></span>
+			                            	<span data-src="{{slide6_madewith_img_mobile}}" data-media="(max-width:640px)"></span> 
+			                            	<span data-src="{{slide6_madewith_img_retina}}" data-media="(min-device-pixel-ratio: 2.0)"></span>
+				                            <noscript>
+				                              <img src="{{slide6_madewith_img}}" alt="">
+				                            </noscript>
+			                            </span>
+                          <!--img src="img/slides/MadewithSocial.png" /-->
+				                </div>
+				                <div class="ibm-col-5-3 text-block">
+				                  {{{slide6_copy}}}
+				                  <p><a href="stories/#!filter/technology/social?ref=home">{{{slide6_cta}}}</a> →</p>
+				                  
+				                </div>
+				              </div>
+			            </div>
+			            <div data-src="img/slides/slide6-bg.jpg">
+			            	<div class="ibm-columns">
+		                        <div class="ibm-col-1-1 cameraTitleImg">
+		                        	<span data-picture data-alt="">
+			                          		<span data-src="{{slide7_madewith_img}}"></span>
+			                            	<span data-src="{{slide7_madewith_img_mobile}}" data-media="(max-width:640px)"></span> 
+			                            	<span data-src="{{slide7_madewith_img_retina}}" data-media="(min-device-pixel-ratio: 2.0)"></span>
+				                            <noscript>
+				                              <img src="img/slides/MadewithWatson.png" alt="">
+				                            </noscript>
+			                            </span>
+			                            
+		                          <!--img src="img/slides/MadewithWatson.png" /-->
+		                          
+		                          
+				                </div>
+				                <div class="ibm-col-5-3 text-block">
+				                  {{{slide7_copy}}}
+				                  <p><a href="stories/#!filter/technology/watson?ref=home">{{{slide7_cta}}}</a> →</p>
+				                  
+				                </div>
+				              </div>
+			            </div>
+
+			        </div><!-- #camera_wrap_3 -->
+			
+			    </div><!-- .fluid_container -->
+
+   </script> <!-- END HOME_SLIDES TEMPLATE --> 
+
+
+            <div class="filter-bar">
+              <div class="ibm-columns">
+                <div class="ibm-col-1-1 filter-bar-col">
+
+                  <div id="filter-menu">
+                  <!-- HANDLEBARS FILTER TEMPLATE -->
+                  <script id="filter-menu-template" type="text/x-handlebars-template">
+                    <p class="selected-filter" data-default="{{ select_a_filter }}"><!-- set default text in data-default --></p>
+                    <div class="dropdown">
+                      <div class="filterScroller">
+                        <ul class="filterScrollee">
+
+                          <li>
+                            <p class="filter-link" data-filter="none" data-key="" data-value="">{{ view_all }}</p>
+                          </li>
+                          <li data-submenu="#capFilters" class="filter-dropdown-submenu-toggle">
+                            <p class="filter-label">{{ capability.title }} </p>
+                          </li>
+                          <div id="capFilters" class="filter-dropdown-submenu">
+                          	{{#if capability.big_data_insights }}
+                            <li>
+                                <p class="filter-link" data-filter="capability" data-key="filterCapability" data-value="big-data-insights">{{ capability.big_data_insights }}</p>
+                            </li>
+                            {{/if}}
+                            
+                            {{#if capability.business_model_innovation }}
+                            <li>
+                                <p class="filter-link" data-filter="capability" data-key="filterCapability" data-value="business-model-innovation">{{ capability.business_model_innovation }}</p>
+                            </li>
+                            {{/if}}
+                            
+                            {{#if capability.cognitive_computing }}
+                            <li>
+                                <p class="filter-link" data-filter="capability" data-key="filterCapability" data-value="cognitive-computing">{{ capability.cognitive_computing }}</p>
+                            </li>
+                            {{/if}}
+                            
+                            {{#if capability.demand_prediction }}
+                            <li>
+                                <p class="filter-link" data-filter="capability" data-key="filterCapability" data-value="demand-prediction">{{ capability.demand_prediction }}</p>
+                            </li>
+                            {{/if}}
+                            
+                            {{#if capability.fraud }}
+                            <li>
+                                <p class="filter-link" data-filter="capability" data-key="filterCapability" data-value="fraud">{{ capability.fraud }}</p>
+                            </li>
+                            {{/if}}
+                            
+                            {{#if capability.one_to_one }}
+                            <li>
+                                <p class="filter-link" data-filter="capability" data-key="filterCapability" data-value="one-to-one">{{ capability.one_to_one }}</p>
+                            </li>
+                            {{/if}}
+                            
+                            {{#if capability.operations }}
+                            <li>
+                                <p class="filter-link" data-filter="capability" data-key="filterCapability" data-value="operations">{{ capability.operations }}</p>
+                            </li>
+                            {{/if}}
+                            
+                            {{#if capability.cities }}
+                            <li>
+                                <p class="filter-link" data-filter="capability" data-key="filterCapability" data-value="cities">{{ capability.cities }}</p>
+                            </li>
+                            {{/if}}
+                            
+                            {{#if capability.education }}
+                            <li>
+                                <p class="filter-link" data-filter="capability" data-key="filterCapability" data-value="education">{{ capability.education }}</p>
+                            </li>
+                            {{/if}}
+                            
+                            {{#if capability.supply_chain }}
+                            <li>
+                                <p class="filter-link" data-filter="capability" data-key="filterCapability" data-value="supply-chain">{{ capability.supply_chain }}</p>
+                            </li>
+                            {{/if}}
+                            
+                            {{#if capability.workforce }}
+                            <li>
+                                <p class="filter-link" data-filter="capability" data-key="filterCapability" data-value="workforce">{{ capability.workforce }}</p>
+                            </li>
+                            {{/if}}
+                            </div>
+                          <li data-submenu="#techFilters" class="filter-dropdown-submenu-toggle">
+                          <p class="filter-label">{{ technology.title }}</p>
+                          </li>
+                          <div id="techFilters" class="filter-dropdown-submenu">
+                          	{{#if technology.cloud }}
+                            <li>
+                              <p class="filter-link" data-filter="technology" data-key="filterTechnology" data-value="cloud">{{ technology.cloud }}</p>
+                            </li>
+                            {{/if}}
+                            
+                            {{#if technology.data }}
+                            <li>
+                              <p class="filter-link" data-filter="technology" data-key="filterTechnology" data-value="data">{{ technology.data }}</p>
+                            </li>
+                            {{/if}}
+                            
+                            {{#if technology.mobile }}
+                            <li>
+                              <p class="filter-link" data-filter="technology" data-key="filterTechnology" data-value="mobile">{{ technology.mobile }}</p>
+                            </li>
+                            {{/if}}
+                            
+                            {{#if technology.social }}
+                            <li>
+                              <p class="filter-link" data-filter="technology" data-key="filterTechnology" data-value="social">{{ technology.social }}</p>
+                            </li>
+                            {{/if}}
+                            
+                            {{#if technology.watson }}
+                            <li>
+                              <p class="filter-link" data-filter="technology" data-key="filterTechnology" data-value="watson">{{ technology.watson }}</p>
+                            </li>
+                            {{/if}}
+                          </div>
+                          <li data-submenu="#indyFilters" class="filter-dropdown-submenu-toggle">
+                          <p class="filter-label">{{ industry.title }}</p>
+                          </li>
+                          <div id="indyFilters" class="filter-dropdown-submenu">
+                            {{#if industry.business_services }}
+                            <li>
+                                <p class="filter-link" data-filter="industry" data-key="filterIndustry" data-value="business-services">{{ industry.business_services }}</p>
+                            </li>
+                            {{/if}}
+                            
+                            {{#if industry.cities }}
+                            <li>
+                                <p class="filter-link" data-filter="industry" data-key="filterIndustry" data-value="cities">{{ industry.cities }}</p>
+                            </li>
+                            {{/if}}
+                            
+                            {{#if industry.education }}
+                             <li>
+                                <p class="filter-link" data-filter="industry" data-key="filterIndustry" data-value="education">{{ industry.education }}</p>
+                            </li>
+                            {{/if}}
+                            
+                            {{#if industry.electronics }}
+                            <li>
+                                <p class="filter-link" data-filter="industry" data-key="filterIndustry" data-value="electronics">{{ industry.electronics }}</p>
+                            </li>
+                            {{/if}}
+                            
+                            {{#if industry.entertainment }}
+                             <li>
+                                <p class="filter-link" data-filter="industry" data-key="filterIndustry" data-value="entertainment">{{ industry.entertainment }}</p>
+                            </li>
+                            {{/if}}
+                            
+                            {{#if industry.food }}
+                             <li>
+                                <p class="filter-link" data-filter="industry" data-key="filterIndustry" data-value="food">{{ industry.food }}</p>
+                            </li>
+                            {{/if}}
+                            
+                            {{#if industry.gaming }}
+                            <li>
+                                <p class="filter-link" data-filter="industry" data-key="filterIndustry" data-value="gaming">{{ industry.gaming }}</p>
+                            </li>
+                            {{/if}}
+                            
+                            {{#if industry.healthcare }}
+                            <li>
+                                <p class="filter-link" data-filter="industry" data-key="filterIndustry" data-value="healthcare">{{ industry.healthcare }}</p>
+                            </li>
+                            {{/if}}
+                            
+                            {{#if industry.hospitality }}
+                             <li>
+                                <p class="filter-link" data-filter="industry" data-key="filterIndustry" data-value="hospitality">{{ industry.hospitality }}</p>
+                            </li>
+                            {{/if}}
+                            
+                            {{#if industry.manufacturing }}
+                            <li>
+                               <p class="filter-link" data-filter="industry" data-key="filterIndustry" data-value="manufacturing">{{ industry.manufacturing }}</p>
+                            </li>
+                            {{/if}}
+                            
+                            {{#if industry.marketing }}
+                            <li>
+                              <p class="filter-link" data-filter="industry" data-key="filterIndustry" data-value="marketing">{{ industry.marketing }}</p>
+                            </li>
+                            {{/if}}
+                            
+                            {{#if industry.research }}
+                            <li>
+                                <p class="filter-link" data-filter="industry" data-key="filterIndustry" data-value="research">{{ industry.research }}</p>
+                            </li>
+                            {{/if}}
+                            
+                            {{#if industry.retail }}
+                            <li>
+                                <p class="filter-link" data-filter="industry" data-key="filterIndustry" data-value="retail">{{ industry.retail }}</p>
+                            </li>
+                            {{/if}}
+                            
+                            {{#if industry.sports }}
+                            <li>
+                                <p class="filter-link" data-filter="industry" data-key="filterIndustry" data-value="sports">{{ industry.sports }}</p>
+                            </li>
+                            {{/if}}
+                            
+                            {{#if industry.transportation }}
+                            <li>
+                                <p class="filter-link" data-filter="industry" data-key="filterIndustry" data-value="transportation">{{ industry.transportation }}</p>
+                            </li>
+                            {{/if}}
+                          </div>
+
+                        </ul>
+                      </div> <!-- END filterScroller -->
+                    </div>  <!-- END dropdown -->
+                  </script> <!-- END HANDLEBARS FILTER TEMPLATE -->
+                  </div>   <!-- END filter-menu -->
+               
+		             <ul class="ibm-connect-bar" style="border-bottom:3px solid #f28ca7;float:right;">
+                  <li><a class="facebook" title="Share this story on Facebook" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fibm.com%2Fsmarterplanet%2Fus%2Fen%2Fmadewithibm%2F&title=Made%20with%20IBM&summary=See%20how%20technology%20is%20changing%20the%20world%20today.%20bit.ly/1g7BaUz%20%23madewithIBM" target="_blank">&nbsp;</a></li>
+                  <li><a class="linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=http://ibm.com/smarterplanet/us/en/madewithibm/&title=Made%20with%20IBM&summary=See%20how%20technology%20is%20changing%20the%20world%20today.%20bit.ly/1g7BaUz%20%23madewithIBM" title="Share this story on LinkedIn" target="_blank">&nbsp;</a></li>
+                  <li><a class="twitter" href="https://twitter.com/home?status=See%20how%20technology%20is%20changing%20the%20world%20today.%20bit.ly/1g7BaUz%20%23madewithIBM" title="Share this story on Twitter" target="_blank">&nbsp;</a></li>
+					       </ul>
+               
+                </div>
+              </div>
+            </div>
+            <!-- BEGIN TILES -->
+            <div class="tiles">
+              <div class="ibm-columns tile-columns">
+
+                <!-- COLUMN 1 -->
+                <div id="column-1" class="ibm-col-6-2">
+
+                </div>
+
+                <!-- COLUMN 2 -->
+                <div id="column-2" class="ibm-col-6-2">
+
+                </div>
+
+                <!-- COLUMN 3 -->
+                <div id="column-3" class="ibm-col-6-2">
+
+                </div>
+
+              </div>
+            </div>
+            <!-- END TILES -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER START -->
+    <div id="site-footer" class="footer">
+      <div class="footer-bg">
+        <div class="footer-content ibm-columns">
+          <div class="footer-column ibm-col-6-2">
+
+            <ul id="nav-list">
+            <!-- handlebars template populated with json data -->
+            </ul>
+
+          </div>
+
+          <div class="footer-column ibm-col-6-2">
+
+            <ul id="social-list" class="socialList">
+	          <!-- handlebars template populated with json data -->
+	          </ul>
+
+          </div>
+          <div class="footer-column ibm-col-6-2">
+            
+          </div>
+          <div id="links-list" class="footer-bottom-line ibm-col-1-1">
+            &#169; 2014
+            <!-- handlebars template populated with json data -->
+          </div>
+        </div>
+      </div>
+    </div>
+   
+    <!-- FOOTER END -->
+
+  </div>
+  <div class="truste">
+   <a id="icon-id06532357762004942">
+<img alt="TRUSTe Icon" onerror="truste.eu.showSeal()" style="border: none; cursor:pointer;" src="http://consent.truste.com/get?name=cookiepreferencestext.png">
+</a>
+</div>
+
+  <!-- HANDLEBARS TEMPLATES -->
+  <script id="tile" type="text/x-handlebars-template">
+
+    <div class="tile mobile-tile" data-id="{{ id }}" data-technology="{{ filterTechnology }}" data-industry="{{ filterIndustry }}" data-capability="{{ filterCapability }}" style="background: {{color1}} url('img/tile_bg.png') no-repeat; background-position:0 0;">
+      <p class="capability">{{ filterCapabilityLabel }}</p>
+      <h3 style="{{color1}}">{{ short-description }}</h3>
+      <img src="{{ thumbnail }}" />
+      <p class="title">{{ title }}</p>
+      <hr/>
+      <p style="clear:both;"><span class="technology">{{translate filterTechnology}}</span></p>
+    </div>
+
+  </script>
+
+
+
+<!-- Mobile template -->
+  <script id="tile-mobile" type="text/x-handlebars-template">
+
+    <div class="tile" data-id="{{ id }}" data-technology="{{ filterTechnology }}" data-industry="{{ filterIndustry }}" data-capability="{{ filterCapability }}" style="background: {{color1}} url('img/tile_bg.png') no-repeat; background-position:0 0;">
+      <p class="capability">{{ filterCapabilityLabel }}</p>
+      <h3 style="color:{{color1}}">{{ short-description }}</h3>
+      <p class="title">{{ title }}</p>
+      <p style="clear:both;"><span class="technology">{{translate filterTechnology}}</span></p>
+    </div>
+
+  </script>
+
+  <script id="footer-nav-list" type="text/x-handlebars-template">
+
+    <li>
+      <a class="footer-link" data-tracking="home" href="./">{{home}}</a>
+    </li>
+    <li>
+      <a class="footer-link" data-tracking="stories" data-hash='#?ref=home'>{{stories}}</a>
+    </li>
+    <li>
+      <a class="footer-link" data-tracking="story-index" data-hash='#!story-index'>{{story_index}}</a>
+    </li>
+
+  </script>
+
+  <script id="footer-social-list" type="text/x-handlebars-template">
+
+    <li class="socialLinks">
+      <a href="{{{twitter}}}" class="footer-link icon twitter" target="_blank" data-linkname="twitter"></a>
+    </li>
+    <li  class="socialLinks">
+      <a href="{{linkedin}}" class="footer-link icon linkedin" target="_blank" data-linkname="linkedin"></a>
+    </li>
+    <li  class="socialLinks">
+      <a href="{{{facebook}}}" class="footer-link icon facebook" target="_blank" data-linkname="facebook"></a>
+    </li>
+
+  </script>
+
+  <script id="footer-links-list" type="text/x-handlebars-template">
+
+   <a class="footer-link" data-tracking="ibm.com" href="{{{ibm_dot_com.url}}}" target="_blank">{{ibm_dot_com.text}}</a>
+   <a class="footer-link" data-tracking="ibm.com/voices" href="{{{ibm_dot_com_voices.url}}}" target="_blank">{{ibm_dot_com_voices.text}}</a>
+   <a class="footer-link" data-tracking="terms-of-use" href="{{{terms_of_use.url}}}" target="_blank">{{terms_of_use.text}}</a>
+   <a class="footer-link" data-tracking="privacy-policy" href="{{{privacy_policy.url}}}" target="_blank">{{privacy_policy.text}}</a>
+
+  </script>
+
+  <!-- END HANDLEBARS TEMPLATES -->
+
+
+  <script>
+    // stop no cookies logging - eluminate.js file
+    window.cm_ted_io = null;
+  </script>
+
+  <script src="http://www.ibm.com/common/stats/stats.js" type="text/javascript"></script>
+  <script src="js/libs/TweenLite.js"></script>
+  <script src="js/libs/CSSPlugin.min.js"></script>
+  <!-- moved jquery to top -->
+  <script src="js/libs/fastclick.js"></script>
+  <script src="js/libs/iscroll.js"></script>
+  <script src="js/libs/handlebars.js"></script>
+  <script src="js/libs/waypoints.min.js"></script>
+  <script src="js/tracking.js"></script>
+  <script type='text/javascript' src='js/libs/picturefill.js'></script>
+  <script src="js/homepage.js"></script>
+  <script src="js/sidebarNav.js"></script>
+
+  <script type='text/javascript' src='js/jquery.mobile.customized.min.js'></script>
+  <script type='text/javascript' src='js/libs/plugins/jquery.easing.1.3.js'></script>
+  <script type='text/javascript' src='js/camera.min.js'></script>
+
+  <script>
+  jQuery(function(){
+
+    
+
+    
+  });
+	</script>
+
+
+<script src="stories/js/libs/plugins/jquery.fancybox.js"></script>
+<script src="http://www.youtube.com/player_api"></script>
+<script>
+  function onYouTubePlayerAPIReady() {
+     console.log('onYouTubePlayerAPIReady')
+
+    // Initialise the fancyBox after the DOM is loaded
+    $(document).ready(function() {
+
+      $(".fancybox-media")
+        .attr('rel', 'media-gallery')
+        .fancybox({
+          padding: 0,
+          openEffect : 'none',
+          closeEffect : 'none',
+          prevEffect : 'none',
+          nextEffect : 'none',
+          closeBtn: false,
+          videoId: 'oa3wFHsRnrE',
+          beforeShow  : function() {
+
+            var id = $.fancybox.inner.find('.fancybox-iframe').attr('id');
+
+            // Create video player object and add event listeners
+            var player = new YT.Player(id, {
+              events: {
+                'onStateChange': onPlayerStateChange
+              }
+            });
+
+          }
+      });
+
+      $('.fancybox-media').on('click', function(e){
+        e.preventDefault();
+
+      });
+
+      // Initialize picturefill to show images.
+      picturefill();
+
+    });
+
+  }
+
+  // Fires when the player's state changes.
+  function onPlayerStateChange(event){
+    //console.log('onPlayerStateChange', event);
+    var evgroup, ev, evaction, evname;
+
+    if (event.data === 0)
+    {
+      evgroup = 'homepage';
+      ev      = 'header';
+      evaction= 'videocomplete';
+      evname  = evgroup + '_' + ev + '_' + evaction  + '_'  + 'oa3wFHsRnrE';
+
+      IBMMasters.tracking.trackCustomEvent( evgroup, ev, evaction, evname );
+
+    }
+    else if(event.data === 1 )
+    {
+      evgroup = 'homepage';
+      ev      = 'header';
+      evaction= 'videoplay';
+      evname  = evgroup + '_' + ev + '_' + evaction + '_' + 'oa3wFHsRnrE';
+
+      IBMMasters.tracking.trackCustomEvent( evgroup, ev, evaction, evname );
+
+    }
+  }
+
+</script>
+
+</body>
+</html>
+
+

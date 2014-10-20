@@ -1,0 +1,173 @@
+
+#ibm-content {
+  .ibm-columns:after {
+      margin-bottom:0;
+    }
+    
+	.postcard {
+		.ibm-columns {
+			padding:0;
+			width:980px;
+			
+			[class*="ibm-col-"] {
+			    float: left;
+			    margin: 0 10px 10px 0;
+			    /* margin:0; for no padding */
+			    padding:0;
+			    min-height: 1px;
+			    
+			    img{
+			      width:100%;
+			    }
+			}
+			:last-child, .ibm-columns:last-child {
+			  margin: 0 0 10px 0;
+			  padding:0;
+			}
+			.ibm-col-5-3 .ibm-col-5-1, .ibm-col-5-3 .ibm-col-5-3 {
+        margin: 0 0 0px 0;
+        padding:0;
+      }
+			
+			.ibm-col-1-1 {
+				width:980px;
+				margin:0 0 0 0;
+			}
+			.ibm-col-5-1 {
+			/*     width: 172px; orig width - 196 no padding*/
+			   	width: 188px;
+			}
+			.ibm-col-5-2 {
+			/*     width: 364px; orig width - 392 no padding*/
+			   	width: 386px;
+			}
+	
+			.ibm-col-5-3 {
+			/*     width: 556px; orig width - 588 no padding*/
+			   	width: 584px;
+			}
+	
+			.ibm-col-5-4 {
+			/*    width: 748px; orig width - 784 no padding*/
+			   	width: 782px;
+			}
+		}
+		
+
+	}
+	
+	
+}
+
+@media screen and (max-width:800px) {
+    #ibm-content .postcard .ibm-columns {
+      padding:0;
+      width:100%;
+      
+      .ibm-col-1-1 {width: 800px;}
+      .ibm-col-5-1 {width: 150px;}
+      .ibm-col-5-2 {width: 310px;}
+      .ibm-col-5-3 {width: 470px;}
+      .ibm-col-5-4 {width: 630px;}
+    }
+  }
+  
+  @media screen and (max-width:768px) {
+     #ibm-content .postcard .ibm-columns {
+      .ibm-col-5-1 {width: 143px;}
+      .ibm-col-5-2 {width: 296px;}
+      .ibm-col-5-3 {width: 449px;}
+      .ibm-col-5-4 {width: 602px;}
+    }
+  }
+  
+  @media screen and (max-width:640px) { 
+     #ibm-content .postcard .ibm-columns {
+      .ibm-col-5-1 {width: 118px;}
+      .ibm-col-5-2 {width: 246px;}
+      .ibm-col-5-3 {width: 374px;}
+      .ibm-col-5-4 {width: 502px;}
+      }
+  }
+  
+  @media screen and (max-width:579px) {
+    
+    #ibm-content .postcard .ibm-columns {
+      .ibm-col-5-1,.ibm-col-5-2,.ibm-col-5-3,.ibm-col-5-4 {width: 100%;}
+      .noMobile{
+        display:none;
+      }
+    }
+  }
+ 
+/* POSTCARD TEMPLATE RULES FOR DEMONSTRATION PURPOSES
+#ibm-content {
+		.video1 {
+			.a { height:610px;}
+			.b { height:188px;}
+			.c { height:188px;}
+			.d { height:188px;}
+		}
+		.video2 {
+			.a { height:487px;}
+			.b { height:487px;}
+			.c { height:188px;}
+			.d { height:188px;}
+			.e { height:188px;}
+		}
+		.tert1 {
+			.a { height:386px;}
+			.b { height:386px;}
+			.c { height:386px;}
+			.d { height:188px;}
+			.e { height:386px;}
+			.f { height:188px;}
+			.g { height:188px;}
+		}
+		.tert2 {
+			.a { height:386px;}
+			.b { height:386px;}
+			.c { height:386px;}
+			.d { height:386px;}
+		}
+	  .tert3 {
+      .a { height:584px;}
+    }
+    .tert4 {
+      .a { height:386px;}
+      .b { height:386px;}
+      .c { height:386px;}
+    }
+    .tert5 {
+      .a { height:188px;}
+      .b { height:188px;}
+      .c { height:188px;}
+    }
+    .tert6 {
+      .a { height:188px;}
+      .b { height:188px;}
+      .c { height:188px;}
+      .d { height:386px;}
+      .e { height:386px;}
+      .f { height:386px;}
+    }
+    .tert7 {
+      .a { height:188px;}
+      .b { height:386px;}
+      .c { height:386px;}
+      .d { height:386px;}
+    }
+    .tert8 {
+      .a { height:782px;}
+      .b { height:386px;}
+      .c { height:188px;}
+      .d { height:188px;}
+    }
+    .tert9 {
+      .a { height:386px;}
+      .b { height:980px;}
+      .c { height:386px;}
+      .d { height:386px;}
+      .e { height:188px;}
+    }
+}*/

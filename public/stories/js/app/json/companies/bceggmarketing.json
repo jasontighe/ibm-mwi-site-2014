@@ -1,0 +1,225 @@
+{
+    "id" : 23,
+    
+    "company" : "British Columbia Egg Marketing Board",
+    "title": "eggs made with data",
+    "color1" : "#bd4c23",
+    "color2" : "#bd4c23",
+    "short-description" : "The British Columbia Egg Marketing Board is protecting public health with data",
+    "filterTechnology": "data",
+    "filterIndustry": "food",
+    "filterCapability": "supply-chain-optimization",
+    "filterCapabilityLabel": "Supply Chain Optimization",
+    "share_twitter_url" : "http://bit.ly/1qrsTiV",
+    "share_twitter_copy" : "The%20British%20Columbia%20Egg%20Marketing%20Board%20is%20protecting%20public%20health%20with%20data.%20See%20how.%20%23madewithIBM",
+    "share_fb_url" : "http%3A%2F%2Fwww.ibm.com%2Fsmarterplanet%2Fus%2Fen%2Fmadewithibm%2Fstories%2F%23!story%2F23%3Fcmp%3Dusbrb%26cm%3Dh%26csr%3Dagus_madewith_140407%26cr%3Dfacebook%26ct%3Dusbrb301%26cn%3Ds23_bceggmarketing",
+    "share_fb_copy" : "The%20British%20Columbia%20Egg%20Marketing%20Board%20is%20protecting%20public%20health%20with%20data.%20See%20how.%20%23madewithIBM",
+    "share_li_url" : "http://bit.ly/Rn4BNc",
+    "share_li_copy" : "The%20British%20Columbia%20Egg%20Marketing%20Board%20is%20protecting%20public%20health%20with%20data.%20See%20how.",
+    "story_background_image_url": "",
+    "thumbnail" : "stories/assets/images/s23/s23-thumb.jpg",
+    "templates": [
+      {
+        "id": 1,
+        "template_class": "template-5",
+        "template_tracking": "t5",
+        "template_background_image_url": "./assets/images/s23/s23-t5-bg.jpg",
+        "template_background_image_url_mobile": "./assets/images/s23/s23-t5-bg_mobile.jpg",
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "hyperlink": "",
+                "color1" : "#bd4c23",
+                "copy" : "The British Columbia Egg Marketing Board is protecting public health with data",
+                "capability" : "How to optimize a supply chain",
+                "quote": "",
+                "attribution" : ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "template_class": "template-4",
+        "template_tracking": "t4",
+        "template_background_image_url": "./assets/images/s23/s23-t4-bg.png",
+        "template_background_color" : "#bd4c23",
+        "template_type" : "summary-row",
+        "modules": [
+          {
+            "wrapper_class": "t4-mD summary",
+            "module_class": "module-D",
+            "module_type": "image",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url_tablet": "./assets/images/s23/s23-t4-mD.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t4-mE",
+            "module_class": "module-E summary",
+            "module_type": "text",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "title" : "Summary",
+                "hyperlink": "http://public.dhe.ibm.com/common/ssi/ecm/en/ytc03394caen/YTC03394CAEN.PDF",
+                "copy": "<p>The British Columbia Egg Marketing Board (BC Egg) oversees all egg production in British Columbia. Keeping track of millions of chickens and hundreds of millions of eggs is no easy feat, especially when it comes to controlling disease outbreaks. But by capturing data about farms and eggs electronically, they can now proactively help protect public health by better pinpointing the origin of tainted eggs.</p><p>IBM Big Data & Analytics can also provide insights into market trends, like spikes in demand around Easter and Christmas, so that BC Egg can increase or decrease production accordingly.</p>",
+                "cta_copy": "Learn more about BC Egg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "template_class": "template-3",
+        "template_tracking": "t3",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t3-mD",
+            "module_class": "module-D carousel-medium",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+	            {
+		            "asset_class": "",
+		            "image_url": "",
+		            "hyperlink": "",
+		            "quote": "We see things in data that we didn’t see before.",
+		            "attribution" : "Anne-Marie Butler<br/>Director of Finance and Administration, BC Egg Marketing Board"
+	            },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "quote": "If there is a disease outbreak, we can track those eggs back to the producers so we know whose they are.",
+                "attribution" : "Anne-Marie Butler<br/>Director of Finance and Administration, BC Egg Marketing Board"
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t3-mE",
+            "module_class": "module-E",
+            "module_type": "image",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s23/s23-t32-mD.gif",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "template_class": "template-video",
+        "template_tracking": "tV",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "video",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s23/s23-tv-mA.jpg",
+                "image_url_mobile": "./assets/images/s23/s23-tv-mA_mobile.jpg",
+                "hyperlink": "lPJ-SJDQ4UY",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "template_class": "carousel-full",
+		"template_tracking": "tC",
+		"template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "",
+            "module_class": "",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s23/s23-cf-stat-1.jpg",
+                "image_url_mobile": "./assets/images/s23/s23-cf-stat-1_mobile.jpg",
+                "hyperlink": "",
+                "color1" : "#bd4c23",
+                "copy": "66% reduction in farm inspection workload"
+              },
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s23/s23-cf-stat-2.jpg",
+                "image_url_mobile": "./assets/images/s23/s23-cf-stat-2_mobile.jpg",
+                "hyperlink": "",
+                "color1" : "#bd4c23",
+                "copy": "75% reduction in time it takes to plan budgets and sourcing"
+              }
+            ]
+          }
+        ]
+      },
+	    {
+		    "id": 6,
+		    "template_class": "template-footer",
+		    "template_tracking": "tF",
+		    "template_background_image_url": "",
+		    "template_background_color" : "#bd4c23",
+		    "template_title" : "How is this made?",
+		    "template_desc" : "Get to know the people and the solutions behind the transformation.",
+		    "modules": [
+			    {
+				    "wrapper_class": "tF-mD",
+				    "module_class": "module-D carousel-footer",
+				    "module_type": "carousel",
+				    "module_background_image": "",
+
+				    "assets": [
+					    {
+						    "asset_class": "",
+						    "image_url": "",
+						    "hyperlink": "http://www.ibm.com/big-data/us/en/big-data-and-analytics/operations-management.html?cmp=usbrb&cm=s&csr=madewithibm&cr=s23&ct=usbrb301&cn=madewithibm",
+						    "title" : "IBM Big Data & Analytics - Operations",
+						    "copy": "Big Data and analytics operations focus on analyzing machine data, which can include anything from IT machines to sensors, meters and GPS devices. By using big data for operations analysis, an organization can improve its operations by gaining real-time visibility into customer experience, transactions and behavior."
+					    },
+					    {
+						    "asset_class": "",
+						    "image_url": "",
+						    "hyperlink": "http://www-03.ibm.com/software/products/en/business-intelligence/?cmp=usbrb&cm=s&csr=madewithibm&cr=s23&ct=usbrb301&cn=madewithibm",
+						    "title" : "IBM Cognos Business Intelligence ",
+						    "copy": "IBM Cognos® Business Intelligence provides reporting, analysis and dashboards to help key stakeholders understand business performance, collaborate, and make data-driven decisions."
+					    }
+				    ]
+			    }
+		    ]
+	    }
+    ]
+
+  }
+  

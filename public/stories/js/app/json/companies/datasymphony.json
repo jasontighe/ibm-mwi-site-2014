@@ -1,0 +1,231 @@
+{
+    "id" : 1,
+    
+    "company" : "A Boy & His Atom",
+    "title": "nanostorage made with atoms",
+    "color1" : "#d13670",
+    "color2" : "#d13670",
+    "short-description" : "IBM is transforming computing with nanotechnology",
+    "filterTechnology": "data",
+    "filterIndustry": "research",
+    "filterCapability": "big-data-insights",
+    "filterCapabilityLabel": "Big Data Insights",
+    "share_twitter_url" : "http://bit.ly/1kL73W9",
+    "share_twitter_copy" : "IBM%20is%20transforming%20computing%20with%20nanotechnology.%20See%20how.%20%23madewithIBM",
+    "share_fb_url" : "http%3A%2F%2Fwww.ibm.com%2Fsmarterplanet%2Fus%2Fen%2Fmadewithibm%2Fstories%2F%23!story%2F1%3Fcmp%3Dusbrb%26cm%3Dh%26csr%3Dagus_madewith_140407%26cr%3Dfacebook%26ct%3Dusbrb301%26cn%3Ds1_datasymphony",
+    "share_fb_copy" : "IBM%20is%20transforming%20computing%20with%20nanotechnology.%20See%20how.%20%23madewithIBM",
+    "share_li_url" : "http://bit.ly/1noXLAO",
+    "share_li_copy" : "IBM%20is%20transforming%20computing%20with%20nanotechnology.%20See%20how.",
+    "thumbnail" : "stories/assets/images/s1/s1-thumb.gif",
+    "story_background_image_url": "",
+    "templates": [
+      {
+        "id": 1,
+        "template_class": "template-5",
+        "template_tracking": "t5",
+        "template_background_image_url": "./assets/images/s1/s1-t5-bg.jpg",
+        "template_background_image_url_mobile": "./assets/images/s1/s1-t5-bg_mobile.jpg",
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "hyperlink": "",
+                "color1" : "#d13670",
+                "copy" : "IBM is transforming computing with nanotechnology",
+                "capability" : "How to innovate with IBM Research",
+                "quote": "",
+                "attribution" : ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "template_class": "template-4",
+        "template_tracking": "t4",
+        "template_background_image_url": "./assets/images/s1/s1-t4-bg.png",
+        "template_background_color" : "#d13670",
+        "template_type" : "summary-row",
+        "modules": [
+          {
+            "wrapper_class": "t4-mD summary",
+            "module_class": "module-D",
+            "module_type": "image",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url_tablet": "./assets/images/s1/s1-t4-mD.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t4-mE summary",
+            "module_class": "module-E",
+            "module_type": "text",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "http://www.research.ibm.com/articles/madewithatoms.shtml?cmp=usbrb&cm=s&csr=madewithibm&cr=s1&ct=usbrb301&cn=madewithibm",
+                "title" : "Summary",
+                "copy": "<p>The ability to move single atoms, the building blocks of all matter in the universe, is crucial to advancing nanostorage. In 2012, IBM announced the creation of the world's smallest magnetic memory bit, made of just 12 atoms. This breakthrough can transform computing by facilitating the development of devices that have access to unprecedented levels of data storage.</p><p>But even nanophysicists like to have a little fun. In that spirit, the scientists moved atoms by using their scanning tunneling microscope to make a movie, which has been verified by Guinness World Records™ as the world’s Smallest Stop-Motion Film.</p>",
+                "cta_copy":"Learn more about <i>A Boy & His Atom</i>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "template_class": "template-3",
+        "template_tracking": "t3",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t3-mD",
+            "module_class": "module-D carousel-medium",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+           
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "color" : "#d13670",
+                "quote": "We can't know what future technologies will be, but we can lay the groundwork and spur our imaginations and get a head start in exploring these new worlds",
+                "attribution" : "Christopher Lutz, <br/>Scientist at IBM Research"
+              },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "color" : "#d13670",
+                "quote": "If commercialized, one day this atomic memory could store all of the movies ever made, in a device the size of a fingernail.",
+                "attribution" : "Andreas Heinrich, <br/>Principal Investigator, IBM Research"
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t3-mE",
+            "module_class": "module-E",
+            "module_type": "image",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s1/s1-t32-mD.gif",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "template_class": "template-video",
+        "template_tracking": "tV",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "video",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s1/s1-tv-mA.jpg",
+                "image_url_mobile": "./assets/images/s1/s1-tv-mA_mobile.jpg",
+                "hyperlink": "c9xgUDfNyxg",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      
+{
+        "id": 6,
+        "template_class": "carousel-full",
+        "template_tracking": "tC",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "",
+            "module_class": "",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "image_url_mobile": "",
+                "hyperlink": "",
+                "color1" : "#d13670",
+                "copy": "100 of today’s hard drives would hold the same amount of data as IBM’s Atomic Scale hard drives"
+              }
+            ]
+          }
+        ]
+      },
+
+	    {
+		    "id": 7,
+		    "template_class": "template-footer",
+		    "template_tracking": "tF",
+		    "template_background_image_url": "",
+		    "template_background_color" : "#d13670",
+		    "template_title" : "How is this made?",
+		    "template_desc" : "Get to know the people and the solutions behind the transformation.",
+		    "modules": [
+			    {
+				    "wrapper_class": "tF-mD",
+				    "module_class": "module-D carousel-footer",
+				    "module_type": "carousel",
+				    "module_background_image": "",
+
+				    "assets": [
+					    {
+						    "asset_class": "",
+						    "image_url": "",
+						    "hyperlink": "http://www.research.ibm.com/?cmp=usbrb&cm=s&csr=madewithibm&cr=s1&ct=usbrb301&cn=madewithibm",
+						    "title" : "IBM Research",
+						    "copy": "IBM Research is a global community of forward-thinkers working to push the boundaries of science, technology and business to make the world work better. Scientists at IBM Research have developed the Watson™ Cognitive Computer and Atomic-Scale-Memory, innovations that have already made an impact on real-world applications. "
+					    },
+					    {
+						    "asset_class": "",
+						    "image_url": "",
+						    "hyperlink": "http://www.ibm.com/smarterplanet/us/en/smarter_computing/article/atomic_scale_memory.html?cmp=usbrb&cm=s&csr=madewithibm&cr=s1&ct=usbrb301&cn=madewithibm",
+						    "title" : "Atomic Scale Magnetic Memory",
+						    "copy": "With atomic-scale magnetic memory, soon computers will be able to store one bit of data in 12 atoms. By studying the behavior of atoms, scientists at IBM Research are identifying crucial factors for building smaller, faster and more energy-efficient devices."
+					    },
+					    {
+			                "asset_class": "",
+			                "image_url": "",
+			                "hyperlink": "",
+			                "title" : "Andreas Heinrich<br/>Principal Investigator, IBM Research",
+			                "copy": "Andreas Heinrich leads a research team focused on exploring atomic-scale structures for possible applications in computation and data storage. He also educates the public on nanoscience, as demonstrated by the 2013 movie <i>A Boy And His Atom</i>",
+			                "social_twitter" : "",
+			                "social_linkedin" : "http://www.linkedin.com/profile/view?id=75597394&authType=NAME_SEARCH&authToken=bul-&locale=en_US&srchid=480100141396288240380&srchindex=1&srchtotal=51&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A480100141396288240380%2CVSRPtargetId%3A75597394%2CVSRPcmpt%3Aprimary"
+			              }
+				    ]
+			    }
+		    ]
+	    }
+    ]
+
+  }
+  

@@ -1,0 +1,220 @@
+{
+    "id" : 27,
+    
+    "company" : "Colombo",
+    "title": "Joy made with data",
+    "color1" : "#373130",
+    "color2" : "#373130",
+    "short-description" : "Leyou is understanding the needs of its customers with data",
+    "filterTechnology": "data",
+    "filterIndustry": "retail",
+    "filterCapability": "supply-chain-solutions",
+    "share_twitter_url" : "http://bit.ly/1ekGd95",
+    "share_twitter_copy" : "twitter test",
+    "share_fb_url" : "http%3A%2F%2Fwww.ibm.com%2Fsmarterplanet%2Fus%2Fen%2Fmadewithibm%2Fstories%2F%23!story%2F27%3Fcmp%3Dusbrb%26cm%3Dh%26csr%3Dagus_madewith_140407%26cr%3Dfacebook%26ct%3Dusbrb301%26cn%3Ds27_colombo",
+    "share_fb_copy" : "Sample fb copy",
+    "share_li_url" : "http://bit.ly/1kv5Rbh",
+    "share_li_copy" : "Sample LI copy",
+    "story_background_image_url": "",
+    "templates": [
+      {
+        "id": 1,
+        "template_class": "template-5",
+        "template_tracking": "t5A",
+        "template_background_image_url": "./assets/images/s27/s27-t5-bg.jpg",
+        "template_background_image_url_mobile": "./assets/images/s27/s27-t5-bg_mobile.jpg",
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "hyperlink": "",
+                "color1" : "#373130",
+                "copy" : "Colombo is creating a smarter sales force with mobile.",
+                "capability" : "How to facilitate open collaboration",
+                "quote": "",
+                "attribution" : ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "template_class": "template-3",
+        "template_tracking": "t3A",
+        "template_background_image_url": "./assets/images/s27/s27-t31-bg.jpg",
+        "template_background_color" : "#373130",
+        "modules": [
+          {
+            "wrapper_class": "t3-mD",
+            "module_class": "module-D",
+            "module_type": "image",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t3-mE",
+            "module_class": "module-E",
+            "module_type": "text",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "http://www.ibm.com/mobilefirst/us/en/offerings/#/Build",
+                "copy": "<p>Typically shoppers have a tenuous relationship with salespeople working the floor. But by using IBM mobile technology, Brazilian fashion retailer Camisaria Colombo has turned its sales force into its strongest asset. Through tablets and mobile devices, employees on the floor can access product catalogues and check inventory in other stores to help shoppers find and purchase whatever they’re looking for. This leads to more positive customer interactions and helps drive sales in every department.</p>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "template_class": "template-3",
+        "template_tracking": "t3B",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t3-mD",
+            "module_class": "module-D",
+            "module_type": "quote",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "quote": "This new mobility solution empowers our employees and extends our culture to the customers",
+                "attribution" : "- Alvaro Jabur Maluf, Jr.,<br/> President, Camisaria Colombo"
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t3-mE",
+            "module_class": "module-E",
+            "module_type": "image",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s27/s27-t32-mD.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "template_class": "template-5",
+        "template_tracking": "t5B",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "video",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s27/s27-tv-mA.jpg",
+                "image_url_mobile": "./assets/images/s27/s27-tv-mA_mobile.jpg",
+                "hyperlink": "url-to-youtube-video-file",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "template_class": "carousel-full",
+        "template_tracking": "tC",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "",
+            "module_class": "",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s27/s27-cf-stat-1.jpg",
+                "image_url_mobile": "./assets/images/s27/s27-cf-stat-1_mobile.jpg",
+                "hyperlink": "",
+                "copy": "62%: Retailers reporting that big data and analytics is creating a competitive advantage for their organizations."
+              },
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s27/s27-cf-stat-2.jpg",
+                "image_url_mobile": "./assets/images/s27/s27-cf-stat-2_mobile.jpg",
+                "hyperlink": "",
+                "copy": "Over 50%: Big data efforts by retail companies are focused on achieving customer-centric outcomes."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "template_class": "template-footer",
+        "template_tracking": "tF",
+        "template_background_image_url": "",
+        "template_background_color" : "#373130",
+        "template_title" : "How is this made?",
+        "modules": [
+          {
+            "wrapper_class": "tF-mD",
+            "module_class": "module-D",
+            "module_type": "copy",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "title" : "TK",
+                "copy": "85% of CMOs say they lack the data and tools to create an #omnichannel strategy. http://bit.ly/1bsUjn0  #smartercommerce",
+                "social_twitter" : "twitter.com",
+                "social_linkedin" : "linkedin.com"
+              }
+            ]
+          },
+          {
+	            "wrapper_class": "t4-mE",
+	            "module_class": "module-E carousel-medium",
+	            "module_type": "copy",
+	            "module_background_image": "",
+	            "assets": [
+	              {
+	                "asset_class": "",
+	                "image_url": "",
+	                "hyperlink": "ibm.com",
+	                "title" : "SoftLayer",
+	                "copy": "IBM<sup>&reg;</sup> Cognos<sup>&reg;</sup> Business Intelligence provides reporting, analysis and dashboards to help key stakeholders understand business performance, collaborate, and make data-driven decisions. "
+	              }
+	            ]
+	        }
+          
+        ]
+      }
+    ]
+
+  }
+  

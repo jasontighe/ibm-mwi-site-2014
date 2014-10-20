@@ -1,0 +1,1114 @@
+3.3.0.rc.2 (Maptastic Maple)
+714e74d6e94d39e754ad8df030617f8c177186b0
+o:Sass::Tree::RootNode:@has_childrenT:@template"R7// URI: www.ibm.com/common/v17e/voices/css/ww_cci.css
+// Description: Voices v17e customization CSS file
+// Author: Vishwas Chouhan/Armonk/Contr/IBM
+// Date: Sept 24, 2013
+//
+// Notes:
+//   Add "ibm-adapt" class to modules that change under different viewport
+//   Use ".ibm_cci-" class prefix for site specific custom code
+
+
+body ul li:before, body ul li:after {
+	content:none;
+}
+
+//For testing blocks
+// div * {outline:1px solid #F00}
+// p {outline:1px solid #0F0}
+// li {outline:1px solid #00F}
+
+
+/* IBM CONTENT BLOCK OVERIDES (BEGIN) */
+#ibm-content-main { 
+	background-color: #f8f8f8;
+}
+
+
+#ibm-pcon#{$ibm-pcon__modifier} {
+	margin:0px;
+	padding: 0 0 0 0;
+	float:left;
+}
+
+#ibm-content#{$ibm-content__modifier}{
+	background:none;
+}
+#ibm-content-body{
+	// h1: 1.0em;
+}
+#ibm-content-main.ibm_cci-cb-overwrite{
+	background-color:#fff;
+}
+
+#ibm-content-main{
+//
+	.ibm-band.ibm_cci__ibm-band-about {
+		background: #fff;
+		background: -moz-linear-gradient(top,  #f2f2f2 0%, #fff 0%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f2f2), color-stop(0%,#fff));
+		background: -webkit-linear-gradient(top,  #f2f2f2 0%,#fff 0%);
+		background: -o-linear-gradient(top,  #f2f2f2 0%,#fff 0%);
+		background: -ms-linear-gradient(top,  #f2f2f2 0%,#fff 0%);
+		background: linear-gradient(to bottom,  #f2f2f2 0%,#fff 0%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#fff',GradientType=0 );
+		min-height:5px;	
+		padding:0;
+		box-shadow: inset 0 4px 8px -4px rgba(0,0,0,0.1);
+		border-top: rgba(0,0,0,0.1) solid 1px;
+	}
+	.ibm-band#{$ibm-band__modifier} {
+		background: #f8f8f8;
+		background: -moz-linear-gradient(top,  #f2f2f2 0%, #f8f8f8 0%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f2f2), color-stop(0%,#f8f8f8));
+		background: -webkit-linear-gradient(top,  #f2f2f2 0%,#f8f8f8 0%);
+		background: -o-linear-gradient(top,  #f2f2f2 0%,#f8f8f8 0%);
+		background: -ms-linear-gradient(top,  #f2f2f2 0%,#f8f8f8 0%);
+		background: linear-gradient(to bottom,  #f2f2f2 0%,#f8f8f8 0%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#f8f8f8',GradientType=0 );
+		min-height:5px;	
+		padding:0;
+		box-shadow: inset 0 4px 8px -4px rgba(0,0,0,0.1);
+		border-top: rgba(0,0,0,0.1) solid 1px;
+	}
+
+	.ibm-band.ibm_cci__ibm-band-about{
+		padding-bottom:20px;
+	}
+}
+
+
+#{$ibm-widget-js}.ibm-columns.ibm_cci-gv__modifier > * a,
+#{$ibm-widget-js}.ibm-columns.ibm_cci-lv__modifier > * a {
+	text-decoration:none !important;
+	color:#000;
+}
+
+#{$ibm-widget-js}.ibm-columns.ibm_cci-gv__modifier .ibm_cci-voicesLoader, 
+#{$ibm-widget-js}.ibm-columns.ibm_cci-lv__modifier .ibm_cci-voicesLoader{
+	width:100%;
+	float:left;
+	height:30px;
+}
+
+
+#{$ibm-widget-js} .ibm_cci-blocker {
+	position: absolute;
+	z-index: 9998;
+	width: 250%;
+	height: 100%;
+	top: 0;
+	background-color: #fff;
+	margin-left:-500px;
+	margin-top:-500px;
+}
+
+#{$ibm-widget-js} .ibm_cci-loader {
+	position: absolute;
+	z-index: 9999;
+	width: 38px;
+	height: 38px;
+	opacity: .75;
+	top: 150px;
+	left: 50%;
+	margin: -19px 0 0 -19px;
+	background-image: url('#{$imagePath}/voices/i/loader.png');
+}
+
+
+/* GRID VIEW UNRESOLVED AND RESOLVED (BEGIN) ***/
+.ibm-columns.ibm_cci-gv__modifier {
+	margin:40px auto !important;
+	// padding: 0 0 10px !important;
+}
+
+.ibm-columns.ibm_cci-gv__modifier .ibm-col-1-1 {
+	float:left;
+	width:300px;
+	background-color: #fff;
+	transition:width all 0.20s ease;
+	-webkit-transition: all 0.20s ease; /* Safari */
+	-moz-transition: all 0.20s ease;
+	transition-duration:0.50s;
+	-webkit-transition-duration: 0.50s;
+	-moz-transition-duration: 0.50s;
+	clear:none;
+	outline:1px solid #ccc;
+	margin-bottom:20px;
+	min-height:170px;
+	position:relative;
+}
+// GRID VIEW (END)
+
+
+/* HOVER EFFECTS BEGIN */
+@each $view in ibm_cci-lv__modifier, ibm_cci-gv__modifier {
+	@if $view == ibm_cci-lv__modifier {
+		#{$ibm-widget-js}.ibm-columns.#{$view} .ibm-col-1-1:first-child:hover + .ibm-col-1-1
+		{
+			border-top:1px solid $hover-color;
+		}
+		#{$ibm-widget-js}.ibm-columns.#{$view} .ibm-col-1-1:not(:nth-child(1)):hover
+		{
+			border-top:1px solid $hover-color;
+		}
+		#{$ibm-widget-js}.ibm-columns.#{$view} .ibm-col-1-1:not(:nth-child(1)):hover + .ibm-col-1-1
+		{
+			border-top:1px solid $hover-color;
+		}
+		#{$ibm-widget-js}.ibm-columns.#{$view} .ibm-col-1-1:last-child:hover
+		{
+			border-top:1px solid $hover-color;
+			border-bottom:1px solid $hover-color;
+		}
+
+	}
+	@else if $view == ibm_cci-gv__modifier{
+		#{$ibm-widget-js}.ibm-columns.#{$view} .ibm-col-1-1:hover
+		{
+			outline:1px solid $hover-color;
+		}
+	} 
+	
+	#{$ibm-widget-js}.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1:hover .ibm-col-6-2 .ibm_cci--lv-rc-sharing > ul,
+	#{$ibm-widget-js}.ibm-columns.ibm_cci-gv__modifier .ibm-col-1-1:hover .ibm-col-6-2 .ibm_cci--lv-rc-sharing > ul,
+	#{$ibm-widget-js}.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1:hover #{$ibm-listview-unro} .ibm_cci--unr-cb .ibm_cci--lv-rc-sharing > ul,
+	#{$ibm-widget-js}.ibm-columns.ibm_cci-gv__modifier .ibm-col-1-1:hover #{$ibm-listview-unro} .ibm_cci--unr-cb .ibm_cci--lv-rc-sharing > ul,		
+	#{$ibm-widget-js}.ibm-columns.#{$view} .ibm-col-1-1:hover .ibm-col-6-4 .ibm_cci--rcb .ibm_cci-sib,
+	#{$ibm-widget-js}.ibm-columns.#{$view} .ibm-col-1-1:hover .ibm-col-6-4 .ibm_cci--rcb .ibm_cci-gv-sib,
+		{
+			visibility:visible;
+		}
+}
+
+	
+#{$ibm-widget-js}.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1:hover .ibm_cci--rea-block ul li .ibm_cci--rea-b .ibm_cci--rea-b-e .ibm_cci--rea-b,
+#{$ibm-widget-js}.ibm-columns.ibm_cci-gv__modifier .ibm-col-1-1:hover .ibm_cci--rea-block ul li .ibm_cci--rea-b .ibm_cci--rea-b-e .ibm_cci--rea-b
+	{
+		background-color:$hover-color;
+	}
+
+//LIST VIEW
+#{$ibm-widget-js}.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1:hover .ibm-col-6-4 .ibm_cci--rea-block ul li p.ibm_cci--rea-rank,
+#{$ibm-widget-js}.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1:hover .ibm_cci--lv-unro-b .ibm_cci--rea-block ul li p.ibm_cci--rea-rank, 
+#{$ibm-widget-js}.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1:hover .ibm-col-6-4 .ibm_cci--rcb .ibm_cci--ttb h2.ibm_cci--tweet-title a,
+#{$ibm-widget-js}.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1:hover #{$ibm-listview-unro} .ibm_cci--unr-cb .ibm_cci--ttb h2.ibm_cci--tweet-title a,
+#{$ibm-widget-js}.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1:hover .ibm-col-6-4 .ibm_cci--rcb .ibm_cci--ttb .ibm_cci--tweet-description .ibm_cci--tweet-content-text span.ibm_cci--tweet-description-readmore a,
+
+//GRID VIEW
+#{$ibm-widget-js}.ibm-columns.ibm_cci-gv__modifier .ibm-col-1-1:hover .ibm-col-6-4 .ibm_cci--rea-block ul li p.ibm_cci--rea-rank,
+#{$ibm-widget-js}.ibm-columns.ibm_cci-gv__modifier .ibm-col-1-1:hover .ibm_cci--gv-unro-b .ibm_cci--rea-block ul li p.ibm_cci--rea-rank, 
+#{$ibm-widget-js}.ibm-columns.ibm_cci-gv__modifier .ibm-col-1-1:hover .ibm-col-6-4 .ibm_cci--rcb .ibm_cci--ttb h2.ibm_cci--tweet-title a,
+#{$ibm-widget-js}.ibm-columns.ibm_cci-gv__modifier .ibm-col-1-1:hover #{$ibm-listview-unro} .ibm_cci--unr-cb .ibm_cci--ttb h2.ibm_cci--tweet-title a,
+	{
+		color:$hover-color;
+	}
+
+//LIST VIEW
+#{$ibm-widget-js}.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1:hover .ibm-col-6-4 .ibm_cci--rcb .ibm_cci--ttb p.ibm_cci--tweet-description,
+#{$ibm-widget-js}.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1:hover #{$ibm-listview-unro} .ibm_cci--unr-cb .ibm_cci--ttb p.ibm_cci--tweet-description,
+#{$ibm-widget-js}.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1:hover .ibm-col-6-2,
+	{
+		display:block;
+	}
+
+#{$ibm-widget-js}.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1:hover .ibm-col-6-2 .ibm_cci--lv-rc-description p a,
+#{$ibm-widget-js}.ibm-columns.ibm_cci-gv__modifier .ibm-col-1-1:hover .ibm-col-6-2 .ibm_cci--lv-rc-description p a
+	{
+		text-decoration:none;
+		color: $hover-color;
+	}
+/* HOVER EFFECTS END */
+
+
+// From Radio filter independent css defined by Umesh (BEGIN)
+a.ibm_cci-gototop {
+	visibility: hidden;
+	position: fixed;
+	right: 20px;
+	bottom: 0px;
+	color: #000;
+	font: normal 0.9em 'helveticaneuelight',HelveticaNeue,Helvetica,Arial,sans-serif, sans-serif;
+	text-decoration: none;
+	margin: 0;
+	padding:0;
+	border: 0;
+	width: 56px;
+	height: 72px;
+	background: #DFDFDF url('#{$imagePath}/voices/i/backtotop.png') no-repeat;
+	z-index: 1000;
+	text-indent: -999999px;
+}
+
+.ibm_cci-search-term-highlight{
+	background: #dfdfdf;
+}
+
+.ibm_cci-colorClass1{
+	background: #d8bebe;
+}
+
+
+
+.ibm_cci-colorClass2{
+	background: #c8c8c8;
+}
+
+.ibm_cci-colorClass3{
+	/*background: #f59999;*/
+}
+
+.ibm_cci--voices-divider{
+	width: 100%;
+	border:dotted #ccc; 
+	border-width:1px 0 0 0; 
+	height:0;
+	line-height:0px;
+	font-size:0;
+	margin:0;
+	padding:0 0 10px 0;
+}
+
+.ibm_cci--newly-added{
+	visibility:none;
+	}
+// From Radio filter independent css defined by Umesh (END)
+
+
+/* MODIFYERS FOR MOBILE (BEGIN) */
+@media only screen and (min-width:0) and (max-width:568px){
+
+	html {
+		font-size:66%;
+	}
+	#ibm-top.ibm-landing-page #ibm-leadspace-head.ibm_cc__voices_ls {
+		min-height:75px;
+		#ibm-leadspace-body {
+			width:300px;
+			min-height:65px;
+			padding:0;
+		}	
+	}
+
+	#{$ibm-widget-js}.ibm_cci-blocker {
+		width:400px;
+	}
+
+	.leadspace--defaults {
+		margin:10px 0;
+	}
+
+	#ibm-leadspace-head.ibm_cc__voices_ls #ibm-leadspace-body #{$leadspace--logo}{
+		width:126px;
+		margin: 20px 0 10px 10px;
+	}
+
+	#ibm-leadspace-head #{$leadspace--logo} h1#{$leadspace__modifier} {
+		background-position: -224px -38px;
+		width:125px;
+		height:28px;
+		a {
+			width:125px;
+			line-height: 28px;
+		}		
+	}	
+
+	#{$leadspace--search}, #{$leadspace--toggle}, .ibm_cci--sk.ibm_cci--sk__mt, #ibm-leadspace-body .ibm_cci--sr {
+		display: none;
+	}
+
+	.ibm-band#{$ibm-band__modifier} {
+		width:100%;
+	}
+
+	#ibm-top #ibm_cci-widget-js.ibm-columns.ibm_cci-gv__modifier .ibm-col-1-1 {
+		width:300px;
+	}
+
+	#ibm-top .ibm-columns .ibm-col-1-1 {
+		// margin:0 0 20px 10px;
+		margin:0 0 20px 0;
+	}
+
+	#ibm-content.ibm_cci__ibm-content #ibm-content-body #ibm-content-main .ibm-band.ibm_cci__ibm-band {
+		margin-bottom:20px;
+	}
+
+	#ibm-leadspace-head.ibm_cc__voices_ls #ibm-leadspace-body .ibm_cci--ls--logo p.ibm_cci-about, 
+	#ibm-leadspace-head.ibm_cc__voices_ls #ibm-leadspace-body .ibm_cci--ls--logo p.ibm_cci-back
+	{
+		// top:30px;
+		left:0px;
+		// width:130px
+				
+	}
+
+		//FOR ABOUT US PAGE
+		//
+		#ibm-content #{$ibm-widget-about}.ibm-columns .ibm-col-6-2.ibm_cci-rr{
+			margin-top:20px;
+		}	
+		#ibm-content #{$ibm-widget-about}.ibm-columns .ibm-col-6-4.ibm_cci_acc{
+			position:relative;
+			top:-20px;
+		}
+
+		.ibm-legal-text, .ibm-legal {
+			width:300px;
+		}						}
+
+
+/* MODIFYERS FOR TABLETS (BEGIN) */
+@media only screen and (min-width:641px) and (max-width:800px) {
+	
+	html {
+		font-size:66%;
+	}
+
+	#ibm-top.ibm-landing-page #ibm-leadspace-head.ibm_cc__voices_ls {
+		min-height:100px;
+		
+		#ibm-leadspace-body, .ibm_cci--sk.ibm_cci--sk__mt {
+			width:730px;
+		}
+
+		#ibm-leadspace-body{	
+			min-height:100px;
+			padding:0;
+		}
+
+	}
+
+	.leadspace--defaults {
+		margin:20px 0;
+	}
+
+	#ibm-leadspace-head.ibm_cc__voices_ls #ibm-leadspace-body #{$leadspace--logo}{
+		width:250px;
+		margin: 40px 0;
+	}
+
+	#ibm-leadspace-head #{$leadspace--logo} h1#{$leadspace__modifier} {
+		background-position: -224px 0;
+		width:167px;
+		height:37px;
+		a {
+			width:167px;
+			line-height: 37px;
+		}
+	}
+	#{$leadspace--toggle} {
+		width: 86px; 
+	}
+
+	#{$leadspace--search} {
+		width: 360px;
+	}
+
+	#{$leadspace--search} form input.ibm-cc-search--field {
+		width:285px; 
+		margin-top:5px;
+	}
+
+	// #ibm-leadspace-head.ibm_cc__voices_ls #ibm-leadspace-body .ibm_cci--sr {
+	// 		margin-left: 10px;
+	// } 
+
+	// #ibm-leadspace-head.ibm_cc__voices_ls #ibm-leadspace-body .ibm_cci--sk.ibm_cci--sk__mt {
+	// 	margin-left:10px;
+	// }
+	//
+	#ibm-top .ibm-columns {
+		padding: 0 35px;
+	} 
+
+	#{$ibm-widget-js}.ibm-columns.ibm_cci-lv__modifier {
+		width:730px;
+		padding:0;
+
+		.ibm-col-1-1 {
+			width:730px;
+			margin:0;
+			position: relative !important;
+			top: 0 !important;
+		}
+
+		.ibm-card {
+			margin-bottom:0;
+		}
+	}
+
+
+	#{$ibm-widget-js}.ibm-columns.ibm_cci-gv__modifier {
+		width:640px;
+		padding:0;
+	}
+
+
+
+#{$ibm-widget-js}.ibm-columns.ibm_cci-gv__modifier { 
+
+	.ibm_cci--tweet-description, .ibm_cci--tweet-title, .ibm_cci--rcb {
+			width: 270px;
+		}
+	}
+
+	#{$ibm-widget-js}.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1 .ibm-col-6-4 .ibm_cci--rcb {
+		width:650px;
+		padding:0;
+		border:0;
+		clear:none;
+
+		.ibm_cci-fav-ihb{
+			width:590px;
+
+			a.ibm_cci--feed-title {
+				width:560px;
+			}
+		}
+	}
+	#{$ibm-widget-js}.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1 .ibm-col-6-2 {
+		width:650px;
+		margin: 20px 0 0 80px;
+		clear:both;
+		display:none;
+
+		ul, .ibm_cci--lv-rc-sharing {
+			width:inherit;
+
+			> ul {
+				width:502px; 
+			}
+		}
+	}
+	
+	#{$ibm-widget-js}.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1 .ibm-col-6-2 .ibm_cci-rel-tweet-detils-container{
+		min-width: 596px;
+	}
+
+	#{$ibm-widget-js}.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1 .ibm_cci--lv-unro-b {
+		width:inherit;
+
+		.ibm_cci--unr-cb, .ibm_cci--unr-cb .ibm_cci--lv-rc-sharing {
+			width:540px;
+
+			> ul {
+				width:502px;
+			}			
+		}
+	}
+
+	#ibm-leadspace-head.ibm_cc__voices_ls #ibm-leadspace-body .ibm_cci--ls--logo p.ibm_cci-back{
+		top:0px;
+		left:-80px;
+		width:120px;
+	}
+
+	#ibm-leadspace-head.ibm_cc__voices_ls #ibm-leadspace-body .ibm_cci--ls--logo p.ibm_cci-about {
+		// top:37px;
+		left:-85px;	
+	}
+
+
+	// ABOUT US PAGE
+	#ibm-content #{$ibm-widget-about}.ibm-columns .ibm-col-6-4.ibm_cci_acc {
+		position:relative;
+		top:0;
+		margin-top:0;
+
+		.ibm-columns.ibm_cci-accounts{
+			margin-top:20px;
+
+			.ibm-col-6-2.ibm_cci-ba, .ibm-col-6-2.ibm_cci-ia{
+				width:310px;
+			}
+
+			.ibm-col-6-2.ibm_cci-ia .ibm-columns{
+				.ibm-col-6-1 {
+					width: 145px;
+				}
+			}
+		}
+	}	
+
+	#ibm-content #{$ibm-widget-about}.ibm-columns .ibm-col-6-2.ibm_cci-rr{
+		width:640px;
+		margin-top:25px;
+		img {
+					// width:274px;
+					float:left;
+				}
+
+				p.ibm_cci-rea-desc {
+					float:left;
+					width:340px;
+					padding-left:25px;
+					border-bottom:none;
+				}
+
+				.ibm-columns .ibm-col-6-2 {
+					img {
+						margin: 15px 120px 20px 0;
+					}
+
+					h2, p {
+						margin-left: 0;
+					}
+				}
+			}
+
+			#ibm-footer-module .ibm-columns .ibm-col-6-1 { min-height: 200px;}	
+			.ibm-legal-text, .ibm-legal {
+				width:708px;
+			}			
+		}
+
+
+:@options{ :@children[-o:Sass::Tree::CommentNode
+:
+@type:silent:@value["F/* URI: www.ibm.com/common/v17e/voices/css/ww_cci.css
+ * Description: Voices v17e customization CSS file
+ * Author: Vishwas Chouhan/Armonk/Contr/IBM
+ * Date: Sept 24, 2013
+ *
+ * Notes:
+ *   Add "ibm-adapt" class to modules that change under different viewport
+ *   Use ".ibm_cci-" class prefix for site specific custom code */;@;	[ :
+@lineio:Sass::Tree::RuleNode;T:@selector_source_rangeo:Sass::Source::Range	:@start_poso:Sass::Source::Position:@offseti;i:@importero: Sass::Importers::Filesystem:@same_name_warningso:Set:
+@hash{ :
+@root"h/Users/jessica.criscione/Documents/workspace/ibmmasters-develop/source/ibmmasters/public/css/voices:
+@file"scss/_ww_cci.scss:@end_poso;;i*;i:@parsed_ruleso:"Sass::Selector::CommaSequence:@members[o:Sass::Selector::Sequence;[o:#Sass::Selector::SimpleSequence:@subject0:@sourceso;;{ ;[o:Sass::Selector::Element	:
+@name["	body:@namespace0:@filename" ;i;'@!;i:@source_rangeo;	;o;;i;i;0;@!;o;;i
+;io;!;"0;#o;;{ ;[o;$	;%["ul;&0;'@!;i;'@!;i;(o;	;o;;i;i;0;@!;o;;i;io;!;"0;#o;;{ ;[o;$	;%["li;&0;'@!;io:Sass::Selector::Pseudo
+;%["before:@syntactic_type:
+class;'@!;i:	@arg0;'@!;i;(o;	;o;;i;i;0;@!;o;;i;io; ;[o;!;"0;#o;;{ ;[o;$	;%["	body;&0;'@!;i;'@!;i;(o;	;o;;i;i;0;@!;o;;i;io;!;"0;#o;;{ ;[o;$	;%["ul;&0;'@!;i;'@!;i;(o;	;o;;i;i;0;@!;o;;i ;io;!;"0;#o;;{ ;[o;$	;%["li;&0;'@!;io;)
+;%["
+after;*;+;'@!;i;,0;'@!;i;(o;	;o;;i!;i;0;@!;o;;i);i;'@!;i:
+@rule["(body ul li:before, body ul li:after;@;	[o:Sass::Tree::PropNode:@name_source_rangeo;	;o;;i;i;@;@;o;;i;i;%["content;o: Sass::Script::Tree::Literal;o: Sass::Script::Value::String;:identifier;"	none;@;i;(o;	;o;;i;i;@;@;o;;i;i;@;	[ ;i:@value_source_rangeo;	;o;;i;i;@;@;o;;i;i;(o;	;@d;@;@;@q:@prop_syntax:new:
+@tabsi ;i;(o;	;o;;i;i;@;@;o;;i*;i;6i o;
+
+;;;["{/*For testing blocks
+ * div * {outline:1px solid #F00}
+ * p {outline:1px solid #0F0}
+ * li {outline:1px solid #00F} */;@;	[ ;io;
+
+;:normal;["-/* IBM CONTENT BLOCK OVERIDES (BEGIN) */;@;	[ ;io;;T;o;	;o;;i;i;@;@;o;;i;i;o;;[o; ;[o;!;"0;#o;;{ ;[o:Sass::Selector::Id;%["ibm-content-main;'" ;i;'@à;i;(o;	;o;;i;i;0;@à;o;;i;i;'@à;i;-["#ibm-content-main;@;	[o;.;/o;	;o;;i;i;@;@;o;;i;i;%["background-color;o;0;o;1;;2;"#f8f8f8;@;i;(o;	;o;;i;i;@;@;o;;i ;i;@;	[ ;i;3o;	;o;;i;i;@;@;o;;i ;i;(o;	;@ë;@;@;@û;4;5;6i ;i;(o;	;o;;i;i;@;@;o;;i;i;6i o;;T;o;	;o;;i;i ;@;@;o;;i&;i ;-["#ibm-pcono:!Sass::Script::Tree::Variable;%"ibm-pcon__modifier;'@;@:@underscored_name"ibm_pcon__modifier;i ;(o;	;o;;i;i ;@;@;o;;i$;i ;@;	[o;.;/o;	;o;;i;i!;@;@;o;;i;i!;%["margin;o;0;o;1;;2;"0px;@;i!;(o;	;o;;i;i!;@;@;o;;i;i!;@;	[ ;i!;3o;	;o;;i;i!;@;@;o;;i;i!;(o;	;@≤;@;@;@ø;4;5;6i o;.;/o;	;o;;i;i";@;@;o;;i;i";%["padding;o;0;o;1;;2;"0 0 0 0;@;i";(o;	;o;;i;i";@;@;o;;i;i";@;	[ ;i";3o;	;o;;i;i";@;@;o;;i;i";(o;	;@√;@;@;@–;4;5;6i o;.;/o;	;o;;i;i#;@;@;o;;i;i#;%["
+float;o;0;o;1;;2;"	left;@;i#;(o;	;o;;i;i#;@;@;o;;i;i#;@;	[ ;i#;3o;	;o;;i;i#;@;@;o;;i;i#;(o;	;@‘;@;@;@·;4;5;6i ;i ;(o;	;o;;i;i ;@;@;o;;i&;i ;6i o;;T;o;	;o;;i;i&;@;@;o;;i+;i&;-["#ibm-contento;9;%"ibm-content__modifier;'@;@;:"ibm_content__modifier;i&;(o;	;o;;i;i&;@;@;o;;i*;i&;@;	[o;.;/o;	;o;;i;i';@;@;o;;i;i';%["background;o;0;o;1;;2;"	none;@;i';(o;	;o;;i;i';@;@;o;;i;i';@;	[ ;i';3o;	;o;;i;i';@;@;o;;i;i';(o;	;@ı;@;@;@;4;5;6i ;i&;(o;	;o;;i;i&;@;@;o;;i+;i&;6i o;;T;o;	;o;;i;i);@;@;o;;i;i);o;;[o; ;[o;!;"0;#o;;{ ;[o;8;%["ibm-content-body;'" ;i);'@;i);(o;	;o;;i;i;0;@;o;;i;i;'@;i);-["#ibm-content-body;@;	[o;
+
+;;;["/* h1: 1.0em; */;@;	[ ;i*;i);(o;	;o;;i;i);@;@;o;;i;i);6i o;;T;o;	;o;;i;i,;@;@;o;;i,;i,;o;;[o; ;[o;!;"0;#o;;{ ;[o;8;%["ibm-content-main;'" ;i,o:Sass::Selector::Class;%["ibm_cci-cb-overwrite;'@3;i,;'@3;i,;(o;	;o;;i;i;0;@3;o;;i,;i;'@3;i,;-["+#ibm-content-main.ibm_cci-cb-overwrite;@;	[o;.;/o;	;o;;i;i-;@;@;o;;i;i-;%["background-color;o;0;o;1;;2;"	#fff;@;i-;(o;	;o;;i;i-;@;@;o;;i;i-;@;	[ ;i-;3o;	;o;;i;i-;@;@;o;;i;i-;(o;	;@?;@;@;@L;4;5;6i ;i,;(o;	;o;;i;i,;@;@;o;;i,;i,;6i o;;T;o;	;o;;i;i0;@;@;o;;i;i0;o;;[o; ;[o;!;"0;#o;;{ ;[o;8;%["ibm-content-main;'" ;i0;'@`;i0;(o;	;o;;i;i;0;@`;o;;i;i;'@`;i0;-["#ibm-content-main;@;	[	o;
+
+;;;["
+/* */;@;	[ ;i1o;;T;o;	;o;;i;i2;@;@;o;;i);i2;o;;[o; ;[o;!;"0;#o;;{ ;[o;;;%["ibm-band;'" ;i2o;;;%["ibm_cci__ibm-band-about;'@z;i2;'@z;i2;(o;	;o;;i;i;0;@z;o;;i';i;'@z;i2;-["&.ibm-band.ibm_cci__ibm-band-about;@;	[o;.;/o;	;o;;i;i3;@;@;o;;i;i3;%["background;o;0;o;1;;2;"	#fff;@;i3;(o;	;o;;i;i3;@;@;o;;i;i3;@;	[ ;i3;3o;	;o;;i;i3;@;@;o;;i;i3;(o;	;@Ü;@;@;@ì;4;5;6i o;.;/o;	;o;;i;i4;@;@;o;;i;i4;%["background;o: Sass::Script::Tree::Funcall:@keywordso:Sass::Util::NormalizedMap:@key_strings{ :	@mapIC:OrderedHash{ :
+@keys[ ;%"-moz-linear-gradient;'@;@;i4:@splat0:@kwarg_splat0;(o;	;o;;i;i4;@;@;o;;iC;i4:
+@args[o;0	;o;1;;2;"top;@;'@;i4;(o;	;o;;i);i4;@;@;o;;i,;i4o:$Sass::Script::Tree::ListLiteral:@elements[o;0	;o:Sass::Script::Value::Color;0:@attrs{	:rediÚ:
+greeniÚ:
+alphai:	blueiÚ;@;'@;i4;(o;	;o;;i/;i4;@;@;o;;i6;i4o;0	;o: Sass::Script::Value::Number
+:@numerator_units["%;i ;@:@original"0%:@denominator_units[ ;'@;i4;(o;	;o;;i7;i4;@;@;o;;i9;i4;'@;@;i4:@separator:
+space;(o;	;o;;i-;i4;@;@;o;;i9;i4o;F;G[o;0	;o;H;0;I{	;Jiˇ;Kiˇ;Li;Miˇ;@;'@;i4;(o;	;o;;i;;i4;@;@;o;;i?;i4o;0	;o;N
+;O["%;i ;@;P"0%;Q[ ;'@;i4;(o;	;o;;i@;i4;@;@;o;;iB;i4;'@;@;i4;R;S;(o;	;o;;i:;i4;@;@;o;;iB;i4;@;	[ ;i4;3o;	;o;;i;i4;@;@;o;;iC;i4;(o;	;@ó;@;@;@÷;4;5;6i o;.;/o;	;o;;i;i5;@;@;o;;i;i5;%["background;o;<;=o;>;?{ ;@IC;A{ ;B[ ;%"-webkit-gradient;'@;@;i5;C0;D0;(o;	;o;;i;i5;@;@;o;;ip;i5;E[
+o;0	;o;1;;2;"linear;@;'@;i5;(o;	;o;;i%;i5;@;@;o;;i+;i5o;F;G[o;0	;o;1;;2;"	left;@;'@;i5;(o;	;o;;i-;i5;@;@;o;;i1;i5o;0	;o;1;;2;"top;@;'@;i5;(o;	;o;;i2;i5;@;@;o;;i5;i5;'@;@;i5;R;S;(o;	;o;;i,;i5;@;@;o;;i5;i5o;F;G[o;0	;o;1;;2;"	left;@;'@;i5;(o;	;o;;i7;i5;@;@;o;;i;;i5o;0	;o;1;;2;"bottom;@;'@;i5;(o;	;o;;i<;i5;@;@;o;;iB;i5;'@;@;i5;R;S;(o;	;o;;i6;i5;@;@;o;;iB;i5o;<;=o;>;?{ ;@IC;A{ ;B[ ;%"color-stop;'@;@;i5;C0;D0;(o;	;o;;iD;i5;@;@;o;;iZ;i5;E[o;0	;o;N
+;O["%;i ;@;P"0%;Q[ ;'@;i5;(o;	;o;;iO;i5;@;@;o;;iQ;i5o;0	;o;H;0;I{	;JiÚ;KiÚ;Li;MiÚ;@;'@;i5;(o;	;o;;iR;i5;@;@;o;;iY;i5o;<;=o;>;?{ ;@IC;A{ ;B[ ;%"color-stop;'@;@;i5;C0;D0;(o;	;o;;i\;i5;@;@;o;;io;i5;E[o;0	;o;N
+;O["%;i ;@;P"0%;Q[ ;'@;i5;(o;	;o;;ig;i5;@;@;o;;ii;i5o;0	;o;H;0;I{	;Jiˇ;Kiˇ;Li;Miˇ;@;'@;i5;(o;	;o;;ij;i5;@;@;o;;in;i5;@;	[ ;i5;3o;	;o;;i;i5;@;@;o;;ip;i5;(o;	;@⁄;@;@;@E;4;5;6i o;.;/o;	;o;;i;i6;@;@;o;;i;i6;%["background;o;<;=o;>;?{ ;@IC;A{ ;B[ ;%"-webkit-linear-gradient;'@;@;i6;C0;D0;(o;	;o;;i;i6;@;@;o;;iE;i6;E[o;0	;o;1;;2;"top;@;'@;i6;(o;	;o;;i,;i6;@;@;o;;i/;i6o;F;G[o;0	;o;H;0;I{	;JiÚ;KiÚ;Li;MiÚ;@;'@;i6;(o;	;o;;i2;i6;@;@;o;;i9;i6o;0	;o;N
+;O["%;i ;@;P"0%;Q[ ;'@;i6;(o;	;o;;i:;i6;@;@;o;;i<;i6;'@;@;i6;R;S;(o;	;o;;i0;i6;@;@;o;;i<;i6o;F;G[o;0	;o;H;0;I{	;Jiˇ;Kiˇ;Li;Miˇ;@;'@;i6;(o;	;o;;i=;i6;@;@;o;;iA;i6o;0	;o;N
+;O["%;i ;@;P"0%;Q[ ;'@;i6;(o;	;o;;iB;i6;@;@;o;;iD;i6;'@;@;i6;R;S;(o;	;o;;i=;i6;@;@;o;;iD;i6;@;	[ ;i6;3o;	;o;;i;i6;@;@;o;;iE;i6;(o;	;@I;@;@;@à;4;5;6i o;.;/o;	;o;;i;i7;@;@;o;;i;i7;%["background;o;<;=o;>;?{ ;@IC;A{ ;B[ ;%"-o-linear-gradient;'@;@;i7;C0;D0;(o;	;o;;i;i7;@;@;o;;i@;i7;E[o;0	;o;1;;2;"top;@;'@;i7;(o;	;o;;i';i7;@;@;o;;i*;i7o;F;G[o;0	;o;H;0;I{	;JiÚ;KiÚ;Li;MiÚ;@;'@;i7;(o;	;o;;i-;i7;@;@;o;;i4;i7o;0	;o;N
+;O["%;i ;@;P"0%;Q[ ;'@;i7;(o;	;o;;i5;i7;@;@;o;;i7;i7;'@;@;i7;R;S;(o;	;o;;i+;i7;@;@;o;;i7;i7o;F;G[o;0	;o;H;0;I{	;Jiˇ;Kiˇ;Li;Miˇ;@;'@;i7;(o;	;o;;i8;i7;@;@;o;;i<;i7o;0	;o;N
+;O["%;i ;@;P"0%;Q[ ;'@;i7;(o;	;o;;i=;i7;@;@;o;;i?;i7;'@;@;i7;R;S;(o;	;o;;i8;i7;@;@;o;;i?;i7;@;	[ ;i7;3o;	;o;;i;i7;@;@;o;;i@;i7;(o;	;@å;@;@;@À;4;5;6i o;.;/o;	;o;;i;i8;@;@;o;;i;i8;%["background;o;<;=o;>;?{ ;@IC;A{ ;B[ ;%"-ms-linear-gradient;'@;@;i8;C0;D0;(o;	;o;;i;i8;@;@;o;;iA;i8;E[o;0	;o;1;;2;"top;@;'@;i8;(o;	;o;;i(;i8;@;@;o;;i+;i8o;F;G[o;0	;o;H;0;I{	;JiÚ;KiÚ;Li;MiÚ;@;'@;i8;(o;	;o;;i.;i8;@;@;o;;i5;i8o;0	;o;N
+;O["%;i ;@;P"0%;Q[ ;'@;i8;(o;	;o;;i6;i8;@;@;o;;i8;i8;'@;@;i8;R;S;(o;	;o;;i,;i8;@;@;o;;i8;i8o;F;G[o;0	;o;H;0;I{	;Jiˇ;Kiˇ;Li;Miˇ;@;'@;i8;(o;	;o;;i9;i8;@;@;o;;i=;i8o;0	;o;N
+;O["%;i ;@;P"0%;Q[ ;'@;i8;(o;	;o;;i>;i8;@;@;o;;i@;i8;'@;@;i8;R;S;(o;	;o;;i9;i8;@;@;o;;i@;i8;@;	[ ;i8;3o;	;o;;i;i8;@;@;o;;iA;i8;(o;	;@œ;@;@;@;4;5;6i o;.;/o;	;o;;i;i9;@;@;o;;i;i9;%["background;o;<;=o;>;?{ ;@IC;A{ ;B[ ;%"linear-gradient;'@;@;i9;C0;D0;(o;	;o;;i;i9;@;@;o;;iC;i9;E[o;F;G[o;0	;o;1;;2;"to;@;'@;i9;(o;	;o;;i$;i9;@;@;o;;i&;i9o;0	;o;1;;2;"bottom;@;'@;i9;(o;	;o;;i';i9;@;@;o;;i-;i9;'@;@;i9;R;S;(o;	;o;;i$;i9;@;@;o;;i-;i9o;F;G[o;0	;o;H;0;I{	;JiÚ;KiÚ;Li;MiÚ;@;'@;i9;(o;	;o;;i0;i9;@;@;o;;i7;i9o;0	;o;N
+;O["%;i ;@;P"0%;Q[ ;'@;i9;(o;	;o;;i8;i9;@;@;o;;i:;i9;'@;@;i9;R;S;(o;	;o;;i.;i9;@;@;o;;i:;i9o;F;G[o;0	;o;H;0;I{	;Jiˇ;Kiˇ;Li;Miˇ;@;'@;i9;(o;	;o;;i;;i9;@;@;o;;i?;i9o;0	;o;N
+;O["%;i ;@;P"0%;Q[ ;'@;i9;(o;	;o;;i@;i9;@;@;o;;iB;i9;'@;@;i9;R;S;(o;	;o;;i;;i9;@;@;o;;iB;i9;@;	[ ;i9;3o;	;o;;i;i9;@;@;o;;iC;i9;(o;	;@;@;@;@\;4;5;6i o;.;/o;	;o;;i;i:;@;@;o;;i;i:;%["filter;o;0	;o;1;;2;"lprogid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f2f2', endColorstr='#fff',GradientType=0 );@;'@;i:;(o;	;o;;i;i:;@;@;o;;iw;i:;@;	[ ;i:;3o;	;o;;i;i:;@;@;o;;iw;i:;(o;	;@`;@;@;@m;4;5;6i o;.;/o;	;o;;i;i;;@;@;o;;i;i;;%["min-height;o;0;o;1;;2;"5px;@;i;;(o;	;o;;i;i;;@;@;o;;i;i;;@;	[ ;i;;3o;	;o;;i;i;;@;@;o;;i;i;;(o;	;@q;@;@;@~;4;5;6i o;.;/o;	;o;;i;i<;@;@;o;;i;i<;%["padding;o;0;o;1;;2;"0;@;i<;(o;	;o;;i;i<;@;@;o;;i;i<;@;	[ ;i<;3o;	;o;;i;i<;@;@;o;;i;i<;(o;	;@Ç;@;@;@è;4;5;6i o;.;/o;	;o;;i;i=;@;@;o;;i;i=;%["box-shadow;o;F;G[o;0	;o;1;;2;"
+inset;@;'@;i=;(o;	;o;;i;i=;@;@;o;;i;i=o;0	;o;N
+;O[ ;i ;@;P"0;Q[ ;'@;i=;(o;	;o;;i;i=;@;@;o;;i;i=o;0	;o;N
+;O["px;i	;@;P"4px;Q[ ;'@;i=;(o;	;o;;i;i=;@;@;o;;i;i=o;0	;o;N
+;O["px;i;@;P"8px;Q[ ;'@;i=;(o;	;o;;i ;i=;@;@;o;;i#;i=o;0	;o;N
+;O["px;i˜;@;P"	-4px;Q[ ;'@;i=;(o;	;o;;i$;i=;@;@;o;;i(;i=o;<;=o;>;?{ ;@IC;A{ ;B[ ;%"	rgba;'@;@;i=;C0;D0;(o;	;o;;i);i=;@;@;o;;i8;i=;E[	o;0	;o;N
+;O[ ;i ;@;P"0;Q@£;'@;i=;(o;	;o;;i.;i=;@;@;o;;i/;i=o;0	;o;N
+;O[ ;i ;@;P"0;Q@£;'@;i=;(o;	;o;;i0;i=;@;@;o;;i1;i=o;0	;o;N
+;O[ ;i ;@;P"0;Q@£;'@;i=;(o;	;o;;i2;i=;@;@;o;;i3;i=o;0	;o;N
+;O[ ;f0.10000000000000001 ôö;@;P"0.1;Q@£;'@;i=;(o;	;o;;i4;i=;@;@;o;;i7;i=;'@;@;i=;R;S;(o;	;o;;i;i=;@;@;o;;i8;i=;@;	[ ;i=;3o;	;o;;i;i=;@;@;o;;i8;i=;(o;	;@ì;@;@;@Ô;4;5;6i o;.;/o;	;o;;i;i>;@;@;o;;i;i>;%["border-top;o;F;G[o;<;=o;>;?{ ;@IC;A{ ;B[ ;%"	rgba;'@;@;i>;C0;D0;(o;	;o;;i;i>;@;@;o;;i#;i>;E[	o;0	;o;N
+;O[ ;i ;@;P"0;Q@£;'@;i>;(o;	;o;;i;i>;@;@;o;;i;i>o;0	;o;N
+;O[ ;i ;@;P"0;Q@£;'@;i>;(o;	;o;;i;i>;@;@;o;;i;i>o;0	;o;N
+;O[ ;i ;@;P"0;Q@£;'@;i>;(o;	;o;;i;i>;@;@;o;;i;i>o;0	;o;N
+;O[ ;f0.10000000000000001 ôö;@;P"0.1;Q@£;'@;i>;(o;	;o;;i;i>;@;@;o;;i";i>o;0	;o;1;;2;"
+solid;@;'@;i>;(o;	;o;;i$;i>;@;@;o;;i);i>o;0	;o;N
+;O["px;i;@;P"1px;Q[ ;'@;i>;(o;	;o;;i*;i>;@;@;o;;i-;i>;'@;@;i>;R;S;(o;	;o;;i;i>;@;@;o;;i-;i>;@;	[ ;i>;3o;	;o;;i;i>;@;@;o;;i-;i>;(o;	;@Û;@;@;@5;4;5;6i ;i2;(o;	;o;;i;i2;@;@;o;;i);i2;6i o;;T;o;	;o;;i;i@;@;@;o;;i';i@;-[".ibm-bando;9;%"ibm-band__modifier;'@;@;:"ibm_band__modifier;i@;(o;	;o;;i;i@;@;@;o;;i%;i@;@;	[o;.;/o;	;o;;i;iA;@;@;o;;i;iA;%["background;o;0;o;1;;2;"#f8f8f8;@;iA;(o;	;o;;i;iA;@;@;o;;i;iA;@;	[ ;iA;3o;	;o;;i;iA;@;@;o;;i;iA;(o;	;@I;@;@;@V;4;5;6i o;.;/o;	;o;;i;iB;@;@;o;;i;iB;%["background;o;<;=o;>;?{ ;@IC;A{ ;B[ ;%"-moz-linear-gradient;'@;@;iB;C0;D0;(o;	;o;;i;iB;@;@;o;;iF;iB;E[o;0	;o;1;;2;"top;@;'@;iB;(o;	;o;;i);iB;@;@;o;;i,;iBo;F;G[o;0	;o;H;0;I{	;JiÚ;KiÚ;Li;MiÚ;@;'@;iB;(o;	;o;;i/;iB;@;@;o;;i6;iBo;0	;o;N
+;O["%;i ;@;P"0%;Q[ ;'@;iB;(o;	;o;;i7;iB;@;@;o;;i9;iB;'@;@;iB;R;S;(o;	;o;;i-;iB;@;@;o;;i9;iBo;F;G[o;0	;o;H;0;I{	;Ji¯;Ki¯;Li;Mi¯;@;'@;iB;(o;	;o;;i;;iB;@;@;o;;iB;iBo;0	;o;N
+;O["%;i ;@;P"0%;Q[ ;'@;iB;(o;	;o;;iC;iB;@;@;o;;iE;iB;'@;@;iB;R;S;(o;	;o;;i:;iB;@;@;o;;iE;iB;@;	[ ;iB;3o;	;o;;i;iB;@;@;o;;iF;iB;(o;	;@Z;@;@;@ô;4;5;6i o;.;/o;	;o;;i;iC;@;@;o;;i;iC;%["background;o;<;=o;>;?{ ;@IC;A{ ;B[ ;%"-webkit-gradient;'@;@;iC;C0;D0;(o;	;o;;i;iC;@;@;o;;is;iC;E[
+o;0	;o;1;;2;"linear;@;'@;iC;(o;	;o;;i%;iC;@;@;o;;i+;iCo;F;G[o;0	;o;1;;2;"	left;@;'@;iC;(o;	;o;;i-;iC;@;@;o;;i1;iCo;0	;o;1;;2;"top;@;'@;iC;(o;	;o;;i2;iC;@;@;o;;i5;iC;'@;@;iC;R;S;(o;	;o;;i,;iC;@;@;o;;i5;iCo;F;G[o;0	;o;1;;2;"	left;@;'@;iC;(o;	;o;;i7;iC;@;@;o;;i;;iCo;0	;o;1;;2;"bottom;@;'@;iC;(o;	;o;;i<;iC;@;@;o;;iB;iC;'@;@;iC;R;S;(o;	;o;;i6;iC;@;@;o;;iB;iCo;<;=o;>;?{ ;@IC;A{ ;B[ ;%"color-stop;'@;@;iC;C0;D0;(o;	;o;;iD;iC;@;@;o;;iZ;iC;E[o;0	;o;N
+;O["%;i ;@;P"0%;Q[ ;'@;iC;(o;	;o;;iO;iC;@;@;o;;iQ;iCo;0	;o;H;0;I{	;JiÚ;KiÚ;Li;MiÚ;@;'@;iC;(o;	;o;;iR;iC;@;@;o;;iY;iCo;<;=o;>;?{ ;@IC;A{ ;B[ ;%"color-stop;'@;@;iC;C0;D0;(o;	;o;;i\;iC;@;@;o;;ir;iC;E[o;0	;o;N
+;O["%;i ;@;P"0%;Q[ ;'@;iC;(o;	;o;;ig;iC;@;@;o;;ii;iCo;0	;o;H;0;I{	;Ji¯;Ki¯;Li;Mi¯;@;'@;iC;(o;	;o;;ij;iC;@;@;o;;iq;iC;@;	[ ;iC;3o;	;o;;i;iC;@;@;o;;is;iC;(o;	;@ù;@;@;@;4;5;6i o;.;/o;	;o;;i;iD;@;@;o;;i;iD;%["background;o;<;=o;>;?{ ;@IC;A{ ;B[ ;%"-webkit-linear-gradient;'@;@;iD;C0;D0;(o;	;o;;i;iD;@;@;o;;iH;iD;E[o;0	;o;1;;2;"top;@;'@;iD;(o;	;o;;i,;iD;@;@;o;;i/;iDo;F;G[o;0	;o;H;0;I{	;JiÚ;KiÚ;Li;MiÚ;@;'@;iD;(o;	;o;;i2;iD;@;@;o;;i9;iDo;0	;o;N
+;O["%;i ;@;P"0%;Q[ ;'@;iD;(o;	;o;;i:;iD;@;@;o;;i<;iD;'@;@;iD;R;S;(o;	;o;;i0;iD;@;@;o;;i<;iDo;F;G[o;0	;o;H;0;I{	;Ji¯;Ki¯;Li;Mi¯;@;'@;iD;(o;	;o;;i=;iD;@;@;o;;iD;iDo;0	;o;N
+;O["%;i ;@;P"0%;Q[ ;'@;iD;(o;	;o;;iE;iD;@;@;o;;iG;iD;'@;@;iD;R;S;(o;	;o;;i=;iD;@;@;o;;iG;iD;@;	[ ;iD;3o;	;o;;i;iD;@;@;o;;iH;iD;(o;	;@;@;@;@K;4;5;6i o;.;/o;	;o;;i;iE;@;@;o;;i;iE;%["background;o;<;=o;>;?{ ;@IC;A{ ;B[ ;%"-o-linear-gradient;'@;@;iE;C0;D0;(o;	;o;;i;iE;@;@;o;;iC;iE;E[o;0	;o;1;;2;"top;@;'@;iE;(o;	;o;;i';iE;@;@;o;;i*;iEo;F;G[o;0	;o;H;0;I{	;JiÚ;KiÚ;Li;MiÚ;@;'@;iE;(o;	;o;;i-;iE;@;@;o;;i4;iEo;0	;o;N
+;O["%;i ;@;P"0%;Q[ ;'@;iE;(o;	;o;;i5;iE;@;@;o;;i7;iE;'@;@;iE;R;S;(o;	;o;;i+;iE;@;@;o;;i7;iEo;F;G[o;0	;o;H;0;I{	;Ji¯;Ki¯;Li;Mi¯;@;'@;iE;(o;	;o;;i8;iE;@;@;o;;i?;iEo;0	;o;N
+;O["%;i ;@;P"0%;Q[ ;'@;iE;(o;	;o;;i@;iE;@;@;o;;iB;iE;'@;@;iE;R;S;(o;	;o;;i8;iE;@;@;o;;iB;iE;@;	[ ;iE;3o;	;o;;i;iE;@;@;o;;iC;iE;(o;	;@O;@;@;@é;4;5;6i o;.;/o;	;o;;i;iF;@;@;o;;i;iF;%["background;o;<;=o;>;?{ ;@IC;A{ ;B[ ;%"-ms-linear-gradient;'@;@;iF;C0;D0;(o;	;o;;i;iF;@;@;o;;iD;iF;E[o;0	;o;1;;2;"top;@;'@;iF;(o;	;o;;i(;iF;@;@;o;;i+;iFo;F;G[o;0	;o;H;0;I{	;JiÚ;KiÚ;Li;MiÚ;@;'@;iF;(o;	;o;;i.;iF;@;@;o;;i5;iFo;0	;o;N
+;O["%;i ;@;P"0%;Q[ ;'@;iF;(o;	;o;;i6;iF;@;@;o;;i8;iF;'@;@;iF;R;S;(o;	;o;;i,;iF;@;@;o;;i8;iFo;F;G[o;0	;o;H;0;I{	;Ji¯;Ki¯;Li;Mi¯;@;'@;iF;(o;	;o;;i9;iF;@;@;o;;i@;iFo;0	;o;N
+;O["%;i ;@;P"0%;Q[ ;'@;iF;(o;	;o;;iA;iF;@;@;o;;iC;iF;'@;@;iF;R;S;(o;	;o;;i9;iF;@;@;o;;iC;iF;@;	[ ;iF;3o;	;o;;i;iF;@;@;o;;iD;iF;(o;	;@í;@;@;@—;4;5;6i o;.;/o;	;o;;i;iG;@;@;o;;i;iG;%["background;o;<;=o;>;?{ ;@IC;A{ ;B[ ;%"linear-gradient;'@;@;iG;C0;D0;(o;	;o;;i;iG;@;@;o;;iF;iG;E[o;F;G[o;0	;o;1;;2;"to;@;'@;iG;(o;	;o;;i$;iG;@;@;o;;i&;iGo;0	;o;1;;2;"bottom;@;'@;iG;(o;	;o;;i';iG;@;@;o;;i-;iG;'@;@;iG;R;S;(o;	;o;;i$;iG;@;@;o;;i-;iGo;F;G[o;0	;o;H;0;I{	;JiÚ;KiÚ;Li;MiÚ;@;'@;iG;(o;	;o;;i0;iG;@;@;o;;i7;iGo;0	;o;N
+;O["%;i ;@;P"0%;Q[ ;'@;iG;(o;	;o;;i8;iG;@;@;o;;i:;iG;'@;@;iG;R;S;(o;	;o;;i.;iG;@;@;o;;i:;iGo;F;G[o;0	;o;H;0;I{	;Ji¯;Ki¯;Li;Mi¯;@;'@;iG;(o;	;o;;i;;iG;@;@;o;;iB;iGo;0	;o;N
+;O["%;i ;@;P"0%;Q[ ;'@;iG;(o;	;o;;iC;iG;@;@;o;;iE;iG;'@;@;iG;R;S;(o;	;o;;i;;iG;@;@;o;;iE;iG;@;	[ ;iG;3o;	;o;;i;iG;@;@;o;;iF;iG;(o;	;@’;@;@;@;4;5;6i o;.;/o;	;o;;i;iH;@;@;o;;i;iH;%["filter;o;0	;o;1;;2;"oprogid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f2f2', endColorstr='#f8f8f8',GradientType=0 );@;'@;iH;(o;	;o;;i;iH;@;@;o;;iz;iH;@;	[ ;iH;3o;	;o;;i;iH;@;@;o;;iz;iH;(o;	;@#;@;@;@0;4;5;6i o;.;/o;	;o;;i;iI;@;@;o;;i;iI;%["min-height;o;0;o;1;;2;"5px;@;iI;(o;	;o;;i;iI;@;@;o;;i;iI;@;	[ ;iI;3o;	;o;;i;iI;@;@;o;;i;iI;(o;	;@4;@;@;@A;4;5;6i o;.;/o;	;o;;i;iJ;@;@;o;;i;iJ;%["padding;o;0;o;1;;2;"0;@;iJ;(o;	;o;;i;iJ;@;@;o;;i;iJ;@;	[ ;iJ;3o;	;o;;i;iJ;@;@;o;;i;iJ;(o;	;@E;@;@;@R;4;5;6i o;.;/o;	;o;;i;iK;@;@;o;;i;iK;%["box-shadow;o;F;G[o;0	;o;1;;2;"
+inset;@;'@;iK;(o;	;o;;i;iK;@;@;o;;i;iKo;0	;o;N
+;O[ ;i ;@;P"0;Q@£;'@;iK;(o;	;o;;i;iK;@;@;o;;i;iKo;0	;o;N
+;O["px;i	;@;P"4px;Q[ ;'@;iK;(o;	;o;;i;iK;@;@;o;;i;iKo;0	;o;N
+;O["px;i;@;P"8px;Q[ ;'@;iK;(o;	;o;;i ;iK;@;@;o;;i#;iKo;0	;o;N
+;O["px;i˜;@;P"	-4px;Q[ ;'@;iK;(o;	;o;;i$;iK;@;@;o;;i(;iKo;<;=o;>;?{ ;@IC;A{ ;B[ ;%"	rgba;'@;@;iK;C0;D0;(o;	;o;;i);iK;@;@;o;;i8;iK;E[	o;0	;o;N
+;O[ ;i ;@;P"0;Q@£;'@;iK;(o;	;o;;i.;iK;@;@;o;;i/;iKo;0	;o;N
+;O[ ;i ;@;P"0;Q@£;'@;iK;(o;	;o;;i0;iK;@;@;o;;i1;iKo;0	;o;N
+;O[ ;i ;@;P"0;Q@£;'@;iK;(o;	;o;;i2;iK;@;@;o;;i3;iKo;0	;o;N
+;O[ ;f0.10000000000000001 ôö;@;P"0.1;Q@£;'@;iK;(o;	;o;;i4;iK;@;@;o;;i7;iK;'@;@;iK;R;S;(o;	;o;;i;iK;@;@;o;;i8;iK;@;	[ ;iK;3o;	;o;;i;iK;@;@;o;;i8;iK;(o;	;@V;@;@;@±;4;5;6i o;.;/o;	;o;;i;iL;@;@;o;;i;iL;%["border-top;o;F;G[o;<;=o;>;?{ ;@IC;A{ ;B[ ;%"	rgba;'@;@;iL;C0;D0;(o;	;o;;i;iL;@;@;o;;i#;iL;E[	o;0	;o;N
+;O[ ;i ;@;P"0;Q@£;'@;iL;(o;	;o;;i;iL;@;@;o;;i;iLo;0	;o;N
+;O[ ;i ;@;P"0;Q@£;'@;iL;(o;	;o;;i;iL;@;@;o;;i;iLo;0	;o;N
+;O[ ;i ;@;P"0;Q@£;'@;iL;(o;	;o;;i;iL;@;@;o;;i;iLo;0	;o;N
+;O[ ;f0.10000000000000001 ôö;@;P"0.1;Q@£;'@;iL;(o;	;o;;i;iL;@;@;o;;i";iLo;0	;o;1;;2;"
+solid;@;'@;iL;(o;	;o;;i$;iL;@;@;o;;i);iLo;0	;o;N
+;O["px;i;@;P"1px;Q[ ;'@;iL;(o;	;o;;i*;iL;@;@;o;;i-;iL;'@;@;iL;R;S;(o;	;o;;i;iL;@;@;o;;i-;iL;@;	[ ;iL;3o;	;o;;i;iL;@;@;o;;i-;iL;(o;	;@µ;@;@;@˜;4;5;6i ;i@;(o;	;o;;i;i@;@;@;o;;i';i@;6i o;;T;o;	;o;;i;iO;@;@;o;;i(;iO;o;;[o; ;[o;!;"0;#o;;{ ;[o;;;%["ibm-band;'" ;iOo;;;%["ibm_cci__ibm-band-about;'@;iO;'@;iO;(o;	;o;;i;i;0;@;o;;i';i;'@;iO;-["&.ibm-band.ibm_cci__ibm-band-about;@;	[o;.;/o;	;o;;i;iP;@;@;o;;i;iP;%["padding-bottom;o;0;o;1;;2;"	20px;@;iP;(o;	;o;;i;iP;@;@;o;;i;iP;@;	[ ;iP;3o;	;o;;i;iP;@;@;o;;i;iP;(o;	;@;@;@;@$;4;5;6i ;iO;(o;	;o;;i;iO;@;@;o;;i(;iO;6i ;i0;(o;	;o;;i;i0;@;@;o;;i;i0;6i o;;T;o;	;o;;i;iU;@;@;o;;i?;iV;-[	o;9;%"ibm-widget-js;'@;@;:"ibm_widget_js;iU;(o;	;o;;i;iU;@;@;o;;i;iU"..ibm-columns.ibm_cci-gv__modifier > * a,
+o;9;%"ibm-widget-js;'@;@;:"ibm_widget_js;iV;(o;	;o;;i;iV;@;@;o;;i;iV",.ibm-columns.ibm_cci-lv__modifier > * a;@;	[o;.;/o;	;o;;i;iW;@;@;o;;i;iW;%["text-decoration;o;0;o;1;;2;"none !important;@;iW;(o;	;o;;i;iW;@;@;o;;i&;iW;@;	[ ;iW;3o;	;o;;i;iW;@;@;o;;i&;iW;(o;	;@B;@;@;@O;4;5;6i o;.;/o;	;o;;i;iX;@;@;o;;i;iX;%["
+color;o;0;o;1;;2;"	#000;@;iX;(o;	;o;;i;iX;@;@;o;;i;iX;@;	[ ;iX;3o;	;o;;i;iX;@;@;o;;i;iX;(o;	;@S;@;@;@`;4;5;6i ;iU;(o;	;o;;i;iU;@;@;o;;i?;iV;6i o;;T;o;	;o;;i;i[;@;@;o;;iN;i\;-[	o;9;%"ibm-widget-js;'@;@;:"ibm_widget_js;i[;(o;	;o;;i;i[;@;@;o;;i;i["?.ibm-columns.ibm_cci-gv__modifier .ibm_cci-voicesLoader, 
+o;9;%"ibm-widget-js;'@;@;:"ibm_widget_js;i\;(o;	;o;;i;i\;@;@;o;;i;i\"<.ibm-columns.ibm_cci-lv__modifier .ibm_cci-voicesLoader;@;	[o;.;/o;	;o;;i;i];@;@;o;;i;i];%["
+width;o;0;o;1;;2;"	100%;@;i];(o;	;o;;i;i];@;@;o;;i;i];@;	[ ;i];3o;	;o;;i;i];@;@;o;;i;i];(o;	;@{;@;@;@à;4;5;6i o;.;/o;	;o;;i;i^;@;@;o;;i;i^;%["
+float;o;0;o;1;;2;"	left;@;i^;(o;	;o;;i;i^;@;@;o;;i;i^;@;	[ ;i^;3o;	;o;;i;i^;@;@;o;;i;i^;(o;	;@å;@;@;@ô;4;5;6i o;.;/o;	;o;;i;i_;@;@;o;;i;i_;%["height;o;0;o;1;;2;"	30px;@;i_;(o;	;o;;i;i_;@;@;o;;i;i_;@;	[ ;i_;3o;	;o;;i;i_;@;@;o;;i;i_;(o;	;@ù;@;@;@™;4;5;6i ;i[;(o;	;o;;i;i[;@;@;o;;iN;i\;6i o;;T;o;	;o;;i;ic;@;@;o;;i);ic;-[o;9;%"ibm-widget-js;'@;@;:"ibm_widget_js;ic;(o;	;o;;i;ic;@;@;o;;i;ic" .ibm_cci-blocker;@;	[o;.;/o;	;o;;i;id;@;@;o;;i;id;%["position;o;0;o;1;;2;"absolute;@;id;(o;	;o;;i;id;@;@;o;;i;id;@;	[ ;id;3o;	;o;;i;id;@;@;o;;i;id;(o;	;@æ;@;@;@À;4;5;6i o;.;/o;	;o;;i;ie;@;@;o;;i;ie;%["z-index;o;0;o;1;;2;"	9998;@;ie;(o;	;o;;i;ie;@;@;o;;i;ie;@;	[ ;ie;3o;	;o;;i;ie;@;@;o;;i;ie;(o;	;@œ;@;@;@‹;4;5;6i o;.;/o;	;o;;i;if;@;@;o;;i;if;%["
+width;o;0;o;1;;2;"	250%;@;if;(o;	;o;;i;if;@;@;o;;i;if;@;	[ ;if;3o;	;o;;i;if;@;@;o;;i;if;(o;	;@‡;@;@;@Ì;4;5;6i o;.;/o;	;o;;i;ig;@;@;o;;i;ig;%["height;o;0;o;1;;2;"	100%;@;ig;(o;	;o;;i;ig;@;@;o;;i;ig;@;	[ ;ig;3o;	;o;;i;ig;@;@;o;;i;ig;(o;	;@Ò;@;@;@˛;4;5;6i o;.;/o;	;o;;i;ih;@;@;o;;i
+;ih;%["top;o;0;o;1;;2;"0;@;ih;(o;	;o;;i;ih;@;@;o;;i;ih;@;	[ ;ih;3o;	;o;;i;ih;@;@;o;;i;ih;(o;	;@;@;@;@;4;5;6i o;.;/o;	;o;;i;ii;@;@;o;;i;ii;%["background-color;o;0;o;1;;2;"	#fff;@;ii;(o;	;o;;i;ii;@;@;o;;i;ii;@;	[ ;ii;3o;	;o;;i;ii;@;@;o;;i;ii;(o;	;@;@;@;@ ;4;5;6i o;.;/o;	;o;;i;ij;@;@;o;;i;ij;%["margin-left;o;0;o;1;;2;"-500px;@;ij;(o;	;o;;i;ij;@;@;o;;i;ij;@;	[ ;ij;3o;	;o;;i;ij;@;@;o;;i;ij;(o;	;@$;@;@;@1;4;5;6i o;.;/o;	;o;;i;ik;@;@;o;;i;ik;%["margin-top;o;0;o;1;;2;"-500px;@;ik;(o;	;o;;i;ik;@;@;o;;i;ik;@;	[ ;ik;3o;	;o;;i;ik;@;@;o;;i;ik;(o;	;@5;@;@;@B;4;5;6i ;ic;(o;	;o;;i;ic;@;@;o;;i);ic;6i o;;T;o;	;o;;i;in;@;@;o;;i(;in;-[o;9;%"ibm-widget-js;'@;@;:"ibm_widget_js;in;(o;	;o;;i;in;@;@;o;;i;in" .ibm_cci-loader;@;	[o;.;/o;	;o;;i;io;@;@;o;;i;io;%["position;o;0;o;1;;2;"absolute;@;io;(o;	;o;;i;io;@;@;o;;i;io;@;	[ ;io;3o;	;o;;i;io;@;@;o;;i;io;(o;	;@V;@;@;@c;4;5;6i o;.;/o;	;o;;i;ip;@;@;o;;i;ip;%["z-index;o;0;o;1;;2;"	9999;@;ip;(o;	;o;;i;ip;@;@;o;;i;ip;@;	[ ;ip;3o;	;o;;i;ip;@;@;o;;i;ip;(o;	;@g;@;@;@t;4;5;6i o;.;/o;	;o;;i;iq;@;@;o;;i;iq;%["
+width;o;0;o;1;;2;"	38px;@;iq;(o;	;o;;i;iq;@;@;o;;i;iq;@;	[ ;iq;3o;	;o;;i;iq;@;@;o;;i;iq;(o;	;@x;@;@;@Ö;4;5;6i o;.;/o;	;o;;i;ir;@;@;o;;i;ir;%["height;o;0;o;1;;2;"	38px;@;ir;(o;	;o;;i;ir;@;@;o;;i;ir;@;	[ ;ir;3o;	;o;;i;ir;@;@;o;;i;ir;(o;	;@â;@;@;@ñ;4;5;6i o;.;/o;	;o;;i;is;@;@;o;;i;is;%["opacity;o;0;o;1;;2;".75;@;is;(o;	;o;;i;is;@;@;o;;i;is;@;	[ ;is;3o;	;o;;i;is;@;@;o;;i;is;(o;	;@ö;@;@;@ß;4;5;6i o;.;/o;	;o;;i;it;@;@;o;;i
+;it;%["top;o;0;o;1;;2;"
+150px;@;it;(o;	;o;;i;it;@;@;o;;i;it;@;	[ ;it;3o;	;o;;i;it;@;@;o;;i;it;(o;	;@´;@;@;@∏;4;5;6i o;.;/o;	;o;;i;iu;@;@;o;;i;iu;%["	left;o;0;o;1;;2;"50%;@;iu;(o;	;o;;i;iu;@;@;o;;i;iu;@;	[ ;iu;3o;	;o;;i;iu;@;@;o;;i;iu;(o;	;@º;@;@;@…;4;5;6i o;.;/o;	;o;;i;iv;@;@;o;;i;iv;%["margin;o;0;o;1;;2;"-19px 0 0 -19px;@;iv;(o;	;o;;i;iv;@;@;o;;i;iv;@;	[ ;iv;3o;	;o;;i;iv;@;@;o;;i;iv;(o;	;@Õ;@;@;@⁄;4;5;6i o;.;/o;	;o;;i;iw;@;@;o;;i;iw;%["background-image;o;<;=o;>;?{ ;@IC;A{ ;B[ ;%"url;'@;@;iw;C0;D0;(o;	;o;;i;iw;@;@;o;;iA;iw;E[o:,Sass::Script::Tree::StringInterpolation:@aftero;0	;o;1;:string;"/voices/i/loader.png;@;'@;iw;(o;	;o;;i+;iw;@;@;o;;i@;iw;'@;@:	@mido;9;%"imagePath;'@;@;:"imagePath;iw;(o;	;o;;i ;iw;@;@;o;;i*;iw;iw:@beforeo;0	;o;1;;V;" ;@;'@;iw;(o;	;o;;i;iw;@;@;o;;i;iw;(o;	;@˝;@;@;o;;i@;iw;@;	[ ;iw;3o;	;o;;i;iw;@;@;o;;iA;iw;(o;	;@ﬁ;@;@;@	;4;5;6i ;in;(o;	;o;;i;in;@;@;o;;i(;in;6i o;
+
+;;7;["6/* GRID VIEW UNRESOLVED AND RESOLVED (BEGIN) ***/;@;	[ ;i{o;;T;o;	;o;;i;i|;@;@;o;;i(;i|;o;;[o; ;[o;!;"0;#o;;{ ;[o;;;%["ibm-columns;'" ;i|o;;;%["ibm_cci-gv__modifier;'@	;i|;'@	;i|;(o;	;o;;i;i;0;@	;o;;i';i;'@	;i|;-["&.ibm-columns.ibm_cci-gv__modifier;@;	[o;.;/o;	;o;;i;i};@;@;o;;i;i};%["margin;o;0;o;1;;2;"40px auto !important;@;i};(o;	;o;;i;i};@;@;o;;i";i};@;	[ ;i};3o;	;o;;i;i};@;@;o;;i";i};(o;	;@(	;@;@;@5	;4;5;6i o;
+
+;;;["(/* padding: 0 0 10px !important; */;@;	[ ;i~;i|;(o;	;o;;i;i|;@;@;o;;i(;i|;6i o;;T;o;	;o;;i;i|;@;@;o;;i5;i|;o;;[o; ;[o;!;"0;#o;;{ ;[o;;;%["ibm-columns;'" ;i|o;;;%["ibm_cci-gv__modifier;'@M	;i|;'@M	;i|;(o;	;o;;i;i;0;@M	;o;;i';io;!;"0;#o;;{ ;[o;;;%["ibm-col-1-1;'@M	;i|;'@M	;i|;(o;	;o;;i(;i;0;@M	;o;;i4;i;'@M	;i|;-["3.ibm-columns.ibm_cci-gv__modifier .ibm-col-1-1;@;	[o;.;/o;	;o;;i;i};@;@;o;;i;i};%["
+float;o;0;o;1;;2;"	left;@;i};(o;	;o;;i;i};@;@;o;;i;i};@;	[ ;i};3o;	;o;;i;i};@;@;o;;i;i};(o;	;@c	;@;@;@p	;4;5;6i o;.;/o;	;o;;i;i~;@;@;o;;i;i~;%["
+width;o;0;o;1;;2;"
+300px;@;i~;(o;	;o;;i;i~;@;@;o;;i;i~;@;	[ ;i~;3o;	;o;;i;i~;@;@;o;;i;i~;(o;	;@t	;@;@;@Å	;4;5;6i o;.;/o;	;o;;i;i;@;@;o;;i;i;%["background-color;o;0;o;1;;2;"	#fff;@;i;(o;	;o;;i;i;@;@;o;;i;i;@;	[ ;i;3o;	;o;;i;i;@;@;o;;i;i;(o;	;@Ö	;@;@;@í	;4;5;6i o;.;/o;	;o;;i;iÄ;@;@;o;;i;iÄ;%["transition;o;0;o;1;;2;"width all 0.20s ease;@;iÄ;(o;	;o;;i;iÄ;@;@;o;;i&;iÄ;@;	[ ;iÄ;3o;	;o;;i;iÄ;@;@;o;;i&;iÄ;(o;	;@ñ	;@;@;@£	;4;5;6i o;.;/o;	;o;;i;iÅ;@;@;o;;i;iÅ;%["-webkit-transition;o;0;o;1;;2;"all 0.20s ease;@;iÅ;(o;	;o;;i;iÅ;@;@;o;;i);iÅ;@;	[ ;iÅ;3o;	;o;;i;iÅ;@;@;o;;i);iÅ;(o;	;@ß	;@;@;@¥	;4;5;6i o;
+
+;;7;["/* Safari */;@;	[ ;iÅo;.;/o;	;o;;i;iÇ;@;@;o;;i;iÇ;%["-moz-transition;o;0;o;1;;2;"all 0.20s ease;@;iÇ;(o;	;o;;i;iÇ;@;@;o;;i&;iÇ;@;	[ ;iÇ;3o;	;o;;i;iÇ;@;@;o;;i&;iÇ;(o;	;@º	;@;@;@…	;4;5;6i o;.;/o;	;o;;i;iÉ;@;@;o;;i;iÉ;%["transition-duration;o;0;o;1;;2;"
+0.50s;@;iÉ;(o;	;o;;i;iÉ;@;@;o;;i ;iÉ;@;	[ ;iÉ;3o;	;o;;i;iÉ;@;@;o;;i ;iÉ;(o;	;@Õ	;@;@;@⁄	;4;5;6i o;.;/o;	;o;;i;iÑ;@;@;o;;i";iÑ;%[" -webkit-transition-duration;o;0;o;1;;2;"
+0.50s;@;iÑ;(o;	;o;;i$;iÑ;@;@;o;;i);iÑ;@;	[ ;iÑ;3o;	;o;;i$;iÑ;@;@;o;;i);iÑ;(o;	;@ﬁ	;@;@;@Î	;4;5;6i o;.;/o;	;o;;i;iÖ;@;@;o;;i;iÖ;%["-moz-transition-duration;o;0;o;1;;2;"
+0.50s;@;iÖ;(o;	;o;;i!;iÖ;@;@;o;;i&;iÖ;@;	[ ;iÖ;3o;	;o;;i!;iÖ;@;@;o;;i&;iÖ;(o;	;@Ô	;@;@;@¸	;4;5;6i o;.;/o;	;o;;i;iÜ;@;@;o;;i;iÜ;%["
+clear;o;0;o;1;;2;"	none;@;iÜ;(o;	;o;;i;iÜ;@;@;o;;i;iÜ;@;	[ ;iÜ;3o;	;o;;i;iÜ;@;@;o;;i;iÜ;(o;	;@ 
+;@;@;@
+;4;5;6i o;.;/o;	;o;;i;iá;@;@;o;;i;iá;%["outline;o;0;o;1;;2;"1px solid #ccc;@;iá;(o;	;o;;i;iá;@;@;o;;i;iá;@;	[ ;iá;3o;	;o;;i;iá;@;@;o;;i;iá;(o;	;@
+;@;@;@
+;4;5;6i o;.;/o;	;o;;i;ià;@;@;o;;i;ià;%["margin-bottom;o;0;o;1;;2;"	20px;@;ià;(o;	;o;;i;ià;@;@;o;;i;ià;@;	[ ;ià;3o;	;o;;i;ià;@;@;o;;i;ià;(o;	;@"
+;@;@;@/
+;4;5;6i o;.;/o;	;o;;i;iâ;@;@;o;;i;iâ;%["min-height;o;0;o;1;;2;"
+170px;@;iâ;(o;	;o;;i;iâ;@;@;o;;i;iâ;@;	[ ;iâ;3o;	;o;;i;iâ;@;@;o;;i;iâ;(o;	;@3
+;@;@;@@
+;4;5;6i o;.;/o;	;o;;i;iä;@;@;o;;i;iä;%["position;o;0;o;1;;2;"relative;@;iä;(o;	;o;;i;iä;@;@;o;;i;iä;@;	[ ;iä;3o;	;o;;i;iä;@;@;o;;i;iä;(o;	;@D
+;@;@;@Q
+;4;5;6i ;i|;(o;	;o;;i;i|;@;@;o;;i5;i|;6i o;
+
+;;;["/* GRID VIEW (END) */;@;	[ ;iåo;
+
+;;7;["/* HOVER EFFECTS BEGIN */;@;	[ ;ièo:Sass::Tree::EachNode:
+@listo;F;G[o;0	;o;1;;2;"ibm_cci-lv__modifier;@;'@;iê;(o;	;o;;i;iê;@;@;o;;i);iêo;0	;o;1;;2;"ibm_cci-gv__modifier;@;'@;iê;(o;	;o;;i+;iê;@;@;o;;i?;iê;'@;@;iê;R:
+comma;(o;	;o;;i;iê;@;@;o;;i);iê;T:
+@vars["	view;@;	[u:Sass::Tree::IfNode[o:"Sass::Script::Tree::Operation:@filename"scss/_ww_cci.scss:@options{ :@operator:eq:
+@lineië:@operand2o: Sass::Script::Tree::Literal	:@valueo: Sass::Script::Value::String:
+@type:identifier;"ibm_cci-lv__modifier;@;@;
+ië:@source_rangeo:Sass::Source::Range	:@start_poso:Sass::Source::Position:@offseti;
+ië:@importero: Sass::Importers::Filesystem:@same_name_warningso:Set:
+@hash{ :
+@root"h/Users/jessica.criscione/Documents/workspace/ibmmasters-develop/source/ibmmasters/public/css/voices:
+@file@:@end_poso;;i(;
+ië;o;	;o;;i;
+ië;@;@;o;;i);
+ië:@operand1o:!Sass::Script::Tree::Variable:
+@name"	view;@;@:@underscored_name"	view;
+ië;o;	;o;;i;
+ië;@;@;o;;i;
+iëu:Sass::Tree::IfNode[o:"Sass::Script::Tree::Operation:@filename"scss/_ww_cci.scss:@options{ :@operator:eq:
+@linei•:@operand2o: Sass::Script::Tree::Literal	:@valueo: Sass::Script::Value::String:
+@type:identifier;"ibm_cci-gv__modifier;@;@;
+i•:@source_rangeo:Sass::Source::Range	:@start_poso:Sass::Source::Position:@offseti;
+i•:@importero: Sass::Importers::Filesystem:@same_name_warningso:Set:
+@hash{ :
+@root"h/Users/jessica.criscione/Documents/workspace/ibmmasters-develop/source/ibmmasters/public/css/voices:
+@file@:@end_poso;;i-;
+i•;o;	;o;;i;
+i•;@;@;o;;i-;
+i•:@operand1o:!Sass::Script::Tree::Variable:
+@name"	view;@;@:@underscored_name"	view;
+i•;o;	;o;;i;
+i•;@;@;o;;i;
+i•0[o:Sass::Tree::RuleNode:@has_childrenT:@selector_source_rangeo;	;o;;i;
+i¶;@;@;o;;i;
+iß:
+@rule[	o;; "ibm-widget-js;@;@;!"ibm_widget_js;
+i¶;o;	;o;;i
+;
+i¶;@;@;o;;i;
+i¶".ibm-columns.o;; "	view;@;@;!"	view;
+i¶;o;	;o;;i(;
+i¶;@;@;o;;i-;
+i¶" .ibm-col-1-1:hover;@:@children[o:Sass::Tree::PropNode:@name_source_rangeo;	;o;;i	;
+i®;@;@;o;;i;
+i®; ["outline;o:$Sass::Script::Tree::ListLiteral:@elements[o;	;o: Sass::Script::Value::Number
+:@numerator_units["px;i;@:@original"1px:@denominator_units[ ;@;
+i®;o;	;o;;i;
+i®;@;@;o;;i;
+i®o;	;o;;;;"
+solid;@;@;
+i®;o;	;o;;i;
+i®;@;@;o;;i;
+i®o;; "hover-color;@;@;!"hover_color;
+i®;o;	;o;;i;
+i®;@;@;o;;i';
+i®;@;@;
+i®:@separator:
+space;o;	;o;;i;
+i®;@;@;o;;i';
+i®;@;&[ ;
+i®:@value_source_rangeo;	;o;;i;
+i®;@;@;o;;i';
+i®;o;	;@3;@;@;@T:@prop_syntax:new:
+@tabsi ;
+i¶;o;	;o;;i;
+i¶;@;@;o;;i;
+iß;4i [	o:Sass::Tree::RuleNode:@has_childrenT:@selector_source_rangeo;	;o;;i;
+ií;@;@;o;;i;
+iì:
+@rule[	o;; "ibm-widget-js;@;@;!"ibm_widget_js;
+ií;o;	;o;;i
+;
+ií;@;@;o;;i;
+ií".ibm-columns.o;; "	view;@;@;!"	view;
+ií;o;	;o;;i(;
+ií;@;@;o;;i-;
+ií"3 .ibm-col-1-1:first-child:hover + .ibm-col-1-1;@:@children[o:Sass::Tree::PropNode:@name_source_rangeo;	;o;;i	;
+iî;@;@;o;;i;
+iî; ["border-top;o:$Sass::Script::Tree::ListLiteral:@elements[o;	;o: Sass::Script::Value::Number
+:@numerator_units["px;i;@:@original"1px:@denominator_units[ ;@;
+iî;o;	;o;;i;
+iî;@;@;o;;i;
+iîo;	;o;;;;"
+solid;@;@;
+iî;o;	;o;;i;
+iî;@;@;o;;i;
+iîo;; "hover-color;@;@;!"hover_color;
+iî;o;	;o;;i;
+iî;@;@;o;;i*;
+iî;@;@;
+iî:@separator:
+space;o;	;o;;i;
+iî;@;@;o;;i*;
+iî;@;'[ ;
+iî:@value_source_rangeo;	;o;;i;
+iî;@;@;o;;i*;
+iî;o;	;@4;@;@;@U:@prop_syntax:new:
+@tabsi ;
+ií;o;	;o;;i;
+ií;@;@;o;;i;
+iì;5i o;#;$T;%o;	;o;;i;
+iñ;@;@;o;;i;
+ió;&[	o;; "ibm-widget-js;@;@;!"ibm_widget_js;
+iñ;o;	;o;;i
+;
+iñ;@;@;o;;i;
+iñ".ibm-columns.o;; "	view;@;@;!"	view;
+iñ;o;	;o;;i(;
+iñ;@;@;o;;i-;
+iñ"+ .ibm-col-1-1:not(:nth-child(1)):hover;@;'[o;(;)o;	;o;;i	;
+iò;@;@;o;;i;
+iò; ["border-top;o;*;+[o;	;o;,
+;-["px;i;@;."1px;/[ ;@;
+iò;o;	;o;;i;
+iò;@;@;o;;i;
+iòo;	;o;;;;"
+solid;@;@;
+iò;o;	;o;;i;
+iò;@;@;o;;i;
+iòo;; "hover-color;@;@;!"hover_color;
+iò;o;	;o;;i;
+iò;@;@;o;;i*;
+iò;@;@;
+iò;0;1;o;	;o;;i;
+iò;@;@;o;;i*;
+iò;@;'[ ;
+iò;2o;	;o;;i;
+iò;@;@;o;;i*;
+iò;o;	;@p;@;@;@å;3;4;5i ;
+iñ;o;	;o;;i;
+iñ;@;@;o;;i;
+ió;5i o;#;$T;%o;	;o;;i;
+iö;@;@;o;;i;
+iõ;&[	o;; "ibm-widget-js;@;@;!"ibm_widget_js;
+iö;o;	;o;;i
+;
+iö;@;@;o;;i;
+iö".ibm-columns.o;; "	view;@;@;!"	view;
+iö;o;	;o;;i(;
+iö;@;@;o;;i-;
+iö": .ibm-col-1-1:not(:nth-child(1)):hover + .ibm-col-1-1;@;'[o;(;)o;	;o;;i	;
+iú;@;@;o;;i;
+iú; ["border-top;o;*;+[o;	;o;,
+;-["px;i;@;."1px;/[ ;@;
+iú;o;	;o;;i;
+iú;@;@;o;;i;
+iúo;	;o;;;;"
+solid;@;@;
+iú;o;	;o;;i;
+iú;@;@;o;;i;
+iúo;; "hover-color;@;@;!"hover_color;
+iú;o;	;o;;i;
+iú;@;@;o;;i*;
+iú;@;@;
+iú;0;1;o;	;o;;i;
+iú;@;@;o;;i*;
+iú;@;'[ ;
+iú;2o;	;o;;i;
+iú;@;@;o;;i*;
+iú;o;	;@ß;@;@;@»;3;4;5i ;
+iö;o;	;o;;i;
+iö;@;@;o;;i;
+iõ;5i o;#;$T;%o;	;o;;i;
+iû;@;@;o;;i;
+iü;&[	o;; "ibm-widget-js;@;@;!"ibm_widget_js;
+iû;o;	;o;;i
+;
+iû;@;@;o;;i;
+iû".ibm-columns.o;; "	view;@;@;!"	view;
+iû;o;	;o;;i(;
+iû;@;@;o;;i-;
+iû"# .ibm-col-1-1:last-child:hover;@;'[o;(;)o;	;o;;i	;
+i†;@;@;o;;i;
+i†; ["border-top;o;*;+[o;	;o;,
+;-["px;i;@;."1px;/[ ;@;
+i†;o;	;o;;i;
+i†;@;@;o;;i;
+i†o;	;o;;;;"
+solid;@;@;
+i†;o;	;o;;i;
+i†;@;@;o;;i;
+i†o;; "hover-color;@;@;!"hover_color;
+i†;o;	;o;;i;
+i†;@;@;o;;i*;
+i†;@;@;
+i†;0;1;o;	;o;;i;
+i†;@;@;o;;i*;
+i†;@;'[ ;
+i†;2o;	;o;;i;
+i†;@;@;o;;i*;
+i†;o;	;@„;@;@;@;3;4;5i o;(;)o;	;o;;i	;
+i°;@;@;o;;i;
+i°; ["border-bottom;o;*;+[o;	;o;,
+;-["px;i;@;."1px;/[ ;@;
+i°;o;	;o;;i;
+i°;@;@;o;;i;
+i°o;	;o;;;;"
+solid;@;@;
+i°;o;	;o;;i;
+i°;@;@;o;;i ;
+i°o;; "hover-color;@;@;!"hover_color;
+i°;o;	;o;;i!;
+i°;@;@;o;;i-;
+i°;@;@;
+i°;0;1;o;	;o;;i;
+i°;@;@;o;;i-;
+i°;@;'[ ;
+i°;2o;	;o;;i;
+i°;@;@;o;;i-;
+i°;o;	;@;@;@;@);3;4;5i ;
+iû;o;	;o;;i;
+iû;@;@;o;;i;
+iü;5i o;;T;o;	;o;;i;i¨;@;@;o;;i;i≤;-[o;9;%"ibm-widget-js;'@;@;:"ibm_widget_js;i¨;(o;	;o;;i	;i¨;@;@;o;;i;i¨"f.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1:hover .ibm-col-6-2 .ibm_cci--lv-rc-sharing > ul,
+	o;9;%"ibm-widget-js;'@;@;:"ibm_widget_js;i≠;(o;	;o;;i	;i≠;@;@;o;;i;i≠"f.ibm-columns.ibm_cci-gv__modifier .ibm-col-1-1:hover .ibm-col-6-2 .ibm_cci--lv-rc-sharing > ul,
+	o;9;%"ibm-widget-js;'@;@;:"ibm_widget_js;iÆ;(o;	;o;;i	;iÆ;@;@;o;;i;iÆ":.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1:hover o;9;%"ibm-listview-unro;'@;@;:"ibm_listview_unro;iÆ;(o;	;o;;iO;iÆ;@;@;o;;ia;iÆ"6 .ibm_cci--unr-cb .ibm_cci--lv-rc-sharing > ul,
+	o;9;%"ibm-widget-js;'@;@;:"ibm_widget_js;iØ;(o;	;o;;i	;iØ;@;@;o;;i;iØ":.ibm-columns.ibm_cci-gv__modifier .ibm-col-1-1:hover o;9;%"ibm-listview-unro;'@;@;:"ibm_listview_unro;iØ;(o;	;o;;iO;iØ;@;@;o;;ia;iØ"8 .ibm_cci--unr-cb .ibm_cci--lv-rc-sharing > ul,		
+	o;9;%"ibm-widget-js;'@;@;:"ibm_widget_js;i∞;(o;	;o;;i	;i∞;@;@;o;;i;i∞".ibm-columns.o;9;%"	view;'@;@;:"	view;i∞;(o;	;o;;i';i∞;@;@;o;;i,;i∞"C .ibm-col-1-1:hover .ibm-col-6-4 .ibm_cci--rcb .ibm_cci-sib,
+	o;9;%"ibm-widget-js;'@;@;:"ibm_widget_js;i±;(o;	;o;;i	;i±;@;@;o;;i;i±".ibm-columns.o;9;%"	view;'@;@;:"	view;i±;(o;	;o;;i';i±;@;@;o;;i,;i±"C .ibm-col-1-1:hover .ibm-col-6-4 .ibm_cci--rcb .ibm_cci-gv-sib;@;	[o;.;/o;	;o;;i	;i≥;@;@;o;;i;i≥;%["visibility;o;0;o;1;;2;"visible;@;i≥;(o;	;o;;i;i≥;@;@;o;;i;i≥;@;	[ ;i≥;3o;	;o;;i;i≥;@;@;o;;i;i≥;(o;	;@¬
+;@;@;@œ
+;4;5;6i ;i¨;(o;	;o;;i;i¨;@;@;o;;i;i≤;6i ;iê;(o;	;o;;i;iê;@;@;o;;i@;iêo;;T;o;	;o;;i;i∏;@;@;o;;i;i∫;-[	o;9;%"ibm-widget-js;'@;@;:"ibm_widget_js;i∏;(o;	;o;;i;i∏;@;@;o;;i;i∏"Ç.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1:hover .ibm_cci--rea-block ul li .ibm_cci--rea-b .ibm_cci--rea-b-e .ibm_cci--rea-b,
+o;9;%"ibm-widget-js;'@;@;:"ibm_widget_js;iπ;(o;	;o;;i;iπ;@;@;o;;i;iπ"Ä.ibm-columns.ibm_cci-gv__modifier .ibm-col-1-1:hover .ibm_cci--rea-block ul li .ibm_cci--rea-b .ibm_cci--rea-b-e .ibm_cci--rea-b;@;	[o;.;/o;	;o;;i;iª;@;@;o;;i;iª;%["background-color;o;9;%"hover-color;'@;@;:"hover_color;iª;(o;	;o;;i;iª;@;@;o;;i%;iª;@;	[ ;iª;3o;	;o;;i;iª;@;@;o;;i%;iª;(o;	;@Ì
+;@;@;@˙
+;4;5;6i ;i∏;(o;	;o;;i;i∏;@;@;o;;i;i∫;6i o;
+
+;;;["/*LIST VIEW */;@;	[ ;iæo;;T;o;	;o;;i;iø;@;@;o;;i;i ;-[o;9;%"ibm-widget-js;'@;@;:"ibm_widget_js;iø;(o;	;o;;i;iø;@;@;o;;i;iø"v.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1:hover .ibm-col-6-4 .ibm_cci--rea-block ul li p.ibm_cci--rea-rank,
+o;9;%"ibm-widget-js;'@;@;:"ibm_widget_js;i¿;(o;	;o;;i;i¿;@;@;o;;i;i¿"~.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1:hover .ibm_cci--lv-unro-b .ibm_cci--rea-block ul li p.ibm_cci--rea-rank, 
+o;9;%"ibm-widget-js;'@;@;:"ibm_widget_js;i¡;(o;	;o;;i;i¡;@;@;o;;i;i¡"~.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1:hover .ibm-col-6-4 .ibm_cci--rcb .ibm_cci--ttb h2.ibm_cci--tweet-title a,
+o;9;%"ibm-widget-js;'@;@;:"ibm_widget_js;i¬;(o;	;o;;i;i¬;@;@;o;;i;i¬":.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1:hover o;9;%"ibm-listview-unro;'@;@;:"ibm_listview_unro;i¬;(o;	;o;;iN;i¬;@;@;o;;i`;i¬"@ .ibm_cci--unr-cb .ibm_cci--ttb h2.ibm_cci--tweet-title a,
+o;9;%"ibm-widget-js;'@;@;:"ibm_widget_js;i√;(o;	;o;;i;i√;@;@;o;;i;i√"≈.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1:hover .ibm-col-6-4 .ibm_cci--rcb .ibm_cci--ttb .ibm_cci--tweet-description .ibm_cci--tweet-content-text span.ibm_cci--tweet-description-readmore a,
+
+
+o;9;%"ibm-widget-js;'@;@;:"ibm_widget_js;i∆;(o;	;o;;i;i∆;@;@;o;;i;i∆"v.ibm-columns.ibm_cci-gv__modifier .ibm-col-1-1:hover .ibm-col-6-4 .ibm_cci--rea-block ul li p.ibm_cci--rea-rank,
+o;9;%"ibm-widget-js;'@;@;:"ibm_widget_js;i«;(o;	;o;;i;i«;@;@;o;;i;i«"~.ibm-columns.ibm_cci-gv__modifier .ibm-col-1-1:hover .ibm_cci--gv-unro-b .ibm_cci--rea-block ul li p.ibm_cci--rea-rank, 
+o;9;%"ibm-widget-js;'@;@;:"ibm_widget_js;i»;(o;	;o;;i;i»;@;@;o;;i;i»"~.ibm-columns.ibm_cci-gv__modifier .ibm-col-1-1:hover .ibm-col-6-4 .ibm_cci--rcb .ibm_cci--ttb h2.ibm_cci--tweet-title a,
+o;9;%"ibm-widget-js;'@;@;:"ibm_widget_js;i…;(o;	;o;;i;i…;@;@;o;;i;i…":.ibm-columns.ibm_cci-gv__modifier .ibm-col-1-1:hover o;9;%"ibm-listview-unro;'@;@;:"ibm_listview_unro;i…;(o;	;o;;iN;i…;@;@;o;;i`;i…"> .ibm_cci--unr-cb .ibm_cci--ttb h2.ibm_cci--tweet-title a;@;	[o;.;/o;	;o;;i;iÀ;@;@;o;;i;iÀ;%["
+color;o;9;%"hover-color;'@;@;:"hover_color;iÀ;(o;	;o;;i;iÀ;@;@;o;;i;iÀ;@;	[ ;iÀ;3o;	;o;;i;iÀ;@;@;o;;i;iÀ;(o;	;@X;@;@;@e;4;5;6i ;iø;(o;	;o;;i;iø;@;@;o;;i;i ;6i o;
+
+;;;["/*LIST VIEW */;@;	[ ;iŒo;;T;o;	;o;;i;iœ;@;@;o;;i;i“;-[o;9;%"ibm-widget-js;'@;@;:"ibm_widget_js;iœ;(o;	;o;;i;iœ;@;@;o;;i;iœ"|.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1:hover .ibm-col-6-4 .ibm_cci--rcb .ibm_cci--ttb p.ibm_cci--tweet-description,
+o;9;%"ibm-widget-js;'@;@;:"ibm_widget_js;i–;(o;	;o;;i;i–;@;@;o;;i;i–":.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1:hover o;9;%"ibm-listview-unro;'@;@;:"ibm_listview_unro;i–;(o;	;o;;iN;i–;@;@;o;;i`;i–"C .ibm_cci--unr-cb .ibm_cci--ttb p.ibm_cci--tweet-description,
+o;9;%"ibm-widget-js;'@;@;:"ibm_widget_js;i—;(o;	;o;;i;i—;@;@;o;;i;i—"F.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1:hover .ibm-col-6-2;@;	[o;.;/o;	;o;;i;i”;@;@;o;;i;i”;%["display;o;0;o;1;;2;"
+block;@;i”;(o;	;o;;i;i”;@;@;o;;i;i”;@;	[ ;i”;3o;	;o;;i;i”;@;@;o;;i;i”;(o;	;@í;@;@;@ü;4;5;6i ;iœ;(o;	;o;;i;iœ;@;@;o;;i;i“;6i o;;T;o;	;o;;i;i÷;@;@;o;;i;iÿ;-[	o;9;%"ibm-widget-js;'@;@;:"ibm_widget_js;i÷;(o;	;o;;i;i÷;@;@;o;;i;i÷"h.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1:hover .ibm-col-6-2 .ibm_cci--lv-rc-description p a,
+o;9;%"ibm-widget-js;'@;@;:"ibm_widget_js;i◊;(o;	;o;;i;i◊;@;@;o;;i;i◊"f.ibm-columns.ibm_cci-gv__modifier .ibm-col-1-1:hover .ibm-col-6-2 .ibm_cci--lv-rc-description p a;@;	[o;.;/o;	;o;;i;iŸ;@;@;o;;i;iŸ;%["text-decoration;o;0;o;1;;2;"	none;@;iŸ;(o;	;o;;i;iŸ;@;@;o;;i;iŸ;@;	[ ;iŸ;3o;	;o;;i;iŸ;@;@;o;;i;iŸ;(o;	;@∫;@;@;@«;4;5;6i o;.;/o;	;o;;i;i⁄;@;@;o;;i;i⁄;%["
+color;o;9;%"hover-color;'@;@;:"hover_color;i⁄;(o;	;o;;i;i⁄;@;@;o;;i;i⁄;@;	[ ;i⁄;3o;	;o;;i;i⁄;@;@;o;;i;i⁄;(o;	;@À;@;@;@ÿ;4;5;6i ;i÷;(o;	;o;;i;i÷;@;@;o;;i;iÿ;6i o;
+
+;;7;["/* HOVER EFFECTS END */;@;	[ ;i‹o;
+
+;;;["E/* From Radio filter independent css defined by Umesh (BEGIN) */;@;	[ ;iﬂo;;T;o;	;o;;i;i‡;@;@;o;;i;i‡;o;;[o; ;[o;!;"0;#o;;{ ;[o;$	;%["a;&0;'" ;i‡o;;;%["ibm_cci-gototop;'@Ù;i‡;'@Ù;i‡;(o;	;o;;i;i;0;@Ù;o;;i;i;'@Ù;i‡;-["a.ibm_cci-gototop;@;	[o;.;/o;	;o;;i;i·;@;@;o;;i;i·;%["visibility;o;0;o;1;;2;"hidden;@;i·;(o;	;o;;i;i·;@;@;o;;i;i·;@;	[ ;i·;3o;	;o;;i;i·;@;@;o;;i;i·;(o;	;@ ;@;@;@;4;5;6i o;.;/o;	;o;;i;i‚;@;@;o;;i;i‚;%["position;o;0;o;1;;2;"
+fixed;@;i‚;(o;	;o;;i;i‚;@;@;o;;i;i‚;@;	[ ;i‚;3o;	;o;;i;i‚;@;@;o;;i;i‚;(o;	;@;@;@;@;4;5;6i o;.;/o;	;o;;i;i„;@;@;o;;i;i„;%["
+right;o;0;o;1;;2;"	20px;@;i„;(o;	;o;;i;i„;@;@;o;;i;i„;@;	[ ;i„;3o;	;o;;i;i„;@;@;o;;i;i„;(o;	;@";@;@;@/;4;5;6i o;.;/o;	;o;;i;i‰;@;@;o;;i;i‰;%["bottom;o;0;o;1;;2;"0px;@;i‰;(o;	;o;;i;i‰;@;@;o;;i;i‰;@;	[ ;i‰;3o;	;o;;i;i‰;@;@;o;;i;i‰;(o;	;@3;@;@;@@;4;5;6i o;.;/o;	;o;;i;iÂ;@;@;o;;i;iÂ;%["
+color;o;0;o;1;;2;"	#000;@;iÂ;(o;	;o;;i;iÂ;@;@;o;;i;iÂ;@;	[ ;iÂ;3o;	;o;;i;iÂ;@;@;o;;i;iÂ;(o;	;@D;@;@;@Q;4;5;6i o;.;/o;	;o;;i;iÊ;@;@;o;;i;iÊ;%["	font;o;0;o;1;;2;"[normal 0.9em 'helveticaneuelight',HelveticaNeue,Helvetica,Arial,sans-serif, sans-serif;@;iÊ;(o;	;o;;i;iÊ;@;@;o;;ic;iÊ;@;	[ ;iÊ;3o;	;o;;i;iÊ;@;@;o;;ic;iÊ;(o;	;@U;@;@;@b;4;5;6i o;.;/o;	;o;;i;iÁ;@;@;o;;i;iÁ;%["text-decoration;o;0;o;1;;2;"	none;@;iÁ;(o;	;o;;i;iÁ;@;@;o;;i;iÁ;@;	[ ;iÁ;3o;	;o;;i;iÁ;@;@;o;;i;iÁ;(o;	;@f;@;@;@s;4;5;6i o;.;/o;	;o;;i;iË;@;@;o;;i;iË;%["margin;o;0;o;1;;2;"0;@;iË;(o;	;o;;i;iË;@;@;o;;i;iË;@;	[ ;iË;3o;	;o;;i;iË;@;@;o;;i;iË;(o;	;@w;@;@;@Ñ;4;5;6i o;.;/o;	;o;;i;iÈ;@;@;o;;i;iÈ;%["padding;o;0;o;1;;2;"0;@;iÈ;(o;	;o;;i;iÈ;@;@;o;;i;iÈ;@;	[ ;iÈ;3o;	;o;;i;iÈ;@;@;o;;i;iÈ;(o;	;@à;@;@;@ï;4;5;6i o;.;/o;	;o;;i;iÍ;@;@;o;;i;iÍ;%["border;o;0;o;1;;2;"0;@;iÍ;(o;	;o;;i;iÍ;@;@;o;;i;iÍ;@;	[ ;iÍ;3o;	;o;;i;iÍ;@;@;o;;i;iÍ;(o;	;@ô;@;@;@¶;4;5;6i o;.;/o;	;o;;i;iÎ;@;@;o;;i;iÎ;%["
+width;o;0;o;1;;2;"	56px;@;iÎ;(o;	;o;;i;iÎ;@;@;o;;i;iÎ;@;	[ ;iÎ;3o;	;o;;i;iÎ;@;@;o;;i;iÎ;(o;	;@™;@;@;@∑;4;5;6i o;.;/o;	;o;;i;iÏ;@;@;o;;i;iÏ;%["height;o;0;o;1;;2;"	72px;@;iÏ;(o;	;o;;i;iÏ;@;@;o;;i;iÏ;@;	[ ;iÏ;3o;	;o;;i;iÏ;@;@;o;;i;iÏ;(o;	;@ª;@;@;@»;4;5;6i o;.;/o;	;o;;i;iÌ;@;@;o;;i;iÌ;%["background;o;F;G[o;0	;o;H;0;I{	;Jiﬂ;Kiﬂ;Li;Miﬂ;@;'@;iÌ;(o;	;o;;i;iÌ;@;@;o;;i;iÌo;<;=o;>;?{ ;@IC;A{ ;B[ ;%"url;'@;@;iÌ;C0;D0;(o;	;o;;i;iÌ;@;@;o;;iF;iÌ;E[o;T;Uo;0	;o;1;;V;"/voices/i/backtotop.png;@;'@;iÌ;(o;	;o;;i-;iÌ;@;@;o;;iE;iÌ;'@;@;Wo;9;%"imagePath;'@;@;:"imagePath;iÌ;(o;	;o;;i";iÌ;@;@;o;;i,;iÌ;iÌ;Xo;0	;o;1;;V;" ;@;'@;iÌ;(o;	;o;;i;iÌ;@;@;o;;i ;iÌ;(o;	;@Û;@;@;o;;iE;iÌo;0	;o;1;;2;"no-repeat;@;'@;iÌ;(o;	;o;;iG;iÌ;@;@;o;;iP;iÌ;'@;@;iÌ;R;S;(o;	;o;;i;iÌ;@;@;o;;iP;iÌ;@;	[ ;iÌ;3o;	;o;;i;iÌ;@;@;o;;iP;iÌ;(o;	;@Ã;@;@;@;4;5;6i o;.;/o;	;o;;i;iÓ;@;@;o;;i;iÓ;%["z-index;o;0;o;1;;2;"	1000;@;iÓ;(o;	;o;;i;iÓ;@;@;o;;i;iÓ;@;	[ ;iÓ;3o;	;o;;i;iÓ;@;@;o;;i;iÓ;(o;	;@;@;@;@;4;5;6i o;.;/o;	;o;;i;iÔ;@;@;o;;i;iÔ;%["text-indent;o;0;o;1;;2;"-999999px;@;iÔ;(o;	;o;;i;iÔ;@;@;o;;i;iÔ;@;	[ ;iÔ;3o;	;o;;i;iÔ;@;@;o;;i;iÔ;(o;	;@;@;@;@%;4;5;6i ;i‡;(o;	;o;;i;i‡;@;@;o;;i;i‡;6i o;;T;o;	;o;;i;iÚ;@;@;o;;i$;iÚ;o;;[o; ;[o;!;"0;#o;;{ ;[o;;;%[""ibm_cci-search-term-highlight;'" ;iÚ;'@9;iÚ;(o;	;o;;i;i;0;@9;o;;i$;i;'@9;iÚ;-["#.ibm_cci-search-term-highlight;@;	[o;.;/o;	;o;;i;iÛ;@;@;o;;i;iÛ;%["background;o;0;o;1;;2;"#dfdfdf;@;iÛ;(o;	;o;;i;iÛ;@;@;o;;i;iÛ;@;	[ ;iÛ;3o;	;o;;i;iÛ;@;@;o;;i;iÛ;(o;	;@B;@;@;@O;4;5;6i ;iÚ;(o;	;o;;i;iÚ;@;@;o;;i$;iÚ;6i o;;T;o;	;o;;i;iˆ;@;@;o;;i;iˆ;o;;[o; ;[o;!;"0;#o;;{ ;[o;;;%["ibm_cci-colorClass1;'" ;iˆ;'@c;iˆ;(o;	;o;;i;i;0;@c;o;;i;i;'@c;iˆ;-[".ibm_cci-colorClass1;@;	[o;.;/o;	;o;;i;i˜;@;@;o;;i;i˜;%["background;o;0;o;1;;2;"#d8bebe;@;i˜;(o;	;o;;i;i˜;@;@;o;;i;i˜;@;	[ ;i˜;3o;	;o;;i;i˜;@;@;o;;i;i˜;(o;	;@l;@;@;@y;4;5;6i ;iˆ;(o;	;o;;i;iˆ;@;@;o;;i;iˆ;6i o;;T;o;	;o;;i;i¸;@;@;o;;i;i¸;o;;[o; ;[o;!;"0;#o;;{ ;[o;;;%["ibm_cci-colorClass2;'" ;i¸;'@ç;i¸;(o;	;o;;i;i;0;@ç;o;;i;i;'@ç;i¸;-[".ibm_cci-colorClass2;@;	[o;.;/o;	;o;;i;i˝;@;@;o;;i;i˝;%["background;o;0;o;1;;2;"#c8c8c8;@;i˝;(o;	;o;;i;i˝;@;@;o;;i;i˝;@;	[ ;i˝;3o;	;o;;i;i˝;@;@;o;;i;i˝;(o;	;@ñ;@;@;@£;4;5;6i ;i¸;(o;	;o;;i;i¸;@;@;o;;i;i¸;6i o;;T;o;	;o;;i;i ;@;@;o;;i;i ;o;;[o; ;[o;!;"0;#o;;{ ;[o;;;%["ibm_cci-colorClass3;'" ;i ;'@∑;i ;(o;	;o;;i;i;0;@∑;o;;i;i;'@∑;i ;-[".ibm_cci-colorClass3;@;	[o;
+
+;;7;["/*background: #f59999;*/;@;	[ ;i;i ;(o;	;o;;i;i ;@;@;o;;i;i ;6i o;;T;o;	;o;;i;i;@;@;o;;i;i;o;;[o; ;[o;!;"0;#o;;{ ;[o;;;%["ibm_cci--voices-divider;'" ;i;'@‘;i;(o;	;o;;i;i;0;@‘;o;;i;i;'@‘;i;-[".ibm_cci--voices-divider;@;	[o;.;/o;	;o;;i;i;@;@;o;;i;i;%["
+width;o;0;o;1;;2;"	100%;@;i;(o;	;o;;i;i;@;@;o;;i;i;@;	[ ;i;3o;	;o;;i;i;@;@;o;;i;i;(o;	;@›;@;@;@Í;4;5;6i o;.;/o;	;o;;i;i;@;@;o;;i;i;%["border;o;0;o;1;;2;"dotted #ccc;@;i;(o;	;o;;i;i;@;@;o;;i;i;@;	[ ;i;3o;	;o;;i;i;@;@;o;;i;i;(o;	;@Ó;@;@;@˚;4;5;6i o;.;/o;	;o;;i;i;@;@;o;;i;i;%["border-width;o;0;o;1;;2;"1px 0 0 0;@;i;(o;	;o;;i;i;@;@;o;;i;i;@;	[ ;i;3o;	;o;;i;i;@;@;o;;i;i;(o;	;@ˇ;@;@;@;4;5;6i o;.;/o;	;o;;i;i;@;@;o;;i;i;%["height;o;0;o;1;;2;"0;@;i;(o;	;o;;i;i;@;@;o;;i;i;@;	[ ;i;3o;	;o;;i;i;@;@;o;;i;i;(o;	;@;@;@;@;4;5;6i o;.;/o;	;o;;i;i	;@;@;o;;i;i	;%["line-height;o;0;o;1;;2;"0px;@;i	;(o;	;o;;i;i	;@;@;o;;i;i	;@;	[ ;i	;3o;	;o;;i;i	;@;@;o;;i;i	;(o;	;@!;@;@;@.;4;5;6i o;.;/o;	;o;;i;i
+;@;@;o;;i;i
+;%["font-size;o;0;o;1;;2;"0;@;i
+;(o;	;o;;i;i
+;@;@;o;;i;i
+;@;	[ ;i
+;3o;	;o;;i;i
+;@;@;o;;i;i
+;(o;	;@2;@;@;@?;4;5;6i o;.;/o;	;o;;i;i;@;@;o;;i;i;%["margin;o;0;o;1;;2;"0;@;i;(o;	;o;;i;i;@;@;o;;i;i;@;	[ ;i;3o;	;o;;i;i;@;@;o;;i;i;(o;	;@C;@;@;@P;4;5;6i o;.;/o;	;o;;i;i;@;@;o;;i;i;%["padding;o;0;o;1;;2;"0 0 10px 0;@;i;(o;	;o;;i;i;@;@;o;;i;i;@;	[ ;i;3o;	;o;;i;i;@;@;o;;i;i;(o;	;@T;@;@;@a;4;5;6i ;i;(o;	;o;;i;i;@;@;o;;i;i;6i o;;T;o;	;o;;i;i;@;@;o;;i;i;o;;[o; ;[o;!;"0;#o;;{ ;[o;;;%["ibm_cci--newly-added;'" ;i;'@u;i;(o;	;o;;i;i;0;@u;o;;i;i;'@u;i;-[".ibm_cci--newly-added;@;	[o;.;/o;	;o;;i;i;@;@;o;;i;i;%["visibility;o;0;o;1;;2;"	none;@;i;(o;	;o;;i;i;@;@;o;;i;i;@;	[ ;i;3o;	;o;;i;i;@;@;o;;i;i;(o;	;@~;@;@;@ã;4;5;6i ;i;(o;	;o;;i;i;@;@;o;;i;i;6i o;
+
+;;;["C/* From Radio filter independent css defined by Umesh (END) */;@;	[ ;io;
+
+;;7;["'/* MODIFYERS FOR MOBILE (BEGIN) */;@;	[ ;io:Sass::Tree::MediaNode;T;" ;@;	[o;;T;o;	;o;;i;i;@;@;o;;i;i;o;;[o; ;[o;!;"0;#o;;{ ;[o;$	;%["	html;&0;'" ;i;'@™;i;(o;	;o;;i;i;0;@™;o;;i
+;i;'@™;i;-["	html;@;	[o;.;/o;	;o;;i;i;@;@;o;;i;i;%["font-size;o;0;o;1;;2;"66%;@;i;(o;	;o;;i;i;@;@;o;;i;i;@;	[ ;i;3o;	;o;;i;i;@;@;o;;i;i;(o;	;@≥;@;@;@¿;4;5;6i ;i;(o;	;o;;i;i;@;@;o;;i;i;6i o;;T;o;	;o;;i;i;@;@;o;;iG;i;o;;[o; ;[o;!;"0;#o;;{ ;[o;8;%["ibm-top;'" ;io;;;%["ibm-landing-page;'@‘;i;'@‘;i;(o;	;o;;i;i;0;@‘;o;;i;io;!;"0;#o;;{ ;[o;8;%["ibm-leadspace-head;'@‘;io;;;%["ibm_cc__voices_ls;'@‘;i;'@‘;i;(o;	;o;;i ;i;0;@‘;o;;iE;i;'@‘;i;-["D#ibm-top.ibm-landing-page #ibm-leadspace-head.ibm_cc__voices_ls;@;	[o;.;/o;	;o;;i;i;@;@;o;;i;i;%["min-height;o;0;o;1;;2;"	75px;@;i;(o;	;o;;i;i;@;@;o;;i;i;@;	[ ;i;3o;	;o;;i;i;@;@;o;;i;i;(o;	;@Ì;@;@;@˙;4;5;6i o;;T;o;	;o;;i;i;@;@;o;;i;i;o;;[o; ;[o;!;"0;#o;;{ ;[o;8;%["ibm-leadspace-body;'" ;i;'@;i;(o;	;o;;i;i;0;@;o;;i;i;'@;i;-["#ibm-leadspace-body;@;	[o;.;/o;	;o;;i	;i;@;@;o;;i;i;%["
+width;o;0;o;1;;2;"
+300px;@;i;(o;	;o;;i;i;@;@;o;;i;i;@;	[ ;i;3o;	;o;;i;i;@;@;o;;i;i;(o;	;@;@;@;@!;4;5;6i o;.;/o;	;o;;i	;i;@;@;o;;i;i;%["min-height;o;0;o;1;;2;"	65px;@;i;(o;	;o;;i;i;@;@;o;;i;i;@;	[ ;i;3o;	;o;;i;i;@;@;o;;i;i;(o;	;@%;@;@;@2;4;5;6i o;.;/o;	;o;;i	;i ;@;@;o;;i;i ;%["padding;o;0;o;1;;2;"0;@;i ;(o;	;o;;i;i ;@;@;o;;i;i ;@;	[ ;i ;3o;	;o;;i;i ;@;@;o;;i;i ;(o;	;@6;@;@;@C;4;5;6i ;i;(o;	;o;;i;i;@;@;o;;i;i;6i ;i;(o;	;o;;i;i;@;@;o;;iG;i;6i o;;T;o;	;o;;i;i$;@;@;o;;i);i$;-[o;9;%"ibm-widget-js;'@;@;:"ibm_widget_js;i$;(o;	;o;;i	;i$;@;@;o;;i;i$".ibm_cci-blocker;@;	[o;.;/o;	;o;;i;i%;@;@;o;;i;i%;%["
+width;o;0;o;1;;2;"
+400px;@;i%;(o;	;o;;i;i%;@;@;o;;i;i%;@;	[ ;i%;3o;	;o;;i;i%;@;@;o;;i;i%;(o;	;@Z;@;@;@g;4;5;6i ;i$;(o;	;o;;i;i$;@;@;o;;i);i$;6i o;;T;o;	;o;;i;i(;@;@;o;;i;i(;o;;[o; ;[o;!;"0;#o;;{ ;[o;;;%["leadspace--defaults;'" ;i(;'@{;i(;(o;	;o;;i;i;0;@{;o;;i;i;'@{;i(;-[".leadspace--defaults;@;	[o;.;/o;	;o;;i;i);@;@;o;;i;i);%["margin;o;0;o;1;;2;"10px 0;@;i);(o;	;o;;i;i);@;@;o;;i;i);@;	[ ;i);3o;	;o;;i;i);@;@;o;;i;i);(o;	;@Ñ;@;@;@ë;4;5;6i ;i(;(o;	;o;;i;i(;@;@;o;;i;i(;6i o;;T;o;	;o;;i;i,;@;@;o;;iT;i,;-["?#ibm-leadspace-head.ibm_cc__voices_ls #ibm-leadspace-body o;9;%"leadspace--logo;'@;@;:"leadspace__logo;i,;(o;	;o;;iC;i,;@;@;o;;iS;i,;@;	[o;.;/o;	;o;;i;i-;@;@;o;;i;i-;%["
+width;o;0;o;1;;2;"
+126px;@;i-;(o;	;o;;i;i-;@;@;o;;i;i-;@;	[ ;i-;3o;	;o;;i;i-;@;@;o;;i;i-;(o;	;@•;@;@;@≤;4;5;6i o;.;/o;	;o;;i;i.;@;@;o;;i;i.;%["margin;o;0;o;1;;2;"20px 0 10px 10px;@;i.;(o;	;o;;i;i.;@;@;o;;i ;i.;@;	[ ;i.;3o;	;o;;i;i.;@;@;o;;i ;i.;(o;	;@∂;@;@;@√;4;5;6i ;i,;(o;	;o;;i;i,;@;@;o;;iT;i,;6i o;;T;o;	;o;;i;i1;@;@;o;;iI;i1;-[	"#ibm-leadspace-head o;9;%"leadspace--logo;'@;@;:"leadspace__logo;i1;(o;	;o;;i;i1;@;@;o;;i-;i1" h1o;9;%"leadspace__modifier;'@;@;:"leadspace__modifier;i1;(o;	;o;;i3;i1;@;@;o;;iG;i1;@;	[	o;.;/o;	;o;;i;i2;@;@;o;;i;i2;%["background-position;o;0;o;1;;2;"-224px -38px;@;i2;(o;	;o;;i;i2;@;@;o;;i);i2;@;	[ ;i2;3o;	;o;;i;i2;@;@;o;;i);i2;(o;	;@ﬁ;@;@;@Î;4;5;6i o;.;/o;	;o;;i;i3;@;@;o;;i;i3;%["
+width;o;0;o;1;;2;"
+125px;@;i3;(o;	;o;;i;i3;@;@;o;;i;i3;@;	[ ;i3;3o;	;o;;i;i3;@;@;o;;i;i3;(o;	;@Ô;@;@;@¸;4;5;6i o;.;/o;	;o;;i;i4;@;@;o;;i;i4;%["height;o;0;o;1;;2;"	28px;@;i4;(o;	;o;;i;i4;@;@;o;;i;i4;@;	[ ;i4;3o;	;o;;i;i4;@;@;o;;i;i4;(o;	;@ ;@;@;@;4;5;6i o;;T;o;	;o;;i;i5;@;@;o;;i
+;i5;o;;[o; ;[o;!;"0;#o;;{ ;[o;$	;%["a;&0;'" ;i5;'@;i5;(o;	;o;;i;i;0;@;o;;i;i;'@;i5;-["a;@;	[o;.;/o;	;o;;i	;i6;@;@;o;;i;i6;%["
+width;o;0;o;1;;2;"
+125px;@;i6;(o;	;o;;i;i6;@;@;o;;i;i6;@;	[ ;i6;3o;	;o;;i;i6;@;@;o;;i;i6;(o;	;@';@;@;@4;4;5;6i o;.;/o;	;o;;i	;i7;@;@;o;;i;i7;%["line-height;o;0;o;1;;2;"	28px;@;i7;(o;	;o;;i;i7;@;@;o;;i;i7;@;	[ ;i7;3o;	;o;;i;i7;@;@;o;;i;i7;(o;	;@8;@;@;@E;4;5;6i ;i5;(o;	;o;;i;i5;@;@;o;;i
+;i5;6i ;i1;(o;	;o;;i;i1;@;@;o;;iI;i1;6i o;;T;o;	;o;;i;i;;@;@;o;;it;i;;-[	o;9;%"leadspace--search;'@;@;:"leadspace__search;i;;(o;	;o;;i	;i;;@;@;o;;i;i;", o;9;%"leadspace--toggle;'@;@;:"leadspace__toggle;i;;(o;	;o;;i ;i;;@;@;o;;i2;i;"E, .ibm_cci--sk.ibm_cci--sk__mt, #ibm-leadspace-body .ibm_cci--sr;@;	[o;.;/o;	;o;;i;i<;@;@;o;;i;i<;%["display;o;0;o;1;;2;"	none;@;i<;(o;	;o;;i;i<;@;@;o;;i;i<;@;	[ ;i<;3o;	;o;;i;i<;@;@;o;;i;i<;(o;	;@c;@;@;@p;4;5;6i ;i;;(o;	;o;;i;i;;@;@;o;;it;i;;6i o;;T;o;	;o;;i;i?;@;@;o;;i';i?;-[".ibm-bando;9;%"ibm-band__modifier;'@;@;:"ibm_band__modifier;i?;(o;	;o;;i;i?;@;@;o;;i%;i?;@;	[o;.;/o;	;o;;i;i@;@;@;o;;i;i@;%["
+width;o;0;o;1;;2;"	100%;@;i@;(o;	;o;;i;i@;@;@;o;;i;i@;@;	[ ;i@;3o;	;o;;i;i@;@;@;o;;i;i@;(o;	;@Ñ;@;@;@ë;4;5;6i ;i?;(o;	;o;;i;i?;@;@;o;;i';i?;6i o;;T;o;	;o;;i;iC;@;@;o;;iQ;iC;o;;[o; ;[o;!;"0;#o;;{ ;[o;8;%["ibm-top;'" ;iC;'@•;iC;(o;	;o;;i;i;0;@•;o;;i;io;!;"0;#o;;{ ;[o;8;%["ibm_cci-widget-js;'@•;iCo;;;%["ibm-columns;'@•;iCo;;;%["ibm_cci-gv__modifier;'@•;iC;'@•;iC;(o;	;o;;i;i;0;@•;o;;iB;io;!;"0;#o;;{ ;[o;;;%["ibm-col-1-1;'@•;iC;'@•;iC;(o;	;o;;iC;i;0;@•;o;;iO;i;'@•;iC;-["N#ibm-top #ibm_cci-widget-js.ibm-columns.ibm_cci-gv__modifier .ibm-col-1-1;@;	[o;.;/o;	;o;;i;iD;@;@;o;;i;iD;%["
+width;o;0;o;1;;2;"
+300px;@;iD;(o;	;o;;i;iD;@;@;o;;i;iD;@;	[ ;iD;3o;	;o;;i;iD;@;@;o;;i;iD;(o;	;@»;@;@;@’;4;5;6i ;iC;(o;	;o;;i;iC;@;@;o;;iQ;iC;6i o;;T;o;	;o;;i;iG;@;@;o;;i*;iG;o;;[o; ;[o;!;"0;#o;;{ ;[o;8;%["ibm-top;'" ;iG;'@È;iG;(o;	;o;;i;i;0;@È;o;;i;io;!;"0;#o;;{ ;[o;;;%["ibm-columns;'@È;iG;'@È;iG;(o;	;o;;i;i;0;@È;o;;i;io;!;"0;#o;;{ ;[o;;;%["ibm-col-1-1;'@È;iG;'@È;iG;(o;	;o;;i;i;0;@È;o;;i(;i;'@È;iG;-["'#ibm-top .ibm-columns .ibm-col-1-1;@;	[o;
+
+;;;[" /* margin:0 0 20px 10px; */;@;	[ ;iHo;.;/o;	;o;;i;iI;@;@;o;;i;iI;%["margin;o;0;o;1;;2;"0 0 20px 0;@;iI;(o;	;o;;i;iI;@;@;o;;i;iI;@;	[ ;iI;3o;	;o;;i;iI;@;@;o;;i;iI;(o;	;@
+;@;@;@;4;5;6i ;iG;(o;	;o;;i;iG;@;@;o;;i*;iG;6i o;;T;o;	;o;;i;iL;@;@;o;;ii;iL;o;;[o; ;[	o;!;"0;#o;;{ ;[o;8;%["ibm-content;'" ;iLo;;;%["ibm_cci__ibm-content;'@+;iL;'@+;iL;(o;	;o;;i;i;0;@+;o;;i';io;!;"0;#o;;{ ;[o;8;%["ibm-content-body;'@+;iL;'@+;iL;(o;	;o;;i(;i;0;@+;o;;i9;io;!;"0;#o;;{ ;[o;8;%["ibm-content-main;'@+;iL;'@+;iL;(o;	;o;;i:;i;0;@+;o;;iK;io;!;"0;#o;;{ ;[o;;;%["ibm-band;'@+;iLo;;;%["ibm_cci__ibm-band;'@+;iL;'@+;iL;(o;	;o;;iL;i;0;@+;o;;ig;i;'@+;iL;-["f#ibm-content.ibm_cci__ibm-content #ibm-content-body #ibm-content-main .ibm-band.ibm_cci__ibm-band;@;	[o;.;/o;	;o;;i;iM;@;@;o;;i;iM;%["margin-bottom;o;0;o;1;;2;"	20px;@;iM;(o;	;o;;i;iM;@;@;o;;i;iM;@;	[ ;iM;3o;	;o;;i;iM;@;@;o;;i;iM;(o;	;@X;@;@;@e;4;5;6i ;iL;(o;	;o;;i;iL;@;@;o;;ii;iL;6i o;;T;o;	;o;;i;iP;@;@;o;;i;iR;o;;[o; ;[	o;!;"0;#o;;{ ;[o;8;%["ibm-leadspace-head;'" ;iPo;;;%["ibm_cc__voices_ls;'@y;iP;'@y;iP;(o;	;o;;i;i;0;@y;o;;i+;io;!;"0;#o;;{ ;[o;8;%["ibm-leadspace-body;'@y;iP;'@y;iP;(o;	;o;;i,;i;0;@y;o;;i?;io;!;"0;#o;;{ ;[o;;;%["ibm_cci--ls--logo;'@y;iP;'@y;iP;(o;	;o;;i@;i;0;@y;o;;iR;io;!;"0;#o;;{ ;[o;$	;%["p;&0;'@y;iPo;;;%["ibm_cci-about;'@y;iP;'@y;iP;(o;	;o;;iS;i;0;@y;o;;ib;io; ;[
+"
+o;!;"0;#o;;{ ;[o;8;%["ibm-leadspace-head;'@y;iPo;;;%["ibm_cc__voices_ls;'@y;iP;'@y;iP;(o;	;o;;i;i;0;@y;o;;i,;io;!;"0;#o;;{ ;[o;8;%["ibm-leadspace-body;'@y;iP;'@y;iP;(o;	;o;;i-;i;0;@y;o;;i@;io;!;"0;#o;;{ ;[o;;;%["ibm_cci--ls--logo;'@y;iP;'@y;iP;(o;	;o;;iA;i;0;@y;o;;iS;io;!;"0;#o;;{ ;[o;$	;%["p;&0;'@y;iPo;;;%["ibm_cci-back;'@y;iP;'@y;iP;(o;	;o;;iT;i;0;@y;o;;ib;i;'@y;iP;-["ª#ibm-leadspace-head.ibm_cc__voices_ls #ibm-leadspace-body .ibm_cci--ls--logo p.ibm_cci-about, 
+	#ibm-leadspace-head.ibm_cc__voices_ls #ibm-leadspace-body .ibm_cci--ls--logo p.ibm_cci-back;@;	[o;
+
+;;;["/* top:30px; */;@;	[ ;iSo;.;/o;	;o;;i;iT;@;@;o;;i;iT;%["	left;o;0;o;1;;2;"0px;@;iT;(o;	;o;;i;iT;@;@;o;;i;iT;@;	[ ;iT;3o;	;o;;i;iT;@;@;o;;i;iT;(o;	;@€;@;@;@Ë;4;5;6i o;
+
+;;;["/* width:130px */;@;	[ ;iU;iP;(o;	;o;;i;iP;@;@;o;;i;iR;6i o;
+
+;;;["/*FOR ABOUT US PAGE
+ * */;@;	[ ;iYo;;T;o;	;o;;i;i[;@;@;o;;iM;i[;-["#ibm-content o;9;%"ibm-widget-about;'@;@;:"ibm_widget_about;i[;(o;	;o;;i;i[;@;@;o;;i(;i[").ibm-columns .ibm-col-6-2.ibm_cci-rr;@;	[o;.;/o;	;o;;i	;i\;@;@;o;;i;i\;%["margin-top;o;0;o;1;;2;"	20px;@;i\;(o;	;o;;i;i\;@;@;o;;i;i\;@;	[ ;i\;3o;	;o;;i;i\;@;@;o;;i;i\;(o;	;@;@;@;@;4;5;6i ;i[;(o;	;o;;i;i[;@;@;o;;iM;i[;6i o;;T;o;	;o;;i;i^;@;@;o;;iN;i^;-["#ibm-content o;9;%"ibm-widget-about;'@;@;:"ibm_widget_about;i^;(o;	;o;;i;i^;@;@;o;;i(;i^"*.ibm-columns .ibm-col-6-4.ibm_cci_acc;@;	[o;.;/o;	;o;;i	;i_;@;@;o;;i;i_;%["position;o;0;o;1;;2;"relative;@;i_;(o;	;o;;i;i_;@;@;o;;i;i_;@;	[ ;i_;3o;	;o;;i;i_;@;@;o;;i;i_;(o;	;@';@;@;@4;4;5;6i o;.;/o;	;o;;i	;i`;@;@;o;;i;i`;%["top;o;0;o;1;;2;"
+-20px;@;i`;(o;	;o;;i;i`;@;@;o;;i;i`;@;	[ ;i`;3o;	;o;;i;i`;@;@;o;;i;i`;(o;	;@8;@;@;@E;4;5;6i ;i^;(o;	;o;;i;i^;@;@;o;;iN;i^;6i o;;T;o;	;o;;i;ic;@;@;o;;i$;ic;o;;[o; ;[o;!;"0;#o;;{ ;[o;;;%["ibm-legal-text;'" ;ic;'@Y;ic;(o;	;o;;i;i;0;@Y;o;;i;io; ;[o;!;"0;#o;;{ ;[o;;;%["ibm-legal;'@Y;ic;'@Y;ic;(o;	;o;;i;i;0;@Y;o;;i!;i;'@Y;ic;-[" .ibm-legal-text, .ibm-legal;@;	[o;.;/o;	;o;;i	;id;@;@;o;;i;id;%["
+width;o;0;o;1;;2;"
+300px;@;id;(o;	;o;;i;id;@;@;o;;i;id;@;	[ ;id;3o;	;o;;i;id;@;@;o;;i;id;(o;	;@n;@;@;@{;4;5;6i ;ic;(o;	;o;;i;ic;@;@;o;;i$;ic;6i ;i;(o;	;o;;i;i;@;@;o;;i@;i;6i :@query["	only" "screen"
+ and "(o;0	;o;1;;2;"min-width;@;'@;i;(o;	;o;;i;i;@;@;o;;i';i": o;0	;o;N
+;O[ ;i ;@;P"0;Q@£;'@;i;(o;	;o;;i(;i;@;@;o;;i);i")"
+ and "(o;0	;o;1;;2;"max-width;@;'@;i;(o;	;o;;i0;i;@;@;o;;i9;i": o;0	;o;N
+;O["px;i8;@;P"
+568px;Q[ ;'@;i;(o;	;o;;i:;i;@;@;o;;i?;i")o;
+
+;;7;["(/* MODIFYERS FOR TABLETS (BEGIN) */;@;	[ ;iho;^;T;" ;@;	[o;;T;o;	;o;;i;ik;@;@;o;;i;ik;o;;[o; ;[o;!;"0;#o;;{ ;[o;$	;%["	html;&0;'" ;ik;'@¡;ik;(o;	;o;;i;i;0;@¡;o;;i
+;i;'@¡;ik;-["	html;@;	[o;.;/o;	;o;;i;il;@;@;o;;i;il;%["font-size;o;0;o;1;;2;"66%;@;il;(o;	;o;;i;il;@;@;o;;i;il;@;	[ ;il;3o;	;o;;i;il;@;@;o;;i;il;(o;	;@ ;@;@;@◊;4;5;6i ;ik;(o;	;o;;i;ik;@;@;o;;i;ik;6i o;;T;o;	;o;;i;io;@;@;o;;iG;io;o;;[o; ;[o;!;"0;#o;;{ ;[o;8;%["ibm-top;'" ;ioo;;;%["ibm-landing-page;'@Î;io;'@Î;io;(o;	;o;;i;i;0;@Î;o;;i;io;!;"0;#o;;{ ;[o;8;%["ibm-leadspace-head;'@Î;ioo;;;%["ibm_cc__voices_ls;'@Î;io;'@Î;io;(o;	;o;;i ;i;0;@Î;o;;iE;i;'@Î;io;-["D#ibm-top.ibm-landing-page #ibm-leadspace-head.ibm_cc__voices_ls;@;	[o;.;/o;	;o;;i;ip;@;@;o;;i;ip;%["min-height;o;0;o;1;;2;"
+100px;@;ip;(o;	;o;;i;ip;@;@;o;;i;ip;@;	[ ;ip;3o;	;o;;i;ip;@;@;o;;i;ip;(o;	;@;@;@;@;4;5;6i o;;T;o;	;o;;i;ir;@;@;o;;i:;ir;o;;[o; ;[o;!;"0;#o;;{ ;[o;8;%["ibm-leadspace-body;'" ;ir;'@";ir;(o;	;o;;i;i;0;@";o;;i;io; ;[o;!;"0;#o;;{ ;[o;;;%["ibm_cci--sk;'@";iro;;;%["ibm_cci--sk__mt;'@";ir;'@";ir;(o;	;o;;i;i;0;@";o;;i7;i;'@";ir;-["6#ibm-leadspace-body, .ibm_cci--sk.ibm_cci--sk__mt;@;	[o;.;/o;	;o;;i	;is;@;@;o;;i;is;%["
+width;o;0;o;1;;2;"
+730px;@;is;(o;	;o;;i;is;@;@;o;;i;is;@;	[ ;is;3o;	;o;;i;is;@;@;o;;i;is;(o;	;@:;@;@;@G;4;5;6i ;ir;(o;	;o;;i;ir;@;@;o;;i:;ir;6i o;;T;o;	;o;;i;iv;@;@;o;;i;iv;o;;[o; ;[o;!;"0;#o;;{ ;[o;8;%["ibm-leadspace-body;'" ;iv;'@[;iv;(o;	;o;;i;i;0;@[;o;;i;i;'@[;iv;-["#ibm-leadspace-body;@;	[o;.;/o;	;o;;i	;iw;@;@;o;;i;iw;%["min-height;o;0;o;1;;2;"
+100px;@;iw;(o;	;o;;i;iw;@;@;o;;i;iw;@;	[ ;iw;3o;	;o;;i;iw;@;@;o;;i;iw;(o;	;@d;@;@;@q;4;5;6i o;.;/o;	;o;;i	;ix;@;@;o;;i;ix;%["padding;o;0;o;1;;2;"0;@;ix;(o;	;o;;i;ix;@;@;o;;i;ix;@;	[ ;ix;3o;	;o;;i;ix;@;@;o;;i;ix;(o;	;@u;@;@;@Ç;4;5;6i ;iv;(o;	;o;;i;iv;@;@;o;;i;iv;6i ;io;(o;	;o;;i;io;@;@;o;;iG;io;6i o;;T;o;	;o;;i;i};@;@;o;;i;i};o;;[o; ;[o;!;"0;#o;;{ ;[o;;;%["leadspace--defaults;'" ;i};'@ô;i};(o;	;o;;i;i;0;@ô;o;;i;i;'@ô;i};-[".leadspace--defaults;@;	[o;.;/o;	;o;;i;i~;@;@;o;;i;i~;%["margin;o;0;o;1;;2;"20px 0;@;i~;(o;	;o;;i;i~;@;@;o;;i;i~;@;	[ ;i~;3o;	;o;;i;i~;@;@;o;;i;i~;(o;	;@¢;@;@;@Ø;4;5;6i ;i};(o;	;o;;i;i};@;@;o;;i;i};6i o;;T;o;	;o;;i;iÅ;@;@;o;;iT;iÅ;-["?#ibm-leadspace-head.ibm_cc__voices_ls #ibm-leadspace-body o;9;%"leadspace--logo;'@;@;:"leadspace__logo;iÅ;(o;	;o;;iC;iÅ;@;@;o;;iS;iÅ;@;	[o;.;/o;	;o;;i;iÇ;@;@;o;;i;iÇ;%["
+width;o;0;o;1;;2;"
+250px;@;iÇ;(o;	;o;;i;iÇ;@;@;o;;i;iÇ;@;	[ ;iÇ;3o;	;o;;i;iÇ;@;@;o;;i;iÇ;(o;	;@√;@;@;@–;4;5;6i o;.;/o;	;o;;i;iÉ;@;@;o;;i;iÉ;%["margin;o;0;o;1;;2;"40px 0;@;iÉ;(o;	;o;;i;iÉ;@;@;o;;i;iÉ;@;	[ ;iÉ;3o;	;o;;i;iÉ;@;@;o;;i;iÉ;(o;	;@‘;@;@;@·;4;5;6i ;iÅ;(o;	;o;;i;iÅ;@;@;o;;iT;iÅ;6i o;;T;o;	;o;;i;iÜ;@;@;o;;iI;iÜ;-[	"#ibm-leadspace-head o;9;%"leadspace--logo;'@;@;:"leadspace__logo;iÜ;(o;	;o;;i;iÜ;@;@;o;;i-;iÜ" h1o;9;%"leadspace__modifier;'@;@;:"leadspace__modifier;iÜ;(o;	;o;;i3;iÜ;@;@;o;;iG;iÜ;@;	[	o;.;/o;	;o;;i;iá;@;@;o;;i;iá;%["background-position;o;0;o;1;;2;"-224px 0;@;iá;(o;	;o;;i;iá;@;@;o;;i%;iá;@;	[ ;iá;3o;	;o;;i;iá;@;@;o;;i%;iá;(o;	;@¸;@;@;@	;4;5;6i o;.;/o;	;o;;i;ià;@;@;o;;i;ià;%["
+width;o;0;o;1;;2;"
+167px;@;ià;(o;	;o;;i;ià;@;@;o;;i;ià;@;	[ ;ià;3o;	;o;;i;ià;@;@;o;;i;ià;(o;	;@;@;@;@;4;5;6i o;.;/o;	;o;;i;iâ;@;@;o;;i;iâ;%["height;o;0;o;1;;2;"	37px;@;iâ;(o;	;o;;i;iâ;@;@;o;;i;iâ;@;	[ ;iâ;3o;	;o;;i;iâ;@;@;o;;i;iâ;(o;	;@;@;@;@+;4;5;6i o;;T;o;	;o;;i;iä;@;@;o;;i
+;iä;o;;[o; ;[o;!;"0;#o;;{ ;[o;$	;%["a;&0;'" ;iä;'@<;iä;(o;	;o;;i;i;0;@<;o;;i;i;'@<;iä;-["a;@;	[o;.;/o;	;o;;i	;iã;@;@;o;;i;iã;%["
+width;o;0;o;1;;2;"
+167px;@;iã;(o;	;o;;i;iã;@;@;o;;i;iã;@;	[ ;iã;3o;	;o;;i;iã;@;@;o;;i;iã;(o;	;@E;@;@;@R;4;5;6i o;.;/o;	;o;;i	;iå;@;@;o;;i;iå;%["line-height;o;0;o;1;;2;"	37px;@;iå;(o;	;o;;i;iå;@;@;o;;i;iå;@;	[ ;iå;3o;	;o;;i;iå;@;@;o;;i;iå;(o;	;@V;@;@;@c;4;5;6i ;iä;(o;	;o;;i;iä;@;@;o;;i
+;iä;6i ;iÜ;(o;	;o;;i;iÜ;@;@;o;;iI;iÜ;6i o;;T;o;	;o;;i;iè;@;@;o;;i;iè;-[o;9;%"leadspace--toggle;'@;@;:"leadspace__toggle;iè;(o;	;o;;i	;iè;@;@;o;;i;iè;@;	[o;.;/o;	;o;;i;iê;@;@;o;;i;iê;%["
+width;o;0;o;1;;2;"	86px;@;iê;(o;	;o;;i;iê;@;@;o;;i;iê;@;	[ ;iê;3o;	;o;;i;iê;@;@;o;;i;iê;(o;	;@y;@;@;@Ü;4;5;6i ;iè;(o;	;o;;i;iè;@;@;o;;i;iè;6i o;;T;o;	;o;;i;iì;@;@;o;;i;iì;-[o;9;%"leadspace--search;'@;@;:"leadspace__search;iì;(o;	;o;;i	;iì;@;@;o;;i;iì;@;	[o;.;/o;	;o;;i;iî;@;@;o;;i;iî;%["
+width;o;0;o;1;;2;"
+360px;@;iî;(o;	;o;;i;iî;@;@;o;;i;iî;@;	[ ;iî;3o;	;o;;i;iî;@;@;o;;i;iî;(o;	;@ô;@;@;@¶;4;5;6i ;iì;(o;	;o;;i;iì;@;@;o;;i;iì;6i o;;T;o;	;o;;i;ió;@;@;o;;i=;ió;-[o;9;%"leadspace--search;'@;@;:"leadspace__search;ió;(o;	;o;;i	;ió;@;@;o;;i;ió"% form input.ibm-cc-search--field;@;	[o;.;/o;	;o;;i;iò;@;@;o;;i;iò;%["
+width;o;0;o;1;;2;"
+285px;@;iò;(o;	;o;;i;iò;@;@;o;;i;iò;@;	[ ;iò;3o;	;o;;i;iò;@;@;o;;i;iò;(o;	;@∫;@;@;@«;4;5;6i o;.;/o;	;o;;i;iô;@;@;o;;i;iô;%["margin-top;o;0;o;1;;2;"5px;@;iô;(o;	;o;;i;iô;@;@;o;;i;iô;@;	[ ;iô;3o;	;o;;i;iô;@;@;o;;i;iô;(o;	;@À;@;@;@ÿ;4;5;6i ;ió;(o;	;o;;i;ió;@;@;o;;i=;ió;6i o;
+
+;;;["q/* #ibm-leadspace-head.ibm_cc__voices_ls #ibm-leadspace-body .ibm_cci--sr {
+ * 		margin-left: 10px;
+ * }  */;@;	[ ;iúo;
+
+;;;["|/* #ibm-leadspace-head.ibm_cc__voices_ls #ibm-leadspace-body .ibm_cci--sk.ibm_cci--sk__mt {
+ * 	margin-left:10px;
+ * }
+ * */;@;	[ ;i†o;;T;o;	;o;;i;i§;@;@;o;;i;i§;o;;[o; ;[o;!;"0;#o;;{ ;[o;8;%["ibm-top;'" ;i§;'@Ù;i§;(o;	;o;;i;i;0;@Ù;o;;i;io;!;"0;#o;;{ ;[o;;;%["ibm-columns;'@Ù;i§;'@Ù;i§;(o;	;o;;i;i;0;@Ù;o;;i;i;'@Ù;i§;-["#ibm-top .ibm-columns;@;	[o;.;/o;	;o;;i;i•;@;@;o;;i;i•;%["padding;o;0;o;1;;2;"0 35px;@;i•;(o;	;o;;i;i•;@;@;o;;i;i•;@;	[ ;i•;3o;	;o;;i;i•;@;@;o;;i;i•;(o;	;@;@;@;@;4;5;6i ;i§;(o;	;o;;i;i§;@;@;o;;i;i§;6i o;;T;o;	;o;;i;i®;@;@;o;;i:;i®;-[o;9;%"ibm-widget-js;'@;@;:"ibm_widget_js;i®;(o;	;o;;i	;i®;@;@;o;;i;i®"&.ibm-columns.ibm_cci-lv__modifier;@;	[	o;.;/o;	;o;;i;i©;@;@;o;;i;i©;%["
+width;o;0;o;1;;2;"
+730px;@;i©;(o;	;o;;i;i©;@;@;o;;i;i©;@;	[ ;i©;3o;	;o;;i;i©;@;@;o;;i;i©;(o;	;@(;@;@;@5;4;5;6i o;.;/o;	;o;;i;i™;@;@;o;;i;i™;%["padding;o;0;o;1;;2;"0;@;i™;(o;	;o;;i;i™;@;@;o;;i;i™;@;	[ ;i™;3o;	;o;;i;i™;@;@;o;;i;i™;(o;	;@9;@;@;@F;4;5;6i o;;T;o;	;o;;i;i¨;@;@;o;;i;i¨;o;;[o; ;[o;!;"0;#o;;{ ;[o;;;%["ibm-col-1-1;'" ;i¨;'@W;i¨;(o;	;o;;i;i;0;@W;o;;i;i;'@W;i¨;-[".ibm-col-1-1;@;	[	o;.;/o;	;o;;i	;i≠;@;@;o;;i;i≠;%["
+width;o;0;o;1;;2;"
+730px;@;i≠;(o;	;o;;i;i≠;@;@;o;;i;i≠;@;	[ ;i≠;3o;	;o;;i;i≠;@;@;o;;i;i≠;(o;	;@`;@;@;@m;4;5;6i o;.;/o;	;o;;i	;iÆ;@;@;o;;i;iÆ;%["margin;o;0;o;1;;2;"0;@;iÆ;(o;	;o;;i;iÆ;@;@;o;;i;iÆ;@;	[ ;iÆ;3o;	;o;;i;iÆ;@;@;o;;i;iÆ;(o;	;@q;@;@;@~;4;5;6i o;.;/o;	;o;;i	;iØ;@;@;o;;i;iØ;%["position;o;0;o;1;;2;"relative !important;@;iØ;(o;	;o;;i;iØ;@;@;o;;i&;iØ;@;	[ ;iØ;3o;	;o;;i;iØ;@;@;o;;i&;iØ;(o;	;@Ç;@;@;@è;4;5;6i o;.;/o;	;o;;i	;i∞;@;@;o;;i;i∞;%["top;o;0;o;1;;2;"0 !important;@;i∞;(o;	;o;;i;i∞;@;@;o;;i;i∞;@;	[ ;i∞;3o;	;o;;i;i∞;@;@;o;;i;i∞;(o;	;@ì;@;@;@†;4;5;6i ;i¨;(o;	;o;;i;i¨;@;@;o;;i;i¨;6i o;;T;o;	;o;;i;i≥;@;@;o;;i;i≥;o;;[o; ;[o;!;"0;#o;;{ ;[o;;;%["ibm-card;'" ;i≥;'@¥;i≥;(o;	;o;;i;i;0;@¥;o;;i;i;'@¥;i≥;-[".ibm-card;@;	[o;.;/o;	;o;;i	;i¥;@;@;o;;i;i¥;%["margin-bottom;o;0;o;1;;2;"0;@;i¥;(o;	;o;;i;i¥;@;@;o;;i;i¥;@;	[ ;i¥;3o;	;o;;i;i¥;@;@;o;;i;i¥;(o;	;@Ω;@;@;@ ;4;5;6i ;i≥;(o;	;o;;i;i≥;@;@;o;;i;i≥;6i ;i®;(o;	;o;;i;i®;@;@;o;;i:;i®;6i o;;T;o;	;o;;i;iπ;@;@;o;;i:;iπ;-[o;9;%"ibm-widget-js;'@;@;:"ibm_widget_js;iπ;(o;	;o;;i	;iπ;@;@;o;;i;iπ"&.ibm-columns.ibm_cci-gv__modifier;@;	[o;.;/o;	;o;;i;i∫;@;@;o;;i;i∫;%["
+width;o;0;o;1;;2;"
+640px;@;i∫;(o;	;o;;i;i∫;@;@;o;;i;i∫;@;	[ ;i∫;3o;	;o;;i;i∫;@;@;o;;i;i∫;(o;	;@·;@;@;@Ó;4;5;6i o;.;/o;	;o;;i;iª;@;@;o;;i;iª;%["padding;o;0;o;1;;2;"0;@;iª;(o;	;o;;i;iª;@;@;o;;i;iª;@;	[ ;iª;3o;	;o;;i;iª;@;@;o;;i;iª;(o;	;@Ú;@;@;@ˇ;4;5;6i ;iπ;(o;	;o;;i;iπ;@;@;o;;i:;iπ;6i o;;T;o;	;o;;i;i¿;@;@;o;;i9;i¿;-[o;9;%"ibm-widget-js;'@;@;:"ibm_widget_js;i¿;(o;	;o;;i;i¿;@;@;o;;i;i¿"&.ibm-columns.ibm_cci-gv__modifier;@;	[o;;T;o;	;o;;i;i¬;@;@;o;;iI;i¬;o;;[o; ;[o;!;"0;#o;;{ ;[o;;;%["ibm_cci--tweet-description;'" ;i¬;'@ ;i¬;(o;	;o;;i;i;0;@ ;o;;i!;io; ;[o;!;"0;#o;;{ ;[o;;;%["ibm_cci--tweet-title;'@ ;i¬;'@ ;i¬;(o;	;o;;i#;i;0;@ ;o;;i8;io; ;[o;!;"0;#o;;{ ;[o;;;%["ibm_cci--rcb;'@ ;i¬;'@ ;i¬;(o;	;o;;i:;i;0;@ ;o;;iG;i;'@ ;i¬;-["F.ibm_cci--tweet-description, .ibm_cci--tweet-title, .ibm_cci--rcb;@;	[o;.;/o;	;o;;i	;i√;@;@;o;;i;i√;%["
+width;o;0;o;1;;2;"
+270px;@;i√;(o;	;o;;i;i√;@;@;o;;i;i√;@;	[ ;i√;3o;	;o;;i;i√;@;@;o;;i;i√;(o;	;@A;@;@;@N;4;5;6i ;i¬;(o;	;o;;i;i¬;@;@;o;;iI;i¬;6i ;i¿;(o;	;o;;i;i¿;@;@;o;;i9;i¿;6i o;;T;o;	;o;;i;i«;@;@;o;;ib;i«;-[o;9;%"ibm-widget-js;'@;@;:"ibm_widget_js;i«;(o;	;o;;i	;i«;@;@;o;;i;i«"N.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1 .ibm-col-6-4 .ibm_cci--rcb;@;	[
+o;.;/o;	;o;;i;i»;@;@;o;;i;i»;%["
+width;o;0;o;1;;2;"
+650px;@;i»;(o;	;o;;i;i»;@;@;o;;i;i»;@;	[ ;i»;3o;	;o;;i;i»;@;@;o;;i;i»;(o;	;@e;@;@;@r;4;5;6i o;.;/o;	;o;;i;i…;@;@;o;;i;i…;%["padding;o;0;o;1;;2;"0;@;i…;(o;	;o;;i;i…;@;@;o;;i;i…;@;	[ ;i…;3o;	;o;;i;i…;@;@;o;;i;i…;(o;	;@v;@;@;@É;4;5;6i o;.;/o;	;o;;i;i ;@;@;o;;i;i ;%["border;o;0;o;1;;2;"0;@;i ;(o;	;o;;i;i ;@;@;o;;i;i ;@;	[ ;i ;3o;	;o;;i;i ;@;@;o;;i;i ;(o;	;@á;@;@;@î;4;5;6i o;.;/o;	;o;;i;iÀ;@;@;o;;i;iÀ;%["
+clear;o;0;o;1;;2;"	none;@;iÀ;(o;	;o;;i;iÀ;@;@;o;;i;iÀ;@;	[ ;iÀ;3o;	;o;;i;iÀ;@;@;o;;i;iÀ;(o;	;@ò;@;@;@•;4;5;6i o;;T;o;	;o;;i;iÕ;@;@;o;;i;iÕ;o;;[o; ;[o;!;"0;#o;;{ ;[o;;;%["ibm_cci-fav-ihb;'" ;iÕ;'@∂;iÕ;(o;	;o;;i;i;0;@∂;o;;i;i;'@∂;iÕ;-[".ibm_cci-fav-ihb;@;	[o;.;/o;	;o;;i	;iŒ;@;@;o;;i;iŒ;%["
+width;o;0;o;1;;2;"
+590px;@;iŒ;(o;	;o;;i;iŒ;@;@;o;;i;iŒ;@;	[ ;iŒ;3o;	;o;;i;iŒ;@;@;o;;i;iŒ;(o;	;@ø;@;@;@Ã;4;5;6i o;;T;o;	;o;;i	;i–;@;@;o;;i;i–;o;;[o; ;[o;!;"0;#o;;{ ;[o;$	;%["a;&0;'" ;i–o;;;%["ibm_cci--feed-title;'@›;i–;'@›;i–;(o;	;o;;i;i;0;@›;o;;i;i;'@›;i–;-["a.ibm_cci--feed-title;@;	[o;.;/o;	;o;;i
+;i—;@;@;o;;i;i—;%["
+width;o;0;o;1;;2;"
+560px;@;i—;(o;	;o;;i;i—;@;@;o;;i;i—;@;	[ ;i—;3o;	;o;;i;i—;@;@;o;;i;i—;(o;	;@È;@;@;@ˆ;4;5;6i ;i–;(o;	;o;;i	;i–;@;@;o;;i;i–;6i ;iÕ;(o;	;o;;i;iÕ;@;@;o;;i;iÕ;6i ;i«;(o;	;o;;i;i«;@;@;o;;ib;i«;6i o;;T;o;	;o;;i;i’;@;@;o;;iT;i’;-[o;9;%"ibm-widget-js;'@;@;:"ibm_widget_js;i’;(o;	;o;;i	;i’;@;@;o;;i;i’"@.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1 .ibm-col-6-2;@;	[
+o;.;/o;	;o;;i;i÷;@;@;o;;i;i÷;%["
+width;o;0;o;1;;2;"
+650px;@;i÷;(o;	;o;;i;i÷;@;@;o;;i;i÷;@;	[ ;i÷;3o;	;o;;i;i÷;@;@;o;;i;i÷;(o;	;@;@;@;@;4;5;6i o;.;/o;	;o;;i;i◊;@;@;o;;i;i◊;%["margin;o;0;o;1;;2;"20px 0 0 80px;@;i◊;(o;	;o;;i;i◊;@;@;o;;i;i◊;@;	[ ;i◊;3o;	;o;;i;i◊;@;@;o;;i;i◊;(o;	;@!;@;@;@.;4;5;6i o;.;/o;	;o;;i;iÿ;@;@;o;;i;iÿ;%["
+clear;o;0;o;1;;2;"	both;@;iÿ;(o;	;o;;i;iÿ;@;@;o;;i;iÿ;@;	[ ;iÿ;3o;	;o;;i;iÿ;@;@;o;;i;iÿ;(o;	;@2;@;@;@?;4;5;6i o;.;/o;	;o;;i;iŸ;@;@;o;;i;iŸ;%["display;o;0;o;1;;2;"	none;@;iŸ;(o;	;o;;i;iŸ;@;@;o;;i;iŸ;@;	[ ;iŸ;3o;	;o;;i;iŸ;@;@;o;;i;iŸ;(o;	;@C;@;@;@P;4;5;6i o;;T;o;	;o;;i;i€;@;@;o;;i$;i€;o;;[o; ;[o;!;"0;#o;;{ ;[o;$	;%["ul;&0;'" ;i€;'@a;i€;(o;	;o;;i;i;0;@a;o;;i;io; ;[o;!;"0;#o;;{ ;[o;;;%["ibm_cci--lv-rc-sharing;'@a;i€;'@a;i€;(o;	;o;;i
+;i;0;@a;o;;i!;i;'@a;i€;-[" ul, .ibm_cci--lv-rc-sharing;@;	[o;.;/o;	;o;;i	;i‹;@;@;o;;i;i‹;%["
+width;o;0;o;1;;2;"inherit;@;i‹;(o;	;o;;i;i‹;@;@;o;;i;i‹;@;	[ ;i‹;3o;	;o;;i;i‹;@;@;o;;i;i‹;(o;	;@v;@;@;@É;4;5;6i o;;T;o;	;o;;i	;iﬁ;@;@;o;;i;iﬁ;o;;[o; ;[">o;!;"0;#o;;{ ;[o;$	;%["ul;&0;'" ;iﬁ;'@ï;iﬁ;(o;	;o;;i;i;0;@ï;o;;i
+;i;'@ï;iﬁ;-["	> ul;@;	[o;.;/o;	;o;;i
+;iﬂ;@;@;o;;i;iﬂ;%["
+width;o;0;o;1;;2;"
+502px;@;iﬂ;(o;	;o;;i;iﬂ;@;@;o;;i;iﬂ;@;	[ ;iﬂ;3o;	;o;;i;iﬂ;@;@;o;;i;iﬂ;(o;	;@û;@;@;@´;4;5;6i ;iﬁ;(o;	;o;;i	;iﬁ;@;@;o;;i;iﬁ;6i ;i€;(o;	;o;;i;i€;@;@;o;;i$;i€;6i ;i’;(o;	;o;;i;i’;@;@;o;;iT;i’;6i o;;T;o;	;o;;i;i‰;@;@;o;;iw;i‰;-[o;9;%"ibm-widget-js;'@;@;:"ibm_widget_js;i‰;(o;	;o;;i	;i‰;@;@;o;;i;i‰"d.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1 .ibm-col-6-2 .ibm_cci-rel-tweet-detils-container;@;	[o;.;/o;	;o;;i;iÂ;@;@;o;;i;iÂ;%["min-width;o;0;o;1;;2;"
+596px;@;iÂ;(o;	;o;;i;iÂ;@;@;o;;i;iÂ;@;	[ ;iÂ;3o;	;o;;i;iÂ;@;@;o;;i;iÂ;(o;	;@≈;@;@;@“;4;5;6i ;i‰;(o;	;o;;i;i‰;@;@;o;;iw;i‰;6i o;;T;o;	;o;;i;iË;@;@;o;;i[;iË;-[o;9;%"ibm-widget-js;'@;@;:"ibm_widget_js;iË;(o;	;o;;i	;iË;@;@;o;;i;iË"G.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1 .ibm_cci--lv-unro-b;@;	[o;.;/o;	;o;;i;iÈ;@;@;o;;i;iÈ;%["
+width;o;0;o;1;;2;"inherit;@;iÈ;(o;	;o;;i;iÈ;@;@;o;;i;iÈ;@;	[ ;iÈ;3o;	;o;;i;iÈ;@;@;o;;i;iÈ;(o;	;@Ê;@;@;@Û;4;5;6i o;;T;o;	;o;;i;iÎ;@;@;o;;iC;iÎ;o;;[o; ;[o;!;"0;#o;;{ ;[o;;;%["ibm_cci--unr-cb;'" ;iÎ;'@;iÎ;(o;	;o;;i;i;0;@;o;;i;io; ;[o;!;"0;#o;;{ ;[o;;;%["ibm_cci--unr-cb;'@;iÎ;'@;iÎ;(o;	;o;;i;i;0;@;o;;i(;io;!;"0;#o;;{ ;[o;;;%["ibm_cci--lv-rc-sharing;'@;iÎ;'@;iÎ;(o;	;o;;i);i;0;@;o;;i@;i;'@;iÎ;-["?.ibm_cci--unr-cb, .ibm_cci--unr-cb .ibm_cci--lv-rc-sharing;@;	[o;.;/o;	;o;;i	;iÏ;@;@;o;;i;iÏ;%["
+width;o;0;o;1;;2;"
+540px;@;iÏ;(o;	;o;;i;iÏ;@;@;o;;i;iÏ;@;	[ ;iÏ;3o;	;o;;i;iÏ;@;@;o;;i;iÏ;(o;	;@#;@;@;@0;4;5;6i o;;T;o;	;o;;i	;iÓ;@;@;o;;i;iÓ;o;;[o; ;[">o;!;"0;#o;;{ ;[o;$	;%["ul;&0;'" ;iÓ;'@B;iÓ;(o;	;o;;i;i;0;@B;o;;i
+;i;'@B;iÓ;-["	> ul;@;	[o;.;/o;	;o;;i
+;iÔ;@;@;o;;i;iÔ;%["
+width;o;0;o;1;;2;"
+502px;@;iÔ;(o;	;o;;i;iÔ;@;@;o;;i;iÔ;@;	[ ;iÔ;3o;	;o;;i;iÔ;@;@;o;;i;iÔ;(o;	;@K;@;@;@X;4;5;6i ;iÓ;(o;	;o;;i	;iÓ;@;@;o;;i;iÓ;6i ;iÎ;(o;	;o;;i;iÎ;@;@;o;;iC;iÎ;6i ;iË;(o;	;o;;i;iË;@;@;o;;i[;iË;6i o;;T;o;	;o;;i;iÙ;@;@;o;;ib;iÙ;o;;[o; ;[	o;!;"0;#o;;{ ;[o;8;%["ibm-leadspace-head;'" ;iÙo;;;%["ibm_cc__voices_ls;'@r;iÙ;'@r;iÙ;(o;	;o;;i;i;0;@r;o;;i+;io;!;"0;#o;;{ ;[o;8;%["ibm-leadspace-body;'@r;iÙ;'@r;iÙ;(o;	;o;;i,;i;0;@r;o;;i?;io;!;"0;#o;;{ ;[o;;;%["ibm_cci--ls--logo;'@r;iÙ;'@r;iÙ;(o;	;o;;i@;i;0;@r;o;;iR;io;!;"0;#o;;{ ;[o;$	;%["p;&0;'@r;iÙo;;;%["ibm_cci-back;'@r;iÙ;'@r;iÙ;(o;	;o;;iS;i;0;@r;o;;ia;i;'@r;iÙ;-["`#ibm-leadspace-head.ibm_cc__voices_ls #ibm-leadspace-body .ibm_cci--ls--logo p.ibm_cci-back;@;	[o;.;/o;	;o;;i;iı;@;@;o;;i;iı;%["top;o;0;o;1;;2;"0px;@;iı;(o;	;o;;i;iı;@;@;o;;i;iı;@;	[ ;iı;3o;	;o;;i;iı;@;@;o;;i;iı;(o;	;@ü;@;@;@¨;4;5;6i o;.;/o;	;o;;i;iˆ;@;@;o;;i;iˆ;%["	left;o;0;o;1;;2;"
+-80px;@;iˆ;(o;	;o;;i;iˆ;@;@;o;;i;iˆ;@;	[ ;iˆ;3o;	;o;;i;iˆ;@;@;o;;i;iˆ;(o;	;@∞;@;@;@Ω;4;5;6i o;.;/o;	;o;;i;i˜;@;@;o;;i;i˜;%["
+width;o;0;o;1;;2;"
+120px;@;i˜;(o;	;o;;i;i˜;@;@;o;;i;i˜;@;	[ ;i˜;3o;	;o;;i;i˜;@;@;o;;i;i˜;(o;	;@¡;@;@;@Œ;4;5;6i ;iÙ;(o;	;o;;i;iÙ;@;@;o;;ib;iÙ;6i o;;T;o;	;o;;i;i˙;@;@;o;;id;i˙;o;;[o; ;[	o;!;"0;#o;;{ ;[o;8;%["ibm-leadspace-head;'" ;i˙o;;;%["ibm_cc__voices_ls;'@‚;i˙;'@‚;i˙;(o;	;o;;i;i;0;@‚;o;;i+;io;!;"0;#o;;{ ;[o;8;%["ibm-leadspace-body;'@‚;i˙;'@‚;i˙;(o;	;o;;i,;i;0;@‚;o;;i?;io;!;"0;#o;;{ ;[o;;;%["ibm_cci--ls--logo;'@‚;i˙;'@‚;i˙;(o;	;o;;i@;i;0;@‚;o;;iR;io;!;"0;#o;;{ ;[o;$	;%["p;&0;'@‚;i˙o;;;%["ibm_cci-about;'@‚;i˙;'@‚;i˙;(o;	;o;;iS;i;0;@‚;o;;ib;i;'@‚;i˙;-["a#ibm-leadspace-head.ibm_cc__voices_ls #ibm-leadspace-body .ibm_cci--ls--logo p.ibm_cci-about;@;	[o;
+
+;;;["/* top:37px; */;@;	[ ;i˚o;.;/o;	;o;;i;i¸;@;@;o;;i;i¸;%["	left;o;0;o;1;;2;"
+-85px;@;i¸;(o;	;o;;i;i¸;@;@;o;;i;i¸;@;	[ ;i¸;3o;	;o;;i;i¸;@;@;o;;i;i¸;(o;	;@;@;@;@ ;4;5;6i ;i˙;(o;	;o;;i;i˙;@;@;o;;id;i˙;6i o;
+
+;;;["/* ABOUT US PAGE */;@;	[ ;i o;;T;o;	;o;;i;i;@;@;o;;iN;i;-["#ibm-content o;9;%"ibm-widget-about;'@;@;:"ibm_widget_about;i;(o;	;o;;i;i;@;@;o;;i';i"*.ibm-columns .ibm-col-6-4.ibm_cci_acc;@;	[	o;.;/o;	;o;;i;i;@;@;o;;i;i;%["position;o;0;o;1;;2;"relative;@;i;(o;	;o;;i;i;@;@;o;;i;i;@;	[ ;i;3o;	;o;;i;i;@;@;o;;i;i;(o;	;@9;@;@;@F;4;5;6i o;.;/o;	;o;;i;i;@;@;o;;i;i;%["top;o;0;o;1;;2;"0;@;i;(o;	;o;;i;i;@;@;o;;i;i;@;	[ ;i;3o;	;o;;i;i;@;@;o;;i;i;(o;	;@J;@;@;@W;4;5;6i o;.;/o;	;o;;i;i;@;@;o;;i;i;%["margin-top;o;0;o;1;;2;"0;@;i;(o;	;o;;i;i;@;@;o;;i;i;@;	[ ;i;3o;	;o;;i;i;@;@;o;;i;i;(o;	;@[;@;@;@h;4;5;6i o;;T;o;	;o;;i;i;@;@;o;;i%;i;o;;[o; ;[o;!;"0;#o;;{ ;[o;;;%["ibm-columns;'" ;io;;;%["ibm_cci-accounts;'@y;i;'@y;i;(o;	;o;;i;i;0;@y;o;;i#;i;'@y;i;-["".ibm-columns.ibm_cci-accounts;@;	[o;.;/o;	;o;;i	;i;@;@;o;;i;i;%["margin-top;o;0;o;1;;2;"	20px;@;i;(o;	;o;;i;i;@;@;o;;i;i;@;	[ ;i;3o;	;o;;i;i;@;@;o;;i;i;(o;	;@Ö;@;@;@í;4;5;6i o;;T;o;	;o;;i	;i	;@;@;o;;i9;i	;o;;[o; ;[o;!;"0;#o;;{ ;[o;;;%["ibm-col-6-2;'" ;i	o;;;%["ibm_cci-ba;'@£;i	;'@£;i	;(o;	;o;;i;i;0;@£;o;;i;io; ;[o;!;"0;#o;;{ ;[o;;;%["ibm-col-6-2;'@£;i	o;;;%["ibm_cci-ia;'@£;i	;'@£;i	;(o;	;o;;i;i;0;@£;o;;i6;i;'@£;i	;-["5.ibm-col-6-2.ibm_cci-ba, .ibm-col-6-2.ibm_cci-ia;@;	[o;.;/o;	;o;;i
+;i
+;@;@;o;;i;i
+;%["
+width;o;0;o;1;;2;"
+310px;@;i
+;(o;	;o;;i;i
+;@;@;o;;i;i
+;@;	[ ;i
+;3o;	;o;;i;i
+;@;@;o;;i;i
+;(o;	;@æ;@;@;@À;4;5;6i ;i	;(o;	;o;;i	;i	;@;@;o;;i9;i	;6i o;;T;o;	;o;;i	;i;@;@;o;;i-;i;o;;[o; ;[o;!;"0;#o;;{ ;[o;;;%["ibm-col-6-2;'" ;io;;;%["ibm_cci-ia;'@ﬂ;i;'@ﬂ;i;(o;	;o;;i;i;0;@ﬂ;o;;i;io;!;"0;#o;;{ ;[o;;;%["ibm-columns;'@ﬂ;i;'@ﬂ;i;(o;	;o;;i;i;0;@ﬂ;o;;i*;i;'@ﬂ;i;-[").ibm-col-6-2.ibm_cci-ia .ibm-columns;@;	[o;;T;o;	;o;;i
+;i;@;@;o;;i;i;o;;[o; ;[o;!;"0;#o;;{ ;[o;;;%["ibm-col-6-1;'" ;i;'@;i;(o;	;o;;i;i;0;@;o;;i;i;'@;i;-[".ibm-col-6-1;@;	[o;.;/o;	;o;;i;i;@;@;o;;i;i;%["
+width;o;0;o;1;;2;"
+145px;@;i;(o;	;o;;i;i;@;@;o;;i;i;@;	[ ;i;3o;	;o;;i;i;@;@;o;;i;i;(o;	;@;@;@;@;4;5;6i ;i;(o;	;o;;i
+;i;@;@;o;;i;i;6i ;i;(o;	;o;;i	;i;@;@;o;;i-;i;6i ;i;(o;	;o;;i;i;@;@;o;;i%;i;6i ;i;(o;	;o;;i;i;@;@;o;;iN;i;6i o;;T;o;	;o;;i;i;@;@;o;;iL;i;-["#ibm-content o;9;%"ibm-widget-about;'@;@;:"ibm_widget_about;i;(o;	;o;;i;i;@;@;o;;i';i").ibm-columns .ibm-col-6-2.ibm_cci-rr;@;	[
+o;.;/o;	;o;;i;i;@;@;o;;i;i;%["
+width;o;0;o;1;;2;"
+640px;@;i;(o;	;o;;i;i;@;@;o;;i;i;@;	[ ;i;3o;	;o;;i;i;@;@;o;;i;i;(o;	;@6;@;@;@C;4;5;6i o;.;/o;	;o;;i;i;@;@;o;;i;i;%["margin-top;o;0;o;1;;2;"	25px;@;i;(o;	;o;;i;i;@;@;o;;i;i;@;	[ ;i;3o;	;o;;i;i;@;@;o;;i;i;(o;	;@G;@;@;@T;4;5;6i o;;T;o;	;o;;i;i;@;@;o;;i;i;o;;[o; ;[o;!;"0;#o;;{ ;[o;$	;%["img;&0;'" ;i;'@e;i;(o;	;o;;i;i;0;@e;o;;i	;i;'@e;i;-["img;@;	[o;
+
+;;;["/* width:274px; */;@;	[ ;io;.;/o;	;o;;i;i;@;@;o;;i;i;%["
+float;o;0;o;1;;2;"	left;@;i;(o;	;o;;i;i;@;@;o;;i;i;@;	[ ;i;3o;	;o;;i;i;@;@;o;;i;i;(o;	;@r;@;@;@;4;5;6i ;i;(o;	;o;;i;i;@;@;o;;i;i;6i o;;T;o;	;o;;i
+;i;@;@;o;;i;i;o;;[o; ;[o;!;"0;#o;;{ ;[o;$	;%["p;&0;'" ;io;;;%["ibm_cci-rea-desc;'@ì;i;'@ì;i;(o;	;o;;i;i;0;@ì;o;;i;i;'@ì;i;-["p.ibm_cci-rea-desc;@;	[	o;.;/o;	;o;;i;i;@;@;o;;i;i;%["
+float;o;0;o;1;;2;"	left;@;i;(o;	;o;;i;i;@;@;o;;i;i;@;	[ ;i;3o;	;o;;i;i;@;@;o;;i;i;(o;	;@ü;@;@;@¨;4;5;6i o;.;/o;	;o;;i;i;@;@;o;;i;i;%["
+width;o;0;o;1;;2;"
+340px;@;i;(o;	;o;;i;i;@;@;o;;i;i;@;	[ ;i;3o;	;o;;i;i;@;@;o;;i;i;(o;	;@∞;@;@;@Ω;4;5;6i o;.;/o;	;o;;i;i ;@;@;o;;i;i ;%["padding-left;o;0;o;1;;2;"	25px;@;i ;(o;	;o;;i;i ;@;@;o;;i;i ;@;	[ ;i ;3o;	;o;;i;i ;@;@;o;;i;i ;(o;	;@¡;@;@;@Œ;4;5;6i o;.;/o;	;o;;i;i!;@;@;o;;i;i!;%["border-bottom;o;0;o;1;;2;"	none;@;i!;(o;	;o;;i;i!;@;@;o;;i;i!;@;	[ ;i!;3o;	;o;;i;i!;@;@;o;;i;i!;(o;	;@“;@;@;@ﬂ;4;5;6i ;i;(o;	;o;;i
+;i;@;@;o;;i;i;6i o;;T;o;	;o;;i
+;i$;@;@;o;;i$;i$;o;;[o; ;[o;!;"0;#o;;{ ;[o;;;%["ibm-columns;'" ;i$;'@Û;i$;(o;	;o;;i;i;0;@Û;o;;i;io;!;"0;#o;;{ ;[o;;;%["ibm-col-6-2;'@Û;i$;'@Û;i$;(o;	;o;;i;i;0;@Û;o;;i;i;'@Û;i$;-[".ibm-columns .ibm-col-6-2;@;	[o;;T;o;	;o;;i;i%;@;@;o;;i;i%;o;;[o; ;[o;!;"0;#o;;{ ;[o;$	;%["img;&0;'" ;i%;'@;i%;(o;	;o;;i;i;0;@;o;;i	;i;'@;i%;-["img;@;	[o;.;/o;	;o;;i;i&;@;@;o;;i;i&;%["margin;o;0;o;1;;2;"15px 120px 20px 0;@;i&;(o;	;o;;i;i&;@;@;o;;i%;i&;@;	[ ;i&;3o;	;o;;i;i&;@;@;o;;i%;i&;(o;	;@;@;@;@);4;5;6i ;i%;(o;	;o;;i;i%;@;@;o;;i;i%;6i o;;T;o;	;o;;i;i);@;@;o;;i;i);o;;[o; ;[o;!;"0;#o;;{ ;[o;$	;%["h2;&0;'" ;i);'@=;i);(o;	;o;;i;i;0;@=;o;;i;io; ;[o;!;"0;#o;;{ ;[o;$	;%["p;&0;'@=;i);'@=;i);(o;	;o;;i
+;i;0;@=;o;;i;i;'@=;i);-["
+h2, p;@;	[o;.;/o;	;o;;i;i*;@;@;o;;i;i*;%["margin-left;o;0;o;1;;2;"0;@;i*;(o;	;o;;i;i*;@;@;o;;i;i*;@;	[ ;i*;3o;	;o;;i;i*;@;@;o;;i;i*;(o;	;@R;@;@;@_;4;5;6i ;i);(o;	;o;;i;i);@;@;o;;i;i);6i ;i$;(o;	;o;;i
+;i$;@;@;o;;i$;i$;6i ;i;(o;	;o;;i;i;@;@;o;;iL;i;6i o;;T;o;	;o;;i	;i/;@;@;o;;i6;i/;o;;[o; ;[o;!;"0;#o;;{ ;[o;8;%["ibm-footer-module;'" ;i/;'@y;i/;(o;	;o;;i;i;0;@y;o;;i;io;!;"0;#o;;{ ;[o;;;%["ibm-columns;'@y;i/;'@y;i/;(o;	;o;;i;i;0;@y;o;;i%;io;!;"0;#o;;{ ;[o;;;%["ibm-col-6-1;'@y;i/;'@y;i/;(o;	;o;;i&;i;0;@y;o;;i2;i;'@y;i/;-["1#ibm-footer-module .ibm-columns .ibm-col-6-1;@;	[o;.;/o;	;o;;i8;i/;@;@;o;;iB;i/;%["min-height;o;0;o;1;;2;"
+200px;@;i/;(o;	;o;;iD;i/;@;@;o;;iI;i/;@;	[ ;i/;3o;	;o;;iD;i/;@;@;o;;iI;i/;(o;	;@ñ;@;@;@£;4;5;6i ;i/;(o;	;o;;i	;i/;@;@;o;;i6;i/;6i o;;T;o;	;o;;i	;i0;@;@;o;;i%;i0;o;;[o; ;[o;!;"0;#o;;{ ;[o;;;%["ibm-legal-text;'" ;i0;'@∑;i0;(o;	;o;;i;i;0;@∑;o;;i;io; ;[o;!;"0;#o;;{ ;[o;;;%["ibm-legal;'@∑;i0;'@∑;i0;(o;	;o;;i;i;0;@∑;o;;i!;i;'@∑;i0;-[" .ibm-legal-text, .ibm-legal;@;	[o;.;/o;	;o;;i
+;i1;@;@;o;;i;i1;%["
+width;o;0;o;1;;2;"
+708px;@;i1;(o;	;o;;i;i1;@;@;o;;i;i1;@;	[ ;i1;3o;	;o;;i;i1;@;@;o;;i;i1;(o;	;@Ã;@;@;@Ÿ;4;5;6i ;i0;(o;	;o;;i	;i0;@;@;o;;i%;i0;6i ;ii;(o;	;o;;i;ii;@;@;o;;iE;ii;6i ;_["	only" "screen"
+ and "(o;0	;o;1;;2;"min-width;@;'@;ii;(o;	;o;;i;ii;@;@;o;;i';ii": o;0	;o;N
+;O["px;iÅ;@;P"
+641px;Q[ ;'@;ii;(o;	;o;;i(;ii;@;@;o;;i-;ii")"
+ and "(o;0	;o;1;;2;"max-width;@;'@;ii;(o;	;o;;i4;ii;@;@;o;;i=;ii": o;0	;o;N
+;O["px;i ;@;P"
+800px;Q[ ;'@;ii;(o;	;o;;i>;ii;@;@;o;;iC;ii");i;(o;	;o;;i;i;@;@;o;;i;i

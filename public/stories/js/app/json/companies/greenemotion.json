@@ -1,0 +1,237 @@
+  {
+    "id" : 9,
+    
+    "company" : "Green eMotion",
+    "title": "road trips made with IBM Cloud",
+    "color1" : "#7ccf1a",
+    "color2" : "#7ccf1a",
+    "short-description" : "Green eMotion is paving the way for electric vehicles with IBM Cloud",
+    "filterTechnology": "cloud",
+    "filterIndustry": "transportation",
+     "filterCapability": "business-model-innovation",
+    "filterCapabilityLabel": "Business Model Innovation",
+    "share_twitter_url" : "http://bit.ly/1jueUIh",
+    "share_twitter_copy" : "Green%20eMotion%20is%20paving%20the%20way%20for%20electric%20vehicles%20with%20IBM%20Cloud.%20See%20how.%20%23madewithIBM",
+    "share_fb_url" : "http%3A%2F%2Fwww.ibm.com%2Fsmarterplanet%2Fus%2Fen%2Fmadewithibm%2Fstories%2F%23!story%2F9%3Fcmp%3Dusbrb%26cm%3Dh%26csr%3Dagus_madewith_140407%26cr%3Dfacebook%26ct%3Dusbrb301%26cn%3Ds9_greenemotion",
+    "share_fb_copy" : "Green%20eMotion%20is%20paving%20the%20way%20for%20electric%20vehicles%20with%20IBM%20Cloud.%20See%20how.%20%23madewithIBM",
+    "share_li_url" : "http://bit.ly/QbclAW",
+    "share_li_copy" : "Green%20eMotion%20is%20paving%20the%20way%20for%20electric%20vehicles%20with%20IBM%20Cloud.%20See%20how.",
+    "story_background_image_url": "",
+    "thumbnail" : "stories/assets/images/s9/s9-thumb.jpg",
+    "templates": [
+      {
+        "id": 1,
+        "template_class": "template-5",
+        "template_tracking": "t5",
+        "template_background_image_url": "./assets/images/s9/s9-t51-bg.jpg",
+        "template_background_image_url_mobile": "./assets/images/s9/s9-t51-bg_mobile.jpg",
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "hyperlink": "",
+                "color1" : "#7ccf1a",
+                "copy" : "Green eMotion is paving the way for electric vehicles with IBM Cloud",
+                "capability" : "How to innovate a business model",
+                "quote": "",
+                "attribution" : ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "template_class": "template-4",
+        "template_tracking": "t4",
+        "template_background_image_url": "./assets/images/s9/s9-t4-bg.png",
+        "template_background_image_url_tablet": "",
+        "template_background_color" : "#7ccf1a",
+        "template_type" : "summary-row",
+        "modules": [
+          {
+            "wrapper_class": "t4-mD summary",
+            "module_class": "module-D",
+            "module_type": "image",
+            "module_background_image_url": "",
+            
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "image_url_tablet" : "./assets/images/s9/s9-t4-mD.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t3-mE",
+            "module_class": "module-E summary",
+            "module_type": "text",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                 "title" : "Summary",
+                "hyperlink": "http://www.youtube.com/watch?v=M1J-K0k2w6Q",
+                "copy": "<p>To lower carbon emissions, the European Commission launched Green eMotion, a four-year initiative to promote the mass adoption of electric vehicles (EVs) across the continent. The project brings together 43 partners from various industries and sectors to build a single, continent-wide grid of charging stations that can support the daily use of millions of EVs by 2020.</p><p>IBM Cloud provided a single platform where all the partners can work together, starting from the idea development phase.</p>",
+                "cta_copy": "Learn more about Green eMotion"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "template_class": "template-3",
+        "template_tracking": "t3",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t3-mD",
+            "module_class": "module-D carousel-medium",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "quote": "The goal is seamless electrical driving across Europe.",
+                "attribution" : "Gerhard Baum<br>VP, Automotive Industry, IBM"
+              },
+	            {
+		            "asset_class": "",
+		            "image_url": "",
+		            "hyperlink": "",
+		            "quote": "The cloud is providing additional intelligence, which is needed to travel from point A to B.",
+		            "attribution" : "Gerhard Baum<br>VP, Automotive Industry, IBM"
+	            }
+            ]
+          },
+          {
+            "wrapper_class": "t3-mE",
+            "module_class": "module-E",
+            "module_type": "image",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s9/s9-t3-mD.png",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+        {
+            "id": 4,
+            "template_class": "template-video",
+            "template_tracking": "tV",
+            "template_background_image_url": "",
+            "modules": [
+                {
+                    "wrapper_class": "s9-tV-mA",
+                    "module_class": "module-D",
+                    "module_type": "video",
+                    "module_background_image_url": "",
+                    "assets": [
+                        {
+                            "asset_class": "image",
+                            "image_url": "./assets/images/s9/s9-tv-mA.jpg",
+                            "image_url_mobile": "./assets/images/s9/s9-tv-mA_mobile.jpg",
+                            "hyperlink": "ERFlNEqZlYI",
+                            "copy": ""
+                        }
+                    ]
+                }
+            ]
+        },
+      
+      {
+        "id": 5,
+        "template_class": "carousel-full",
+        "template_tracking": "tC",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "s4-tC-m5",
+            "module_class": "",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "image_url_mobile": "",
+                "hyperlink": "",
+                "color1" : "#7ccf1a",
+                "copy": "2.9m electric vehicles expected to be in use worldwide by 2017"
+              }
+            ]
+          }
+        ]
+      },
+
+	    {
+		    "id": 6,
+		    "template_class": "template-footer",
+        "template_tracking": "tF",
+		    "template_background_image_url": "",
+		    "template_background_color" : "#7ccf1a",
+		    "template_title" : "How is this made?",
+		    "template_desc" : "Get to know the people and the solutions behind the transformation.",
+		    "modules": [
+			    {
+				    "wrapper_class": "tF-mD",
+				    "module_class": "module-D carousel-footer",
+				    "module_type": "carousel",
+				    "module_background_image": "",
+
+				    "assets": [
+					    
+					    {
+						    "asset_class": "",
+						    "image_url": "",
+						    "hyperlink": "http://www.ibm.com/cloud-computing/us/en/marketplace.html?cmp=usbrb&cm=s&csr=madewithibm&cr=s4&ct=usbrb301&cn=madewithibm",
+						    "title" : "IBM Cloud Marketplace",
+						    "copy": "IBM Cloud marketplace is our digital front door where you can discover, try, and for many services, buy, from hundreds of IBM and Business Partner services across business solutions (SaaS), developer (PaaS) and IT operations (IaaS). Whether you're looking for apps to give you supply-chain visibility, for IBM’s new development platform Bluemix, or for a dedicated bare-metal server from SoftLayer, Cloud marketplace has everything you need to bring your business the full benefits of cloud."
+						    
+					    },{
+						    "asset_class": "",
+						    "image_url": "",
+						    "hyperlink": "http://www.ibm.com/cloud-computing/us/en/?cmp=usbrb&cm=s&csr=madewithibm&cr=s9&ct=usbrb301&cn=madewithibm",
+						    "title" : "IBM Cloud",
+						    "copy": "IBM Cloud is a collection of enterprise-class technology-as-a-service to help customers develop cloud and mobile applications on a leading-edge platform. By using self-service infrastructure with instant deployment, it offers agility and innovative applications to business users."
+					    },
+					    {
+						    "asset_class": "",
+						    "image_url": "",
+						    "hyperlink": "http://www.ibm.com/developerworks/downloads/r/rrc/?cmp=usbrb&cm=s&csr=madewithibm&cr=s9&ct=usbrb301&cn=madewithibm",
+						    "title" : "IBM Rational Requirements Composer",
+						    "copy": "IBM Rational® Requirements Composer (RRC) is a project lifecycle management platform that provides the essential business support for teams of all sizes, and the complexity to define and capture business needs."
+					    },
+					    {
+						    "asset_class": "",
+						    "image_url": "",
+						    "hyperlink": "",
+						    "title" : "Gerhard Baum<br/>VP, Automotive Industry, IBM",
+						    "copy": "Gerhard Baum is a member of the IBM Industry Academy, the global industrial sector leadership team and the automotive advisory board of the University of Esslingen.",
+						    "social_twitter" : "",
+						    "social_linkedin" : "http://www.linkedin.com/profile/view?id=40676418&locale=de_DE&trk=tyah2&trkInfo=tarId%3A1396442989377%2Ctas%3AGerhard"
+					    }
+				    ]
+			    }
+		    ]
+	    }
+    ]
+  }

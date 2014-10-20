@@ -1,0 +1,565 @@
+// URI: www.ibm.com/common/v17e/voices/css/ww_cci.css
+// Description: Voices v17e customization CSS file
+// Author: Vishwas Chouhan/Armonk/Contr/IBM
+// Date: Sept 24, 2013
+//
+// Notes:
+//   Add "ibm-adapt" class to modules that change under different viewport
+//   Use ".ibm_cci-" class prefix for site specific custom code
+
+
+body ul li:before, body ul li:after {
+	content:none;
+}
+
+//For testing blocks
+// div * {outline:1px solid #F00}
+// p {outline:1px solid #0F0}
+// li {outline:1px solid #00F}
+
+
+/* IBM CONTENT BLOCK OVERIDES (BEGIN) */
+#ibm-content-main { 
+	background-color: #f8f8f8;
+}
+
+
+#ibm-pcon#{$ibm-pcon__modifier} {
+	margin:0px;
+	padding: 0 0 0 0;
+	float:left;
+}
+
+#ibm-content#{$ibm-content__modifier}{
+	background:none;
+}
+#ibm-content-body{
+	// h1: 1.0em;
+}
+#ibm-content-main.ibm_cci-cb-overwrite{
+	background-color:#fff;
+}
+
+#ibm-content-main{
+//
+	.ibm-band.ibm_cci__ibm-band-about {
+		background: #fff;
+		background: -moz-linear-gradient(top,  #f2f2f2 0%, #fff 0%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f2f2), color-stop(0%,#fff));
+		background: -webkit-linear-gradient(top,  #f2f2f2 0%,#fff 0%);
+		background: -o-linear-gradient(top,  #f2f2f2 0%,#fff 0%);
+		background: -ms-linear-gradient(top,  #f2f2f2 0%,#fff 0%);
+		background: linear-gradient(to bottom,  #f2f2f2 0%,#fff 0%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#fff',GradientType=0 );
+		min-height:5px;	
+		padding:0;
+		box-shadow: inset 0 4px 8px -4px rgba(0,0,0,0.1);
+		border-top: rgba(0,0,0,0.1) solid 1px;
+	}
+	.ibm-band#{$ibm-band__modifier} {
+		background: #f8f8f8;
+		background: -moz-linear-gradient(top,  #f2f2f2 0%, #f8f8f8 0%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f2f2), color-stop(0%,#f8f8f8));
+		background: -webkit-linear-gradient(top,  #f2f2f2 0%,#f8f8f8 0%);
+		background: -o-linear-gradient(top,  #f2f2f2 0%,#f8f8f8 0%);
+		background: -ms-linear-gradient(top,  #f2f2f2 0%,#f8f8f8 0%);
+		background: linear-gradient(to bottom,  #f2f2f2 0%,#f8f8f8 0%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#f8f8f8',GradientType=0 );
+		min-height:5px;	
+		padding:0;
+		box-shadow: inset 0 4px 8px -4px rgba(0,0,0,0.1);
+		border-top: rgba(0,0,0,0.1) solid 1px;
+	}
+
+	.ibm-band.ibm_cci__ibm-band-about{
+		padding-bottom:20px;
+	}
+}
+
+
+#{$ibm-widget-js}.ibm-columns.ibm_cci-gv__modifier > * a,
+#{$ibm-widget-js}.ibm-columns.ibm_cci-lv__modifier > * a {
+	text-decoration:none !important;
+	color:#000;
+}
+
+#{$ibm-widget-js}.ibm-columns.ibm_cci-gv__modifier .ibm_cci-voicesLoader, 
+#{$ibm-widget-js}.ibm-columns.ibm_cci-lv__modifier .ibm_cci-voicesLoader{
+	width:100%;
+	float:left;
+	height:30px;
+}
+
+
+#{$ibm-widget-js} .ibm_cci-blocker {
+	position: absolute;
+	z-index: 9998;
+	width: 250%;
+	height: 100%;
+	top: 0;
+	background-color: #fff;
+	margin-left:-500px;
+	margin-top:-500px;
+}
+
+#{$ibm-widget-js} .ibm_cci-loader {
+	position: absolute;
+	z-index: 9999;
+	width: 38px;
+	height: 38px;
+	opacity: .75;
+	top: 150px;
+	left: 50%;
+	margin: -19px 0 0 -19px;
+	background-image: url('#{$imagePath}/voices/i/loader.png');
+}
+
+
+/* GRID VIEW UNRESOLVED AND RESOLVED (BEGIN) ***/
+.ibm-columns.ibm_cci-gv__modifier {
+	margin:40px auto !important;
+	// padding: 0 0 10px !important;
+}
+
+.ibm-columns.ibm_cci-gv__modifier .ibm-col-1-1 {
+	float:left;
+	width:300px;
+	background-color: #fff;
+	transition:width all 0.20s ease;
+	-webkit-transition: all 0.20s ease; /* Safari */
+	-moz-transition: all 0.20s ease;
+	transition-duration:0.50s;
+	-webkit-transition-duration: 0.50s;
+	-moz-transition-duration: 0.50s;
+	clear:none;
+	outline:1px solid #ccc;
+	margin-bottom:20px;
+	min-height:170px;
+	position:relative;
+}
+// GRID VIEW (END)
+
+
+/* HOVER EFFECTS BEGIN */
+@each $view in ibm_cci-lv__modifier, ibm_cci-gv__modifier {
+	@if $view == ibm_cci-lv__modifier {
+		#{$ibm-widget-js}.ibm-columns.#{$view} .ibm-col-1-1:first-child:hover + .ibm-col-1-1
+		{
+			border-top:1px solid $hover-color;
+		}
+		#{$ibm-widget-js}.ibm-columns.#{$view} .ibm-col-1-1:not(:nth-child(1)):hover
+		{
+			border-top:1px solid $hover-color;
+		}
+		#{$ibm-widget-js}.ibm-columns.#{$view} .ibm-col-1-1:not(:nth-child(1)):hover + .ibm-col-1-1
+		{
+			border-top:1px solid $hover-color;
+		}
+		#{$ibm-widget-js}.ibm-columns.#{$view} .ibm-col-1-1:last-child:hover
+		{
+			border-top:1px solid $hover-color;
+			border-bottom:1px solid $hover-color;
+		}
+
+	}
+	@else if $view == ibm_cci-gv__modifier{
+		#{$ibm-widget-js}.ibm-columns.#{$view} .ibm-col-1-1:hover
+		{
+			outline:1px solid $hover-color;
+		}
+	} 
+	
+	#{$ibm-widget-js}.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1:hover .ibm-col-6-2 .ibm_cci--lv-rc-sharing > ul,
+	#{$ibm-widget-js}.ibm-columns.ibm_cci-gv__modifier .ibm-col-1-1:hover .ibm-col-6-2 .ibm_cci--lv-rc-sharing > ul,
+	#{$ibm-widget-js}.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1:hover #{$ibm-listview-unro} .ibm_cci--unr-cb .ibm_cci--lv-rc-sharing > ul,
+	#{$ibm-widget-js}.ibm-columns.ibm_cci-gv__modifier .ibm-col-1-1:hover #{$ibm-listview-unro} .ibm_cci--unr-cb .ibm_cci--lv-rc-sharing > ul,		
+	#{$ibm-widget-js}.ibm-columns.#{$view} .ibm-col-1-1:hover .ibm-col-6-4 .ibm_cci--rcb .ibm_cci-sib,
+	#{$ibm-widget-js}.ibm-columns.#{$view} .ibm-col-1-1:hover .ibm-col-6-4 .ibm_cci--rcb .ibm_cci-gv-sib,
+		{
+			visibility:visible;
+		}
+}
+
+	
+#{$ibm-widget-js}.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1:hover .ibm_cci--rea-block ul li .ibm_cci--rea-b .ibm_cci--rea-b-e .ibm_cci--rea-b,
+#{$ibm-widget-js}.ibm-columns.ibm_cci-gv__modifier .ibm-col-1-1:hover .ibm_cci--rea-block ul li .ibm_cci--rea-b .ibm_cci--rea-b-e .ibm_cci--rea-b
+	{
+		background-color:$hover-color;
+	}
+
+//LIST VIEW
+#{$ibm-widget-js}.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1:hover .ibm-col-6-4 .ibm_cci--rea-block ul li p.ibm_cci--rea-rank,
+#{$ibm-widget-js}.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1:hover .ibm_cci--lv-unro-b .ibm_cci--rea-block ul li p.ibm_cci--rea-rank, 
+#{$ibm-widget-js}.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1:hover .ibm-col-6-4 .ibm_cci--rcb .ibm_cci--ttb h2.ibm_cci--tweet-title a,
+#{$ibm-widget-js}.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1:hover #{$ibm-listview-unro} .ibm_cci--unr-cb .ibm_cci--ttb h2.ibm_cci--tweet-title a,
+#{$ibm-widget-js}.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1:hover .ibm-col-6-4 .ibm_cci--rcb .ibm_cci--ttb .ibm_cci--tweet-description .ibm_cci--tweet-content-text span.ibm_cci--tweet-description-readmore a,
+
+//GRID VIEW
+#{$ibm-widget-js}.ibm-columns.ibm_cci-gv__modifier .ibm-col-1-1:hover .ibm-col-6-4 .ibm_cci--rea-block ul li p.ibm_cci--rea-rank,
+#{$ibm-widget-js}.ibm-columns.ibm_cci-gv__modifier .ibm-col-1-1:hover .ibm_cci--gv-unro-b .ibm_cci--rea-block ul li p.ibm_cci--rea-rank, 
+#{$ibm-widget-js}.ibm-columns.ibm_cci-gv__modifier .ibm-col-1-1:hover .ibm-col-6-4 .ibm_cci--rcb .ibm_cci--ttb h2.ibm_cci--tweet-title a,
+#{$ibm-widget-js}.ibm-columns.ibm_cci-gv__modifier .ibm-col-1-1:hover #{$ibm-listview-unro} .ibm_cci--unr-cb .ibm_cci--ttb h2.ibm_cci--tweet-title a,
+	{
+		color:$hover-color;
+	}
+
+//LIST VIEW
+#{$ibm-widget-js}.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1:hover .ibm-col-6-4 .ibm_cci--rcb .ibm_cci--ttb p.ibm_cci--tweet-description,
+#{$ibm-widget-js}.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1:hover #{$ibm-listview-unro} .ibm_cci--unr-cb .ibm_cci--ttb p.ibm_cci--tweet-description,
+#{$ibm-widget-js}.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1:hover .ibm-col-6-2,
+	{
+		display:block;
+	}
+
+#{$ibm-widget-js}.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1:hover .ibm-col-6-2 .ibm_cci--lv-rc-description p a,
+#{$ibm-widget-js}.ibm-columns.ibm_cci-gv__modifier .ibm-col-1-1:hover .ibm-col-6-2 .ibm_cci--lv-rc-description p a
+	{
+		text-decoration:none;
+		color: $hover-color;
+	}
+/* HOVER EFFECTS END */
+
+
+// From Radio filter independent css defined by Umesh (BEGIN)
+a.ibm_cci-gototop {
+	visibility: hidden;
+	position: fixed;
+	right: 20px;
+	bottom: 0px;
+	color: #000;
+	font: normal 0.9em 'helveticaneuelight',HelveticaNeue,Helvetica,Arial,sans-serif, sans-serif;
+	text-decoration: none;
+	margin: 0;
+	padding:0;
+	border: 0;
+	width: 56px;
+	height: 72px;
+	background: #DFDFDF url('#{$imagePath}/voices/i/backtotop.png') no-repeat;
+	z-index: 1000;
+	text-indent: -999999px;
+}
+
+.ibm_cci-search-term-highlight{
+	background: #dfdfdf;
+}
+
+.ibm_cci-colorClass1{
+	background: #d8bebe;
+}
+
+
+
+.ibm_cci-colorClass2{
+	background: #c8c8c8;
+}
+
+.ibm_cci-colorClass3{
+	/*background: #f59999;*/
+}
+
+.ibm_cci--voices-divider{
+	width: 100%;
+	border:dotted #ccc; 
+	border-width:1px 0 0 0; 
+	height:0;
+	line-height:0px;
+	font-size:0;
+	margin:0;
+	padding:0 0 10px 0;
+}
+
+.ibm_cci--newly-added{
+	visibility:none;
+	}
+// From Radio filter independent css defined by Umesh (END)
+
+
+/* MODIFYERS FOR MOBILE (BEGIN) */
+@media only screen and (min-width:0) and (max-width:568px){
+
+	html {
+		font-size:66%;
+	}
+	#ibm-top.ibm-landing-page #ibm-leadspace-head.ibm_cc__voices_ls {
+		min-height:75px;
+		#ibm-leadspace-body {
+			width:300px;
+			min-height:65px;
+			padding:0;
+		}	
+	}
+
+	#{$ibm-widget-js}.ibm_cci-blocker {
+		width:400px;
+	}
+
+	.leadspace--defaults {
+		margin:10px 0;
+	}
+
+	#ibm-leadspace-head.ibm_cc__voices_ls #ibm-leadspace-body #{$leadspace--logo}{
+		width:126px;
+		margin: 20px 0 10px 10px;
+	}
+
+	#ibm-leadspace-head #{$leadspace--logo} h1#{$leadspace__modifier} {
+		background-position: -224px -38px;
+		width:125px;
+		height:28px;
+		a {
+			width:125px;
+			line-height: 28px;
+		}		
+	}	
+
+	#{$leadspace--search}, #{$leadspace--toggle}, .ibm_cci--sk.ibm_cci--sk__mt, #ibm-leadspace-body .ibm_cci--sr {
+		display: none;
+	}
+
+	.ibm-band#{$ibm-band__modifier} {
+		width:100%;
+	}
+
+	#ibm-top #ibm_cci-widget-js.ibm-columns.ibm_cci-gv__modifier .ibm-col-1-1 {
+		width:300px;
+	}
+
+	#ibm-top .ibm-columns .ibm-col-1-1 {
+		// margin:0 0 20px 10px;
+		margin:0 0 20px 0;
+	}
+
+	#ibm-content.ibm_cci__ibm-content #ibm-content-body #ibm-content-main .ibm-band.ibm_cci__ibm-band {
+		margin-bottom:20px;
+	}
+
+	#ibm-leadspace-head.ibm_cc__voices_ls #ibm-leadspace-body .ibm_cci--ls--logo p.ibm_cci-about, 
+	#ibm-leadspace-head.ibm_cc__voices_ls #ibm-leadspace-body .ibm_cci--ls--logo p.ibm_cci-back
+	{
+		// top:30px;
+		left:0px;
+		// width:130px
+				
+	}
+
+		//FOR ABOUT US PAGE
+		//
+		#ibm-content #{$ibm-widget-about}.ibm-columns .ibm-col-6-2.ibm_cci-rr{
+			margin-top:20px;
+		}	
+		#ibm-content #{$ibm-widget-about}.ibm-columns .ibm-col-6-4.ibm_cci_acc{
+			position:relative;
+			top:-20px;
+		}
+
+		.ibm-legal-text, .ibm-legal {
+			width:300px;
+		}						}
+
+
+/* MODIFYERS FOR TABLETS (BEGIN) */
+@media only screen and (min-width:641px) and (max-width:800px) {
+	
+	html {
+		font-size:66%;
+	}
+
+	#ibm-top.ibm-landing-page #ibm-leadspace-head.ibm_cc__voices_ls {
+		min-height:100px;
+		
+		#ibm-leadspace-body, .ibm_cci--sk.ibm_cci--sk__mt {
+			width:730px;
+		}
+
+		#ibm-leadspace-body{	
+			min-height:100px;
+			padding:0;
+		}
+
+	}
+
+	.leadspace--defaults {
+		margin:20px 0;
+	}
+
+	#ibm-leadspace-head.ibm_cc__voices_ls #ibm-leadspace-body #{$leadspace--logo}{
+		width:250px;
+		margin: 40px 0;
+	}
+
+	#ibm-leadspace-head #{$leadspace--logo} h1#{$leadspace__modifier} {
+		background-position: -224px 0;
+		width:167px;
+		height:37px;
+		a {
+			width:167px;
+			line-height: 37px;
+		}
+	}
+	#{$leadspace--toggle} {
+		width: 86px; 
+	}
+
+	#{$leadspace--search} {
+		width: 360px;
+	}
+
+	#{$leadspace--search} form input.ibm-cc-search--field {
+		width:285px; 
+		margin-top:5px;
+	}
+
+	// #ibm-leadspace-head.ibm_cc__voices_ls #ibm-leadspace-body .ibm_cci--sr {
+	// 		margin-left: 10px;
+	// } 
+
+	// #ibm-leadspace-head.ibm_cc__voices_ls #ibm-leadspace-body .ibm_cci--sk.ibm_cci--sk__mt {
+	// 	margin-left:10px;
+	// }
+	//
+	#ibm-top .ibm-columns {
+		padding: 0 35px;
+	} 
+
+	#{$ibm-widget-js}.ibm-columns.ibm_cci-lv__modifier {
+		width:730px;
+		padding:0;
+
+		.ibm-col-1-1 {
+			width:730px;
+			margin:0;
+			position: relative !important;
+			top: 0 !important;
+		}
+
+		.ibm-card {
+			margin-bottom:0;
+		}
+	}
+
+
+	#{$ibm-widget-js}.ibm-columns.ibm_cci-gv__modifier {
+		width:640px;
+		padding:0;
+	}
+
+
+
+#{$ibm-widget-js}.ibm-columns.ibm_cci-gv__modifier { 
+
+	.ibm_cci--tweet-description, .ibm_cci--tweet-title, .ibm_cci--rcb {
+			width: 270px;
+		}
+	}
+
+	#{$ibm-widget-js}.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1 .ibm-col-6-4 .ibm_cci--rcb {
+		width:650px;
+		padding:0;
+		border:0;
+		clear:none;
+
+		.ibm_cci-fav-ihb{
+			width:590px;
+
+			a.ibm_cci--feed-title {
+				width:560px;
+			}
+		}
+	}
+	#{$ibm-widget-js}.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1 .ibm-col-6-2 {
+		width:650px;
+		margin: 20px 0 0 80px;
+		clear:both;
+		display:none;
+
+		ul, .ibm_cci--lv-rc-sharing {
+			width:inherit;
+
+			> ul {
+				width:502px; 
+			}
+		}
+	}
+	
+	#{$ibm-widget-js}.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1 .ibm-col-6-2 .ibm_cci-rel-tweet-detils-container{
+		min-width: 596px;
+	}
+
+	#{$ibm-widget-js}.ibm-columns.ibm_cci-lv__modifier .ibm-col-1-1 .ibm_cci--lv-unro-b {
+		width:inherit;
+
+		.ibm_cci--unr-cb, .ibm_cci--unr-cb .ibm_cci--lv-rc-sharing {
+			width:540px;
+
+			> ul {
+				width:502px;
+			}			
+		}
+	}
+
+	#ibm-leadspace-head.ibm_cc__voices_ls #ibm-leadspace-body .ibm_cci--ls--logo p.ibm_cci-back{
+		top:0px;
+		left:-80px;
+		width:120px;
+	}
+
+	#ibm-leadspace-head.ibm_cc__voices_ls #ibm-leadspace-body .ibm_cci--ls--logo p.ibm_cci-about {
+		// top:37px;
+		left:-85px;	
+	}
+
+
+	// ABOUT US PAGE
+	#ibm-content #{$ibm-widget-about}.ibm-columns .ibm-col-6-4.ibm_cci_acc {
+		position:relative;
+		top:0;
+		margin-top:0;
+
+		.ibm-columns.ibm_cci-accounts{
+			margin-top:20px;
+
+			.ibm-col-6-2.ibm_cci-ba, .ibm-col-6-2.ibm_cci-ia{
+				width:310px;
+			}
+
+			.ibm-col-6-2.ibm_cci-ia .ibm-columns{
+				.ibm-col-6-1 {
+					width: 145px;
+				}
+			}
+		}
+	}	
+
+	#ibm-content #{$ibm-widget-about}.ibm-columns .ibm-col-6-2.ibm_cci-rr{
+		width:640px;
+		margin-top:25px;
+		img {
+					// width:274px;
+					float:left;
+				}
+
+				p.ibm_cci-rea-desc {
+					float:left;
+					width:340px;
+					padding-left:25px;
+					border-bottom:none;
+				}
+
+				.ibm-columns .ibm-col-6-2 {
+					img {
+						margin: 15px 120px 20px 0;
+					}
+
+					h2, p {
+						margin-left: 0;
+					}
+				}
+			}
+
+			#ibm-footer-module .ibm-columns .ibm-col-6-1 { min-height: 200px;}	
+			.ibm-legal-text, .ibm-legal {
+				width:708px;
+			}			
+		}
+
+

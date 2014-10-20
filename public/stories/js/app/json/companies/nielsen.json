@@ -1,0 +1,262 @@
+  {
+    "id" : 8,
+    
+    "company" : "Nielsen",
+    "title": "insights made with IBM Watson",
+    "color1" : "#00bcf4",
+    "color2" : "#00bcf4",
+    "short-description" : "Nielsen is finding answers to complex questions with Watson",
+    "filterTechnology": "watson",
+    "filterIndustry": "marketing",
+    "filterCapability": "big-data-insights",
+    "filterCapabilityLabel": "Big Data Insights",
+    "share_twitter_url" : "http://bit.ly/Q5xc8i",
+    "share_twitter_copy" : "Nielsen%20is%20finding%20answers%20to%20complex%20questions%20with%20Watson.%20See%20how.%20%23madewithIBM",
+    "share_fb_url" : "http%3A%2F%2Fwww.ibm.com%2Fsmarterplanet%2Fus%2Fen%2Fmadewithibm%2Fstories%2F%23!story%2F8%3Fcmp%3Dusbrb%26cm%3Dh%26csr%3Dagus_madewith_140407%26cr%3Dfacebook%26ct%3Dusbrb301%26cn%3Ds8_nielsen",
+    "share_fb_copy" : "Nielsen%20is%20finding%20answers%20to%20complex%20questions%20with%20Watson.%20See%20how.%20%23madewithIBM",
+    "share_li_url" : "http://bit.ly/1hSXdhd",
+    "share_li_copy" : "Nielsen%20is%20finding%20answers%20to%20complex%20questions%20with%20Watson.%20See%20how%20new%20value%20is%20made%20with%20IBM.",
+    "story_background_image_url": "",
+    "thumbnail" : "stories/assets/images/s8/s8-thumb.jpg",
+    "templates": [
+      {
+        "id": 1,
+        "template_class": "template-5",
+        "template_tracking": "t5",
+        "template_background_image_url": "./assets/images/s8/s8-t5-bg.jpg",
+        "template_background_image_url_mobile": "./assets/images/s8/s8-t5-bg_mobile.jpg",
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "hyperlink": "",
+                "color1" : "#00bcf4",
+                "copy" : "Nielsen is finding answers to complex questions with Watson",
+                "capability" : "How to provide one-to-one services",
+                "quote": "",
+                "attribution" : ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "template_class": "template-4",
+        "template_tracking": "t4",
+        "template_background_image_url": "./assets/images/s8/s8-t4-bg.png",
+        "template_background_image_url_tablet": "",
+        "template_background_color" : "#00bcf4",
+        "template_type" : "summary-row",
+        "modules": [
+          {
+            "wrapper_class": "t4-mD summary",
+            "module_class": "module-D",
+            "module_type": "image",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "image_url_tablet" : "./assets/images/s8/s8-t4-mD.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t4-mE summary",
+            "module_class": "module-E",
+            "module_type": "text",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "http://www-03.ibm.com/press/us/en/pressrelease/41122.wss?cmp=usbrb&cm=s&csr=madewithibm&cr=s8&ct=usbrb301&cn=madewithibm",
+                "title" :"Summary",
+                "copy": "<p>Nielsen, the media measurement and market research firm, helps marketers to better understand their customers. But the media landscape has evolved. Now, besides measuring what people buy and watch, big data is also making it easier for clients to find answers to complex questions.</p><p>Working with IBM Watson<sup>&trade;</sup>, Nielsen is looking to integrate structured data with unstructured data, such as social conversations. Beyond providing a wealth of information, Watson is helping marketers to answer perennial questions like, \"Is my marketing working?\"</p>",
+                "cta_copy":"Learn more about IBM Watson"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "template_class": "template-3",
+        "template_tracking": "t3A",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t3A-mD",
+            "module_class": "module-D",
+            "module_type": "quote",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                 "color" : "#00bcf4",
+                "quote": "IBM, with Watson, has a big commitment to the harvesting of unstructured data. At Nielsen, we collect more structured data than anybody else—and the combination of those two is really transformational.",
+                "attribution" : "Paul Donato<br/>EVP & Chief Research Officer, Nielsen"
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t3A-mE",
+            "module_class": "module-E",
+            "module_type": "image",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s8/s8-t32-mD.gif",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+            {
+        "id": 4,
+        "template_class": "template-3",
+        "template_tracking": "t3B",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t3-mE",
+            "module_class": "module-E",
+            "module_type": "image",
+            "module_background_image_url": "",
+             
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "./assets/images/s8/s8-t32-mE-2.jpg",
+                "hyperlink": "",
+                "color" : "",
+                "quote": "",
+                "attribution" : ""
+              }            
+            ]
+          },
+          {
+            "wrapper_class": "t3-mD",
+            "module_class": "module-D",
+            "module_type": "image",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s8/s8-t33-mD.jpg",
+                "image_url_mobile": "./assets/images/s8/s8-tv-mA_mobile.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "template_class": "carousel-full",
+        "template_tracking": "tC",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "s8-tC-m5",
+            "module_class": "",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "image_url_mobile": "",
+                "hyperlink": "",
+                "color1" : "#00bcf4",
+                "copy": "200m - the number of pages IBM Watson could read and understand in 3 seconds when it was on <i>Jeopardy!</i>"
+              },
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "image_url_mobile": "",
+                "hyperlink": "",
+                "color1" : "#00bcf4",
+                "copy": "80% is the estimated portion of the world’s data that is unstructured."
+              }
+            ]
+          }
+        ]
+      },
+
+	    {
+		    "id": 6,
+		    "template_class": "template-footer",
+        "template_tracking": "tF",
+		    "template_background_image_url": "",
+		    "template_background_color" : "#00bcf4",
+		    "template_title" : "How is this made?",
+        "template_desc" : "Get to know the people and the solutions behind the transformation.",
+
+		    "modules": [
+			    {
+				    "wrapper_class": "tF-mD",
+				    "module_class": "module-D carousel-footer",
+				    "module_type": "carousel",
+				    "module_background_image": "",
+				    "assets": [
+					    
+					    {
+						    "asset_class": "",
+						    "image_url": "",
+						    "hyperlink": "http://www.ibm.com/smarterplanet/us/en/ibmwatson/?cmp=usbrb&cm=s&csr=madewithibm&cr=s8&ct=usbrb301&cn=madewithibm",
+						    "title" : "IBM Watson",
+						    "copy": "IBM Watson<sup>TM</sup> represents a first step into cognitive systems by combining programmatic computing with natural language processing, hypothesis generation, evaluation, and dynamic learning.  With Watson, organizations can now have a deeper understanding of unstructured data to help make more informed decisions and find better answers by learning from both successes and failures."
+					    },
+					    {
+						    "asset_class": "",
+						    "image_url": "",
+						    "hyperlink": "http://www.ibm.com/smarterplanet/us/en/ibmwatson/developers.html?cmp=usbrb&cm=s&csr=madewithibm&cr=s8&ct=usbrb301&cn=madewithibm",
+						    "title" : "IBM Watson for Developers",
+						    "copy": "With the Watson Developer Cloud, developers have the facility to integrate Watson platform capabilities, as a service, through the use of API and tools. Organizations can now embed IBM Watson<sup>TM</sup> cognitive capabilities within their applications without the need for building deep natural language or other core technology skills."
+					    },
+					    {
+						    "asset_class": "",
+						    "image_url": "",
+						    "hyperlink": "http://www-03.ibm.com/innovation/us/watson/watson_for_engagement.shtml?cmp=usbrb&cm=s&csr=madewithibm&cr=s8&ct=usbrb301&cn=madewithibm",
+						    "title" : "Watson Engagement Advisor",
+						    "copy": "In an age when customers demand more, IBM Watson<sup>TM</sup> Engagement Advisor can help show you what they want, understand natural language to provide your customers with possible answers and ultimately empowers them to take an action."
+					    },
+					    {
+						    "asset_class": "",
+						    "image_url": "",
+						    "hyperlink": "http://www-03.ibm.com/systems/power/?cmp=usbrb&cm=s&csr=madewithibm&cr=s8&ct=usbrb301&cn=madewithibm",
+						    "title" : "IBM Power Systems",
+						    "copy": "Built as an open platform for choice, Power Systems<sup>TM</sup> provides flexibility for organizations of all sizes to help them turn massive volumes of raw data into actionable business insights."
+					    },
+					    {
+						    "asset_class": "",
+						    "image_url": "",
+						    "hyperlink": "",
+						    "title" : "Stephen Gold<br/>VP, Watson Ecosystem and Market Development, IBM Watson Group",
+						    "copy": "A member of the senior leadership team, Stephen Gold is responsible for bringing Watson’s transformative capabilities to the global market via the Watson Developer Cloud, Watson Content Store and Watson Talent Hub.",
+						    "social_twitter" : "https://twitter.com/sgold1b",
+						    "social_linkedin" : "http://www.linkedin.com/pub/stephen-gold/0/279/7a0"
+					    }
+				    ]
+			    }
+		    ]
+	    }
+    ]
+
+  }

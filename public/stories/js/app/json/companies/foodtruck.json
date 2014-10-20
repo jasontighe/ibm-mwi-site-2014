@@ -1,0 +1,299 @@
+  {
+    "id" : 2,
+    
+    "company" : "Cognitive Cooking",
+    "title": "recipes made with IBM Watson",
+    "color1" : "#ff5c0c",
+    "color2" : "#ff5c0c",
+    "short-description" : "IBM is innovating in the kitchen with Watson",
+    "filterTechnology": "watson",
+    "filterIndustry": "research",
+    "filterCapability": "cognitive-computing",
+    "filterCapabilityLabel": "Cognitive Computing",
+    "share_twitter_url" : "http://bit.ly/1i1DPDj",
+    "share_twitter_copy" : "IBM%20is%20innovating%20in%20the%20kitchen%20with%20Watson.%20See%20how.%20%23madewithIBM",
+    "share_fb_url" : "http%3A%2F%2Fwww.ibm.com%2Fsmarterplanet%2Fus%2Fen%2Fmadewithibm%2Fstories%2F%23!story%2F2%3Fcmp%3Dusbrb%26cm%3Dh%26csr%3Dagus_madewith_140407%26cr%3Dfacebook%26ct%3Dusbrb301%26cn%3Ds2_foodtruck",
+    "share_fb_copy" : "IBM%20is%20innovating%20in%20the%20kitchen%20with%20Watson.%20See%20how.%20%23madewithIBM",
+    "share_li_url" : "http://bit.ly/1qFTfQg",
+    "share_li_copy" : "IBM%20is%20innovating%20in%20the%20kitchen%20with%20Watson.%20See%20how.",
+    "thumbnail" : "stories/assets/images/s2/s2-thumb.jpg",
+    "story_background_image_url": "",
+    "templates": [
+      {
+        "id": 1,
+        "template_class": "template-5",
+        "template_tracking": "t5",
+        "template_background_image_url": "./assets/images/s2/s2-t5-bg.jpg",
+        "template_background_image_url_mobile": "./assets/images/s2/s2-t5-bg_mobile.jpg",
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "hyperlink": "",
+                "color1" : "#ff5c0c",
+                "copy" : "IBM is innovating in the kitchen with Watson",
+                "capability" : "How to innovate with IBM Research",
+                "quote": "",
+                "attribution" : ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "template_class": "template-4",
+        "template_tracking": "t4",
+        "template_background_image_url": "./assets/images/s2/s2-t4-bg.png",
+        "template_background_image_url_tablet": "",
+        "template_background_color" : "#ff5c0c",
+        "template_type" : "summary-row",
+        "modules": [
+          {
+            "wrapper_class": "t4-mD summary",
+            "module_class": "module-D",
+            "module_type": "image",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "image_url_tablet" : "./assets/images/s2/s2-t4-mD.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t4-mE",
+            "module_class": "module-E",
+            "module_type": "text",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "http://www.ibm.com/smarterplanet/us/en/cognitivecooking/?cmp=usbrb&cm=s&csr=madewithibm&cr=s2&ct=usbrb301&cn=madewithibm",
+                "title" : "Summary",
+                "copy": "<p>Can a machine be creative? IBM Watson’s cognitive cooking system, the result of a collaboration with professional chefs at the Institute of Culinary Education (ICE) in New York, has some finger-licking answers.</p><p>Using a set of algorithms that draw upon a number of datasets, such as ingredient compositions, cultural knowledge and food-pairing theories, the team is able to discover and prepare innovative, outlandish and surprisingly delicious combinations. With Watson in the cloud, the team was able to take their cooking show on the road to SXSW, inventing new customer-suggested combos by the day. And soon the app will be made available to the masses so that everyone can benefit from Watson's help in the kitchen.</p>",
+                "cta_copy":"Learn more about Cognitive Cooking"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "template_class": "template-3",
+        "template_tracking": "t3A",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t3A-mD",
+            "module_class": "module-D",
+            "module_type": "quote",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                  "color" : "#ff5c0c",
+                "quote": "The system doesn't look at ingredients like chefs do, it looks at the chemical composition of the ingredients.",
+                "attribution" : "Florian Pinel</br>Chef, Scientist and Lead Architect of the Cognitive Cooking project"
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t3A-mE",
+            "module_class": "module-E",
+            "module_type": "image",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s2/s2-t32-mD.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "template_class": "template-video",
+        "template_tracking": "tV",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "s2-tV-mA",
+            "module_class": "module-D",
+            "module_type": "video",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s2/s2-tv-mA.jpg",
+                "image_url_mobile": "./assets/images/s2/s2-tv-mA_mobile.jpg",
+                "hyperlink": "DOI4WzDxpXc",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "template_class": "template-3",
+        "template_tracking": "t3B",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t3B-mD",
+            "module_class": "module-D",
+            "module_type": "lightbox",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "./assets/images/s2/s2-t33-mE.jpg",
+                "hyperlink": "EWF4sC5wuqs"
+                
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t3B-mE",
+            "module_class": "module-E",
+            "module_type": "image",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s2/s2-t33-mD.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "template_class": "carousel-full",
+        "template_tracking": "tC",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "",
+            "module_class": "",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s2/s2-cf-stat-1.jpg",
+                "image_url_mobile": "./assets/images/s2/s2-cf-stat-1_mobile.jpg",
+                "hyperlink": "",
+                "color1" : "#ff5c0c",
+                "copy": "3k+ ingredients parsed"
+              },
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s2/s2-cf-stat-2.jpg",
+                "image_url_mobile": "./assets/images/s2/s2-cf-stat-2_mobile.jpg",
+                "hyperlink": "",
+                "color1" : "#ff5c0c",
+                "copy": "30k+ recipes with 200,000 ingredients dissected"
+              },
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s2/s2-cf-stat-3.jpg",
+                "image_url_mobile": "./assets/images/s2/s2-cf-stat-3_mobile.jpg",
+                "hyperlink": "",
+                "color1" : "#ff5c0c",
+                "copy": "1,000 flavor compounds analyzed"
+              },
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s2/s2-cf-stat-4.jpg",
+                "image_url_mobile": "./assets/images/s2/s2-cf-stat-4_mobile.jpg",
+                "hyperlink": "",
+                "color1" : "#ff5c0c",
+                "copy": "300k ingredient pairings examined by the IBM cognitive computer"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "template_class": "template-footer",
+        "template_tracking": "tF",
+        "template_background_image_url": "",
+        "template_background_color" : "#ff5c0c",
+        "template_title" : "How is this made?",
+        "template_desc" : "Get to know the people and the solutions behind the transformation.",
+        "modules": [
+          {
+            "wrapper_class": "tF-mD",
+            "module_class": "module-D carousel-footer",
+            "module_type": "carousel",
+            "module_background_image": "",
+           
+            "assets": [
+              {
+	                "asset_class": "",
+	                "image_url": "",
+	                "hyperlink": "http://www.research.ibm.com/cognitive-computing/#fbid=l_m7RpJAO3Z",
+	                "title" : "IBM Cognitive Computing",
+	                "copy": "IBM Cognitive Computing represents a first step into cognitive systems by combining programmatic computing with natural language processing, hypothesis generation, evaluation, and dynamic learning.  With cognitive computing, organizations can have a deeper understanding of unstructured data to make more informed decisions."
+	              },
+	              {
+	                "asset_class": "",
+	                "image_url": "",
+	                "hyperlink": "http://www.ibm.com/cloud-computing/us/en/softlayer.html?cmp=usbrb&cm=s&csr=madewithibm&cr=s2&ct=usbrb301&cn=madewithibm",
+	                "title" : "SoftLayer",
+	                "copy": "SoftLayer®, an IBM company, is a cloud infrastructure provider offering everything from flexible virtual servers to Bare Metal servers for high-performance workloads."
+	              },
+	              {
+	                "asset_class": "",
+	                "image_url": "",
+	                "hyperlink": "http://www.ibm.com/smarterplanet/us/en/ibmwatson/tech.html?cmp=usbrb&cm=s&csr=madewithibm&cr=s2&ct=usbrb301&cn=madewithibm",
+	                "title" : "IBM Watson",
+	                "copy": "IBM Watson&trade; represents a first step into cognitive systems by combining programmatic computing with natural language processing, hypothesis generation, evaluation, and dynamic learning.  With Watson, organizations can have a deeper understanding of unstructured data to help make more informed decisions and find better answers by learning from both successes and failures."
+	              },
+	               {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "title" : "Florian Pinel<br/>Senior Software Engineer, IBM Watson Group",
+                "copy": "A scientist and a chef, Florian holds an M.S. in Computer Science and Engineering from Ecole Centrale de Paris and a Culinary Arts diploma from the Institute of Culinary Education. He has worked at IBM for fifteen years and is the lead architect of the Cognitive Cooking project.",
+                "social_twitter" : "https://twitter.com/foodperestroika",
+                "social_linkedin" : "https://www.linkedin.com/pub/florian-pinel/1/38b/aa0"
+              },
+               {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "title" : "Dr. Mahmoud Naghshineh<br/>VP, Industries and Solutions, IBM Research",
+                "copy": "Dr. Mahmoud Naghshineh is responsible for worldwide research and innovation in the transformation of industries through data. This includes emerging industries such as biospace, personalized healthcare and education, energy, agriculture and cross-industry solution technologies.",
+                "social_twitter" : "",
+                "social_linkedin" : "https://www.linkedin.com/pub/mahmoud-naghshineh/23/917/600"
+              }
+             
+            ]
+          }
+        ]
+      }
+
+    ]
+
+  }

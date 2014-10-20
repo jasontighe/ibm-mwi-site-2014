@@ -1,0 +1,132 @@
+[
+	{
+		"id" : "header",
+		"h1" : "See what the world's making today",
+		"copy" : "<p>We live on a Smarter Planet, where data, mobile, social and cloud are transforming industries and allowing us to create value in new ways.</p><p>The evidence is abundant and everywhere.</p>",
+		"view_all" : "View All",
+		"show_more" : "Show More"
+	},
+	{
+		"id" : "nav",
+		"home" : "Home",
+		"stories" : "Stories",
+		"story_index" : "Story Index",
+		"filter_case_studies" : "Filter case studies",
+		"capability" : {
+			"title" : "Capability",
+			"big_data_insights" : "Big Data Insights",
+ 			"business_model_innovation" : "Business Model Innovation",
+            "cognitive_computing" : "Cognitive Computing",
+            "demand_prediction" : "Demand Prediction",
+			"fraud" : "Fraud Prevention",
+			"one_to_one" : "One-to-One",
+			"operations" : "Operations Optimization",
+			"cities" : "Smarter Cities",
+			"education" : "Smarter Education",
+			"supply_chain": "Supply Chain Optimization",
+			"workforce" : "Workforce Empowerment"	
+		},
+		"technology" : {
+			"title" : "Technology",
+			"cloud" : "Cloud",
+			"data" : "Data",
+			"mobile" : "Mobile",
+			"social" : "Social",
+			"watson" : "Watson"	
+		},
+		"industry" : {
+			"title" : "Industry",
+			"business_services" : "Business Services",
+			"cities" : "Cities & Government",
+			"education" : "Education",
+			"electronics" : "Electronics",
+			"entertainment" : "Entertainment",
+			"food" : "Food & Beverage",
+			"gaming" : "Gaming",
+			"healthcare" : "Healthcare",
+			"hospitality" : "Hospitality",
+			"manufacturing" : "Manufacturing",
+			"marketing" : "Marketing",
+			"research" : "Research & Development",
+			"retail" : "Retail",
+			"sports" : "Sports",
+			"transportation" : "Transportation"	
+		},
+		"select_a_filter" : "Select a filter:",
+		"view_all" : "View all"
+	},
+	{
+		"id" : "links",
+		"twitter" : "https://twitter.com/home?status=See%20how%20technology%20is%20changing%20the%20world%20today.%20bit.ly/1g7BaUz%20%23madewithIBM",
+		"linkedin" : "https://www.linkedin.com/shareArticle?mini=true&url=http://ibm.com/smarterplanet/us/en/madewithibm/&title=Made%20with%20IBM&summary=See%20how%20technology%20is%20changing%20the%20world%20today.%20bit.ly/1g7BaUz%20%23madewithIBM",
+		"facebook" : "http://www.facebook.com/sharer.php?u=http%3A%2F%2Fibm.com%2Fsmarterplanet%2Fus%2Fen%2Fmadewithibm%2F&title=Made%20with%20IBM&summary=See%20how%20technology%20is%20changing%20the%20world%20today.%20bit.ly/1g7BaUz%20%23madewithIBM",
+		"ibm_dot_com" : {
+			"text" : "ibm.com",
+			"url" : "http://www.ibm.com/"
+		},
+		"ibm_dot_com_voices" : {
+			"text" : "ibm.com/voices",
+			"url" : "http://www.ibm.com/voices"
+		},
+		"terms_of_use" : {
+			"text" : "Terms of Use",
+			"url" : "http://www.ibm.com/legal/us/en/"
+		},
+		"privacy_policy" : {
+			"text" : "Privacy Policy",
+			"url" : "http://www.ibm.com/privacy/us/en/"
+		}
+	},
+	{
+		"id" : "home_slides",
+		"slide1_title_img" : "img/slides/mw_slide1_headline-2.png",
+		"slide1_title_mobile" : "img/slides/mw_slide1_headline-2_mobile.png",
+		"slide1_title_retina" : "img/slides/mw_slide1_headline-2_x2.png",
+		"slide1_title_568" : "img/slides/mw_slide1_headline-568_2x.png",
+		"slide1_title_320" : "img/slides/mw_slide1_headline-2_320.png",
+		"slide1_madewith_img" : "img/slides/mw_underbodycopy.png",
+		"slide1_madewith_img_mobile" : "img/slides/mw_underbodycopy_mobile_x2.png",
+		"slide1_copy" : "<p>We live on a Smarter Planet, where data, mobile, social and cloud are transforming industries and allowing us to create value in new ways. </p><p>The evidence is abundant and everywhere.</p>",
+		
+		"slide2_copy" : "See what the world's making today",
+		
+		"slide3_madewith_img" : "img/slides/MadewithMobile.png",
+		"slide3_madewith_img_mobile" : "img/slides/MadewithMobile_mobile.png",
+		"slide3_madewith_img_retina" : "img/slides/MadewithMobile_mobile_x2.png",
+		"slide3_copy" : "<p>92% of the people in the world own a mobile device. Businesses that are the best at consistently providing engaging mobile services can tap into new markets, customers and sources of revenue, making this technology the new imperative. </p>",
+		"slide3_cta" : "See how mobile is reaching more customers",
+		
+		"slide4_madewith_img" : "img/slides/MadewithCloud.png",
+		"slide4_madewith_img_mobile" : "img/slides/MadewithCloud_mobile.png",
+		"slide4_madewith_img_retina" : "img/slides/MadewithCloud_mobile_x2.png",
+		"slide4_copy" : "<p>The IT infrastructure of the world is being transformed by the emergence of cloud computing—that is, the delivery of IT and business processes as digital services. Cloud enables new business models and the reinvention of core business practices.</p>",
+		"slide4_cta" : "See how businesses across the world are innovating with cloud",
+		
+		"slide5_madewith_img" : "img/slides/MadeWithData.png",
+		"slide5_madewith_img_mobile" : "img/slides/MadeWithData.png",
+		"slide5_madewith_img_retina" : "img/slides/MadeWithData_x2.png",
+		"slide5_copy" : "<p>Data is the world’s new natural resource and the basis of competitive advantage for businesses. Predictive and real-time analytics can help leaders in every industry create new value. </p>",
+		"slide5_cta" : "See how data is changing every industry",
+		
+		"slide6_madewith_img" : "img/slides/MadewithSocial.png",
+		"slide6_madewith_img_mobile" : "img/slides/MadewithSocial.png",
+		"slide6_madewith_img_retina" : "img/slides/MadewithSocial_x2.png",
+		"slide6_copy" : "<p>Social has given rise to a new consumer with even greater expectations. Customers and employees expect to have social access to companies, and offering it can help improve both customer satisfaction and employee productivity.</p>",
+		"slide6_cta" : "See how social is building new relationships",
+		
+		"slide7_madewith_img" : "img/slides/MadewithWatson.png",
+		"slide7_madewith_img_mobile" : "img/slides/MadewithWatson.png",
+		"slide7_madewith_img_retina" : "img/slides/MadewithWatson_x2.jpg",
+		"slide7_copy" : "<p>IBM Watson™ is a cognitive technology that reads and understands natural language, generates hypotheses based on evidence and learns as it goes. With IBM Watson, organizations can more fully understand and use the data that surrounds them to make better, more informed decisions.</p>",
+		"slide7_cta" : "See how Watson is beginning to transform industries"
+	},
+	{
+		"id" : "globalVars",
+		"learn_more_label" : "Learn More",
+		"cloud" : "Cloud",
+		"data" : "Data",
+		"mobile" : "Mobile",
+		"social" : "Social",
+		"watson" : "Watson"	
+	}
+]

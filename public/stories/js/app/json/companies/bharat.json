@@ -1,0 +1,215 @@
+{
+    "id" : 30,
+    "company" : "Bharat Light and Power",
+    "title": "power made with mobile",
+    "color1" : "#d11232",
+    "color2" : "#d11232",
+    "short-description" : "Bharat Light and Power is creating a greener India with IBM Cloud",
+    "filterTechnology": "data",
+    "filterIndustry": "retail",
+    "filterCapability": "supply-chain-optimization",
+    "filterCapabilityLabel": "Supply Chain Optimization",
+    "share_twitter_url" : "http://bit.ly/1sAMbpZ",
+    "share_twitter_copy" : "Bharat%20Light%20and%20Power%20is%20creating%20a%20greener%20India%20with%20IBM%20Cloud.%20See%20how.%20%23madewithIBM",
+    "share_fb_url" : "http%3A%2F%2Fwww.ibm.com%2Fsmarterplanet%2Fus%2Fen%2Fmadewithibm%2Fstories%2F%23!story%2F30%3Fcmp%3Dusbrb%26cm%3Dh%26csr%3Dagus_madewith_140407%26cr%3Dfacebook%26ct%3Dusbrb301%26cn%3Ds30_bharat",
+    "share_fb_copy" : "Bharat%20Light%20and%20Power%20is%20creating%20a%20greener%20India%20with%20IBM%20Cloud.%20See%20how.%20%23madewithIBM",
+    "share_li_url" : "http://bit.ly/Rn4HUW",
+    "share_li_copy" : "Bharat%20Light%20and%20Power%20is%20creating%20a%20greener%20India%20with%20IBM%20Cloud.%20See%20how%20new%20value%20is%20made%20with%20IBM.",
+    "story_background_image_url": "",
+    "thumbnail" : "stories/assets/images/s30/s30-thumb.jpg",
+    "templates": [
+      {
+        "id": 1,
+        "template_class": "template-5",
+        "template_tracking": "t5",
+        "template_background_image_url": "./assets/images/s30/s30-t5-bg.jpg",
+        "template_background_image_url_mobile": "./assets/images/s30/s30-t5-bg_mobile.jpg",
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "hyperlink": "",
+                "color1" : "#d11232",
+                "copy" : "Bharat Light and Power is creating a greener India with IBM Cloud",
+                "capability" : "How to optimize a supply chain",
+                "quote": "",
+                "attribution" : ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "template_class": "template-4",
+        "template_tracking": "t4",
+        "template_background_image_url": "./assets/images/s30/s30-t4-bg.png",
+        "template_background_color" : "#d11232",
+        "template_type" : "summary-row",
+        "modules": [
+          {
+            "wrapper_class": "t4-mD summary",
+            "module_class": "module-D",
+            "module_type": "image",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url_tablet": "./assets/images/s30/s30-t4-mD.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t4-mE summary",
+            "module_class": "module-E",
+            "module_type": "text",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "title" : "Summary",
+                "hyperlink": "http://www-03.ibm.com/press/us/en/pressrelease/42524.wss?cmp=usbrb&cm=s&csr=madewithibm&cr=s30&ct=usbrb301&cn=madewithibm",
+                "cta_copy": "Learn more about Bharat Light and Power",
+                "copy": "<p>Bharat Light & Power (BLP) is one of the largest clean energy companies in India, focusing on wind, solar, biomass and water for power generation. By working with SoftLayer&reg;, an IBM company, and integrating sensor data on wind turbines with IBM HyRef weather prediction analytics, BLP is able to better manage a vast fleet of wind farms scattered across the country.</p><p>Using mobile and social technology that connects them to citizens through the cloud, BLP can inform citizens about their power usage, determine energy demand and improve energy distribution through their wind farms.</p>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "template_class": "template-3",
+        "template_tracking": "t3",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t3-mD",
+            "module_class": "module-D carousel-medium",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "quote": "In India we have 400 million people without electricity. We have the ability to produce enough—we're just not doing it well enough.",
+                "attribution" : "Tejpreet Singh Chopra<br/>CEO, Bharat Light & Power"
+              },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "quote": "By capturing and analyzing data in real-time on the cloud we can extract untapped energy from wind farms.",
+                "attribution" : "Tejpreet Singh Chopra<br/>CEO, Bharat Light & Power"
+              }              
+            ]
+          },
+          {
+            "wrapper_class": "t3-mE",
+            "module_class": "module-E",
+            "module_type": "image",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s30/s30-t32-mD.gif",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "template_class": "template-video",
+        "template_tracking": "tV",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "video",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s30/s30-tv-mA.jpg",
+                "image_url_mobile": "./assets/images/s30/s30-tv-mA_mobile.jpg",
+                "hyperlink": "4m8_POHzUrE",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "template_class": "template-footer",
+        "template_tracking": "tF",
+        "template_background_image_url": "",
+        "template_background_color" : "#d11232",
+        "template_title" : "How is this made?",
+        "template_desc" : "Get to know the people and the solutions behind the transformation.",
+        "modules": [
+          {
+            "wrapper_class": "tF-mD",
+            "module_class": "module-D carousel-footer",
+            "module_type": "carousel",
+            "module_background_image": "",
+
+            "assets": [
+              {
+				"asset_class": "",
+				"image_url": "",
+				"hyperlink": "http://www.ibm.com/cloud-computing/us/en/marketplace.html?cmp=usbrb&cm=s&csr=madewithibm&cr=s4&ct=usbrb301&cn=madewithibm",
+				"title" : "IBM Cloud Marketplace",
+				"copy": "IBM Cloud marketplace is our digital front door where you can discover, try, and for many services, buy, from hundreds of IBM and Business Partner services across business solutions (SaaS), developer (PaaS) and IT operations (IaaS). Whether you're looking for apps to give you supply-chain visibility, for IBM’s new development platform Bluemix, or for a dedicated bare-metal server from SoftLayer, Cloud marketplace has everything you need to bring your business the full benefits of cloud."
+			},
+					    {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "http://www.ibm.com/cloud-computing/us/en/iaas.html?cmp=usbrb&cm=s&csr=madewithibm&cr=s30&ct=usbrb301&cn=madewithibm",
+                "title" : "IBM Cloud—IaaS",
+                "copy": "IBM Cloud offers a choice of open cloud infrastructure services for IT operations—delivering the control and flexibility to power demanding cloud applications."
+                
+              },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "http://www.ibm.com/cloud-computing/us/en/softlayer.html?cmp=usbrb&cm=s&csr=madewithibm&cr=s30&ct=usbrb301&cn=madewithibm",
+                "title" : "SoftLayer",
+                "copy": "SoftLayer<sup>&reg;</sup>, an IBM company, is a cloud infrastructure provider offering everything from flexible virtual servers to bare metal servers for high-performance workloads."
+              },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "http://www.ibm.com/mobilefirst/us/en/index.html?cmp=usbrb&cm=s&csr=madewithibm&cr=s30&ct=usbrb301&cn=madewithibm",
+                "title" : "IBM MobileFirst",
+                "copy": "IBM MobileFirst offers end-to-end mobile solutions by integrating service offerings, platform development, security and mobile device management in a connected world. "
+              },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "title" : "Dr. Prashant Pradhan<br/>Business Head, Smarter Planet &amp; Industry Solutions, IBM",
+                "copy": "Prashant Pradhan joined IBM as a Research Scientist at the IBM Thomas J. Watson Research center and moved to IBM's India/South Asia services business in 2008. In his current role, he is responsible for strategic transactions involving industry-specific solutions.",
+                "social_twitter" : "",
+                "social_linkedin" : "http://in.linkedin.com/pub/prashant-pradhan/2/b2b/587/"
+             }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

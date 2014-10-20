@@ -1,0 +1,68 @@
+<div class="ibm-band template-5 template-waypoint" data-template="{{ template_tracking }}" style="background:url({{template_background_image_url}}) top center no-repeat;background-size:cover;">
+	<div class="ibm-columns">
+
+		<div class="template-5">
+
+			<div class="ibm-col-1-1 box {{#if modules.[0].assets.[0].image_url}}second-video t5-mA{{/if}}">
+
+
+				 {{#if modules.[0].assets.[0].image_url}}
+
+						<div class="{{modules.[0].module_class}}" id="s{{story_id}}-{{modules.[0].wrapper_class}}-alt">
+
+
+							<img class="video-img second-video-img" src="{{modules.[0].assets.[0].image_url}}"/>
+							<script>	
+							    $(document).ready(function() {
+								    
+								    $('.picturefill-video-img').hide();
+
+									$(window).resize( function() {
+								    	$('.second-video-img').hide();
+								    $('.picturefill-video-img').show();
+							    		// window.picturefill();
+							    	});
+								});
+							</script>
+
+
+							<span data-picture data-alt="" class="picturefill-video-img">
+								<span data-src="{{modules.[0].assets.[0].image_url}}" height="400"></span>
+
+								 {{#if modules.[0].assets.[0].image_url_tablet}}
+								 	<span data-src="{{modules.[0].assets.[0].image_url_tablet}}"  data-media="(min-width: 641px) and (max-width:1024px)"></span>
+								 {{/if}}
+								 {{#if modules.[0].assets.[0].image_url_mobile}}
+								 	<span data-src="{{modules.[0].assets.[0].image_url_mobile}}"  data-media="(max-width: 640px)"></span>
+								 {{/if}}
+								
+								 <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+								 <noscript>
+								 	<img src="{{modules.[0].assets.[0].image_url}}" alt="">
+								 </noscript>
+							</span>
+
+						</div>
+
+				{{/if}}
+					
+				
+				
+				
+				
+				{{#if modules.[0].assets.[0].copy}}
+					<p class="capability">{{{modules.[0].assets.[0].capability}}}</p>
+					<h2 class="description" style="color:{{modules.[0].assets.[0].color1}}">{{{modules.[0].assets.[0].copy}}}</h2>
+					
+				{{/if}}
+				
+				{{#if modules.[0].assets.[0].quote}}
+					<h2 class="quote" style="color:{{modules.[0].assets.[0].color1}}">{{{modules.[0].assets.[0].quote}}}</h2>
+					<p class="attribution">{{{modules.[0].assets.[0].attribution}}}</p>
+				{{/if}}
+			</div>
+
+		</div>
+				
+	</div>
+</div>

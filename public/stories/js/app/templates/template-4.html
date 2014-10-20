@@ -1,0 +1,49 @@
+<div class="ibm-band {{template_type}} template-waypoint"  data-template="{{ template_tracking }}" style="{{backgroundImageHelper template_background_color template_background_image_url}}">
+	<div class="ibm-columns">
+		<div class="{{template_class}}">
+			{{#if template_title}}
+				<h4 class="mod-title">{{template_title}}</h4>
+			{{/if}}
+			<div class="ibm-col-5-2 box {{modules.[0].wrapper_class}}">
+				{{#if modules.[0].assets.[0].image_url}}
+					<img src="{{modules.[0].assets.[0].image_url}}"/>
+				{{/if}}
+				{{#if modules.[0].assets.[0].image_url_tablet}}
+				
+					<img class="tablet" src="{{modules.[0].assets.[0].image_url_tablet}}"/>
+					
+				{{/if}}
+				{{#if modules.[0].assets.[0].title}}
+					<h3 class="title">{{{modules.[0].assets.[0].title}}}</p>
+				{{/if}}
+				{{#if modules.[0].assets.[0].copy}}
+					<p>{{{modules.[0].assets.[0].copy}}}</p>
+				{{/if}}
+				<ul class="ibm-connect-bar" >
+				{{#if modules.[0].assets.[0].social_twitter}}
+					<li><a class="twitter" href="{{{modules.[0].assets.[0].social_twitter}}}" target="_blank">&nbsp;</a></li>
+				{{/if}}
+				{{#if modules.[0].assets.[0].social_linkedin}}
+					<li><a class="linkedin" href="{{{modules.[0].assets.[0].social_linkedin}}}" target="_blank">&nbsp;</a></li>
+				{{/if}}
+				</ul>
+			</div>
+		
+			<div class="ibm-col-5-3 box {{modules.[1].wrapper_class}}">
+				{{#if modules.[1].assets.[0].image_url}}
+				<img src="{{modules.[1].assets.[0].image_url}}"/>
+				{{/if}}
+				{{#if modules.[1].assets.[0].title}}
+					<h3 class="title">{{{modules.[1].assets.[0].title}}}</h3>
+				{{/if}}
+				{{#if modules.[1].assets.[0].copy}}
+					<div class="summary-text">{{{modules.[1].assets.[0].copy}}}</div>
+				{{/if}}
+				{{#if modules.[1].assets.[0].hyperlink}}
+					<span class="cta-link"><a  href="{{{modules.[1].assets.[0].hyperlink}}}" target="_blank">{{{modules.[1].assets.[0].cta_copy}}}</a>→</span>
+				{{/if}}
+			</div>
+
+		</div>
+	</div>
+</div>

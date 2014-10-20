@@ -1,0 +1,349 @@
+/*fonts*/
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon/icomoon.eot");
+  src: url("../fonts/icomoon/icomoon.eot?#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.woff") format("woff"), url("../fonts/icomoon/icomoon.ttf") format("truetype"), url("../fonts/icomoon/icomoon.svg#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/**these helvetica variants are not supplied in ww.css**/
+@font-face {
+  font-family: 'helvneue_for_ibmbold_italic';
+  src: url("../fonts/helv-ibm/helvneueforibm-bolditalic-webfont.eot");
+  src: url("../fonts/helv-ibm/helvneueforibm-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/helv-ibm/helvneueforibm-bolditalic-webfont.woff") format("woff"), url("../fonts/helv-ibm/helvneueforibm-bolditalic-webfont.ttf") format("truetype"), url("../fonts/helv-ibm/helvneueforibm-bolditalic-webfont.svg#helvneue_for_ibmbold_italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'helvneue_for_ibmitalic';
+  src: url("../fonts/helv-ibm/helvneueforibm-italic-webfont.eot");
+  src: url("../fonts/helv-ibm/helvneueforibm-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/helv-ibm/helvneueforibm-italic-webfont.woff") format("woff"), url("../fonts/helv-ibm/helvneueforibm-italic-webfont.ttf") format("truetype"), url("../fonts/helv-ibm/helvneueforibm-italic-webfont.svg#helvneue_for_ibmitalic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'helvneue_for_ibmlight_italic';
+  src: url("../fonts/helv-ibm/helvneueforibm-lightitalic-webfont.eot");
+  src: url("../fonts/helv-ibm/helvneueforibm-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/helv-ibm/helvneueforibm-lightitalic-webfont.woff") format("woff"), url("../fonts/helv-ibm/helvneueforibm-lightitalic-webfont.ttf") format("truetype"), url("../fonts/helv-ibm/helvneueforibm-lightitalic-webfont.svg#helvneue_for_ibmlight_italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+#ibm-content .ibm-columns:after {
+  margin-bottom: 0; }
+#ibm-content .postcard .ibm-columns {
+  padding: 0;
+  width: 980px; }
+  #ibm-content .postcard .ibm-columns [class*="ibm-col-"] {
+    float: left;
+    margin: 0 10px 10px 0;
+    /* margin:0; for no padding */
+    padding: 0;
+    min-height: 1px; }
+    #ibm-content .postcard .ibm-columns [class*="ibm-col-"] img {
+      width: 100%; }
+  #ibm-content .postcard .ibm-columns :last-child, #ibm-content .postcard .ibm-columns .ibm-columns:last-child {
+    margin: 0 0 10px 0;
+    padding: 0; }
+  #ibm-content .postcard .ibm-columns .ibm-col-5-3 .ibm-col-5-1, #ibm-content .postcard .ibm-columns .ibm-col-5-3 .ibm-col-5-3 {
+    margin: 0 0 0px 0;
+    padding: 0; }
+  #ibm-content .postcard .ibm-columns .ibm-col-1-1 {
+    width: 980px;
+    margin: 0 0 0 0; }
+  #ibm-content .postcard .ibm-columns .ibm-col-5-1 {
+    /*     width: 172px; orig width - 196 no padding*/
+    width: 188px; }
+  #ibm-content .postcard .ibm-columns .ibm-col-5-2 {
+    /*     width: 364px; orig width - 392 no padding*/
+    width: 386px; }
+  #ibm-content .postcard .ibm-columns .ibm-col-5-3 {
+    /*     width: 556px; orig width - 588 no padding*/
+    width: 584px; }
+  #ibm-content .postcard .ibm-columns .ibm-col-5-4 {
+    /*    width: 748px; orig width - 784 no padding*/
+    width: 782px; }
+
+@media screen and (max-width: 800px) {
+  #ibm-content .postcard .ibm-columns {
+    padding: 0;
+    width: 100%; }
+    #ibm-content .postcard .ibm-columns .ibm-col-1-1 {
+      width: 800px; }
+    #ibm-content .postcard .ibm-columns .ibm-col-5-1 {
+      width: 150px; }
+    #ibm-content .postcard .ibm-columns .ibm-col-5-2 {
+      width: 310px; }
+    #ibm-content .postcard .ibm-columns .ibm-col-5-3 {
+      width: 470px; }
+    #ibm-content .postcard .ibm-columns .ibm-col-5-4 {
+      width: 630px; } }
+@media screen and (max-width: 768px) {
+  #ibm-content .postcard .ibm-columns .ibm-col-5-1 {
+    width: 143px; }
+  #ibm-content .postcard .ibm-columns .ibm-col-5-2 {
+    width: 296px; }
+  #ibm-content .postcard .ibm-columns .ibm-col-5-3 {
+    width: 449px; }
+  #ibm-content .postcard .ibm-columns .ibm-col-5-4 {
+    width: 602px; } }
+@media screen and (max-width: 640px) {
+  #ibm-content .postcard .ibm-columns .ibm-col-5-1 {
+    width: 118px; }
+  #ibm-content .postcard .ibm-columns .ibm-col-5-2 {
+    width: 246px; }
+  #ibm-content .postcard .ibm-columns .ibm-col-5-3 {
+    width: 374px; }
+  #ibm-content .postcard .ibm-columns .ibm-col-5-4 {
+    width: 502px; } }
+@media screen and (max-width: 579px) {
+  #ibm-content .postcard .ibm-columns .ibm-col-5-1, #ibm-content .postcard .ibm-columns .ibm-col-5-2, #ibm-content .postcard .ibm-columns .ibm-col-5-3, #ibm-content .postcard .ibm-columns .ibm-col-5-4 {
+    width: 100%; }
+  #ibm-content .postcard .ibm-columns .noMobile {
+    display: none; } }
+/* POSTCARD TEMPLATE RULES FOR DEMONSTRATION PURPOSES
+#ibm-content {
+		.video1 {
+			.a { height:610px;}
+			.b { height:188px;}
+			.c { height:188px;}
+			.d { height:188px;}
+		}
+		.video2 {
+			.a { height:487px;}
+			.b { height:487px;}
+			.c { height:188px;}
+			.d { height:188px;}
+			.e { height:188px;}
+		}
+		.tert1 {
+			.a { height:386px;}
+			.b { height:386px;}
+			.c { height:386px;}
+			.d { height:188px;}
+			.e { height:386px;}
+			.f { height:188px;}
+			.g { height:188px;}
+		}
+		.tert2 {
+			.a { height:386px;}
+			.b { height:386px;}
+			.c { height:386px;}
+			.d { height:386px;}
+		}
+	  .tert3 {
+      .a { height:584px;}
+    }
+    .tert4 {
+      .a { height:386px;}
+      .b { height:386px;}
+      .c { height:386px;}
+    }
+    .tert5 {
+      .a { height:188px;}
+      .b { height:188px;}
+      .c { height:188px;}
+    }
+    .tert6 {
+      .a { height:188px;}
+      .b { height:188px;}
+      .c { height:188px;}
+      .d { height:386px;}
+      .e { height:386px;}
+      .f { height:386px;}
+    }
+    .tert7 {
+      .a { height:188px;}
+      .b { height:386px;}
+      .c { height:386px;}
+      .d { height:386px;}
+    }
+    .tert8 {
+      .a { height:782px;}
+      .b { height:386px;}
+      .c { height:188px;}
+      .d { height:188px;}
+    }
+    .tert9 {
+      .a { height:386px;}
+      .b { height:980px;}
+      .c { height:386px;}
+      .d { height:386px;}
+      .e { height:188px;}
+    }
+}*/
+/*sass vars*/
+body {
+  font: 18px/1.3 "HelvRegularIBM", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased; }
+
+/**
+ * main navigation
+ */
+/*menu nav*/
+.menu {
+  position: fixed;
+  top: 35px;
+  right: 25px;
+  cursor: pointer;
+  z-index: 1000; }
+  .menu p {
+    color: #fff !important;
+    position: relative;
+    top: 5px;
+    right: 65px;
+    padding: 0 !important;
+    margin: 0 !important;
+    font-family: "HelvBoldIBM", Arial, sans-serif;
+    font-size: 16px !important;
+    -webkit-transition: opacity .5s ease-in 0;
+    -moz-transition: opacity .5s ease-in 0;
+    -ms-transition: opacity .5s ease-in 0;
+    -o-transition: opacity .5s ease-in 0;
+    transition: opacity .5s ease-in 0; }
+  .menu .bars {
+    position: relative;
+    right: 0px;
+    top: -20px; }
+    .menu .bars div {
+      height: 5px;
+      width: 30px;
+      margin-top: 3px;
+      background-color: white;
+      display: block;
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      border-radius: 2px; }
+  .menu .logo {
+    position: relative;
+    right: 2px;
+    top: 2px;
+    cursor: pointer;
+    border: 1px solid transparent; }
+  .menu .logo:before {
+    font-size: 132px;
+    content: "\e602";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    font-family: "icomoon";
+    -webkit-transition: all 0.2s ease-in 0;
+    -moz-transition: all 0.2s ease-in 0s;
+    -ms-transition: all 0.2s ease-in 0;
+    -o-transition: all 0.2s ease-in 0;
+    transition: all 0.2s ease-in 0;
+    color: white;
+    display: block; }
+
+/*side nav*/
+.sideNav {
+  position: fixed;
+  background: #191919;
+  top: 0;
+  bottom: 0;
+  right: -360px;
+  width: 360px;
+  z-index: 100; }
+  .sideNav a {
+    text-decoration: none;
+    color: #666;
+    -webkit-transition: color 200ms ease-in 0;
+    -moz-transition: color 200ms ease-in 0s;
+    -ms-transition: color 200ms ease-in 0;
+    -o-transition: color 200ms ease-in 0;
+    transition: color 200ms ease-in 0;
+    font-size: 20px; }
+  .sideNav a:hover {
+    color: #fff; }
+  .sideNav .closeBtn {
+    color: #666666;
+    font-size: 20px;
+    float: right;
+    padding: 45px 35px 0 0;
+    cursor: pointer; }
+  .sideNav .closeBtn:before {
+    content: "\e600";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    font-family: "icomoon";
+    display: block; }
+  .sideNav .closeBtn:hover:before {
+    color: #fff; }
+  .sideNav ul.main {
+    padding: 45px 35px 0 35px; }
+    .sideNav ul.main li {
+      font: 18px/1.2 "HelvBoldIBM", Arial, sans-serif;
+      padding: 0 0 10px 0; }
+      .sideNav ul.main li a {
+        font-size: inherit; }
+      .sideNav ul.main li a.active {
+        color: #fff; }
+    .sideNav ul.main li:before {
+      content: ""; }
+  .sideNav .social {
+    padding: 450px 35px 0 35px; }
+    .sideNav .social a:before {
+      color: #333;
+      -webkit-transition: color 200ms ease-in 0;
+      -moz-transition: color 200ms ease-in 0s;
+      -ms-transition: color 200ms ease-in 0;
+      -o-transition: color 200ms ease-in 0;
+      transition: color 200ms ease-in 0; }
+    .sideNav .social a:active:before,
+    .sideNav .social a:hover:before {
+      color: #ffffff; }
+  .sideNav ul.auxLinks {
+    overflow: hidden;
+    padding: 5px 0 0 7px; }
+    .sideNav ul.auxLinks li {
+      float: left; }
+      .sideNav ul.auxLinks li a {
+        font-size: 13px;
+        font-family: "HelvBoldIBM", Arial, sans-serif;
+        font-weight: bold; }
+    .sideNav ul.auxLinks li:before {
+      content: ""; }
+
+@media screen and (max-width: 800px) {
+  /*menu nav*/
+  .menu {
+    top: 35px; }
+    .menu p {
+      display: none; } }
+@media screen and (max-width: 640px) {
+  .menu {
+    top: 35px; }
+    .menu p, .menu .logo {
+      display: none; } }
+@media screen and (max-width: 579px) {
+  /*menu nav*/
+  .menu {
+    top: 35px; }
+    .menu p {
+      display: none; }
+
+  /*side nav*/
+  .sideNav {
+    right: -240px;
+    width: 240px; }
+    .sideNav .closeBtn {
+      padding-top: 18px; }
+    .sideNav ul.main {
+      padding-top: 88px; }
+    .sideNav .social {
+      padding-top: 145px; }
+      .sideNav .social a {
+        margin-right: 5px; }
+      .sideNav .social a:before {
+        font-size: 23px; }
+
+  ul.auxLinks {
+    padding-left: 27px; }
+    ul.auxLinks li {
+      padding: 0 0 0 8px; }
+      ul.auxLinks li a {
+        font-size: 11px; } }

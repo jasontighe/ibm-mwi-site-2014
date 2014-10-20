@@ -1,0 +1,50 @@
+<div class="ibm-band {{template_type}} template-waypoint"  data-template="{{ template_tracking }}" style="background: {{template_background_color}} url({{template_background_image_url}}) top center no-repeat;">
+	<div class="ibm-columns">
+		<div class="{{template_class}}">
+
+
+			{{#if template_title}}
+				<h4 class="mod-title">{{{template_title}}}</h4>
+			{{/if}}
+			{{#if template_desc}}
+				<p class="mod-desc">{{{template_desc}}}</p>
+			{{/if}}
+
+
+
+			<div class=" box {{modules.[0].wrapper_class}} {{modules.[0].module_class}}">
+				<div class="bxslider" id="s{{story_id}}-{{modules.[0].wrapper_class}}">
+
+						{{#each modules.[0].assets}}
+						
+							<div class="tF-mD1">
+								<div>
+									{{#if image_url}}<img src="{{image_url}}"/>{{/if}}
+									{{#if image_url_tablet}}<img class="tablet" src="{{image_url_tablet}}"/>{{/if}}
+									{{#if title}}<div class="footer-title">{{{title}}}</div>{{/if}}
+									{{#if copy}}<div class="footer-desc">{{{copy}}}</div>{{/if}}
+
+									<ul class="ibm-connect-bar" >
+										{{#if social_twitter}}<li><a class="twitter" href="{{{social_twitter}}}" target="_blank">&nbsp;</a></li>{{/if}}
+										{{#if social_linkedin}}<li><a class="linkedin" href="{{{social_linkedin}}}" target="_blank">&nbsp;</a></li>{{/if}}
+									</ul>
+
+
+									{{#if hyperlink}}
+										<a class="carousel-button" href="{{{hyperlink}}}" target="_blank">{{{learn_more_label}}}</a>
+									{{/if}}
+								</div>
+							</div>
+
+						{{/each}}		
+
+				</div>
+			</div>
+
+
+
+
+
+		</div>
+	</div>
+</div>

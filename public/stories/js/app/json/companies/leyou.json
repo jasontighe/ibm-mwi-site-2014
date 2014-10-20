@@ -1,0 +1,212 @@
+{
+    "id" : 3,
+    
+    "company" : "Leyou",
+    "title": "new customers made with data",
+    "color1" : "#ff9900",
+    "color2" : "#ff9900",
+    "short-description" : "Leyou is understanding the needs of its customers with data",
+    "filterTechnology": "data",
+    "filterIndustry": "retail",
+    "filterCapability": "one-to-one",
+    "filterCapabilityLabel": "One-to-One",
+    "share_twitter_url" : "http://bit.ly/1eraUE4",
+    "share_twitter_copy" : "Leyou%20is%20understanding%20the%20needs%20of%20its%20customers%20with%20data.%20See%20how.%20%23madewithIBM",
+    "share_fb_url" : "http%3A%2F%2Fwww.ibm.com%2Fsmarterplanet%2Fus%2Fen%2Fmadewithibm%2Fstories%2F%23!story%2F3%3Fcmp%3Dusbrb%26cm%3Dh%26csr%3Dagus_madewith_140407%26cr%3Dfacebook%26ct%3Dusbrb301%26cn%3Ds3_leyou",
+    "share_fb_copy" : "Leyou%20is%20understanding%20the%20needs%20of%20its%20customers%20with%20data.%20See%20how.%20%23madewithIBM",
+    "share_li_url" : "http://bit.ly/1kYKhyx",
+    "share_li_copy" : "Leyou%20is%20understanding%20the%20needs%20of%20its%20customers%20with%20data.%20See how.",
+    "thumbnail" : "stories/assets/images/s3/s3-thumb.jpg",
+    "story_background_image_url": "",
+    "templates": [
+      {
+        "id": 1,
+        "template_class": "template-5",
+        "template_tracking": "t5",
+        "template_background_image_url": "./assets/images/s3/s3-t5-bg.jpg",
+        "template_background_image_url_mobile": "./assets/images/s3/s3-t5-bg_mobile.jpg",
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "hyperlink": "",
+                "color1" : "#ff9900",
+                "copy" : "Leyou is understanding the needs of its customers with data",
+                "capability" : "How to provide one-to-one services",
+                "quote": "",
+                "attribution" : ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "template_class": "template-4",
+        "template_tracking": "t4",
+        "template_background_image_url": "./assets/images/s3/s3-t4-bg.png",
+        "template_background_color" : "#ff9900",
+        "template_type" : "summary-row",
+        "modules": [
+          {
+            "wrapper_class": "t4-mD summary",
+            "module_class": "module-D",
+            "module_type": "image",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url_tablet": "./assets/images/s3/s3-t4-mD.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t4-mE summary",
+            "module_class": "module-E",
+            "module_type": "text",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "http://www-01.ibm.com/software/commerce/retail/?cmp=usbrb&cm=s&csr=madewithibm&cr=s3&ct=usbrb301&cn=madewithibm",
+                "title" : "Summary",
+                "copy": "<p>As it grew from a traditional chain store to include online and direct marketing, Leyou, a retailer with products for moms, babies and kids, knew that intuition was not enough to sustain growth.</p><p>By integrating analytics at the core of the business, IBM helps Leyou identify the what, when and where behind the millions of transactions made by its members. With 4 million online customers and stores in 13 cities, Leyou has found analytics to play a key role in helping the company understand the needs of a growing Chinese middle-class and in cementing its place among the country’s largest retailers.</p>",
+                "cta_copy": "Learn more about Smarter Commerce for Retail"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "template_class": "template-3",
+        "template_tracking": "t3",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t3-mD",
+            "module_class": "module-D",
+            "module_type": "quote",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                 "color" : "#ff9900",
+                "quote": "We are waking up to the massive potential of the data we have as a membership-based retailer.",
+                "attribution" : "Larry Kung</br>COO and Co-founder, Leyou"
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t3-mE",
+            "module_class": "module-E",
+            "module_type": "image",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s3/s3-t32-mD.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "template_class": "template-video",
+        "template_tracking": "tV",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "video",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s3/s3-tv-mA.jpg",
+                "image_url_mobile": "./assets/images/s3/s3-tv-mA_mobile.jpg",
+                "hyperlink": "CmOoGF4k5to",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "template_class": "carousel-full",
+        "template_tracking": "tC",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "",
+            "module_class": "",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "image_url_mobile": "",
+                "hyperlink": "",
+                "color1" : "#ff9900",
+                "copy": "62% of retailers reported in a recent study that big data and analytics are creating a competitive advantage for their organizations"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "template_class": "template-footer",
+        "template_tracking": "tF",
+        "template_background_image_url": "",
+        "template_background_color" : "#ff9900",
+        "template_title" : "How is this made?",
+        "template_desc" : "Get to know the people and the solutions behind the transformation.",
+        "modules": [
+          {
+            "wrapper_class": "tF-mD",
+            "module_class": "module-D carousel-footer",
+            "module_type": "carousel",
+            "module_background_image": "",
+           
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "http://www.ibm.com/big-data/us/en/big-data-and-analytics/marketing.html?cmp=usbrb&cm=s&csr=madewithibm&cr=s3&ct=usbrb301&cn=madewithibm",
+                "title" : "IBM Big Data &amp; Analytics - Marketing and Sales",
+                "copy": "IBM Business Analytics Solutions for marketing can help organizations acquire, grow and retain customers by anticipating their desires and creating personalized experiences. By identifying customer attitudes, opinions and emerging trends, marketers can better develop effective marketing strategies for the future."
+              },
+               {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "http://www-03.ibm.com/software/products/en/business-intelligence/?cmp=usbrb&cm=s&csr=madewithibm&cr=s3&ct=usbrb301&cn=madewithibm",
+                "title" : "IBM Cognos Software",
+                "copy": "IBM Cognos&reg; Software provides reporting, analysis and dashboards to help key stakeholders understand business performance, collaborate, and make data-driven decisions."
+              }
+             
+            ]
+          }
+        ]
+      }
+    ]
+
+  }
+  

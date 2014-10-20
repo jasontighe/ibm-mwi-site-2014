@@ -1,0 +1,187 @@
+  {
+    "id" : 7,
+    
+    "company" : "Gwinnett County Public Schools",
+    "title": "graduates made with data",
+    "color1" : "#09c3cf",
+    "color2" : "#09c3cf",
+    "short-description" : "Gwinnett County Public Schools is motivating students with data",
+    "filterTechnology": "data",
+    "filterIndustry": "education",
+    "filterCapability": "education",
+    "filterCapabilityLabel": "Smarter Education",
+    "share_twitter_url" : "http://bit.ly/1ixBrSo",
+    "share_twitter_copy" : "Gwinnett%20County%20Public%20Schools%20is%20motivating%20students%20with%20data.%20See%20how.%20%23madewithIBM",
+    "share_fb_url" : "http%3A%2F%2Fwww.ibm.com%2Fsmarterplanet%2Fus%2Fen%2Fmadewithibm%2Fstories%2F%23!story%2F7%3Fcmp%3Dusbrb%26cm%3Dh%26csr%3Dagus_madewith_140407%26cr%3Dfacebook%26ct%3Dusbrb301%26cn%3Ds7_gwinnettcountyschools",
+    "share_fb_copy" : "Gwinnett%20County%20Public%20Schools%20is%20motivating%20students%20with%20data.%20See%20how.%20%23madewithIBM",
+    "share_li_url" : "http://bit.ly/1kYKrGd",
+    "share_li_copy" : "Gwinnett%20County%20Public%20Schools%20is%20motivating%20students%20with%20data.%20See%20how.",
+    "story_background_image_url": "",
+    "thumbnail" : "stories/assets/images/s7/s7-thumb.jpg",
+    "templates": [
+      {
+        "id": 1,
+        "template_class": "template-5",
+        "template_tracking": "t5",
+        "template_background_image_url": "./assets/images/s7/s7-t5-bg.jpg",
+        "template_background_image_url_mobile": "./assets/images/s7/s7-t5-bg_mobile.jpg",
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "hyperlink": "",
+                "color1" : "#09c3cf",
+                "copy" : "Gwinnett County Public Schools is motivating students with data",
+                "capability" : "How to innovate education",
+                "quote": "",
+                "attribution" : ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "template_class": "template-4",
+        "template_tracking": "t4",
+        "template_background_image_url": "./assets/images/s7/s7-t4-bg.png",
+        "template_background_image_url_tablet": "",
+        "template_background_color" : "#09c3cf",
+        "template_type" : "summary-row",
+        "modules": [
+          {
+            "wrapper_class": "t4-mD summary",
+            "module_class": "module-D",
+            "module_type": "image",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "image_url_tablet" : "./assets/images/s7/s7-t4-mD.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t4-mE",
+            "module_class": "module-E",
+            "module_type": "text",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "http://www.ibm.com/smarterplanet/us/en/dispatches/gwinnett-county-schools.html?re=mwi&cmp=usbrb&cm=s&csr=madewithibm&cr=s7&ct=usbrb301&cn=madewithibm",
+                "title" : "Summary",
+                "copy": "<p>On average, 8,300 high school students drop out each day in the United States. Gwinnett County Public Schools, the 14th largest school district in the U.S., is pursuing an initiative in personalized education using IBM Analytics.</p><p>The project applies predictive modeling, deep-content analytics and advanced case management to identify how students learn and recommends personalized learning strategies. The eventual goal is to transform education by finding ways to motivate learners, and enhance teacher effectiveness using data.</p>",
+                "cta_copy":"Q&A with J. Alvin Wilbanks, CEO and superintendent of Gwinnett County Public School system"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "template_class": "template-3",
+        "template_tracking": "t3",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t3-mD",
+            "module_class": "module-D carousel-medium",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+              
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                  "color" : "#09c3cf",
+                "quote": "Analytics can help identify a student’s weaknesses and prescribe a personalized course of study.",
+                "attribution" : "Alvin Wilbanks, <br/>CEO Superintendent, Gwinnett County Public Schools"
+              },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                  "color" : "#09c3cf",
+                "quote": "We have been drowning in data, starving for meaningful information.",
+                "attribution" : "Alvin Wilbanks, <br/>CEO Superintendent, Gwinnett County Public Schools"
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t3-mE",
+            "module_class": "module-E",
+            "module_type": "image",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s7/s7-t32-mD.gif",
+                "image_url_mobile": "./assets/images/s7/s7-t32-mD.gif",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      
+      {
+        "id": 6,
+        "template_class": "template-footer",
+        "template_tracking": "tF",
+        "template_background_image_url": "",
+        "template_background_color" : "#09c3cf",
+        "template_title" : "How is this made?",
+        "template_desc" : "Get to know the people and the solutions behind the transformation.",
+        "modules": [
+          {
+            "wrapper_class": "t4-mD",
+            "module_class": "module-D carousel-footer",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+             
+            
+	              {
+	                "asset_class": "",
+	                "image_url": "",
+	                "hyperlink": "http://www.research.ibm.com/cognitive-computing/#fbid=l_m7RpJAO3Z?cmp=usbrb&cm=s&csr=madewithibm&cr=s7&ct=usbrb301&cn=madewithibm",
+	                "title" : "IBM Cognitive Computing ",
+	                "copy": "IBM Cognitive Computing represents a first step into cognitive systems by combining programmatic computing with natural language processing, hypothesis generation, evaluation, and dynamic learning.  With cognitive computing, organizations can have a deeper understanding of unstructured data to make more informed decisions."
+	              },
+	              {
+	                "asset_class": "",
+	                "image_url": "",
+	                "hyperlink": "http://ibm.com/education/?cmp=usbrb&cm=s&csr=madewithibm&cr=s7&ct=usbrb301&cn=madewithibm",
+	                "title" : "IBM Education Technology Solutions",
+	                "copy": "By leveraging data expertise, deep analytics capabilities, and open standards, IBM Education Technology Solutions is creating new models for personalized education."
+	              },
+	               {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "title" : "Caroline A. Cassidy<br/>IBM Client Executive for Gwinnett County Public Schools",
+                "copy": "With more than 18 years of experience in education, Caroline Cassidy has been a member of the State of Georgia team for the last 4 years. Caroline has an extensive background working with public sector accounts, which gives her a unique outlook on the challenges facing our schools.",
+                "social_twitter" : "",
+                "social_linkedin" : "http://www.linkedin.com/pub/caroline-cassidy/0/765/642/"
+              }
+	            ]
+	        }
+          
+        ]
+      }
+    ]
+
+  }

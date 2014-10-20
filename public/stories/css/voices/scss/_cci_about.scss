@@ -1,0 +1,166 @@
+/*
+ 	*
+	** ABOUT US (BEGIN) **
+	*
+*/
+
+#{$ibm-widget-about}.ibm-columns{
+	//padding-bottom:0px !important;
+}
+
+#{$ibm-widget-about}.ibm-columns p{
+	// margin-top:30px;
+	font-size:1.6rem;
+	color:#000; //temporary
+}
+
+h2.ibm_cci-title {
+		font-size:2.4rem;
+		color:#f04e37;
+		margin-bottom:14px;
+}
+
+.ibm-columns.ibm_cci-accounts{
+	margin-top:40px;
+	//outline:1px solid #f00;
+}
+.ibm-col-6-2.ibm_cci-ba,
+.ibm-col-6-2.ibm_cci-ia{
+	border-top:1px solid #cccccc;
+	// margin:0;
+	padding:5px 0;
+}
+
+ul.ibm_cci-ba-list, ul.ibm_cci-ia-list{
+	@include ibm_cci-ul__modifier;
+	line-height: inherit;
+
+	li {
+		@include ibm_cci-ul--li__modifier;
+		margin:0;
+		padding:5px 0;
+		line-height:1.4rem;
+
+		a.ibm_cci-name{
+			font-family: "HelvLightIBM";
+			color:#00;
+			font-size:1.4rem;
+			text-decoration: none;
+		}
+		p {
+			padding:0;
+			a.ibm_cci-handle{
+				font-family: "HelvLightIBM";
+				font-size:1.4rem;
+				color:#c6c6c6;
+				text-decoration: none;
+			}
+
+			a.ibm_cci-handle:link, p a.ibm_cci-handle:visited{
+				color:#c6c6c6;
+			}
+
+			a.ibm_cci-handle:hover, p a.ibm_cci-handle {
+				color:#f04e37;
+			}
+		}
+
+		a.ibm_cci-name:link, a.ibm_cci-name:visited{
+			color:#000;
+		} 
+
+		a.ibm_cci-name:hover, a.ibm_cci-name:active{
+			color:#f04e37;
+		}
+	}
+}	
+
+.ibm-col-6-2.ibm_cci-ia{
+	//
+
+	ul.ibm_cci-ia-az{
+		@include ibm_cci-ul__modifier;
+		line-height: inherit;
+		
+		li{
+			@include ibm_cci-ul--li__modifier;
+			display:inline-block;
+			margin:0;
+			padding:5px 0;
+		}
+
+		li:not(:nth-child(1)){
+			padding-left:20px;
+		}
+
+		li a{
+			font-family: "HelvBoldIBM";
+			color:#c6c6c6;
+			text-decoration:none;
+		}
+
+		li a:link, li a:visited {
+			color:#c6c6c6;
+		}
+
+		li a:hover, li a:active {
+			color:#f04e37;
+		}					
+
+		li a.selected {
+			color:#f04e37;
+		}
+	}
+}
+
+
+#{$ibm-widget-about} .ibm-col-6-4.ibm_cci_acc{
+	position:relative;
+	top:-425px;
+}	
+
+#{$ibm-widget-about} .ibm-col-6-2.ibm_cci-rr {
+	//
+	img.ibm_cci-rea-main{
+		padding-bottom:15px;
+	}
+	p.ibm_cci-rea-desc{
+		padding-bottom:30px;
+		border-bottom: 1px dotted #c6c6c6;
+		font-size:1.4rem;
+
+		span{
+			font-weight:bold;
+			color:#f04e37;
+		}
+	}
+}
+
+#{$ibm-widget-about} .ibm-columns.ibm_cci-reacontainer{
+	//
+	.ibm-col-6-2{
+		margin: 15px 0 5px 10px;
+		img{
+			float:left;
+			margin: 5px 0 0 0;
+		}
+		p {
+			font-size:1.3rem;
+			line-height:1.6rem;
+		}
+		// h2.ibm_cci-reach{
+		// 	margin-top: 13px;
+		// }
+
+		h2, p {
+			margin-left:95px;
+		}
+	}	
+}
+
+
+/*
+ 	*
+	** ABOUT US (END) ** **
+	*
+*/

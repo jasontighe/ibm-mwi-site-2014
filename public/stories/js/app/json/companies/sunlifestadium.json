@@ -1,0 +1,235 @@
+  {
+    "id" : 17,
+    
+    "company" : "Sun Life Stadium",
+    "title": "fans made with mobile",
+    "color1" : "#0080a0",
+    "color2" : "#0080a0",
+    "short-description" : "Sun Life Stadium is delivering a winning audience experience with mobile",
+    "filterTechnology": "mobile",
+    "filterIndustry": "entertainment",
+    "filterCapability": "one-to-one",
+    "filterCapabilityLabel" : "One-to-One",
+    "share_twitter_url" : "http://bit.ly/R33lOV",
+    "share_twitter_copy" : "Sun%20Life%20Stadium%20is%20delivering%20a%20winning%20audience%20experience%20with%20mobile.%20See%20how%20%23madewithIBM",
+    "share_fb_url" : "http%3A%2F%2Fwww.ibm.com%2Fsmarterplanet%2Fus%2Fen%2Fmadewithibm%2Fstories%2F%23!story%2F17%3Fcmp%3Dusbrb%26cm%3Dh%26csr%3Dagus_madewith_140407%26cr%3Dfacebook%26ct%3Dusbrb301%26cn%3Ds17_sunlifestadium",
+    "share_fb_copy" : "Sun%20Life%20Stadium%20is%20delivering%20a%20winning%20audience%20experience%20with%20mobile.%20See%20how%20%23madewithIBM",
+    "share_li_url" : "http://bit.ly/1eMQaXi",
+    "share_li_copy" : "Sun%20Life%20Stadium%20is%20delivering%20a%20winning%20audience%20experience%20with%20mobile.%20See%20how%20new%20value%20is%20made%20with%20IBM.",
+    "story_background_image_url": "",
+    "thumbnail" : "stories/assets/images/s17/s17-thumb.jpg",
+    "templates": [
+      {
+        "id": 1,
+        "template_class": "template-5",
+        "template_tracking": "t5",
+        "template_background_image_url": "./assets/images/s17/s17-t5-bg.jpg",
+        "template_background_image_url_mobile": "./assets/images/s17/s17-t5-bg_mobile.jpg",
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "hyperlink": "",
+                "color1" : "#0080a0",
+                "copy" : "Sun Life Stadium is delivering a winning audience experience with mobile",
+                "capability" : "How to provide one-to-one services",
+                "quote": "",
+                "attribution" : ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "template_class": "template-4",
+        "template_tracking": "t4",
+        "template_background_image_url": "./assets/images/s17/s17-t4-bg.png",
+        "template_background_image_url_tablet": "",
+        "template_background_color" : "#0080a0",
+        "template_type" : "summary-row",
+        "modules": [
+          {
+            "wrapper_class": "t4-mD summary",
+            "module_class": "module-D",
+            "module_type": "image",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "image_url_tablet" : "./assets/images/s17/s17-t4-md.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t3-mE",
+            "module_class": "module-E",
+            "module_type": "text",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "title" :"Summary",
+                "cta_copy":"Learn more about Sun Life Stadium",
+                "hyperlink": "https://www.ibm.com/smarterplanet/us/en/leadership/article/leadership_sunlife_stadium.html?cmp=usbrb&cm=s&csr=madewithibm&cr=s17&ct=usbrb301&cn=madewithibm",
+                "copy": "<p>With more than 1.5 million square feet, over 24,000 parking spaces and 75,000 seats, Sun Life Stadium has countless moving parts. In the past, it relied on complex systems to manage everything from parking to concession sales and weather data. But now, after integrating their systems on IBM Cloud, Sun Life Stadium has a consolidated view of their operations.</p><p>Thanks to improved efficiency, along with the ability to connect with audience members via mobile phone, Sun Life Stadium can make everyone at the game feel like a winner.</p>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "template_class": "template-3",
+        "template_tracking": "t3",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t3-mD",
+            "module_class": "module-D carousel-medium",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "quote": "We want to be able to tell you what roads to take based upon where you live. Where to park based on where you’re sitting.",
+                "attribution" : "Tery Howard,<br>Chief Technology Officer, Sun Life Stadium"
+              },
+	            {
+		            "asset_class": "",
+		            "image_url": "",
+		            "hyperlink": "",
+		            "quote": "Before, fans spent time in long lines. And now they spend time watching the game.",
+		            "attribution" : "Tery Howard,<br>Chief Technology Officer, Sun Life Stadium"
+	            }
+            ]
+          },
+          {
+            "wrapper_class": "t3-mE",
+            "module_class": "module-E",
+            "module_type": "image",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s17/s17-t32-mD.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "template_class": "template-video",
+        "template_tracking": "tV",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "s17-tV-mA",
+            "module_class": "module-D",
+            "module_type": "video",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s17/s17-tv-mA.jpg",
+                "image_url_mobile": "./assets/images/s17/s17-tv-mA_mobile.jpg",
+                "hyperlink": "e_lCRVKJggg",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "template_class": "carousel-full",
+        "template_tracking": "tC",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "s17-tC-m5",
+            "module_class": "",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "image_url_mobile": "",
+                "hyperlink": "",
+                "color1" : "#0080a0",
+                "copy": "90% increase in process efficiency within stadium operations"
+              }
+            ]
+          }
+        ]
+      },
+	    {
+		    "id": 6,
+		    "template_class": "template-footer",
+		    "template_tracking": "tF",
+		    "template_background_image_url": "",
+		    "template_background_color" : "#0080a0",
+        "template_title" : "How is this made?",
+        "template_desc" : "Get to know the people and the solutions behind the transformation.",		    
+        "modules": [
+			    {
+				    "wrapper_class": "tF-mD",
+				    "module_class": "module-D carousel-footer",
+				    "module_type": "carousel",
+				    "module_background_image": "",
+
+				    "assets": [
+					    
+					    {
+						    "asset_class": "",
+						    "image_url": "",
+						    "hyperlink": "http://www.ibm.com/cloud-computing/us/en/?cmp=usbrb&cm=s&csr=madewithibm&cr=s17&ct=usbrb301&cn=madewithibm",
+						    "title" : "IBM Cloud",
+						    "copy": "IBM Cloud is a collection of enterprise-class technology-as-a-service to help customers develop cloud and mobile applications on a leading-edge platform. By using self-service infrastructure with instant deployment, it offers agility and innovative applications to business users."
+					    },
+					    {
+						    "asset_class": "",
+						    "image_url": "",
+						    "hyperlink": "http://www-03.ibm.com/software/products/en/intelligent-operations-center/?cmp=usbrb&cm=s&csr=madewithibm&cr=s17&ct=usbrb301&cn=madewithibm",
+						    "title" : "IBM Intelligent Operations Center",
+						    "copy": "By providing an executive dashboard, IBM Intelligent Operations Center helps cities to manage large complex environments, communicate more effectively with citizens, understand the state of the city and collaborate between departments."
+					    },
+					    {
+						    "asset_class": "",
+						    "image_url": "",
+						    "hyperlink": "http://www.ibm.com/mobilefirst/us/en/?cmp=usbrb&cm=s&csr=madewithibm&cr=s17&ct=usbrb301&cn=madewithibm",
+						    "title" : "IBM MobileFirst",
+						    "copy": "IBM MobileFirst offers end-to-end mobile solutions by integrating service offerings, platform development, security and mobile device management in a connected world. "
+					    },
+					    {
+						    "asset_class": "",
+						    "image_url": "",
+						    "hyperlink": "",
+						    "title" : "Mark Wyllie<br>CEO, Flagship Solutions Group, IBM Business Partner",
+						    "copy": "Mr. Wyllie brings more than 25 years of senior management and sales experience to Flagship Solutions Group. He's responsible for managing the strategic and tactical direction of Flagship as well as the integration of services capabilities into responsive customer solutions.",
+						    "social_twitter" : "https://twitter.com/FlagshipSG1",
+						    "social_linkedin" : "http://www.linkedin.com/pub/mark-wyllie/1/abb/331"
+					    }
+				    ]
+			    }
+		    ]
+	    }
+    ]
+
+  }

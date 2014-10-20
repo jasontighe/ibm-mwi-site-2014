@@ -1,0 +1,230 @@
+{
+    "id" : 22,
+    
+    "company" : "P-TECH",
+    "title": "new schools made with IBM",
+    "color1" : "#e184ca",
+    "color2" : "#e184ca",
+    "short-description" : "P-TECH is preparing the workforce of tomorrow",
+    "filterTechnology": "",
+    "filterIndustry": "education",
+    "filterCapability": "education",
+    "filterCapabilityLabel": "Smarter Education",
+    "share_twitter_url" : "http://bit.ly/1lKqNuv",
+    "share_twitter_copy" : "P-TECH%20is%20preparing%20the%20workforce%20of%20tomorrow.%20See%20how.%20%23madewithIBM",
+    "share_fb_url" : "http%3A%2F%2Fwww.ibm.com%2Fsmarterplanet%2Fus%2Fen%2Fmadewithibm%2Fstories%2F%23!story%2F22%3Fcmp%3Dusbrb%26cm%3Dh%26csr%3Dagus_madewith_140407%26cr%3Dfacebook%26ct%3Dusbrb301%26cn%3Ds22_p-tech",
+    "share_fb_copy" : "P-TECH%20is%20preparing%20the%20workforce%20of%20tomorrow.%20See%20how.%20%23madewithIBM",
+    "share_li_url" : "http://bit.ly/1hJ2dec",
+    "share_li_copy" : "P-TECH%20is%20preparing%20the%20workforce%20of%20tomorrow.%20See%20how%20new%20value%20is%20made%20with%20IBM.",
+    "story_background_image_url": "",
+    "thumbnail" : "stories/assets/images/s22/s22-thumb.jpg",
+    "templates": [
+      {
+        "id": 1,
+        "template_class": "template-5",
+        "template_tracking": "t5",
+        "template_background_image_url": "./assets/images/s22/s22-t5-bg.jpg",
+        "template_background_image_url_mobile": "./assets/images/s22/s22-t5-bg_mobile.jpg",
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "hyperlink": "",
+                "color1" : "#e184ca",
+                "copy" : "P-TECH is preparing the workforce of tomorrow",
+                "capability" : "How to innovate education",
+                "quote": "",
+                "attribution" : ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "template_class": "template-4",
+        "template_tracking": "t4",
+        "template_background_image_url": "./assets/images/s22/s22-t4-bg.png",
+        "template_background_color" : "#e184ca",
+        "template_type" : "summary-row",
+        "modules": [
+          {
+            "wrapper_class": "t4-mD summary",
+            "module_class": "module-D",
+            "module_type": "image",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url_tablet": "./assets/images/s22/s22-t4-bg_tablet.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t4-mE summary",
+            "module_class": "module-E",
+            "module_type": "text",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "title" : "Summary",
+                "hyperlink": "http://www-03.ibm.com/press/us/en/presskit/42300.wss",
+                "cta_copy" :"Learn more about P-TECH",
+                "copy": "<p>The best way to predict the future of education is to invent it. Pathways in Technology Early College High Schools (P-TECH), an innovative grades 9-14, public school model launched in Brooklyn, NY, is educating historically underserved students through an integrated sequence of high school, college and workplace courses. IBM is collaborating in the design and development of the school model with the New York City Department of Education and The City University of New York.</p><p>The school program is geared toward enabling students to graduate with an associate in applied science degree that will help them develop the skills for a future in tech. Through mentorships, worksite visits, internships and more, IBM and educators are working together to help close the tech skills gap and prepare today’s students for the jobs of tomorrow.</p>"
+                
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "template_class": "template-3",
+        "template_tracking": "t3",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t3-mD",
+            "module_class": "module-D carousel-medium",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "quote": "The education that students need in today’s world to be successful is changing because of technology.",
+                "attribution" : "Rashid Davis<br>Founding Principal, P-TECH"
+              },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "quote": "What we’re still learning in this era of global integration is how to prepare the next generation of leaders to develop their skills while solving communities’ problems and opening new markets.",
+                "attribution" : "Stanley S. Litow, VP, Corp. Citizenship & Corp. Affairs, President, IBM International Foundation"
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t3-mE",
+            "module_class": "module-E",
+            "module_type": "image",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s22/s22-t32-mD.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "template_class": "template-video",
+        "template_tracking": "tV",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "video",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s22/s22-tv-mA.jpg",
+                "image_url_mobile": "./assets/images/s22/s22-tv-mA_mobile.jpg",
+                "hyperlink": "GlTm4Bsplfg",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "template_class": "carousel-full",
+        "template_tracking": "tC",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "",
+            "module_class": "",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "image_url_mobile": "",
+                "hyperlink": "",
+                "color1" : "#e184ca",
+                "copy": "27 schools will use the STEM program by September, 2014"
+              },
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "image_url_mobile": "",
+                "hyperlink": "",
+                "color1" : "#e184ca",
+                "copy": "50% of P-TECH’s 10th graders have completed at least 1 course at the New York City College of Technology"
+              },
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "image_url_mobile": "",
+                "hyperlink": "",
+                "color1" : "#e184ca",
+                "copy": "14 is the average amount of college credits P-TECH students will have at the end of 10th grade"
+              }
+            ]
+          }
+        ]
+      },
+
+	   {
+		    "id": 6,
+		    "template_class": "template-footer",
+		    "template_tracking": "tF",
+		    "template_background_image_url": "",
+		    "template_background_color" : "#e184ca",
+		    "template_title" : "How is this made?",
+		    "template_desc" : "Get to know the people and the solutions behind the transformation.",
+		    "modules": [
+			    {
+				    "wrapper_class": "tF-mD",
+				    "module_class": "module-D",
+				    "module_type": "copy",
+				    "module_background_image": "",
+
+				    "assets": [
+					    
+					    {
+			                "asset_class": "",
+			                "image_url": "",
+			                "hyperlink": "",
+			                "title" : "Grace Suh<br/>Manager, Education Initiatives, Corporate Citizenship & Corporate Affairs, IBM",
+			                "copy": "Grace Suh is Manager of IBM's Education Programs for Corporate Citizenship & Corporate Affairs. She manages IBM’s global portfolio of STEM (science, technology, engineering and mathematics) education and literacy programs, and also the development of IBM’s 9-14 educational model.",
+			                "social_twitter" : "https://twitter.com/gracesuh",
+			                "social_linkedin" : "https://www.linkedin.com/profile/view?id=5426137"
+			        }
+				    ]
+			    }
+        ]
+      }
+    ]
+  }
+  

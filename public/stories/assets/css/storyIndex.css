@@ -1,0 +1,161 @@
+#story-index ul {
+	margin:0px auto;
+	width:70%;
+}
+#story-index li {
+	position:relative;
+	padding:0px 100px 0px 0px;
+}
+#story-index li:before {
+	content: "";
+}
+#story-index li img {
+	background-color:#c9c9c9;
+	position:absolute;
+	right:0px;
+	top:50%;	
+}
+
+#story-index h2 {
+	font-family: "HelvRegularIBM", Arial, sans-serif;
+ 	font-size: 24px;
+ 	color: #c9c9c9;
+ 	font-weight: bold;
+ 	line-height: 20px;
+ 	margin-bottom: 10px;
+ 	padding-left:195px;
+ 	letter-spacing:normal;
+}
+#story-index h3 {
+ 	font-size: 40px;
+ 	line-height:37px;
+	font-family: 'LubalinGraphStdBookIBM',Helvetica,sans-serif;
+	font-weight: 100;
+	margin-bottom:40px;
+	border-left :5px solid red;
+	padding-left: 190px;	
+}
+
+.story-list-container{
+margin-top: 47px;
+}
+
+.story-title a:hover{
+	text-decoration: underline;
+}
+
+#story-index h3:hover {
+	padding-left: 40px;
+	border-left-width:155px;
+	text-decoration: underline;
+}
+@media screen and (max-width:1024px) {
+	#story-index h2 {
+		padding-left:40px;
+	}
+	#story-index h3, #story-index h3:hover {
+		padding-left:35px;
+		border-left-width:5px;
+	}
+	#story-index ul {
+		width:100%;
+	}
+}
+@media screen and (max-width:768px) {
+	#story-index h3, #story-index h3:hover{
+    	padding-left: 22px;
+  	}
+	#story-index h2 {
+		padding-left: 27px;
+	}
+	#story-index li img{
+		right: 20px;
+	}
+}
+
+@media screen and (max-width:640px) {
+	#story-index .header h1{
+		font-size: 50px;
+    padding-left: 15px;
+    width: 93%;
+	}
+	#story-index .header{
+		height: 260px;
+
+	}
+
+  .ibm-columns.header-text{
+    padding: 0 0 10px 0 !important;
+  }
+}
+
+@media screen and (max-width:580px) {
+
+	#story-index .header h1{
+		font-size: 42px;
+		margin: 93px auto 40px auto;
+		line-height: 53px;
+	}
+	#story-index h3 {
+		font-size: 35px;
+	}
+
+}
+
+@media screen and (max-width:480px) {
+	#story-index .header {
+		height: 200px;
+	}
+	#story-index h3 {
+		font-size: 33px;
+	}
+
+	#story-index .header h1{
+		margin-left: 0;	
+		margin: 100px 0px 40px 15px;
+
+	}
+	#story-index .header h1 br{
+		display: none;
+	}
+	#story-index h2 {
+	 	font-size: 12px;
+	 	line-height: 18px;
+		padding-left: 20px;
+		margin-bottom: 6px;
+	}	
+	#story-index li {
+		position: relative;
+		padding: 0px 50px 0px 0px;
+	}	
+	#story-index li img{
+		right: 10px;
+	}
+
+	#story-index h3, #story-index h3:hover {
+		padding-left: 15px;
+		border-left-width: 5px;
+	}
+	.story-list-container {
+		margin-top: 22px;
+	}		
+}
+
+
+
+
+@media screen and (max-width:380px) {
+	#story-index h3 {
+ 		font-size: 30px;		
+	}
+	#story-index .header h1 {
+		font-size: 26px;
+		line-height: 30px;
+    width:90%;
+    margin-left: 5px;
+	}	
+	#story-index h3 {
+		font-size: 22px;
+		line-height: 24px;
+	}		
+}

@@ -1,0 +1,261 @@
+{
+    "id" : 24,
+    
+    "company" : "Lindt",
+    "title": "chocolate made with IBM Cloud",
+    "color1" : "#905428",
+    "color2" : "#905428",
+    "short-description" : "Lindt is personalizing the customer experience with IBM Cloud",
+    "filterTechnology": "cloud",
+    "filterIndustry": "food",
+    "filterCapability": "one-to-one",
+    "filterCapabilityLabel" : "One-to-One",
+    "share_twitter_url" : "http://bit.ly/1sALVHG",
+    "share_twitter_copy" : "Lindt%20is%20personalizing%20the%20customer%20experience%20with%20IBM%20Cloud.%20See%20how.%20%23madewithIBM",
+    "share_fb_url" : "http%3A%2F%2Fwww.ibm.com%2Fsmarterplanet%2Fus%2Fen%2Fmadewithibm%2Fstories%2F%23!story%2F24%3Fcmp%3Dusbrb%26cm%3Dh%26csr%3Dagus_madewith_140407%26cr%3Dfacebook%26ct%3Dusbrb301%26cn%3Ds24_lindtchocolates",
+    "share_fb_copy" : "Lindt%20is%20personalizing%20the%20customer%20experience%20with%20IBM%20Cloud.%20See%20how.%20%23madewithIBM",
+    "share_li_url" : "http://bit.ly/1gDbjr8",
+    "share_li_copy" : "Lindt%20is%20personalizing%20the%20customer%20experience%20with%20IBM%20Cloud.%20See%20how.",
+    "story_background_image_url": "",
+    "thumbnail" : "stories/assets/images/s24/s24-thumb.jpg",
+    "templates": [
+      {
+        "id": 1,
+        "template_class": "template-5",
+        "template_tracking": "t5",
+        "template_background_image_url": "./assets/images/s24/s24-t5-bg.jpg",
+        "template_background_image_url_mobile": "./assets/images/s24/s24-t5-bg_mobile.jpg",
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "hyperlink": "",
+                "color1" : "#905428",
+                "copy" : "Lindt is personalizing the customer experience with IBM Cloud",
+                "capability" : "How to provide one-to-one services",
+                "quote": "",
+                "attribution" : ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "template_class": "template-4",
+        "template_tracking": "t4",
+        "template_background_image_url": "./assets/images/s24/s24-t4-bg.png",
+        "template_background_image_url_tablet": "",
+        "template_background_color" : "#905428",
+        "template_type" : "summary-row",
+        "modules": [
+          {
+            "wrapper_class": "t4-mD summary",
+            "module_class": "module-D",
+            "module_type": "image",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "image_url_tablet" : "./assets/images/s24/s24-t4-mD.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t3-mE",
+            "module_class": "module-E",
+            "module_type": "text",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "title" :"Summary",
+                "cta_copy": "Learn more about Lindt",
+                "hyperlink": "http://www-03.ibm.com/software/businesscasestudies/en/us/corp?docid=JWHY-9F8QS9&cmp=usbrb&cm=s&csr=madewithibm&cr=s34&ct=usbrb301&cn=madewithibm",
+                "copy": "<p>For Lindt, one of the oldest and most popular confectioners in the world, scale came along with a few challenges. Customers who bought chocolates online had a limited choice in the form of prepackaged assortments.</p><p>Now on IBM Cloud, Lindt’s e-commerce platform is putting customers back in control, enabling them to create unique assortments, mix and match their favorite products, and design custom packaging based on their individual tastes. Satisfied customers are leading to greater loyalty and better sales.</p>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "template_class": "template-3",
+        "template_tracking": "t3",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t3-mD",
+            "module_class": "module-D carousel-medium",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "quote": "Chocolate is a very personal experience. Lindt needed a scalable solution which would allow us to individualize our offerings and our interactions with consumers.",
+                "attribution" : "Thomas Linemayr<br/>CEO and President, Lindt & Sprüngli (USA) Inc."
+              },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "quote": "If we learn somebody’s a white chocolate lover, we don’t offer them dark chocolate. Or vice versa.",
+                "attribution" : "Thomas Linemayr<br/>CEO and President, Lindt & Sprüngli (USA) Inc."
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t3-mE",
+            "module_class": "module-E",
+            "module_type": "image",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s24/s24-t32-mD.gif",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "template_class": "template-video",
+        "template_tracking": "tV",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "s24-tV-mA",
+            "module_class": "module-D",
+            "module_type": "video",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s24/s24-tv-mA.jpg",
+                "image_url_mobile": "./assets/images/s24/s24-tv-mA_mobile.jpg",
+                "hyperlink": "3S5M5kdU6t4",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "template_class": "carousel-full",
+        "template_tracking": "tC",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "s24-tC-m5",
+            "module_class": "",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s24/s24-cf-stat-1.jpg",
+                "image_url_mobile": "./assets/images/s24/s24-cf-stat-1_mobile.jpg",
+                "hyperlink": "",
+                "color1" : "#905428",
+                "copy": "300% growth in mobile sales over the 2013 holiday season"
+              },
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s24/s24-cf-stat-2.jpg",
+                "image_url_mobile": "./assets/images/s24/s24-cf-stat-2_mobile.jpg",
+                "hyperlink": "",
+                "color1" : "#905428",
+                "copy": "200% increase in Black Friday conversions"
+              },
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s24/s24-cf-stat-3.jpg",
+                "image_url_mobile": "./assets/images/s24/s24-cf-stat-3_mobile.jpg",
+                "hyperlink": "",
+                "color1" : "#905428",
+                "copy": "100% over previous Cyber Monday sales record with the new eCommerce Platform"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "template_class": "template-footer",
+        "template_tracking": "tF",
+        "template_background_image_url": "",
+        "template_background_color" : "#905428",
+        "template_title" : "How is this made?",
+        "template_desc" : "Get to know the people and the solutions behind the transformation.",
+        "modules": [
+          {
+            "wrapper_class": "tF-mD",
+            "module_class": "module-D carousel-footer",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+                       
+              {
+						    "asset_class": "",
+						    "image_url": "",
+						    "hyperlink": "http://www.ibm.com/cloud-computing/us/en/marketplace.html?cmp=usbrb&cm=s&csr=madewithibm&cr=s4&ct=usbrb301&cn=madewithibm",
+						    "title" : "IBM Cloud Marketplace",
+						    "copy": "IBM Cloud marketplace is our digital front door where you can discover, try, and for many services, buy, from hundreds of IBM and Business Partner services across business solutions (SaaS), developer (PaaS) and IT operations (IaaS). Whether you're looking for apps to give you supply-chain visibility, for IBM’s new development platform Bluemix, or for a dedicated bare-metal server from SoftLayer, Cloud marketplace has everything you need to bring your business the full benefits of cloud."
+						    
+					    },
+					    {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "http://www.ibm.com/cloud-computing/us/en/?cmp=usbrb&cm=s&csr=madewithibm&cr=s34&ct=usbrb301&cn=madewithibm",
+                "title" : "IBM Cloud",
+                "copy": "IBM Cloud is a collection of enterprise-class technology-as-a-service to help customers develop cloud and mobile applications on a leading-edge platform. By using self-service infrastructure with instant deployment, it offers agility and innovative applications to business users."
+              },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "http://www-03.ibm.com/software/products/en/websphere-commerce-enterprise/?cmp=usbrb&cm=s&csr=madewithibm&cr=s34&ct=usbrb301&cn=madewithibm",
+                "title" : "IBM WebSphere Commerce Enterprise",
+                "copy": "IBM WebSphere® Commerce Enterprise is a cross-channel e-commerce platform with integrated order management, analytics and marketing tools. It facilitates high-volume business-to-consumer and business-to-business sales using multiple channels."
+              },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "title" : "James Bonazoli IBM Client Executive - Retail / CPG",
+                "copy": "James Bonazoli joined IBM in 2000, where he has worked closely with internet retailers as well as traditional brick-and-mortar businesses including Lindt USA and several other companies.",
+                "social_twitter" : "",
+                "social_linkedin" : "http://www.linkedin.com/pub/james-bonazoli/2/3a9/2b5/"
+              },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "title" : "Leila M. Goldberg VP of Marketing & Partner Channels, CrossView, IBM Business Partner",
+                "copy": "Leila brings a broad range of experience to CrossView across multiple disciplines, including human resources, marketing and e-commerce. She joined CrossView’s predecessor, Shared Vision, in 2006 as a project manager.",
+                "social_twitter" : "https://twitter.com/CrossView_Inc",
+                "social_linkedin" : "https://www.linkedin.com/profile/view?id=10217862&trk=nav_responsive_tab_profile"
+              }    
+            ]
+          }
+      ]
+      }
+    ]
+
+  }
+  

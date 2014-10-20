@@ -1,0 +1,226 @@
+{
+    "id" : 34,
+    
+    "company" : "Banorte",
+    "title": "banks made with data",
+    "color1" : "#51457e",
+    "color2" : "#51457e",
+    "short-description" : "Banorte is creating personalized banking with data",
+    "filterTechnology": "data",
+    "filterIndustry": "banking",
+    "filterCapability": "one-to-one",
+    "filterCapabilityLabel" : "One-to-One",
+    "share_twitter_url" : "http://bit.ly/1gLto1O",
+    "share_twitter_copy" : "Banorte%20is%20creating%20personalized%20banking%20with%20data.%20See%20how.%20%23madewithIBM",
+    "share_fb_url" : "http%3A%2F%2Fwww.ibm.com%2Fsmarterplanet%2Fus%2Fen%2Fmadewithibm%2Fstories%2F%23!story%2F34%3Fcmp%3Dusbrb%26cm%3Dh%26csr%3Dagus_madewith_140407%26cr%3Dfacebook%26ct%3Dusbrb301%26cn%3Ds34_banorte",
+    "share_fb_copy" : "Banorte%20is%20creating%20personalized%20banking%20with%20data.%20See%20how.%20%23madewithIBM",
+    "share_li_url" : "http://bit.ly/1h14Thb",
+    "share_li_copy" : "Banorte%20is%20creating%20personalized%20banking%20with%20data.%20See%20how%20new%20value%20is%20made%20with%20IBM.",
+    "story_background_image_url": "",
+    "thumbnail" : "stories/assets/images/s34/s34-thumb.jpg",
+    "templates": [
+      {
+        "id": 1,
+        "template_class": "template-5",
+        "template_tracking": "t5",
+        "template_background_image_url": "./assets/images/s34/s34-t5-bg.jpg",
+        "template_background_image_url_mobile": "./assets/images/s34/s34-t5-bg_mobile.jpg",
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "hyperlink": "",
+                "color1" : "#51457e",
+                "copy" : "Banorte is creating personalized banking with data",
+                "capability" : "How to provide one-to-one services",
+                "quote": "",
+                "attribution" : ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "template_class": "template-4",
+        "template_tracking": "t4",
+        "template_background_image_url": "./assets/images/s34/s34-t4-bg.png",
+        "template_background_image_url_tablet": "",
+        "template_background_color" : "#51457e",
+        "template_type" : "summary-row",
+        "modules": [
+          {
+            "wrapper_class": "t4-mD summary",
+            "module_class": "module-D",
+            "module_type": "image",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "image_url_tablet" : "./assets/images/s34/s34-t4-mD.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t3-mE",
+            "module_class": "module-E",
+            "module_type": "text",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "title" :"Summary",
+                "cta_copy":"Learn more about IBM Big Data &amp; Analytics",
+                "hyperlink": "http://www.ibm.com/big-data/us/en/big-data-and-analytics/marketing.html?cmp=usbrb&cm=s&csr=madewithibm&cr=s34&ct=usbrb301&cn=madewithibm",
+                "copy": "<p>When Banorte had a smaller number of branches, they knew each of their clients personally. But as they grew and became one of the largest banks in Mexico, they lost the ability to understand their clients as individuals.</p><p>IBM Big Data & Analytics is allowing Banorte to gain insights into the banking behaviors of specific customers. They are redesigning their systems so that now, bank employees can access information about what products best suit the unique needs of each customer, creating an experience that feels personal again.</p>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "template_class": "template-3",
+        "template_tracking": "t3",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t3-mD",
+            "module_class": "module-D carousel-medium",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "quote": "You will not be talking about market segments anymore. You will be talking about individuals.",
+                "attribution" : "Alejandro Valenzuela<br/>CEO, Grupo Financiero Banorte"
+              },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "quote": "Big data is giving us the capacity to serve a client on an individual basis.",
+                "attribution" : "Alejandro Valenzuela<br/>CEO, Grupo Financiero Banorte"
+              }              
+            ]
+          },
+          {
+            "wrapper_class": "t3-mE",
+            "module_class": "module-E",
+            "module_type": "image",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s34/s34-t32-mD.gif",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "template_class": "template-video",
+        "template_tracking": "tV",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "s34-tV-mA",
+            "module_class": "module-D",
+            "module_type": "video",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s34/s34-tv-mA.jpg",
+                "image_url_mobile": "./assets/images/s34/s34-tv-mA_mobile.jpg",
+                "hyperlink": "PwyxQ_JpBLE",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "template_class": "carousel-full",
+        "template_tracking": "tC",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "s34-tC-m5",
+            "module_class": "",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "image_url_mobile": "",
+                "hyperlink": "",
+                "color1" : "#51457e",
+                "copy": "~40% in improved efficiencies across the banks"
+              },
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s34/s34-cf-stat-2.jpg",
+                "image_url_mobile": "./assets/images/s34/s34-cf-stat-2_mobile.jpg",
+                "hyperlink": "",
+                "color1" : "#51457e",
+                "copy": "+20% return on equity is expected due to the bank’s new customer-centric banking model"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "template_class": "template-footer",
+        "template_tracking": "tF",
+        "template_background_image_url": "",
+        "template_background_color" : "#51457e",
+        "template_title" : "How is this made?",
+        "template_desc" : "Get to know the people and the solutions behind the transformation.",
+        "modules": [
+          {
+            "wrapper_class": "tF-mD",
+            "module_class": "module-D carousel-footer",
+            "module_type": "carousel",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "http://www.ibm.com/big-data/us/en/big-data-and-analytics/marketing.html?cmp=usbrb&cm=s&csr=madewithibm&cr=s34&ct=usbrb301&cn=madewithibm",
+                "title" : "IBM Big Data & Analytics — Marketing and Sales",
+                "copy": "IBM Business Analytics solutions for marketing can help organizations acquire, grow and retain customers by anticipating their desires and creating personalized experiences. By identifying customer attitudes, opinions and emerging trends, marketers can better develop effective marketing strategies for the future."
+              },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "title" : "Adrian Blanco<br/>IBM Client Director for Banorte",
+                "copy": "Adrian Blanco has been the Client Director for Banorte since 2013. With 25 years of experience at IBM, Adrian has held positions in Sales and Services in Latin America. Previously he managed Global Technology Services for financial institutions in Spanish-speaking South America.",
+                "social_linkedin" : "https://www.linkedin.com/pub/adrian-blanco/49/541/136"
+              }              
+            ]
+          }
+        ]
+      }
+    ]
+
+  }

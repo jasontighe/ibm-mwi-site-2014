@@ -1,0 +1,65 @@
+<div class="ibm-band template-3-band template-waypoint" data-template="{{ template_tracking }}" style="background: {{template_background_color}} url({{template_background_image_url}}) top center no-repeat; background-width:100%;">
+	<div class="ibm-columns">
+
+		<div class="template-3">
+
+
+			<div class="ibm-col-5-3 box t3-mE  {{modules.[0].module_class}}">
+
+				{{#if modules.[0].isCarousel}}
+					<div class="bxslider" id="s{{story_id}}-{{modules.[0].wrapper_class}}">
+						{{#each modules.[0].assets}}
+						<div class="{{modules.[0].module_class}}">
+							{{#if image_url}}<img src="{{image_url}}"/>{{/if}}
+							{{#if copy}}{{copy}}{{/if}}
+							{{#if quote}}
+								<h3 class="quote" style="color:{{color}}"><p>{{{quote}}}</p></h3>
+								<p class="attribution moving-quote">{{{attribution}}}</p>
+							{{/if}}
+						</div>
+						{{/each}}			  	
+					</div>
+				{{/if}}
+
+
+				
+				{{#unless modules.[0].isCarousel}}
+					<div class="{{modules.[0].module_class}}" id="s{{story_id}}-{{modules.[0].wrapper_class}}-alt">
+						{{#if modules.[0].assets.[0].image_url}}
+							<img src="{{modules.[0].assets.[0].image_url}}"/>
+						{{/if}}
+						{{#if modules.[0].assets.[0].copy}}
+							{{{modules.[0].assets.[0].copy}}}
+							
+						{{/if}}
+						{{#if modules.[0].assets.[0].quote}}
+							<h3 class="quote" style="color:{{color}}"><p>{{{modules.[0].assets.[0].quote}}}</p></h3>
+							<p class="attribution static-quote">{{{modules.[0].assets.[0].attribution}}}</p>
+						{{/if}}
+					</div>
+				{{/unless}}
+			
+
+			</div>
+	
+
+
+			<div class="ibm-col-5-2 box t3-mD ">
+				{{#if modules.[1].assets.[0].image_url}}
+				<img 
+					 id="{{modules.[1].assets.[0].hyperlink}}"
+					 src="{{modules.[1].assets.[0].image_url}}"/>
+				{{/if}}
+				{{#if modules.[1].assets.[0].copy}}
+					{{{modules.[1].assets.[0].copy}}}
+				{{/if}}
+				{{#if modules.[1].assets.[0].quote}}
+					<h3 class="quote" style="color:{{color1}}">"{{{modules.[1].assets.[0].quote}}}"</h3>
+					<p class="attribution">{{{modules.[1].assets.[0].attribution}}}</p>
+				{{/if}}
+			</div>
+
+		</div>
+				
+	</div>
+</div>

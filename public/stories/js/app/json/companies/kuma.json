@@ -1,0 +1,208 @@
+  {
+    "id" : 13,
+    "company" : "Kuma",
+    
+    "title": "gaming made with IBM Cloud",
+    "color1" : "#0e55bd",
+    "color2" : "#0e55bd",
+    "short-description" : "Kuma is creating endless entertainment with IBM Cloud",
+    "filterTechnology": "cloud",
+    "filterIndustry": "gaming",
+    "filterCapability": "business-model-innovation",
+    "filterCapabilityLabel": "Business Model Innovation",
+    "share_twitter_url" : "http://bit.ly/1k4jgqt",
+    "share_twitter_copy" : "Kuma%20Games%20is%20creating%20endless%20entertainment%20with%20IBM%20Cloud.%20See%20how.%20%23madewithIBM",
+    "share_fb_url" : "http%3A%2F%2Fwww.ibm.com%2Fsmarterplanet%2Fus%2Fen%2Fmadewithibm%2Fstories%2F%23!story%2F13%3Fcmp%3Dusbrb%26cm%3Dh%26csr%3Dagus_madewith_140407%26cr%3Dfacebook%26ct%3Dusbrb301%26cn%3Ds13_kuma",
+    "share_fb_copy" : "Kuma%20Games%20is%20creating%20endless%20entertainment%20with%20IBM%20Cloud.%20See%20how.%20%23madewithIBM",
+    "share_li_url" : "http://bit.ly/1n9P1RI",
+    "share_li_copy" : "Kuma%20Games%20is%20creating%20endless%20entertainment%20with%20IBM%20Cloud.%20See%20how%20new%20value%20is%20made%20with%20IBM.",
+    "thumbnail" : "stories/assets/images/s13/s13-thumb.jpg",
+    "story_background_image_url": "",
+    "templates": [
+      {
+        "id": 1,
+        "template_class": "template-5",
+        "template_tracking": "t5",
+        "template_background_image_url": "./assets/images/s13/s13-t5-bg.jpg",
+        "template_background_image_url_mobile": "./assets/images/s13/s13-t5-bg_mobile.jpg",
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "hyperlink": "",
+                "color1" : "#0e55bd",
+                "copy" : "Kuma is creating endless entertainment with IBM Cloud",
+                "capability" : "How to innovate a business model",
+                "quote": "",
+                "attribution" : ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "template_class": "template-4",
+        "template_tracking": "t4",
+        "template_background_image_url": "./assets/images/s13/s13-t4-bg.png",
+        "template_background_image_url_tablet": "",
+        "template_background_color" : "#0e55bd",
+        "template_type" : "summary-row",
+        "modules": [
+          {
+            "wrapper_class": "t4-mD summary",
+            "module_class": "module-D",
+            "module_type": "image",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "image_url_tablet" : "./assets/images/s13/s13-t4-mD.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t4-mE",
+            "module_class": "module-E",
+            "module_type": "text",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "http://www-03.ibm.com/press/us/en/pressrelease/22376.wss?cmp=usbrb&cm=s&csr=madewithibm&cr=s13&ct=usbrb301&cn=madewithibm",
+                "title" : "Summary",
+                "copy": "<p>Kuma Games is among the leading developers of episodic video games, serving up immersive 3-D experiences—with narratives ripped from the headlines and cable TV—to millions of users each week. Since 2007, Kuma has worked with IBM to achieve the flexibility, reliability and scalability required for such immersive and dynamic gaming.</p><p>IBM Cloud helps them to offer a constantly high-performance, graphically attractive and seamless experience to gamers all over the world, no matter how many users are playing simultaneously.</p>",
+                "cta_copy":"Learn more about Kuma Games"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "template_class": "template-3",
+        "template_tracking": "t3",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t3-mD",
+            "module_class": "module-D",
+            "module_type": "quote",
+            "module_background_image_url": "",
+           
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                 "color" : "#0e55bd",
+                "quote": "Now that we have cloud, we can put lots of different games out there, and if something really pops, the infrastructure is available to efficiently grow it.",
+                "attribution" : "Keith Halper, <br/>CEO of Kuma Games"
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t3-mE",
+            "module_class": "module-E",
+            "module_type": "image",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s13/s13-t32-mD.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "template_class": "template-video",
+        "template_tracking": "tV",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "s13-tV-mA",
+            "module_class": "module-D",
+            "module_type": "video",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s13/s13-tv-mA.jpg",
+                "image_url_mobile": "./assets/images/s13/s13-tv-mA_mobile.jpg",
+                "hyperlink": "kZm3t7huyTI",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      
+      {
+        "id": 5,
+        "template_class": "template-footer",
+        "template_tracking": "tF",
+        "template_background_image_url": "",
+        "template_background_color" : "#0e55bd",
+        "template_title" : "How is this made?",
+         "template_desc" : "Get to know the people and the solutions behind the transformation.",
+        "modules": [
+          {
+            "wrapper_class": "t4-mD",
+            "module_class": "module-D carousel-footer",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              
+	               {
+						    "asset_class": "",
+						    "image_url": "",
+						    "hyperlink": "http://www.ibm.com/cloud-computing/us/en/marketplace.html?cmp=usbrb&cm=s&csr=madewithibm&cr=s4&ct=usbrb301&cn=madewithibm",
+						    "title" : "IBM Cloud Marketplace",
+						    "copy": "IBM Cloud marketplace is our digital front door where you can discover, try, and for many services, buy, from hundreds of IBM and Business Partner services across business solutions (SaaS), developer (PaaS) and IT operations (IaaS). Whether you're looking for apps to give you supply-chain visibility, for IBM’s new development platform Bluemix, or for a dedicated bare-metal server from SoftLayer, Cloud marketplace has everything you need to bring your business the full benefits of cloud."
+						    
+					    },
+					    {
+	                "asset_class": "",
+	                "image_url": "",
+	                "hyperlink": "http://www.ibm.com/cloud-computing/us/en/iaas.html?cmp=usbrb&cm=s&csr=madewithibm&cr=s13&ct=usbrb301&cn=madewithibm",
+	                "title" : "IBM Cloud - IaaS",
+	                "copy": "IBM Cloud offers a choice of open cloud infrastructure services for IT operations-delivering the control and flexibility to power demanding cloud applications. "
+	              },
+	              {
+	                "asset_class": "",
+	                "image_url": "",
+	                "hyperlink": "http://www.ibm.com/cloud-computing/us/en/softlayer.html?cmp=usbrb&cm=s&csr=madewithibm&cr=s13&ct=usbrb301&cn=madewithibm",
+	                "title" : "SoftLayer",
+	                "copy": "SoftLayer®, an IBM company, is a cloud infrastructure provider offering everything from flexible virtual servers to bare metal servers for high-performance workloads."
+	              },
+	              {
+			                "asset_class": "",
+			                "image_url": "",
+			                "hyperlink": "",
+			                "title" : "George Dolbier<br/>CTO, Social and Interactive Media, IBM",
+			                "copy": "A computer scientist, George Dolbier has a long history of applying technologies to drive accelerated business growth in industries and sectors as diverse as consumer electronics and entertainment, retail, industrial, healthcare, B2B and IT.",
+			                "social_twitter" : "",
+			                "social_linkedin" : "https://www.linkedin.com/in/georgedolbier/"
+			        }
+	            ]
+	        }
+          
+        ]
+      }
+    ]
+
+  }

@@ -1,0 +1,262 @@
+  {
+    "id" : 4,
+    
+    "company" : "Music Mastermind",
+    "title": "music made with IBM Cloud",
+    "color1" : "#6c2f79",
+    "color2" : "#6c2f79",
+    "short-description" : "Music Mastermind is turning phones into music studios with IBM Cloud",
+    "filterTechnology": "cloud",
+    "filterIndustry": "gaming",
+    "filterCapability": "business-model-innovation",
+    "filterCapabilityLabel": "Business Model Innovation",
+    "share_twitter_url" : "http://bit.ly/1lKqqQE",
+    "share_twitter_copy" : "Music%20Mastermind%20is%20turning%20phones%20into%20music%20studios%20with%20IBM%20Cloud.%20See%20how.%20%23madewithIBM",
+    "share_fb_url" : "http%3A%2F%2Fwww.ibm.com%2Fsmarterplanet%2Fus%2Fen%2Fmadewithibm%2Fstories%2F%23!story%2F4%3Fcmp%3Dusbrb%26cm%3Dh%26csr%3Dagus_madewith_140407%26cr%3Dfacebook%26ct%3Dusbrb301%26cn%3Ds4_musicmastermind",
+    "share_fb_copy" : "Music%20Mastermind%20is%20turning%20phones%20into%20music%20studios%20with%20IBM%20Cloud.%20See%20how.%20%23madewithIBM",
+    "share_li_url" : "http://bit.ly/1qFTiLZ",
+    "share_li_copy" : "Music%20Mastermind%20is%20turning%20phones%20into%20music%20studios%20with%20IBM%20Cloud.%20See how.",
+    "story_background_image_url": "",
+    "thumbnail" : "stories/assets/images/s4/s4-thumb.jpg",
+    "templates": [
+      {
+        "id": 1,
+        "template_class": "template-5",
+        "template_tracking": "t5",
+        "template_background_image_url": "./assets/images/s4/s4-t5-bg.jpg",
+        "template_background_image_url_mobile": "./assets/images/s4/s4-t5-bg_mobile.jpg",
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "hyperlink": "",
+                "color1" : "#6c2f79",
+                "copy" : "Music Mastermind is turning phones into music studios with IBM Cloud",
+                "capability" : "How to innovate a business model",
+                "quote": "",
+                "attribution" : ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "template_class": "template-4",
+        "template_tracking": "t4",
+        "template_background_image_url": "./assets/images/s4/s4-t4-bg.png",
+        "template_background_image_url_tablet": "",
+        "template_background_color" : "#6c2f79",
+        "template_type" : "summary-row",
+        "modules": [
+          {
+            "wrapper_class": "t4-mD summary",
+            "module_class": "module-D",
+            "module_type": "image",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "image_url_tablet" : "./assets/images/s4/s4-t4-mD.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t4-mE",
+            "module_class": "module-E",
+            "module_type": "text",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "https://www.youtube.com/watch?v=KID3nlvUOGI",
+                 "title" : "Summary",
+                "copy": "<p>Music Mastermind had a great idea for an app. Zya was the first of its kind – a mobile game with a full digital studio, a library of pre-licensed samples, and a social game layer with custom avatars. They needed fast, secure data transfer between database libraries and the cloud; an agile, secure private cloud for development; and rapid scalability for all their users.</p><p>With a SoftLayer hybrid cloud solution, they could precisely manage the data workloads their users demanded. Now over 250,000 people are playing Zya in 155 countries – and that's music to everyone's ears.</p>",
+                "cta_copy":"Learn more about Music Mastermind"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "template_class": "template-3",
+        "template_tracking": "t3",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t3-mD",
+            "module_class": "module-D carousel-medium",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "color" : "#6c2f79",
+            
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                    "color" : "#6c2f79",
+                "quote": "Users can now enjoy music creation wherever they are.",
+                "attribution" : "Matt Serletic, <br/>Co-Founder & CEO, Music Mastermind"
+              },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                    "color" : "#6c2f79",
+                "quote": "We’re now putting professional recording studios in the palm of your hands.",
+                "attribution" : "Matt Serletic, <br/>Co-Founder & CEO, Music Mastermind"
+              }              
+            ]
+          },
+          {
+            "wrapper_class": "t3-mE",
+            "module_class": "module-E",
+            "module_type": "image",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s4/s4-t32-mD.gif",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "template_class": "template-video",
+        "template_tracking": "tV",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "s4-tV-mA",
+            "module_class": "module-D",
+            "module_type": "video",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "video",
+                "image_url": "./assets/images/s4/s4-tv-mA.jpg",
+                "image_url_mobile": "./assets/images/s4/s4-tv-mA_mobile.jpg",
+                "hyperlink": "Bryd-SgIX9o",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "template_class": "carousel-full",
+        "template_tracking": "tC",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "s4-tC-m5",
+            "module_class": "",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "image_url_mobile": "",
+                "hyperlink": "",
+                "color1" : "#6c2f79",
+                "copy": "80% of the $10 billion revenue generated last year by mobile applications came from gaming"
+              }
+            ]
+          }
+        ]
+      },
+
+	    {
+		    "id": 6,
+		    "template_class": "template-footer",
+		    "template_tracking": "tF",
+		    "template_background_image_url": "",
+		    "template_background_color" : "#6c2f79",
+		    "template_title" : "How is this made?",
+		    "template_desc" : "Get to know the people and the solutions behind the transformation.",
+		    "modules": [
+			    {
+				    "wrapper_class": "tF-mD",
+				    "module_class": "module-D carousel-footer",
+				    "module_type": "carousel",
+				    "module_background_image": "",
+
+				    "assets": [
+					    {
+						    "asset_class": "",
+						    "image_url": "",
+						    "hyperlink": "http://www.ibm.com/cloud-computing/us/en/marketplace.html?cmp=usbrb&cm=s&csr=madewithibm&cr=s4&ct=usbrb301&cn=madewithibm",
+						    "title" : "IBM Cloud Marketplace",
+						    "copy": "IBM Cloud marketplace is our digital front door where you can discover, try, and for many services, buy, from hundreds of IBM and Business Partner services across business solutions (SaaS), developer (PaaS) and IT operations (IaaS). Whether you're looking for apps to give you supply-chain visibility, for IBM’s new development platform Bluemix, or for a dedicated bare-metal server from SoftLayer, Cloud marketplace has everything you need to bring your business the full benefits of cloud."
+						    
+					    },
+					    {
+						    "asset_class": "",
+						    "image_url": "",
+						    "hyperlink": "http://www.ibm.com/midmarket/us/en/cloudcomputing.html?cmp=usbrb&cm=s&csr=madewithibm&cr=s4&ct=usbrb301&cn=madewithibm",
+						    "title" : "Cloud for Midsize Businesses",
+						    "copy": "IBM Cloud is a collection of infrastructure, applications and services to help midsize businesses do more with less, using cloud and mobile applications on a leading-edge platform. By using self-service infrastructure with instant deployment, it offers agility and innovative applications to midsize business users and helps them compete with large enterprises."
+						    
+					    },
+					    {
+						    "asset_class": "",
+						    "image_url": "",
+						    "hyperlink": "http://www.ibm.com/cloud-computing/us/en/softlayer.html?cmp=usbrb&cm=s&csr=madewithibm&cr=s4&ct=usbrb301&cn=madewithibm",
+						    "title" : "SoftLayer",
+						    "copy": "SoftLayer&reg;, an IBM company, is a cloud infrastructure provider offering everything from flexible virtual servers to Bare Metal servers for high-performance workloads."
+					    },
+					    {
+						    "asset_class": "",
+						    "image_url": "",
+						    "hyperlink": "http://www.ibm.com/cloud-computing/us/en/private-cloud.html?cmp=usbrb&cm=s&csr=madewithibm&cr=s4&ct=usbrb301&cn=madewithibm",
+						    "title" : "IBM Cloud—Private/Hybrid Cloud",
+						    "copy": "By providing integrated systems, offerings tailored for midsize businesses and new analytics applications that foster deeper insights, IBM offers an integrated family of cloud technologies for quickly building and scaling private and hybrid clouds."
+						    
+					    },
+					    {
+						    "asset_class": "",
+						    "image_url": "",
+						    "hyperlink": "http://www-03.ibm.com/systems/x/hardware/highdensity/dx360m4/?cmp=usbrb&cm=s&csr=madewithibm&cr=s4&ct=usbrb301&cn=madewithibm",
+						    "title" : "IBM System x iDataplex Servers",
+						    "copy": "The IBM System x® iDataPlex® Server provides excellent performance to manage the demand of Big Data & Analytics workloads. The half-depth form is designed to optimize density and performance within space-constrained data centers while simultaneously improving system cooling and energy efficiency."
+					    },
+					    {
+						    "asset_class": "",
+						    "image_url": "",
+						    "hyperlink": "http://www-03.ibm.com/systems/storage/?cmp=usbrb&cm=s&csr=madewithibm&cr=s4&ct=usbrb301&cn=madewithibm",
+						    "title" : "IBM Storage",
+						    "copy": "As organizations continue to build their future on Cloud and Big Data & Analytics, the right architecture can help a business get the most out of its data, storage, and its people. IBM offers a wide range of data storage solutions and enhancements to help an organization meet its storage requirements and transform its data economics."
+					    },
+					    {
+			                "asset_class": "",
+			                "image_url": "",
+			                "hyperlink": "",
+			                "title" : "Sandy Florey<br/>Business Unit Executive, West Mid-Market Sales, IBM",
+			                "copy": "Sandy joined IBM in 1999 and has held various leadership positions in sales and technical management. She is currently responsible for IBM's Mid-Market services, software, and hardware business in the Western United States.",
+			                "social_twitter" : "https://twitter.com/SandyFlorey",
+			                "social_linkedin" : "http://www.linkedin.com/in/sandyflorey/"
+			              }
+				    ]
+			    }
+		    ]
+	    }
+    ]
+  }

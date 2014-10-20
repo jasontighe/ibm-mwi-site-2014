@@ -1,0 +1,16 @@
+<div class="ibm-band template-waypoint carousel-full" data-template="{{ template_tracking }}" style="background:url({{template_background_image_url}}) top center no-repeat;background-width:100%;">
+	<div class="ibm-columns">
+		<div class="ibm-col-1-1">
+
+
+					<div class="bxslider" id="s{{story_id}}-{{modules.[0].wrapper_class}}">
+						{{#each modules.[0].assets}}
+						<div class="{{modules.[0].module_class}}">
+							{{#if copy}}<p style="color:{{color1}}">{{{copy}}}</p>{{/if}}
+						</div>
+						{{/each}}			  	
+					</div>
+
+		</div>	
+	</div>
+</div>

@@ -1,0 +1,236 @@
+{
+    "id" : 29,
+    
+    "company" : "New York Genome Center",
+    "title": "advances made with IBM Watson",
+    "color1" : "#18667c",
+    "color2" : "#18667c",
+    "short-description" : "The New York Genome Center is personalizing brain cancer treatment with Watson",
+    "filterTechnology": "data",
+    "filterIndustry": "healthcare",
+    "filterCapability": "big-data-insights",
+     "filterCapabilityLabel": "Big Data Insights",
+    "share_twitter_url" : "http://bit.ly/1hBHdjI",
+    "share_twitter_copy" : "The%20New%20York%20Genome%20Center%20is%20personalizing%20brain%20cancer%20treatment%20with%20Watson.%20See%20how.%20%23madewithIBM",
+    "share_fb_url" : "http%3A%2F%2Fwww.ibm.com%2Fsmarterplanet%2Fus%2Fen%2Fmadewithibm%2Fstories%2F%23!story%2F29%3Fcmp%3Dusbrb%26cm%3Dh%26csr%3Dagus_madewith_140407%26cr%3Dfacebook%26ct%3Dusbrb301%26cn%3Ds29_nygenome",
+    "share_fb_copy" : "The%20New%20York%20Genome%20Center%20is%20personalizing%20brain%20cancer%20treatment%20with%20Watson.%20See%20how.%20%23madewithIBM",
+    "share_li_url" : "http://bit.ly/1iW9BPZ",
+    "share_li_copy" : "The%20New%20York%20Genome%20Center%20is%20personalizing%20brain%20cancer%20treatment%20with%20Watson.%20See%20how%20new%20value%20is%20made%20with%20IBM.",
+    "story_background_image_url": "",
+     "thumbnail" : "stories/assets/images/s29/s29-thumb.jpg",
+    "templates": [
+      {
+        "id": 1,
+        "template_class": "template-5",
+        "template_tracking": "t5",
+        "template_background_image_url": "./assets/images/s29/s29-t5-bg.jpg",
+        "template_background_image_url_mobile": "./assets/images/s29/s29-t5-bg_mobile.jpg",
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "hyperlink": "",
+                "color1" : "#18667c",
+                "copy" : "The New York Genome Center is personalizing brain cancer treatment with Watson",
+                "capability" : "How to find Big Data insights",
+                "quote": "",
+                "attribution" : ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "template_class": "template-4",
+        "template_tracking": "t4",
+        "template_background_image_url": "./assets/images/s29/s29-t4-bg.png",
+        "template_background_color" : "#18667c",
+        "template_type" : "summary-row",
+        "modules": [
+          {
+            "wrapper_class": "t4-mD summary",
+            "module_class": "module-D",
+            "module_type": "image",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url_tablet": "./assets/images/s29/s29-t4-mD.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t4-mE",
+            "module_class": "module-E summary",
+            "module_type": "text",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "title" : "Summary",
+                "cta_copy" : "Learn more about the New York Genome Center",
+                "hyperlink": "http://www-03.ibm.com/press/us/en/pressrelease/43444.wss?cmp=usbrb&cm=s&csr=madewithibm&cr=s29&ct=usbrb301&cn=madewithibm",
+                "copy": "<p>Cancer is a genetic disease with two large hurdles in the way of treating it. First, some patients may need to try many different treatments before finding one that works, which wastes valuable time. Second, oncologists can’t keep up with the avalanche of medical data on cancer. But the New York Genome Center is using IBM Watson<sup>&trade;</sup>  for Life Sciences to help overcome those obstacles.</p><p>Watson’s ability to read millions of pages of medical data in seconds has turned it into a powerful resource for information on cancer. Geneticists hope that running the DNA sequence of a brain cancer tumor through Watson will provide information that could help them quickly develop the best, personalized treatment for that patient.</p>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "template_class": "template-3",
+        "template_tracking": "t3",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t3-mD",
+            "module_class": "module-D",
+            "module_type": "quote",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "quote": "A very intelligent machine like Watson will help us to see the needle in the haystack that’s driving a disease.",
+                "attribution" : "Dr. Robert Darnell<br/>President & Scientific Director, The New York Genome Center"
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t3-mE",
+            "module_class": "module-E",
+            "module_type": "image",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s29/s29-t32-mD.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      
+      {
+        "id": 4,
+        "template_class": "template-video",
+        "template_tracking": "tV",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "video",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s29/s29-tv-mA.jpg",
+                "image_url_mobile": "./assets/images/s29/s29-tv-mA_mobile.jpg",
+                "hyperlink": "FhWXdFbQQTE",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      
+      {
+        "id": 6,
+        "template_class": "carousel-full",
+        "template_tracking": "tC",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "",
+            "module_class": "",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s29/s29-cf-stat-1.jpg",
+                "image_url_mobile": "./assets/images/s29/s29-cf-stat-1_mobile.jpg",
+                "hyperlink": "",
+                 "color1":"#18667c",
+                "copy": "600k pieces of medical evidence processed by IBM Watson"
+              },
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s29/s29-cf-stat-2.jpg",
+                "image_url_mobile": "./assets/images/s29/s29-cf-stat-2_mobile.jpg",
+                "hyperlink": "",
+                "color1":"#18667c",
+                "copy": "2m+ pages from medical journals and clinical trials digested by IBM Watson"
+              }
+            ]
+          }
+        ]
+      },
+
+	    {
+		    "id": 7,
+		    "template_class": "template-footer",
+		    "template_tracking": "tF",
+		    "template_background_image_url": "",
+		    "template_background_color" : "#18667c",
+		    "template_title" : "How is this made?",
+		    "template_desc" : "Get to know the people and the solutions behind the transformation.",
+		    "modules": [
+			    {
+				    "wrapper_class": "tF-mD",
+				    "module_class": "module-D carousel-footer",
+				    "module_type": "carousel",
+				    "module_background_image": "",
+
+				    "assets": [
+					    
+					    {
+						    "asset_class": "",
+						    "image_url": "",
+						    "hyperlink": "http://www.ibm.com/smarterplanet/us/en/ibmwatson/?cmp=usbrb&cm=s&csr=madewithibm&cr=s29&ct=usbrb301&cn=madewithibm",
+						    "title" : "IBM Watson",
+						    "copy": "IBM Watson<sup>TM</sup> represents a first step into cognitive systems by combining programmatic computing with natural language processing, hypothesis generation, evaluation, and dynamic learning.  With Watson, organizations can now have a deeper understanding of unstructured data to help make more informed decisions and find better answers by learning from both successes and failures.",
+						    "social_twitter" : "",
+						    "social_linkedin" : ""
+					    },
+					    {
+						    "asset_class": "",
+						    "image_url": "",
+						    "hyperlink": "http://www.ibm.com/smarterplanet/us/en/ibmwatson/work.html?cmp=usbrb&cm=s&csr=madewithibm&cr=s29&ct=usbrb301&cn=madewithibm",
+						    "title" : "Watson in Healthcare",
+						    "copy": "Watson in healthcare is using cognitive computing to enable a natural interaction between physicians, data and electronic medical records. Physicians can now use Watson to combine unstructured data with current findings from peer-reviewed research and clinical studies to help find answers. By substituting intuition with data and offering hypotheses based on analysis, Watson can help physicians transform healthcare.",
+						    "social_twitter" : "",
+						    "social_linkedin" : ""
+					    },
+					    {
+						    "asset_class": "",
+						    "image_url": "",
+						    "hyperlink": "",
+						    "title" : "Dr. Raminderpal Singh<br/>Business Development Executive, Watson Genomic Analytics, IBM Research",
+						    "copy": "Dr. Raminderpal Singh leads Genomic Analytics Business Development for IBM, which applies IBM Watson technology, cloud services and new business models in the healthcare and life sciences industries. He has extensive experience in the semiconductor industry and in venture capital.",
+						    "social_twitter" : "",
+						    "social_linkedin" : "http://www.linkedin.com/in/raminderpalsingh123/"
+					    }
+				    ]
+			    }
+		    ]
+	    }
+    ]
+
+  }
+  

@@ -1,0 +1,235 @@
+{
+    "id" : 33,
+    "company" : "Consorzio del Formaggio Parmigiano Reggiano",
+    "title": "authenticity made with data",
+    "color1" : "#bc4721",
+    "color2" : "#bc4721",
+    "short-description" : "Consorzio del Formaggio Parmigiano Reggiano is detecting counterfeit cow’s milk with data",
+    "filterTechnology": "data",
+    "filterIndustry": "retail",
+    "filterCapability": "fraud",
+    "filterCapabilityLabel": "Fraud Prevention",
+    "share_twitter_url" : "http://bit.ly/1kL8FyY",
+    "share_twitter_copy" : "Consorzio%20del%20Formaggio%20Parmigiano-Reggiano%20is%20detecting%20counterfeit%20cow%E2%80%99s%20milk%20with%20data.%20See%20how.%20%23madewithIBM",
+    "share_fb_url" : "http%3A%2F%2Fwww.ibm.com%2Fsmarterplanet%2Fus%2Fen%2Fmadewithibm%2Fstories%2F%23!story%2F33%3Fcmp%3Dusbrb%26cm%3Dh%26csr%3Dagus_madewith_140407%26cr%3Dfacebook%26ct%3Dusbrb301%26cn%3Ds33_parmigiano-reggiano",
+    "share_fb_copy" : "Consorzio%20del%20Formaggio%20Parmigiano-Reggiano%20is%20detecting%20counterfeit%20cow%E2%80%99s%20milk%20with%20data.%20See%20how.%20%23madewithIBM",
+    "share_li_url" : "http://bit.ly/1h14StE",
+    "share_li_copy" : "Consorzio%20del%20Formaggio%20Parmigiano-Reggiano%20is%20detecting%20counterfeit%20cow%E2%80%99s%20milk%20with%20data.%20See%20how.",
+    "thumbnail" : "stories/assets/images/s33/s33-thumb.jpg",
+    "templates": [
+      {
+        "id": 1,
+        "template_class": "template-5",
+        "template_tracking": "t5",
+        "template_background_image_url": "./assets/images/s33/s33-t5-bg.jpg",
+        "template_background_image_url_mobile": "./assets/images/s33/s33-t5-bg_mobile.jpg",
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "hyperlink": "",
+                "color1" : "#bc4721",
+                "copy" : "Consorzio del Formaggio Parmigiano Reggiano is detecting counterfeit cow’s milk with data",
+                "capability" : "How to combat fraud",
+                "quote": "",
+                "attribution" : ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "template_class": "template-4",
+        "template_tracking": "t4",
+        "template_background_image_url": "./assets/images/s33/s33-t4-bg.png",
+        "template_background_color" : "#bc4721",
+        "template_type" : "summary-row",
+        "modules": [
+          {
+            "wrapper_class": "t4-mD summary",
+            "module_class": "module-D",
+            "module_type": "image",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url_tablet": "./assets/images/s33/s33-t4-mD.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t4-mE summary",
+            "module_class": "module-E",
+            "module_type": "text",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "title" : "Summary",
+                "hyperlink": "http://public.dhe.ibm.com/common/ssi/ecm/en/bic03029usen/BIC03029USEN.PDF",
+                "cta_copy" : "Learn more about Consorzio del Formaggio Parmigiano Reggiano",
+                "copy": "<p>Founded in 1934, Consorzio del Formaggio Parmigiano Reggiano is a quality-control consortium designated to prevent fraud and off-label production of Parmesan cheese. Determining the authenticity of a cheese was once a complex process involving time-consuming manual spot checks in over 600 different dairies.</p><p>But now, using bar-code labeling and sensors with IBM Big Data & Analytics, the consortium can monitor daily production levels to help confirm the legitimacy of every round of Parmesan.</p>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "template_class": "template-3",
+        "template_tracking": "t3",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t3-mD",
+            "module_class": "module-D",
+            "module_type": "quote",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "quote": "We've been fighting counterfeits since the 17th century... Analytics and data lets us do it much faster",
+                "attribution" : "Filippo Casaccio<br/>Deputy General Manager, Consorzio del Formaggio Parmigiano Reggiano"
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t3-mE",
+            "module_class": "module-E",
+            "module_type": "image",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s33/s33-t32-mD.gif",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "template_class": "template-video",
+        "template_tracking": "tV",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "video",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s33/s33-tv-mA.jpg",
+                "image_url_mobile": "./assets/images/s33/s33-tv-mA_mobile.jpg",
+                "hyperlink": "j287lOF8KCY",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "template_class": "carousel-full",
+        "template_tracking": "tC",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "",
+            "module_class": "",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "image_url_mobile": "",
+                "hyperlink": "",
+                "color1":"#bc4721",
+                "copy": "5% the amount of annual revenue a typical organization loses to fraud"
+              },
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s33/s33-cf-stat-2.jpg",
+                "image_url_mobile": "./assets/images/s33/s33-cf-stat-2_mobile.jpg",
+                "hyperlink": "",
+                "color1":"#bc4721",
+                "copy": "$3.5t the total amount of global losses due to fraud annually"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "template_class": "template-footer",
+        "template_tracking": "tF",
+        "template_background_image_url": "",
+        "template_background_color" : "#bc4721",
+        "template_title" : "How is this made?",
+        "template_desc" : "Get to know the people and the solutions behind the transformation.",
+        "modules": [
+          {
+            "wrapper_class": "tF-mD",
+            "module_class": "module-D carousel-footer",
+            "module_type": "carousel",
+            "module_background_image": "",
+
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "http://www.ibm.com/big-data/us/en/big-data-and-analytics/operations-management.html?cmp=usbrb&cm=s&csr=madewithibm&cr=s33&ct=usbrb301&cn=madewithibm",
+                "title" : "IBM Big Data &amp; Analytics - Operations",
+                "copy": "Big Data and analytics operations focus on analyzing machine data, which can include anything from IT machines to sensors, meters and GPS devices. By using big data for operations analysis, an organization can improve its operations by gaining real-time visibility into customer experience, transactions and behavior."
+                
+              },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "http://www-03.ibm.com/software/products/en/business-intelligence/?cmp=usbrb&cm=s&csr=madewithibm&cr=s7&ct=usbrb301&cn=madewithibm",
+                "title" : "IBM Cognos Business Intelligence",
+                "copy": "IBM Cognos<sup>&reg;</sup> Business Intelligence provides reporting, analysis and dashboards to help key stakeholders understand business performance, collaborate, and make data-driven decisions."
+                
+              },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "http://www-935.ibm.com/services/us/business-consulting/finance-transformation/index.html?cmp=usbrb&cm=s&csr=madewithibm&cr=s33&ct=usbrb301&cn=madewithibm",
+                "title" : "IBM Global Business Services<sup>&reg;</sup> (GBS) for Finance, Risk and Fraud",
+                "copy": "IBM has the ability to combine world class software, services and research capabilities to help clients address a wide spectrum of risk and fraud challenges. Using diagnostic and strategic tools, IBM can help an enterprise improve financial forecasting and reporting, so they can better predict risk and counter fraud."
+                
+              },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "title" : "Maurizio Catellani<br/>Business Unit Manager, Gruppo Sinapsi, IBM Business Partner",
+                "copy": "Maurizio Catellani been a software architect and Business Unit Manager since 2008. His team projects and develops vertical solutions based on IBM or open source infrastructures, and also supports and services customization of ACG vision4 and Panthera ERP solutions.",
+                "social_twitter" : "http://twitter.com/#!/GruppoSinapsi",
+                "social_linkedin" : "http://www.linkedin.com/company/gruppo-sinapsi-srl"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+
+  }
+  

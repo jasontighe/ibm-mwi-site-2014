@@ -1,0 +1,199 @@
+{
+    "id" : 20,
+    
+    "company" : "Macy's Inc.",
+    "title": "shopping made with data",
+    "color1" : "#f40001",
+    "color2" : "#f40001",
+    "short-description" : "Macy’s is discovering your personal sense of style with data",
+    "filterTechnology": "data",
+    "filterIndustry": "retail",
+    "filterCapability": "one-to-one",
+     "filterCapabilityLabel": "One-to-One",
+    "share_twitter_url" : "http://bit.ly/1hsRULi",
+    "share_twitter_copy" : "Macy%E2%80%99s%20is%20dressing%20each%20customer%20with%20data.%20See%20how.%20%23madewithIBM",
+    "share_fb_url" : "http%3A%2F%2Fwww.ibm.com%2Fsmarterplanet%2Fus%2Fen%2Fmadewithibm%2Fstories%2F%23!story%2F20%3Fcmp%3Dusbrb%26cm%3Dh%26csr%3Dagus_madewith_140407%26cr%3Dfacebook%26ct%3Dusbrb301%26cn%3Ds20_macys",
+    "share_fb_copy" : "Macy%E2%80%99s%20is%20dressing%20each%20customer%20with%20data.%20See%20how.%20%23madewithIBM",
+    "share_li_url" : "http://bit.ly/1gDbbYE",
+    "share_li_copy" : "Macy%E2%80%99s%20is%20dressing%20each%20customer%20with%20data.%20See%20how%20new%20value%20is%20made%20with%20IBM.",
+    "story_background_image_url": "",
+      "thumbnail" : "stories/assets/images/s20/s20-thumb.jpg",
+    "templates": [
+      {
+        "id": 1,
+        "template_class": "template-5",
+        "template_tracking": "t5",
+        "template_background_image_url": "./assets/images/s20/s20-t5-bg.jpg",
+        "template_background_image_url_mobile": "./assets/images/s20/s20-t5-bg_mobile.jpg",
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "hyperlink": "",
+                "color1" : "#f40001",
+                "copy" : "Macy’s is dressing each customer with data",
+                "capability" : "How to provide one-to-one services",
+                "quote": "",
+                "attribution" : ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "template_class": "template-4",
+        "template_tracking": "t4",
+        "template_background_image_url": "./assets/images/s20/s20-t4-bg.png",
+        "template_background_color" : "#f40001",
+         "template_type" : "summary-row",
+        "modules": [
+          {
+            "wrapper_class": "t4-mD summary",
+            "module_class": "module-D",
+            "module_type": "image",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url_tablet": "./assets/images/s20/s20-t4-mD.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t4-mE summary",
+            "module_class": "module-E",
+            "module_type": "text",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "http://public.dhe.ibm.com/common/ssi/ecm/en/odc03172usen/ODC03172USEN.PDF",
+				"title" :"Summary",
+				"cta_copy" : "Learn more about Macy's",
+                "copy": "<p>In the world of retail, Macy’s is one of the very few brands that can credibly be called an icon. When Macy’s wanted its online store, macys.com, to offer a more personalized shopping experience, they worked with IBM to establish the foundation for a more engaging and data-driven website.</p><p>The result, called My Macy’s, is a sweeping initiative designed to embed a customer-centric philosophy into every aspect of the company’s operations. With IBM Big Data & Analytics, customer preferences can be combined with their recent purchase histories to create personalized recommendations and promotions. </p>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "template_class": "template-3",
+        "template_tracking": "t3",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t3-mD",
+            "module_class": "module-D carousel-medium",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "quote": "Customers want to feel like individuals. Macy's has to serve individuals. We can’t do that without data.",
+                "attribution" : "Terry Lundgren<br/>CEO, Macy's Inc."
+              },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "quote": "We need to be where our customers shop—mobile, online or in-store—and provide an individualized experience.",
+                "attribution" : "Terry Lundgren<br/>CEO, Macy's Inc."
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t3-mE",
+            "module_class": "module-E",
+            "module_type": "image",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s20/s20-t32-mD.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "template_class": "template-video",
+        "template_tracking": "tV",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "video",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s20/s20-tv-mA.jpg",
+                "image_url_mobile": "./assets/images/s20/s20-tv-mA_mobile.jpg",
+                "hyperlink": "Vb1UJOxB1mY",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      
+
+
+	    {
+		    "id": 5,
+		    "template_class": "template-footer",
+		    "template_tracking": "tF",
+		    "template_background_image_url": "",
+		    "template_background_color" : "#f40001",
+		    "template_title" : "How is this made?",
+		    "template_desc" : "Get to know the people and the solutions behind the transformation.",
+		    "modules": [
+			    {
+				    "wrapper_class": "tF-mD",
+				    "module_class": "module-D carousel-footer",
+				    "module_type": "carousel",
+				    "module_background_image_url": "",
+
+				    "assets": [
+					    {
+						    "asset_class": "",
+						    "image_url": "",
+						    "hyperlink": "http://www-01.ibm.com/software/marketing-solutions/coremetrics/index.html?cmp=usbrb&cm=s&csr=madewithibm&cr=s20&ct=usbrb301&cn=madewithibm",
+						    "title" : "Coremetrics",
+						    "copy": "Coremetrics is a leading provider of web analytics and marketing optimization solutions. By integrating sophisticated analytics that provide businesses with real time insight into how consumers are interacting with their brands online, Coremetrics solutions helps engage buyers in highly relevant, interactive dialogues across digital, social and traditional marketing channels."
+
+					    },
+
+					    {
+						    "asset_class": "",
+						    "image_url": "",
+						    "hyperlink": "http://www-935.ibm.com/services/us/gbs/consulting/?cmp=usbrb&cm=s&csr=madewithibm&cr=s20&ct=usbrb301&cn=madewithibm",
+						    "title" : "IBM Global Business Services",
+						    "copy": "IBM Global Services is the world's largest business and technology services provider. It employs over 190,000 people across more than 160 countries. It helps leaders to redefine their agendas and reprioritize investments to meet new challenges and to accelerate growth. IBM Global Business Services (GBS) is the professional services arm of Global Services, including management consulting, systems integration, and application management services. "
+
+					    }
+				    ]
+			    }
+		    ]
+	    }
+    ]
+
+  }
+  

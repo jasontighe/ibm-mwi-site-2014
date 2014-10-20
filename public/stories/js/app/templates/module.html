@@ -1,0 +1,16 @@
+<div class="module {{ module_class }} {{ module_type }}">
+  <h3>Wrapper {{ wrapper_class }}</h3>
+  <h3>Module {{ module_class }}</h3>
+  <p>Type : {{ module_type }}</p>
+
+  {{#each assets}}
+    <div class="asset {{ asset_class }}" >
+      <h4>{{ asset_class }}</h4>
+      <p>{{ image_url }}</p>
+      <!--
+      <img src="{{ image_url }}">
+      -->
+    </div>
+  {{/each}}
+
+</div>

@@ -1,0 +1,272 @@
+{
+    "id" : 32,
+    "company" : "Miami-Dade County",
+    "title": "miami made with social",
+    "color1" : "#ff9563",
+    "color2" : "#ff9563",
+    "short-description" : "Miami-Dade County is facilitating citizen participation with social",
+    "filterTechnology": "social",
+    "filterIndustry": "government",
+    "filterCapability": "cities",
+    "filterCapabilityLabel": "Smarter Cities",
+    "share_twitter_url" : "http://bit.ly/1sAMjpo",
+    "share_twitter_copy" : "Miami-Dade%20County%20is%20facilitating%20citizen%20participation%20with%20social.%20See%20how.%20%23madewithIBM",
+    "share_fb_url" : "http%3A%2F%2Fwww.ibm.com%2Fsmarterplanet%2Fus%2Fen%2Fmadewithibm%2Fstories%2F%23!story%2F32%3Fcmp%3Dusbrb%26cm%3Dh%26csr%3Dagus_madewith_140407%26cr%3Dfacebook%26ct%3Dusbrb301%26cn%3Ds32_miamidadecounty",
+    "share_fb_copy" : "Miami-Dade%20County%20is%20facilitating%20citizen%20participation%20with%20social.%20See%20how.%20%23madewithIBM",
+    "share_li_url" : "http://bit.ly/1kv5VYl",
+    "share_li_copy" : "Miami-Dade%20County%20is%20facilitating%20citizen%20participation%20with%20social.%20See%20how.",
+    "story_background_image_url": "",
+     "thumbnail" : "stories/assets/images/s32/s32-thumb.jpg",
+    "templates": [
+      {
+        "id": 1,
+        "template_class": "template-5",
+        "template_tracking": "t5",
+        "template_background_image_url": "./assets/images/s32/s32-t5-bg.jpg",
+        "template_background_image_url_mobile": "./assets/images/s32/s32-t5-bg_mobile.jpg",
+        
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "hyperlink": "",
+                "color1" : "#ff9563",
+                "copy" : "Miami-Dade County is facilitating citizen participation with social",
+                "capability" : "How to empower a citizen",
+                "quote": "",
+                "attribution" : ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "template_class": "template-4",
+        "template_tracking": "t4",
+        "template_background_image_url": "./assets/images/s32/s32-t4-bg.png",
+        "template_background_color" : "#ff9563",
+         "template_type" : "summary-row",
+        "modules": [
+          {
+            "wrapper_class": "t4-mD summary",
+            "module_class": "module-D",
+            "module_type": "image",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",                
+                "image_url_tablet": "./assets/images/s32/s32-t4-mD.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t4-mE summary",
+            "module_class": "module-E",
+            "module_type": "text",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "title":"Summary",
+                "hyperlink": "http://www-03.ibm.com/press/us/en/pressrelease/40497.wss?cmp=usbrb&cm=s&csr=madewithibm&cr=s32&ct=usbrb301&cn=madewithibm",
+                "cta_copy" : "Learn more about Miami-Dade County",
+                "copy": "<p>Data creates transparency. Using IBM Cloud plus Big Data & Analytics, Miami-Dade County is reinventing the way municipal government works. Making data visible, accessible, and actionable can help the county to crack cold cases, reduce water waste and design better public transportation.</p><p>By giving residents insight into how their tax money is spent, the municipality is helping constituents play a role in local governance—a great example of citizen participation enabled by data, mobile and cloud.</p>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "template_class": "template-3",
+        "template_tracking": "t3",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t3-mD",
+            "module_class": "module-D carousel-medium",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "quote": "With technology, everyone has a key to the city. You could say I have 2.5 million co-mayors",
+                "attribution" : "Carlos A. Gim&eacute;nez, <br/>Mayor of Miami-Dade County"
+              },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "quote": "We used to hear from citizens every four years at the ballot box. Now we hear from them every day through their mobile devices.",
+                "attribution" : "Carlos A. Gim&eacute;nez, <br/>Mayor of Miami-Dade County"
+              }              
+            ]
+          },
+          {
+            "wrapper_class": "t3-mE",
+            "module_class": "module-E",
+            "module_type": "image",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s32/s32-t3-mD.gif",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "template_class": "template-video",
+        "template_tracking": "tV",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "video",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s32/s32-tv-mA.jpg",
+                "image_url_mobile": "./assets/images/s32/s32-tv-mA_mobile.jpg",
+                "hyperlink": "9KAOm0oAWew",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "template_class": "carousel-full",
+        "template_tracking": "tC",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "",
+            "module_class": "",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "image_url_mobile": "",
+                "hyperlink": "",
+                "color1" : "#ff9563",
+                "copy": "20% expected reduction in water consumption"
+              },
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "image_url_mobile": "",
+                "hyperlink": "",
+                "color1" : "#ff9563",
+                "copy": "$1m expected in savings due to operational efficiencies per year"
+              },
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "image_url_mobile": "",
+                "hyperlink": "",
+                "color1" : "#ff9563",
+                "copy": "3m residents in the county with access to key metrics and financial transparency"
+              },
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "image_url_mobile": "",
+                "hyperlink": "",
+                "color1" : "#ff9563",
+                "copy": "73% \"hit rate\" achieved by Miami-Dade Police Department in identifying suspects in 40 solved cases"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "template_class": "template-footer",
+        "template_tracking": "tF",
+        "template_background_image_url": "",
+        "template_background_color" : "#ff9563",
+        "template_title" : "How is this made?",
+        "template_desc" : "Get to know the people and the solutions behind the transformation.",
+        "modules": [
+          {
+            "wrapper_class": "tF-mD",
+            "module_class": "module-D carousel-footer",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+                       
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "http://www.ibm.com/big-data/us/en/big-data-and-analytics?cmp=usbrb&cm=s&csr=madewithibm&cr=s32&ct=usbrb301&cn=madewithibm",
+                "title" : "IBM Big Data &amp; Analytics",
+                "copy": "IBM Big Data &amp; Analytics solutions helps organizations find insights in new and emerging types of data, while simultaneously providing leverage with an analytics platform that can evolve with changing needs."
+              },
+               {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "http://www-03.ibm.com/software/products/en/category/SWZ00?cmp=usbrb&cm=s&csr=madewithibm&cr=s32&ct=usbrb301&cn=madewithibm",
+                "title" : "Smarter Cities",
+                "copy": "IBM provides the integrated solutions that can help visionary leaders achieve their objectives by combining world-class business, industry and technology expertise. After capitalizing on new insights to make better decisions, creating system-wide efficiencies to do more with less and by collaborating in new ways to promote innovation, cities around the world are reinventing themselves."
+              },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "http://www.ibm.com/cloud-computing/us/en/softlayer.html?cmp=usbrb&cm=s&csr=madewithibm&cr=s32&ct=usbrb301&cn=madewithibm",
+                "title" : "SoftLayer",
+                "copy": "SoftLayer<sup>&reg;</sup>, an IBM company, is a cloud infrastructure provider offering everything from flexible virtual servers to Bare Metal servers for high-performance workloads."
+              },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "http://www.ibm.com/cloud-computing/us/en/private-cloud.html?cmp=usbrb&cm=s&csr=madewithibm&cr=s32&ct=usbrb301&cn=madewithibm",
+                "title" : "IBM Cloud—Private/Hybrid Cloud",
+                "copy": "By providing integrated systems, offerings tailored for midsize businesses and new analytics applications that foster deeper insights, IBM offers an integrated family of cloud technologies for quickly building and scaling private and hybrid clouds."
+              },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "http://www.ibm.com/mainframe50/?cmp=usbrb&cm=s&csr=madewithibm&cr=s32&ct=usbrb301&cn=madewithibm",
+                "title" : "IBM System z",
+                "copy": "With automation, advanced virtualization technologies and highly secure transaction processing, IBM System z<sup>&reg;</sup> provides mainframe technology to help today's enterprises respond quickly to evolving business conditions, with extreme flexibility. Every year, students at over 1,000 universities across 67 countries are learning to solve tomorrow’s grand challenges with this world-class mainframe technology."
+              },              
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "title" : "Emily Loos<br/>IBM Client Executive, South Florida Public Sector",
+                "copy": "Emily Loos is a Client Executive in South Florida for IBM’s Public Sector industry organization. Her primary client base includes local governments, a K-12 public school system, and a healthcare provider.",
+                "social_twitter" : "",
+                "social_linkedin" : "http://www.linkedin.com/pub/emily-loos/0/450/ba9" 
+              }              
+            ]
+          }
+        ]
+      }
+    ]
+
+  }
+  

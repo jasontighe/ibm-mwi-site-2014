@@ -1,0 +1,223 @@
+
+// GRID VIEW 6-4 (START)
+.ibm-columns.ibm_cci-gv__modifier .ibm-col-6-4{
+	width:270px;
+	padding:15px;
+	overflow:hidden;
+
+}
+
+.ibm-columns.ibm_cci-gv__modifier .ibm_cci--rea-block, 
+.ibm-columns.ibm_cci-gv__modifier #{$ibm-listview-unro} .ibm_cci--rea-block {
+	position:absolute;
+	top:15px;
+	right:15px;
+	width:30px;
+	margin:0;
+
+	ul {
+		li {
+			padding:0;
+		}
+		li:nth-child(1){
+			display:none;
+		}
+	}
+}
+
+.ibm-columns.ibm_cci-gv__modifier .ibm_cci--rcb{
+	width:inherit;
+	padding:0;
+	border-right:none;
+}
+
+.ibm-columns.ibm_cci-gv__modifier .ibm_cci-fav-ihb {
+	// @extend .ibm_cci--rcb;
+	clear:both;
+	border:0;
+
+	p.ibm_cci--feed-icon {
+		@include feed-icon;					
+	}
+
+	p.ibm_cci--feed-no-icon {
+		@include feed-no-icon;
+	}						
+
+	a.ibm_cci--feed-title {
+		font-family:"HelvRegularIBM";
+		text-indent: 0;
+		font-size:1.3rem;
+		line-height: 16px;
+		vertical-align: top;
+		padding:0 0 10px 0;
+		float:left;
+	}
+}
+
+
+.ibm-columns.ibm_cci-gv__modifier .ibm_cci-gv-sib {
+	margin-top:15px; //added 09
+}
+
+.ibm-columns.ibm_cci-gv__modifier ul.ibm_cci-sie{
+	//
+	li {
+		padding:0;
+	}
+}
+
+.ibm-columns.ibm_cci-gv__modifier .ibm_cci--tweet-description {
+		// font: italic 1.4rem/20px "HelvLightIBM";
+		display:block;
+		font-size:0;
+		margin:15px 0 !important;
+		line-height:0;
+		padding-bottom:0;
+
+		// span.ibm_cci--tweet-description-readmore a {
+		// 	// color: #F04E37;
+		// 	// text-decoration: none;
+		// 	display:none;
+		// }
+		div.ibm_cci--tweet-content-text {
+			// color: #F04E37;
+			// text-decoration: none;
+			display:none;
+		}		
+		
+		img.ibm_cci--tweet-image {
+			display:block;
+			// line-height:0;
+			// font-size:0;
+			margin:0;
+			padding:0;
+			width:270px;
+		}
+	}
+
+.ibm-columns.ibm_cci-gv__modifier .ibm_cci-media-container{
+	display:block;
+	line-height:0;
+	text-align:center;
+	margin-top:13px;
+
+	.ibm-video {
+		.ibm-video-container {
+			margin-bottom:0;
+		}
+	}
+}						
+// GRID VIEW 6-4 (END)
+
+
+// GRID VIEW 6-2 (START)
+.ibm-columns.ibm_cci-gv__modifier .ibm-col-6-2{
+	margin:0;
+	padding:15px;
+	width:270px;
+	border-top:1px dotted #ccc;
+	overflow:hidden;
+	// outline:1px solid #ccc; *FOR TESTING ONLY
+	// 
+	ul {
+		margin: 0 0 10px 0;
+	}
+
+	li a img:hover{
+		// outline:1px solid #000;
+		opacity:0.5;
+	}
+}
+
+.ibm-columns.ibm_cci-gv__modifier .ibm_cci-rel-tweet-detils-container{
+		min-width:235px;
+	}
+
+.ibm-columns.ibm_cci-gv__modifier .ibm_cci--lv-rc-th {
+		max-width:180px;
+	}
+
+.ibm-columns.ibm_cci-gv__modifier .ibm_cci--time-stamp{
+	margin-top:0 !important;	
+}				
+
+#{$ibm-widget-js} .ibm-columns.ibm_cci-gv__modifier .ibm_cci--lv-rc-description {
+	height:80px;
+	padding-top:2px;
+}
+
+.ibm-columns.ibm_cci-gv__modifier .ibm_cci--lv-rc-sharing {
+	width:270px;	
+}
+
+// GRID VIEW 6-2 (END)
+
+
+
+// GRID VIEW UNRESOLVED (START)
+.ibm-columns.ibm_cci-gv__modifier #{$ibm-listview-unro}{
+	width:270px;
+	padding:15px;
+	overflow:hidden;
+}
+
+.ibm-columns.ibm_cci-gv__modifier #{$ibm-listview-unro}	.ibm_cci--unr-cb{
+	width:270px;
+	float:left;
+}
+	//FOR YOUTUBE BLOCK (BEGIN)
+.ibm-columns.ibm_cci-gv__modifier #{$ibm-listview-unro} .ibm_cci-fav-ihb {
+	max-width:160px;
+		a.ibm_cci--feed-title {
+			padding:0;
+		}
+}	
+
+.ibm-columns.ibm_cci-gv__modifier #{$ibm-listview-unro} .ibm_cci--ttb {
+	//
+	p.ibm_cci--tweet-description {
+		// font: italic 1.4rem/20px "HelvLightIBM";
+		display:block;
+		font-size:0;
+		margin:15px 0 !important;
+		line-height:0;
+		padding-bottom:0;
+
+		span.ibm_cci--tweet-description-readmore a {
+			// color: #F04E37;
+			// text-decoration: none;
+			display:none;
+		}
+
+		img.ibm_cci--tweet-image {
+			display:block;
+			// line-height:0;
+			// font-size:0;
+			margin:0;
+			padding:0;
+			width:270px;
+		}							
+	}
+	.ibm_cci-media-container{
+		display:block;
+	}						
+}	
+
+//FOR YOUTUBE BLOCK (END)					
+.ibm-columns.ibm_cci-gv__modifier #{$ibm-listview-unro} .ibm_cci--ttb{
+	clear:both;
+	float:left;
+
+		h2.ibm_cci--tweet-title{
+			font: normal 1.4rem/30px "HelvLightIBM";
+			color: #000;
+			margin:10px 0 0 0;
+			padding:0;				
+		}
+}
+
+.ibm-columns.ibm_cci-gv__modifier #{$ibm-listview-unro} .ibm_cci--lv-rc-sharing{
+	width:270px;
+}
+// GRID VIEW UNRESOLVED (END)

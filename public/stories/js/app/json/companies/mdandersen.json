@@ -1,0 +1,204 @@
+  {
+    "id" : 38,
+    
+    "company" : "The Univ of Texas MD Anderson Cancer Center",
+    "title": "breakthroughs made with IBM Watson",
+    "color1" : "#34c5bc",
+    "color2" : "#34c5bc",
+    "short-description" : "MD Anderson Cancer Center hopes to democratize evidence-based care with IBM Watson",
+    "filterTechnology": "watson",
+    "filterIndustry": "healthcare",
+    "filterCapability": "big-data-insights",
+     "filterCapabilityLabel": "Big Data Insights",
+    "share_twitter_url" : "http://bit.ly/1iFHPFG",
+    "share_twitter_copy" : "MD%20Anderson%20Cancer%20Center%20hopes%20to%20discover%20cancer%20at%20%E2%80%9Cstage%20zero%E2%80%9D%20with%20IBM%20Watson.%20See%20how.%20%23madewithIBM",
+    "share_fb_url" : "http%3A%2F%2Fwww.ibm.com%2Fsmarterplanet%2Fus%2Fen%2Fmadewithibm%2Fstories%2F%23!story%2F38%3Fcmp%3Dusbrb%26cm%3Dh%26csr%3Dagus_madewith_140407%26cr%3Dfacebook%26ct%3Dusbrb301%26cn%3Ds38_mdandersen",
+    "share_fb_copy" : "MD%20Anderson%20Cancer%20Center%20hopes%20to%20discover%20cancer%20at%20%E2%80%9Cstage%20zero%E2%80%9D%20with%20IBM%20Watson.%20See%20how.%20%23madewithIBM",
+    "share_li_url" : "http://bit.ly/1mO2UGo",
+    "share_li_copy" : "MD%20Anderson%20Cancer%20Center%20hopes%20to%20discover%20cancer%20at%20%E2%80%9Cstage%20zero%E2%80%9D%20with%20IBM%20Watson.%20See%20how%20new%20value%20is%20made%20with%20IBM.",
+    "story_background_image_url": "",
+     "thumbnail" : "stories/assets/images/s38/s38-thumb.jpg",
+    "templates": [
+      {
+        "id": 1,
+        "template_class": "template-5",
+        "template_tracking": "t5",
+        "template_background_image_url": "./assets/images/s38/s38-t5-bg.jpg",
+        "template_background_image_url_mobile": "./assets/images/s38/s38-t5-bg_mobile.jpg",
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "hyperlink": "",
+                "color1" : "#34c5bc",
+                "copy" : "MD Anderson Cancer Center hopes to democratize evidence-based care with IBM Watson",
+                "capability" : "How to find Big Data Insights",
+                "quote": "",
+                "attribution" : ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "template_class": "template-4",
+        "template_tracking": "t4",
+        "template_background_image_url": "./assets/images/s38/s38-t4-bg.png",
+        "template_background_image_url_tablet": "",
+        "template_background_color" : "#34c5bc",
+        "template_type" : "summary-row",
+        "modules": [
+          {
+            "wrapper_class": "t4-mD summary",
+            "module_class": "module-D",
+            "module_type": "image",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "image_url_tablet" : "./assets/images/s38/s38-t4-mD.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t3-mE summary",
+            "module_class": "module-E",
+            "module_type": "text",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "title" : "Summary",
+                "cta_copy" :"Learn more about MD Anderson Cancer Center",
+                "hyperlink": "http://www.youtube.com/watch?v=P7ShPS8JhRA&list=PL4F1C783776E708A8&index=52",
+                "copy": "<p>No two cancers are the same. Strands of DNA in cancer cells reveal how each patient’s disease is unique. Oncologists hope to combine this genetic information with each patient’s individual history to create personalized evidence-based treatments. But the knowledge base for cancer is expanding so rapidly that oncologists can’t keep up with all the data, which impedes their ability to deliver up-to-date care.</p><p>The University of Texas MD Anderson Cancer Center has turned this problem into an opportunity for cognitive systems to help oncologists treat cancer. Their solution, called the MD Anderson Oncology Expert Advisor<sup>&trade;</sup> powered by IBM Watson, ingests and analyzes medical evidence like published literature and practice guidelines, as well as recommendations and care pathways developed at MD Anderson, to suggest appropriate treatment options or clinical trials based on each individual patient’s profile. The ultimate vision is to reach more patients at the earliest stage of the disease, when the chances for a cure are highest.</p>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "template_class": "template-3",
+        "template_tracking": "t3",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t3-mD",
+            "module_class": "module-D carousel-medium",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "quote": "Our goal is to deliver evidence-based care to patients no matter where they live. With the MD Anderson Oncology Expert Advisor™, we think this is possible.",
+                "attribution" : "Lynda Chin, M.D., Professor and Chair, Department of Genomic Medicine,The Univ of Texas MD Anderson Cancer Center"
+              },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "quote": "The MD Anderson Oncology Expert Advisor<sup>&trade;</sup> will allow us to first shift emphasis of care from stage four to stage one, then eventually, stage zero.",
+                "attribution" : "Lynda Chin, M.D., Professor and Chair, Department of Genomic Medicine,The Univ of Texas MD Anderson Cancer Center"
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t3-mE",
+            "module_class": "module-E",
+            "module_type": "image",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s38/s38-t32-mD.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "template_class": "template-video",
+        "template_tracking": "tV",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "s9-tV-mA",
+            "module_class": "module-D",
+            "module_type": "video",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s38/s38-tv-mA.jpg",
+                "image_url_mobile": "./assets/images/s38/s38-tv-mA_mobile.jpg",
+                "hyperlink": "emgk7DOL3go",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "template_class": "template-footer",
+        "template_tracking": "tF",
+        "template_background_image_url": "",
+        "template_background_color" : "#34c5bc",
+        "template_title" : "How is this made?",
+        "template_desc" : "Get to know the people and the solutions behind the transformation.",
+        "modules": [
+          {
+            "wrapper_class": "tF-mD",
+            "module_class": "module-D carousel-footer",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "http://www.ibm.com/smarterplanet/us/en/ibmwatson/?cmp=usbrb&cm=s&csr=madewithibm&cr=s38&ct=usbrb301&cn=madewithibm",
+                "title" : "IBM Watson",
+                "copy": "IBM Watson<sup>&trade;</sup> represents a first step into cognitive systems by combining programmatic computing with natural language processing, hypothesis generation, evaluation, and dynamic learning. With Watson, organizations can now have a deeper understanding of unstructured data to help make more informed decisions and find better answers by learning from both successes and failures."
+              },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "http://www.ibm.com/smarterplanet/us/en/ibmwatson/work.html?cmp=usbrb&cm=s&csr=madewithibm&cr=s38&ct=usbrb301&cn=madewithibm",
+                "title" : "Watson in Healthcare",
+                "copy": "Watson in healthcare is using cognitive computing to enable a natural interaction between physicians, data and electronic medical records. Physicians can now use Watson to combine unstructured data with findings from peer-reviewed research and clinical studies to help find answers. By substituting intuition with data and offering hypotheses based on analysis, Watson can help physicians to transform healthcare."
+              },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "title" : "Robert S. Merkel<br/>Healthcare & Life Sciences Leader, IBM Watson Group",
+                "copy": "Rob Merkel is responsible for IBM’s portfolio of global transformational solutions enabled by Watson cognitive computing. He has over 23 years of experience on a wide range of consulting assignments related to all phases of business transformation.",
+                "social_twitter" : "",
+                "social_linkedin" : "http://www.linkedin.com/pub/rob-merkel/3/8a/2"
+              }
+            ]
+          }
+          
+        ]
+      }
+    ]
+
+  }

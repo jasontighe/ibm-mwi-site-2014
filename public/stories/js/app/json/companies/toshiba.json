@@ -1,0 +1,205 @@
+{
+    "id" : 25,
+    "company" : "Toshiba",
+    
+    "title": "teaching made with data",
+    "color1" : "#708294",
+    "color2" : "#708294",
+    "short-description" : "Toshiba is making the planet smarter with data",
+    "filterTechnology": "data",
+    "filterIndustry": "electronics",
+    "filterCapability": "operations",
+    "filterCapabilityLabel" :"Operations Optimization",
+    "share_twitter_url" : "http://bit.ly/1g7pGjO",
+    "share_twitter_copy" : "Toshiba%20is%20making%20the%20planet%20smarter%20with%20data.%20See%20how.%20%23madewithIBM",
+    "share_fb_url" : "http%3A%2F%2Fwww.ibm.com%2Fsmarterplanet%2Fus%2Fen%2Fmadewithibm%2Fstories%2F%23!story%2F25%3Fcmp%3Dusbrb%26cm%3Dh%26csr%3Dagus_madewith_140407%26cr%3Dfacebook%26ct%3Dusbrb301%26cn%3Ds25_toshiba",
+    "share_fb_copy" : "Toshiba%20is%20making%20the%20planet%20smarter%20with%20data.%20See%20how.%20%23madewithIBM",
+    "share_li_url" : "http://bit.ly/P40ymS",
+    "share_li_copy" : "Toshiba%20is%20making%20the%20planet%20smarter%20with%20data.%20See%20how.",
+    "story_background_image_url": "",
+     "thumbnail" : "stories/assets/images/s25/s25-thumb.jpg",
+    "templates": [
+      {
+        "id": 1,
+        "template_class": "template-5",
+        "template_tracking": "t5",
+        "template_background_image_url": "./assets/images/s25/s25-t5-bg.jpg",
+        "template_background_image_url_mobile": "./assets/images/s25/s25-t5-bg_mobile.jpg",
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "hyperlink": "",
+                "color1" : "#708294",
+                "copy" : "Toshiba is making the planet smarter with data",
+                "capability" : "How to optimize an operation",
+                "quote": "",
+                "attribution" : ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "template_class": "template-4",
+        "template_tracking": "t4",
+        "template_background_image_url": "./assets/images/s25/s25-t4-bg.png",
+        "template_background_color" : "#708294",
+        "template_type" : "summary-row",
+        "modules": [
+          {
+            "wrapper_class": "t4-mD summary",
+            "module_class": "module-D",
+            "module_type": "image",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "image_url_tablet": "./assets/images/s25/s25-t4-mD.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t4-mE summary",
+            "module_class": "module-E",
+            "module_type": "text",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "http://www.ibm.com/big-data/us/en/big-data-and-analytics/operations-management.html?cmp=usbrb&cm=s&csr=madewithibm&cr=s25&ct=usbrb301&cn=madewithibm",
+                "title" :"Summary",
+                "cta_copy" : "Learn more about IBM Big Data & Analytics",
+                "copy": "<p>Toshiba, a multinational engineering and electronics conglomerate, is working with IBM's R&D to transform its business model. From a manufacturer of electronics, using cloud and data, they have evolved into a provider of added value to their products.</p><p>By employing usage data in the cloud to reduce wasteful processor idling, decrease energy consumption, lower emissions, and extend the longevity of the devices, Toshiba can continue to work to improve the performance of their products even after they have been sold. Another example of how data is making the planet smarter.</p>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "template_class": "template-3",
+        "template_tracking": "t3",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t3-mD",
+            "module_class": "module-D carousel-medium",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "quote": "We used to fix the devices when they broke. But now they can warn us before they do.",
+                "attribution" : "Taro Hiyama<br/>Chief Marketing Executive, Toshiba"
+              },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "quote": "Teachers should not have to worry about technology. They should just focus on teaching.",
+                "attribution" : "Taro Hiyama<br/>Chief Marketing Executive, Toshiba"
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t3-mE",
+            "module_class": "module-E",
+            "module_type": "image",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s25/s25-t32-mD.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "template_class": "template-video",
+        "template_tracking": "tV",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "video",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s25/s25-tv-mA.jpg",
+                "image_url_mobile": "./assets/images/s25/s25-tv-mA_mobile.jpg",
+                "hyperlink": "Y7BWfrBGlUI",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      
+
+
+	    {
+		    "id": 5,
+		    "template_class": "template-footer",
+		    "template_tracking": "tF",
+		    "template_background_image_url": "",
+		    "template_background_color" : "#708294",
+		    "template_title" : "How is this made?",
+		    "template_desc" : "Get to know the people and the solutions behind the transformation.",
+		    "modules": [
+			    {
+				    "wrapper_class": "tF-mD",
+				    "module_class": "module-D carousel-footer",
+				    "module_type": "carousel",
+				    "module_background_image": "",
+
+				    "assets": [
+                        
+					    {
+						    "asset_class": "",
+						    "image_url": "",
+						    "hyperlink": "http://www.ibm.com/mobilefirst/us/en/?cmp=usbrb&cm=s&csr=madewithibm&cr=s25&ct=usbrb301&cn=madewithibm",
+						    "title" : "IBM MobileFirst",
+						    "copy": "IBM MobileFirst offers end-to-end mobile solutions by integrating service offerings, platform development, security and mobile device management in a connected world."
+					    },
+					    {
+						    "asset_class": "",
+						    "image_url": "",
+						    "hyperlink": "http://www.ibm.com/software/products/us/en/messagesight/?cmp=usbrb&cm=s&csr=madewithibm&cr=s25&ct=usbrb301&cn=madewithibm",
+						    "title" : "IBM MessageSight",
+						    "copy": "IBM MessageSight is a full-featured messaging appliance designed for machine-to-machine and mobile environments. By processing a large volume of events in near real time, it can deliver messaging for the edge of the enterprise to reach out to the Internet of Things."
+					    },
+					    {
+			                "asset_class": "",
+			                "image_url": "",
+			                "hyperlink": "",
+			                "title" : "Hiroaki Hasegawa<br>Senior Client Representative, Toshiba Enterprise, Industry Sales, IBM Japan",
+			                "copy": "Hiroaki Hasegawa is an IBM Senior Client Representative for the Toshiba group, leading strategic corporate alliance projects such as Toshiba's Smart Community & Cloud and Healthcare businesses."
+			              }
+				    ]
+			    }
+		    ]
+	    }
+    ]
+
+  }
+  

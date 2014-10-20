@@ -1,0 +1,245 @@
+  {
+    "id" : 16,
+    
+    "company" : "Wimbledon",
+    "title": "tennis made with IBM Cloud",
+    "color1" : "#319938",
+    "color2" : "#319938",
+    "short-description" : "Wimbledon is engaging fans like never before with IBM Cloud",
+    "filterTechnology": "cloud",
+    "filterIndustry": "sports",
+    "filterCapability": "business-model-innovation",
+     "filterCapabilityLabel": "Business Model Innovation",
+    "share_twitter_url" : "http://bit.ly/1qiLb83",
+    "share_twitter_copy" : "Wimbledon%20is%20engaging%20fans%20like%20never%20before%20with%20IBM%20Cloud.%20See%20how.%20%23madewithIBM",
+    "share_fb_url" : "http%3A%2F%2Fwww.ibm.com%2Fsmarterplanet%2Fus%2Fen%2Fmadewithibm%2Fstories%2F%23!story%2F16%3Fcmp%3Dusbrb%26cm%3Dh%26csr%3Dagus_madewith_140407%26cr%3Dfacebook%26ct%3Dusbrb301%26cn%3Ds16_wimbledon",
+    "share_fb_copy" : "Wimbledon%20is%20engaging%20fans%20like%20never%20before%20with%20IBM%20Cloud.%20See%20how.%20%23madewithIBM",
+    "share_li_url" : "http://bit.ly/QbcrIA",
+    "share_li_copy" : "Wimbledon%20is%20engaging%20fans%20like%20never%20before%20with%20IBM%20Cloud.%20See%20how.",
+    "story_background_image_url": "",
+     "thumbnail" : "stories/assets/images/s16/s16-thumb.jpg",
+    "templates": [
+      {
+        "id": 1,
+        "template_class": "template-5",
+        "template_tracking": "t5",
+        "template_background_image_url": "./assets/images/s16/s16-t5-bg.jpg",
+        "template_background_image_url_mobile": "./assets/images/s16/s16-t5-bg_mobile.jpg",
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "hyperlink": "",
+                "color1" : "#319938",
+                "copy" : "Wimbledon is engaging fans like never before with IBM Cloud",
+                "capability" : "How to innovate a business model",
+                "quote": "",
+                "attribution" : ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "template_class": "template-4",
+        "template_tracking": "t4",
+        "template_background_image_url": "./assets/images/s16/s16-t4-bg.png",
+        "template_background_image_url_tablet": "",
+        "template_background_color" : "#319938",
+        "template_type" : "summary-row",
+        "modules": [
+          {
+            "wrapper_class": "t4-mD summary",
+            "module_class": "module-D",
+            "module_type": "image",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "image_url_tablet" : "./assets/images/s16/s16-t4-md.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t3-mE summary",
+            "module_class": "module-E",
+            "module_type": "text",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "title" : "Summary",
+                "cta_copy" :"Q&A with Mick Desmond, Commercial Director of The All England Lawn Tennis Club",
+                "hyperlink": "http://www.ibm.com/smarterplanet/us/en/dispatches/social_business-wimbledon.html?cmp=usbrb&cm=s&csr=madewithibm&cr=s316&ct=usbrb301&cn=madewithibm",
+                "copy": "<p>Wimbledon is more than a sporting event, it’s a global cultural and social experience. Now, thanks to IBM solutions like cloud and Big Data & Analytics, the All England Club can engage its audiences with new, innovative touchpoints.</p><p>During the Championships, the Club uses IBM Cloud to help predict increases in the number of spectators, allowing it to adjust IT resource allocation on the fly. The innovative solution even looks at what is trending on Twitter to predict spikes in resource demand so that Wimbledon fans never miss any of the action. </p>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "template_class": "template-3",
+        "template_tracking": "t3",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t3-mD",
+            "module_class": "module-D carousel-medium",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "quote": "Five or ten years ago, you didn't get to see Wimbledon unless you were sitting in front of a TV. Now people can access us anytime, anywhere, through different platforms and devices.",
+                "attribution" : "Mick Desmond<br/>Commercial Director, The All England Lawn Tennis Club"
+              },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "quote": "Fans don’t want to just see what’s happening, they want to know and understand why it’s happening.",
+                "attribution" : "Mick Desmond<br/>Commercial Director, The All England Lawn Tennis Club"
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t3-mE",
+            "module_class": "module-E",
+            "module_type": "image",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s16/s16-t32-mD.gif",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "template_class": "template-video",
+        "template_tracking": "tV",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "s16-tV-mA",
+            "module_class": "module-D",
+            "module_type": "video",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s16/s16-tv-mA.jpg",
+                "image_url_mobile": "./assets/images/s16/s16-tv-mA_mobile.jpg",
+                "hyperlink": "ywi4qe9i4ds",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "template_class": "carousel-full",
+        "template_tracking": "tC",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "s16-tC-m5",
+            "module_class": "",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s16/s16-cf-stat-1.jpg",
+                "image_url_mobile": "./assets/images/s16/s16-cf-stat-1_mobile.jpg",
+                "hyperlink": "",
+                "color1" : "#319938",
+                "copy": "1.96m downloads of the Wimbledon app developed by IBM"
+              },
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s16/s16-cf-stat-2.jpg",
+                "image_url_mobile": "./assets/images/s16/s16-cf-stat-2_mobile.jpg",
+                "hyperlink": "#",
+                "color1" : "#319938",
+                "copy": "19.7m unique users on Wimbledon.com last year"
+              },
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s16/s16-cf-stat-3.jpg",
+                "image_url_mobile": "./assets/images/s16/s16-cf-stat-3_mobile.jpg",
+                "hyperlink": "",
+                "color1" : "#319938",
+                "copy": "55% of views to the site were from mobile devices"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "template_class": "template-footer",
+        "template_tracking": "tF",
+        "template_background_image_url": "",
+        "template_background_color" : "#319938",
+        "template_title" : "How is this made?",
+        "template_desc" : "Get to know the people and the solutions behind the transformation.",
+        "modules": [
+          {
+            "wrapper_class": "tF-mD",
+            "module_class": "module-D carousel-footer",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              
+              {
+						    "asset_class": "",
+						    "image_url": "",
+						    "hyperlink": "http://www.ibm.com/cloud-computing/us/en/marketplace.html?cmp=usbrb&cm=s&csr=madewithibm&cr=s4&ct=usbrb301&cn=madewithibm",
+						    "title" : "IBM Cloud Marketplace",
+						    "copy": "IBM Cloud marketplace is our digital front door where you can discover, try, and for many services, buy, from hundreds of IBM and Business Partner services across business solutions (SaaS), developer (PaaS) and IT operations (IaaS). Whether you're looking for apps to give you supply-chain visibility, for IBM’s new development platform Bluemix, or for a dedicated bare-metal server from SoftLayer, Cloud marketplace has everything you need to bring your business the full benefits of cloud."
+						    
+					    },
+					    {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "http://www.ibm.com/cloud-computing/us/en/?cmp=usbrb&cm=s&csr=madewithibm&cr=s16&ct=usbrb301&cn=madewithibm",
+                "title" : "IBM Cloud",
+                "copy": "IBM Cloud is a collection of enterprise-class technology-as-a-service to help customers develop cloud and mobile applications on a leading-edge platform. By using self-service infrastructure with instant deployment, it offers agility and innovative applications to business users."
+              },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "title" : "Sam Seddon<br/>Wimbledon and RFU Client & Program Executive, IBM",
+                "copy": "Sam Seddon is the IBM Wimbledon Client and Program Executive. He is responsible for managing the end-to-end delivery of technical solutions to the championship, as part of IBM's role as the official IT provider to the AELTC.",
+                "social_twitter" : "https://twitter.com/sam_seddon",
+                "social_linkedin" : "http://uk.linkedin.com/pub/sam-seddon/12/9a4/427/"
+              }
+            ]
+          }
+          
+        ]
+      }
+    ]
+
+  }

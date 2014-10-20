@@ -1,0 +1,221 @@
+{
+    "id" : 26,
+    
+    "company" : "Nationwide Insurance",
+    "title": "consistency made with data",
+    "color1" : "#0099ff",
+    "color2" : "#0099ff",
+    "short-description" : "Nationwide Insurance is deepening customer relationships with data",
+    "filterTechnology": "data",
+    "filterIndustry": "retail",
+    "filterCapability": "One-to-One",
+    "share_twitter_url" : "http://bit.ly/1g8jyeH",
+
+    "share_twitter_copy" : "Nationwide%20Insurance%20is%20deepening%20customer%20relationships%20with%20data.%20See%20how.%20%23madewithIBM",
+    "share_fb_url" : "http%3A%2F%2Fwww.ibm.com%2Fsmarterplanet%2Fus%2Fen%2Fmadewithibm%2Fstories%2F%23!story%2F26%3Fcmp%3Dusbrb%26cm%3Dh%26csr%3Dagus_madewith_140407%26cr%3Dfacebook%26ct%3Dusbrb301%26cn%3Ds26_nationwide",
+    "share_fb_copy" : "Nationwide%20Insurance%20is%20deepening%20customer%20relationships%20with%20data.%20See%20how.%20%23madewithIBM",
+    "share_li_url" : "http://bit.ly/1qYVz3g",
+    "share_li_copy" : "Nationwide%20Insurance%20is%20deepening%20customer%20relationships%20with%20data.%20See%20how%20new%20value%20is%20made%20with%20IBM.",
+
+    "story_background_image_url": "",
+    "thumbnail" : "stories/assets/images/s26/s26-thumb.jpg",
+    "templates": [
+      {
+        "id": 1,
+        "template_class": "template-5",
+        "template_tracking": "t5",
+        "template_background_image_url": "./assets/images/s26/s26-t5-bg.jpg",
+        "template_background_image_url_mobile": "./assets/images/s26/s26-t5-bg_mobile.jpg",
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "hyperlink": "",
+                "color1" : "#0099ff",
+                "copy" : "Nationwide Insurance is deepening customer relationships with data",
+                "capability" : "How to provide one-to-one services",
+                "quote": "",
+                "attribution" : ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "template_class": "template-4",
+        "template_tracking": "t4",
+        "template_background_image_url": "./assets/images/s26/s26-t4-bg.png",
+        "template_background_color" : "#0099ff",
+        "template_type" : "summary-row",
+        "modules": [
+          {
+            "wrapper_class": "t4-mD summary",
+            "module_class": "module-D",
+            "module_type": "image",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url_tablet": "./assets/images/s26/s26-t4-md.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t4-mE summary",
+            "module_class": "module-E",
+            "module_type": "text",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "title" : "Summary",
+                "hyperlink": "http://www.ibm.com/big-data/us/en/big-data-and-analytics/?cmp=usbrb&cm=s&csr=madewithibm&cr=s26&ct=usbrb301&cn=madewithibm",
+                "copy": "<p>Nationwide is one of the largest mutual insurers in the United States. Working with IBM Big Data & Analytics, their ability to deliver a personalized customer experience has expanded across a variety of interactions.</p><p>Insights gleaned from data help Nationwide understand each customer’s preferences, recognize the products and services that would be most beneficial to them, and make tailored insurance offers. These insights also contributed to initiatives that helped Nationwide gain an 8.3% increase in customer satisfaction.</p>",
+	              "cta_copy": "Learn more about IBM Big Data and analytics"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "template_class": "template-3",
+        "template_tracking": "t3",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t3-mD",
+            "module_class": "module-D",
+            "module_type": "quote",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "quote": "We use data and analytics to tailor our coverages to meet our members’ evolving needs.",
+                "attribution" : "Wes Hunt<br>Chief Data Officer, Nationwide Insurance"
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t3-mE",
+            "module_class": "module-E",
+            "module_type": "image",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s26/s26-t32-mD.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+        {
+            "id": 4,
+            "template_class": "template-video",
+            "template_tracking": "tV",
+            "template_background_image_url": "",
+            "modules": [
+                {
+                    "wrapper_class": "s26-tV-mA",
+                    "module_class": "module-D",
+                    "module_type": "video",
+                    "module_background_image_url": "",
+                    "assets": [
+                        {
+                            "asset_class": "video",
+                            "image_url": "./assets/images/s26/s26-tv-mA.jpg",
+                            "image_url_mobile": "./assets/images/s26/s26-tv-mA_mobile.jpg",
+                            "hyperlink": "WoCtEaxpnsk",
+                            "copy": ""
+                        }
+                    ]
+                }
+            ]
+        },
+      {
+        "id": 4,
+        "template_class": "carousel-full",
+        "template_tracking": "tC",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "",
+            "module_class": "",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "image_url_mobile": "",
+                "hyperlink": "",
+                "copy": "74% of insurance companies that responded to a survey stated that Big Data provides a competitive advantage in their industry"
+              }
+
+            ]
+          }
+        ]
+      },
+
+	    {
+		    "id": 6,
+		    "template_class": "template-footer",
+		    "template_tracking": "tF",
+		    "template_background_image_url": "",
+		    "template_background_color" : "#0099ff",
+		    "template_title" : "How is this made?",
+		    "modules": [
+			    {
+				    "wrapper_class": "tF-mD",
+				    "module_class": "module-D carousel-footer",
+				    "module_type": "carousel",
+				    "module_background_image": "",
+
+				    "assets": [
+
+					    {
+						    "asset_class": "",
+						    "image_url": "",
+						    "hyperlink": "http://www-01.ibm.com/software/data/infosphere/?cmp=usbrb&cm=s&csr=madewithibm&cr=s26&ct=usbrb301&cn=madewithibm",
+						    "title" : "IBM InfoSphere Platform",
+						    "copy": "The IBM InfoSphere Platform provides the foundational building blocks of trusted information, including data integration, data warehousing, master data management, Big Data and information governance. The Platform provides an enterprise-class foundation for information-intensive projects, offering performance, scalability, reliability and acceleration to help simplify difficult challenges and deliver trusted information to your business faster."
+					    },
+					    {
+						    "asset_class": "",
+						    "image_url": "",
+						    "hyperlink": "http://www-01.ibm.com/software/analytics/spss/?cmp=usbrb&cm=s&csr=madewithibm&cr=s26&ct=usbrb301&cn=madewithibm",
+						    "title" : "IBM SPSS Software",
+						    "copy": "SPSS predictive analytics software helps organizations to predict what will happen next so they can make smarter decisions to improve business outcomes."
+					    },
+                        {
+                            "asset_class": "",
+                            "image_url": "",
+                            "hyperlink": "",
+                            "title" : "Glenn Finch<br/>Global Leader for Technology and Data, IBM Global Business Services",
+                            "copy": "Glenn Finch is focused on the most challenging and transformative engagements which IBM undertakes. He has over 25 years of experience working with several organizations across a wide variety of industries, including finance, telecommunications and insurance.",
+                            "social_twitter" : "https://twitter.com/gffinch ",
+                            "social_linkedin" : "http://www.linkedin.com/in/finchglenn"
+                        }
+				    ]
+			    }
+		    ]
+	    }
+    ]
+
+  }
+  

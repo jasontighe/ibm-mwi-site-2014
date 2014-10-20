@@ -1,0 +1,263 @@
+@import 'fonts';
+@import 'grid-overrides';
+
+/*sass vars*/
+$font-regular: "HelvRegularIBM", Arial, sans-serif;
+$font-italic: "helvneue_for_ibmitalic", Arial, sans-serif;
+$font-light-italic: "helvneue_for_ibmlight_italic", Arial, sans-serif;
+$font-bold: "HelvBoldIBM", Arial, sans-serif;
+$font-bold-italic: "helvneue_for_ibmbold_italic", Arial, sans-serif;
+$font-icomoon: "icomoon";
+
+
+
+body {
+  font:18px/1.3 $font-regular;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+
+/**
+ * main navigation
+ */
+
+/*menu nav*/
+.menu {
+  position:fixed;
+  top:35px;
+  right:25px;
+  cursor: pointer;
+  z-index:1000;
+  p {
+	color:#fff !important;
+	position: relative;
+	top:5px;
+	right:65px;
+	padding:0 !important;
+	margin:0 !important;
+	font-family:$font-bold;
+	font-size:16px !important;
+	-webkit-transition: opacity .5s ease-in 0;
+	-moz-transition:    opacity .5s ease-in 0;
+	-ms-transition:     opacity .5s ease-in 0;
+	-o-transition:      opacity .5s ease-in 0;
+	transition:         opacity .5s ease-in 0;
+  }
+  .bars {
+	position:relative;
+	right:0px;
+	top:-20px;
+	div {
+	  height: 5px;
+	  width: 30px;
+	  margin-top: 3px;
+	  background-color: white;
+	  display: block;
+	  -webkit-border-radius: 2px;
+	  -moz-border-radius: 2px;
+	  border-radius: 2px;
+	}
+  }
+  .logo {
+	position: relative;
+	right: 2px;
+	top: 2px;
+	cursor: pointer;
+	border: 1px solid transparent;
+  }
+  .logo:before {
+	font-size: 132px;
+	content: "\e602";
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	font-family:$font-icomoon;
+	-webkit-transition: all 0.2s ease-in 0;
+	-moz-transition: all 0.2s ease-in 0s;
+	-ms-transition: all 0.2s ease-in 0;
+	-o-transition: all 0.2s ease-in 0;
+	transition: all 0.2s ease-in 0;
+	color: white;
+	display: block;
+  }
+}
+
+
+
+/*side nav*/
+.sideNav {
+  position:fixed;
+  background:#191919;
+  top: 0;
+  bottom: 0;
+  right:-360px;
+  width:360px;
+  z-index:100;
+
+  a {
+	text-decoration: none;
+	color:#666;
+	-webkit-transition: color 200ms ease-in 0;
+	-moz-transition: color 200ms ease-in 0s;
+	-ms-transition: color 200ms ease-in 0;
+	-o-transition: color 200ms ease-in 0;
+	transition: color 200ms ease-in 0;
+	font-size:20px;
+  }
+  a:hover {
+	color:#fff;
+  }
+  .closeBtn {
+	color: #666666;
+	font-size:20px;
+	float:right;
+	padding:45px 35px 0 0;
+	cursor: pointer;
+  }
+  .closeBtn:before {
+	content: "\e600";
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	font-family: $font-icomoon;
+	display: block;
+  }
+  .closeBtn:hover:before {
+	color:#fff;
+  }
+  ul.main {
+	padding:45px 35px 0 35px;
+	li {
+	  font: 18px/1.2 $font-bold;
+	  padding:0 0 10px 0;
+
+	  a {
+		font-size: inherit;
+
+	  }
+	  a.active {
+		color: #fff;
+	  }
+	}
+	li:before {
+	  content:"";
+	}
+  }
+  .social {
+	padding:450px 35px 0 35px;
+	a:before {
+	  color: #333;
+	  -webkit-transition: color 200ms ease-in 0;
+	  -moz-transition: color 200ms ease-in 0s;
+	  -ms-transition: color 200ms ease-in 0;
+	  -o-transition: color 200ms ease-in 0;
+	  transition: color 200ms ease-in 0;
+	}
+	a:active:before,
+	a:hover:before {
+	  color: #ffffff;
+	}
+  }
+  ul.auxLinks {
+	overflow:hidden;
+	padding:5px 0 0 7px;
+	li {
+	  float:left;
+	  a {
+		font-size:13px;
+		font-family:$font-bold;
+		font-weight:bold;
+	  }
+	}
+	li:before {
+	  content:"";
+	}
+  }
+}
+
+
+
+
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 800px) {
+/*menu nav*/
+  .menu {
+	top:35px;
+	p{
+	  display:none;
+	}
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  
+  
+}
+   
+@media screen and (max-width: 640px) {
+
+  .menu {
+  	top:35px;
+  	p, .logo {
+  	  display:none;
+  	}
+  }
+  
+}
+
+@media screen and (max-width: 579px) {
+
+/*menu nav*/
+  .menu {
+  	top:35px;
+  	p {
+  	  display:none;
+  	}
+  }
+/*side nav*/
+  .sideNav {
+  	right:-240px;
+  	width:240px;
+  
+  	.closeBtn {
+  	  padding-top: 18px;
+  	}
+  
+  	ul.main {
+  	  padding-top: 88px;
+  	}
+  
+  	.social {
+  	  padding-top: 145px;
+  
+  	  a {margin-right: 5px;}
+  	  a:before {font-size: 23px;}
+    }
+	}
+
+	ul.auxLinks {
+	  padding-left: 27px;
+
+	  li {
+  		padding: 0 0 0 8px;
+    		a { font-size: 11px;}
+  	 }
+  }
+  
+  
+}
+
+

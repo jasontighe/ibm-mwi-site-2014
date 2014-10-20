@@ -1,0 +1,43 @@
+
+#ibm-content .postcard .ibm-columns {
+	padding:0;
+	width:980px;
+}
+
+#ibm-content .postcard .ibm-columns [class*="ibm-col-"] {
+    float: left;
+    margin: 0;
+    padding:0;
+    min-height: 1px;
+}
+
+#ibm-content .postcard .ibm-columns:after {
+	margin-bottom:0;
+}
+
+#ibm-content .postcard .ibm-col-1-1 {
+	width:980px;
+	margin:0 0 0 0;
+}
+
+
+
+#ibm-content .postcard .ibm-col-5-1 {
+/*     width: 172px; orig width */
+   	width: 196px;
+}
+
+#ibm-content .postcard .ibm-col-5-2 {
+/*     width: 364px; orig width */
+   	width: 392px;
+}
+
+#ibm-content .postcard .ibm-col-5-3 {
+/*     width: 556px; orig width */
+   	width: 588px;
+}
+
+#ibm-content .postcard .ibm-col-5-4 {
+/*    width: 748px; orig width */
+   	width: 784px;
+}

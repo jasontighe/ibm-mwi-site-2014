@@ -1,0 +1,205 @@
+  {
+    "id" : 35,
+    
+    "company" : "Waratahs Rugby",
+    "title": "rugby made with data",
+    "color1" : "#53bbef",
+    "color2" : "#53bbef",
+    "short-description" : "The Waratahs Rugby team is predicting player injuries with data",
+    "filterTechnology": "data",
+    "filterIndustry": "sports",
+    "filterCapability": "big-data-insights",
+     "filterCapabilityLabel": "Big Data Insights",
+    "share_twitter_url" : "http://bit.ly/1gLtuGJ",
+    "share_twitter_copy" : "The%20WARATAH%27S%20RUGBY%20team%20is%20predicting%20player%20injuries%20with%20data.%20See%20how.%20%23madewithIBM",
+    "share_fb_url" : "http%3A%2F%2Fwww.ibm.com%2Fsmarterplanet%2Fus%2Fen%2Fmadewithibm%2Fstories%2F%23!story%2F16%3Fcmp%3Dusbrb%26cm%3Dh%26csr%3Dagus_madewith_140407%26cr%3Dfacebook%26ct%3Dusbrb301%26cn%3Ds35_wimbledon",
+    "share_fb_copy" : "The%20WARATAH%27S%20RUGBY%20team%20is%20predicting%20player%20injuries%20with%20data.%20See%20how.%20%23madewithIBM",
+    "share_li_url" : "http://bit.ly/1m9PVek",
+    "share_li_copy" : "The%20WARATAH%27S%20RUGBY%20team%20is%20predicting%20player%20injuries%20with%20data.%20See%20how.%20%23madewithIBM",
+    "story_background_image_url": "",
+     "thumbnail" : "stories/assets/images/s35/s35-thumb.jpg",
+    "templates": [
+      {
+        "id": 1,
+        "template_class": "template-5",
+        "template_tracking": "t5",
+        "template_background_image_url": "./assets/images/s35/s35-t5-bg.jpg",
+        "template_background_image_url_mobile": "./assets/images/s35/s35-t5-bg_mobile.jpg",
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "hyperlink": "",
+                "color1" : "#53bbef",
+                "copy" : "The Waratahs Rugby team is predicting player injuries with data",
+                "capability" : "How to find Big Data insights",
+                "quote": "",
+                "attribution" : ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "template_class": "template-4",
+        "template_tracking": "t4",
+        "template_background_image_url": "./assets/images/s35/s35-t4-bg.png",
+        "template_background_image_url_tablet": "",
+        "template_background_color" : "#53bbef",
+        "template_type" : "summary-row",
+        "modules": [
+          {
+            "wrapper_class": "t4-mD summary",
+            "module_class": "module-D",
+            "module_type": "image",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "image_url_tablet" : "./assets/images/s35/s35-t4-bg_tablet.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t3-mE summary",
+            "module_class": "module-E",
+            "module_type": "text",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "title" : "Summary",
+                "cta_copy" :"Learn more about Waratahs Rugby",
+                "hyperlink": "https://www.youtube.com/watch?v=5-2fTlwUSlM",
+                "copy": "<p>When it came to predicting player injuries, the Waratahs Rugby team of New South Wales, Australia used to have to guess. But when IBM shared with them a model that helped them predict injuries with greater accuracy, analytics proved to be a gamechanger.</p><p>Now the Waratahs analyze data collected from several sources (like accelerometers players wear that measure intensity levels, collisions and fatigue) to anticipate and avoid injuries, and also to come up with specific regimens to better train individual players. Injuries were once an unavoidable reality of sports; now data-driven teams can prevent them for a competitive advantage.</p>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "template_class": "template-3",
+        "template_tracking": "t3",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t3-mD",
+            "module_class": "module-D carousel-medium",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "quote": "We used to use our coaching intuition to predict injuries. Now we use predictive analytics.",
+                "attribution" : "Haydn Masters<br/>Athletic Development Manager, Waratahs Rugby"
+              },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "quote": "Our players are our #1 assets. If we don't manage our assets, then our business — winning football games — will suffer.",
+                "attribution" : "Haydn Masters<br/>Athletic Development Manager, Waratahs Rugby"
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t3-mE",
+            "module_class": "module-E",
+            "module_type": "image",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s35/s35-t32-mD.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "template_class": "template-video",
+        "template_tracking": "tV",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "s35-tV-mA",
+            "module_class": "module-D",
+            "module_type": "video",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s35/s35-tv-mA.jpg",
+                "image_url_mobile": "./assets/images/s35/s35-tv-mA_mobile.jpg",
+                "hyperlink": "DJT7ZIh9jm8",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      
+      {
+        "id": 5,
+        "template_class": "template-footer",
+        "template_tracking": "tF",
+        "template_background_image_url": "",
+        "template_background_color" : "#53bbef",
+        "template_title" : "How is this made?",
+        "template_desc" : "Get to know the people and the solutions behind the transformation.",
+        "modules": [
+          {
+            "wrapper_class": "tF-mD",
+            "module_class": "module-D carousel-footer",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "http://www-01.ibm.com/software/analytics/spss/index.html?cmp=usbrb&cm=s&csr=madewithibm&cr=s35&ct=usbrb301&cn=madewithibm",
+                "title" : "SPSS Software",
+                "copy": "SPSS predictive analytics software helps organizations to predict what will happen next so they can make smarter decisions to improve business outcomes."
+              },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "http://www-03.ibm.com/software/products/en/category/predictive-analytics?cmp=usbrb&cm=s&csr=madewithibm&cr=s35&ct=usbrb301&cn=madewithibm",
+                "title" : "IBM Big Data & Analytics - Predictive Analytics",
+                "copy": "IBM Predictive Analytics helps organizations predict what will happen next and helps them make smarter decisions. With predictive analytics, clients can manage physical and virtual assets, maintain their infrastructure and increase the efficiency of their people, making it easier to improve business outcomes."
+              },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "title" : "Angelica Veness<br/>Business Analytics Solutions Architect, IBM",
+                "copy": "Angelica Veness has been working in the analytics industry for over 10 years. Angelica specializes in helping companies to ‘predict and act’ rather than ‘sense and react’, with a personal interest in increasing the use of analytics in sports to optimise performance and minimise injury.",
+                "social_twitter" : "",
+                "social_linkedin" : "http://www.linkedin.com/pub/angelica-veness/9/651/986"
+              }
+            ]
+          }
+          
+        ]
+      }
+    ]
+
+  }

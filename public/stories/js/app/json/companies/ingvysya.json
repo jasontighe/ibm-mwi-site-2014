@@ -1,0 +1,198 @@
+  {
+    "id" : 15,
+    
+    "company" : "ING Vysya",
+    "title": "banks made with mobile",
+    "color1" : "#e52324",
+    "color2" : "#e52324",
+    "short-description" : "ING Vysya Bank is bringing its bank to the people with mobile",
+    "filterTechnology": "mobile",
+    "filterIndustry": "banking",
+    "filterCapability": "business-model-innovation",
+    "filterCapabilityLabel": "Business Model Innovation",
+    "share_twitter_url" : "http://bit.ly/1g7puAV",
+    "share_twitter_copy" : "ING%20Vysya%20is%20bringing%20its%20bank%20to%20the%20people%20with%20mobile.%20See%20how.%20%23madewithIBM",
+    "share_fb_url" : "http%3A%2F%2Fwww.ibm.com%2Fsmarterplanet%2Fus%2Fen%2Fmadewithibm%2Fstories%2F%23!story%2F15%3Fcmp%3Dusbrb%26cm%3Dh%26csr%3Dagus_madewith_140407%26cr%3Dfacebook%26ct%3Dusbrb301%26cn%3Ds15_ingvysya",
+    "share_fb_copy" : "ING%20Vysya%20is%20bringing%20its%20bank%20to%20the%20people%20with%20mobile.%20See%20how.%20%23madewithIBM",
+    "share_li_url" : "http://bit.ly/1hJ276k",
+    "share_li_copy" : "ING%20Vysya%20is%20bringing%20its%20bank%20to%20the%20people%20with%20mobile.%20See%20how.",
+    "story_background_image_url": "",
+    "thumbnail" : "stories/assets/images/s15/s15-thumb.jpg",
+    "templates": [
+      {
+        "id": 1,
+        "template_class": "template-5",
+        "template_tracking": "t5",
+        "template_background_image_url": "./assets/images/s15/s15-t5-bg.jpg",
+        "template_background_image_url_mobile": "./assets/images/s15/s15-t5-bg_mobile.jpg",
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "hyperlink": "",
+                "color1" : "#e52324",
+                "copy" : "ING Vysya Bank is bringing its bank to the people with mobile",
+                "capability" : "How to innovate a business model",
+                "quote": "",
+                "attribution" : ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "template_class": "template-4",
+        "template_tracking": "t4",
+        "template_background_image_url": "./assets/images/s15/s15-t4-bg.png",
+        "template_background_image_url_tablet": "",
+        "template_background_color" : "#e52324",
+        "template_type" : "summary-row",
+        "modules": [
+          {
+            "wrapper_class": "t4-mD summary",
+            "module_class": "module-D",
+            "module_type": "image",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "image_url_tablet" : "./assets/images/s15/s15-t4-mD.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t4-mE",
+            "module_class": "module-E",
+            "module_type": "text",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "http://asmarterplanet.com/blog/2013/10/27492-india-mobile-banking.html",
+                "title" : "Summary",
+                "copy": "<p>Millions of individuals in India have no access to banks or to any formalized money-saving system. ING Vysya Bank, one of India’s oldest banks, wanted a solution that would help them to engage with customers who were previously unreachable.</p><p>Using IBM’s Worklight platform, ING Vysya Bank designed a flexible, accessible app to work across almost all devices. Now, thanks to mobile banking, more individuals are becoming part of the formal economy and sharing the benefits of economic security.</p>",
+                "cta_copy":"Learn more about ING Vysya Bank"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "template_class": "template-3",
+        "template_tracking": "t3A",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t3-mD",
+            "module_class": "module-D",
+            "module_type": "",
+            "module_background_image_url": "",
+            "assets": [
+            	{
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "color" : "#e52324",
+                "quote": "I used to think my prospective customers were people who live near a bank. Now I know they are anyone with a cellphone.",
+                "attribution" : "Aniruddha Paul, <br/>CIO, ING Vysya Bank"
+              }        
+            ]
+          },
+          {
+            "wrapper_class": "t3-mE",
+            "module_class": "module-E",
+            "module_type": "image",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s15/s15-t32-mD.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "template_class": "template-video",
+        "template_tracking": "tV",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "s9-tV-mA",
+            "module_class": "module-D",
+            "module_type": "video",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s15/s15-tv-mA.jpg",
+                "image_url_mobile": "./assets/images/s15/s15-tv-mA_mobile.jpg",
+                "hyperlink": "SzLacGDmCOc",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      
+      {
+        "id": 5,
+        "template_class": "template-footer",
+        "template_tracking": "tF",
+        "template_background_image_url": "",
+        "template_background_color" : "#e52324",
+        "template_title" : "How is this made?",
+        "template_desc" : "Get to know the people and the solutions behind the transformation.",
+        "modules": [
+          {
+            "wrapper_class": "tF-mD",
+            "module_class": "module-D carousel-footer",
+            "module_type": "carousel",
+            "module_background_image": "",
+           
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "http://www.ibm.com/mobilefirst/us/en/",
+                "title" : "IBM MobileFirst",
+                "copy": "IBM MobileFirst offers end-to-end mobile solutions by integrating service offerings, platform development, security and mobile device management in a connected world."
+              },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "http://www-01.ibm.com/software/mobile-solutions/worklight/components/mobile-development-platform/",
+                "title" : "IBM Worklight ",
+                "copy": "IBM Worklight enables the development of rich applications for multiple devices and form factors. By using its mobile development studio, it offers cross-platform portability of the application code to help address the unique requirements of any organization."
+              },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "title" : "Jaideep F. John<br/>Country leader, IBM Worklight",
+                "copy": "Jaideep F. John manages the Mobility platform business in India/South Asia. He has worked extensively with organizations across the region in defining enterprise mobility strategy, helping them differentiate in the marketplace with mobility as a strategic tool.",
+                "social_twitter" : "https://twitter.com/Jaideepfrancis",
+                "social_linkedin" : "http://in.linkedin.com/in/jaideepjohn"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+
+  }

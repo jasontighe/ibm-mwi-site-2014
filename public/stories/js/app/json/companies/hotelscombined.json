@@ -1,0 +1,227 @@
+  {
+    "id" : 6,
+    "company" : "HotelsCombined.com",
+    "title": "prototypes made with IBM Cloud",
+    "color1" : "#498982",
+    "color2" : "#498982",
+    "short-description" : "HotelsCombined.com is creating a metasearch engine with IBM Cloud",
+    "filterTechnology": "cloud",
+    "filterIndustry": "hospitality",
+    "filterCapability": "business-model-innovation",
+    "filterCapabilityLabel": "Business Model Innovation",
+    "share_twitter_url" : "http://bit.ly/PRQEWi",
+    "share_twitter_copy" : "HotelsCombined.com%20is%20creating%20a%20metasearch%20engine%20with%20IBM%20Cloud.%20See%20how.%20%23madewithIBM",
+    "share_fb_url" : "http%3A%2F%2Fwww.ibm.com%2Fsmarterplanet%2Fus%2Fen%2Fmadewithibm%2Fstories%2F%23!story%2F6%3Fcmp%3Dusbrb%26cm%3Dh%26csr%3Dagus_madewith_140407%26cr%3Dfacebook%26ct%3Dusbrb301%26cn%3Ds6_HotelsCombined.com",
+    "share_fb_copy" : "HotelsCombined.com%20is%20creating%20a%20metasearch%20engine%20with%20IBM%20Cloud.%20See%20how.%20%23madewithIBM",
+    "share_li_url" : "http://bit.ly/1l4vcXG",
+    "share_li_copy" : "HotelsCombined.com%20is%20creating%20a%20metasearch%20engine%20with%20IBM%20Cloud.%20See%20how.",
+    "story_background_image_url": "",
+    "thumbnail" : "stories/assets/images/s6/s6-thumb.jpg",
+    "templates": [
+      {
+        "id": 1,
+        "template_class": "template-5",
+        "template_tracking": "t5",
+        "template_background_image_url": "./assets/images/s6/s6-t5-bg.jpg",
+        "template_background_image_url_mobile": "./assets/images/s6/s6-t5-bg_mobile.jpg",
+        "modules": [
+          {
+            "wrapper_class": "t5-mA",
+            "module_class": "module-D",
+            "module_type": "",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "hyperlink": "",
+                "color1" : "#498982",
+                "copy" : "HotelsCombined<br class=mobile-only>.com is creating a metasearch engine with IBM Cloud",
+                "capability" : "How to innovate a business model",
+                "quote": "",
+                "attribution" : ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "template_class": "template-4",
+        "template_tracking": "t4",
+        "template_background_image_url": "./assets/images/s6/s6-t4-bg.png",
+        "template_background_image_url_tablet": "",
+        "template_background_color" : "#498982",
+        "template_type" : "summary-row",
+        "modules": [
+          {
+            "wrapper_class": "t4-mD summary",
+            "module_class": "module-D",
+            "module_type": "image",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "image_url_tablet" : "./assets/images/s6/s6-t4-mD.jpg",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t3-mE summary",
+            "module_class": "module-E",
+            "module_type": "text",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "title" : "Summary",
+                "hyperlink": "http://www.ibm.com/cloud-computing/au/en/hotelscombined.pdf?cmp=usbrb&cm=s&csr=madewithibm&cr=s6&ct=usbrb301&cn=madewithibm",
+                "copy": "<p>HotelsCombined.com, an Australian start-up, is a leading hotel price comparison search engine with 300 million annual customers. In order to provide the best user experience, they needed a flexible, scalable, low-maintenance data infrastructure that would allow them to test ideas and launch new features quickly and with little risk.</p><p>But they didn’t want vast infrastructure to distract them from what they do best: compile hotel price data and make it searchable. By working with SoftLayer®, an IBM company, for pay-as-you-go cloud, they could scale up as their business took off. </p>",
+                "cta_copy": "Learn more about HotelsCombined.com"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "template_class": "template-3",
+        "template_tracking": "t3",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "t3-mD",
+            "module_class": "module-D",
+            "module_type": "quote",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "quote": "We needed the ability to push a button and scale instantly in order to be successful.",
+                "attribution" : "Brendon McQueen, <br/>Co-founder, HotelsCombined.com"
+              }
+            ]
+          },
+          {
+            "wrapper_class": "t3-mE",
+            "module_class": "module-E",
+            "module_type": "image",
+            "module_background_image": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s6/s6-t32-mD.gif",
+                "hyperlink": "",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "template_class": "template-video",
+        "template_tracking": "tV",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "s6-tV-mA",
+            "module_class": "module-D",
+            "module_type": "video",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "./assets/images/s6/s6-tv-mA.jpg",
+                "image_url_mobile": "./assets/images/s6/s6-tv-mA_mobile.jpg",
+                "hyperlink": "be5SlUBcI_8",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "template_class": "carousel-full",
+        "template_tracking": "tC",
+        "template_background_image_url": "",
+        "modules": [
+          {
+            "wrapper_class": "s6-tC-m5",
+            "module_class": "",
+            "module_type": "carousel",
+            "module_background_image_url": "",
+            "assets": [
+              {
+                "asset_class": "image",
+                "image_url": "",
+                "image_url_mobile": "",
+                "hyperlink": "",
+                "color1" : "#498982",
+                "copy": "25+ million visitors each month"
+              }         
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "template_class": "template-footer",
+        "template_tracking": "tF",
+        "template_background_image_url": "",
+        "template_background_color" : "#498982",
+        "template_title" : "How is this made?",
+        "template_desc" : "Get to know the people and the solutions behind the transformation.",
+        "modules": [
+          {
+            "wrapper_class": "tF-mD",
+            "module_class": "module-D carousel-footer",
+            "module_type": "carousel",
+            "module_background_image": "",
+
+            "assets": [
+              {
+						    "asset_class": "",
+						    "image_url": "",
+						    "hyperlink": "http://www.ibm.com/cloud-computing/us/en/marketplace.html?cmp=usbrb&cm=s&csr=madewithibm&cr=s4&ct=usbrb301&cn=madewithibm",
+						    "title" : "IBM Cloud Marketplace",
+						    "copy": "IBM Cloud marketplace is our digital front door where you can discover, try, and for many services, buy, from hundreds of IBM and Business Partner services across business solutions (SaaS), developer (PaaS) and IT operations (IaaS). Whether you're looking for apps to give you supply-chain visibility, for IBM’s new development platform Bluemix, or for a dedicated bare-metal server from SoftLayer, Cloud marketplace has everything you need to bring your business the full benefits of cloud."
+						    
+			},
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "http://www.ibm.com/cloud-computing/us/en/?cmp=usbrb&cm=s&csr=madewithibm&cr=s4&ct=usbrb301&cn=madewithibm",
+                "title" : "IBM Cloud",
+                "copy": "IBM Cloud is a collection of enterprise-class technologies as-a-service to help customers develop cloud and mobile applications on a leading-edge platform. By using self-service infrastructure with instant deployment, it offers agility and innovative applications to business users."
+                
+              },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "http://www.ibm.com/cloud-computing/us/en/softlayer.html?cmp=usbrb&cm=s&csr=madewithibm&cr=s4&ct=usbrb301&cn=madewithibm",
+                "title" : "SoftLayer",
+                "copy": "SoftLayer<sup>&reg;</sup>, an IBM company, is a cloud infrastructure provider offering everything from flexible virtual servers to bare metal servers for high-performance workloads."
+              },
+              {
+                "asset_class": "",
+                "image_url": "",
+                "hyperlink": "",
+                "title" : "Will Duckworth<br/>Consulting Services Leader, Australia and New Zealand",
+                "copy": "Will Duckworth is a Partner in Global Business Services and leads IBM's Consulting Services across Australia and New Zealand. With over 20 years of experience developing enterprise-wide solutions for international clients, Will has a proven ability to mitigate the risks inherent with new technology.",
+                "social_twitter" : "https://twitter.com/willduck",
+                "social_linkedin" : "http://www.linkedin.com/in/willduckworth"
+             }
+            ]
+          }
+        ]
+      }
+    ]
+  }
